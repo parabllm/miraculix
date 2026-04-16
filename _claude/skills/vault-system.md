@@ -100,6 +100,12 @@ Beispiel:
 | "vault prüfen" | Konsistenz-Check |
 | "log" | Session-Erkenntnisse speichern |
 
+## Schreibstil für Vault-Content
+
+Wenn Miraculix Content in Vault-Files schreibt (Logs, Projekt-Stände, Wissens-Einträge, Meetings, Frontmatter-Werte): lade den `miraculix-schreibstil` Skill. Der enthält 10 Regeln gegen AI-Slop (keine Gedankenstriche, keine Wichtigkeits-Inflation, keine Rule of Three etc.).
+
+Gilt NICHT für Chat-Antworten an Deniz. Nur für Content der in `.md` Files landet.
+
 ## Was NIE tun
 
 - `_api/` manuell editieren (werden generiert)
