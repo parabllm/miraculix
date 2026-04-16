@@ -35,3 +35,6 @@ npm-debug.log*
 *.tmp
 *.bak
 ~*
+
+# Google Drive Upload-Cache
+.tmp.driveupload/
