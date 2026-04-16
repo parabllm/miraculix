@@ -6,7 +6,7 @@ gruppen: ["hays"]
 verbindung: ["beruflich"]
 rolle: entscheider
 staerke: eng
-projekte: ["[[hays-cemea]]", "[[bachelor-thesis]]"]
+projekte: ["[[hays]]", "[[bachelor-thesis]]"]
 email: ""
 telefon: ""
 wie_kennengelernt: "HAYS — direkte Vorgesetzte als Werkstudent Mid Office"
@@ -16,4 +16,4 @@ vertrauen: extrahiert
 quelle: notion_migration
 ---
 
-Vorgesetzte [[hays-cemea]] und Enablerin [[bachelor-thesis]].
+Vorgesetzte [[hays]] und Enablerin [[bachelor-thesis]].

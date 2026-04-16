@@ -6,7 +6,7 @@ gruppen: ["hays"]
 verbindung: ["beruflich"]
 rolle: kollege
 staerke: mittel
-projekte: ["[[hays-cemea]]"]
+projekte: ["[[hays]]"]
 email: ""
 telefon: ""
 wie_kennengelernt: "HAYS Mid Office — Kollegin"
