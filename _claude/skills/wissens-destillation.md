@@ -1,6 +1,6 @@
 ---
 name: miraculix-wissens-destillation
-description: Triggered implicitly during "log" when Deniz wraps up work. Also explicitly when Deniz says "destilliere das", "das ist ein Pattern", "speicher das als transferable". Use this skill to detect patterns that have occurred 2+ times across different projects and propose a knowledge entry in 02-wissen/. Applies 3-phase model: first occurrence stays as log, second triggers destillation with "abgeleitet" trust, third upgrades to "bestaetigt". Special rules for architecture decisions, debug fixes, tool docs — can be destilled on first occurrence. Always propose first, never auto-write.
+description: Triggered implicitly during "log" when Deniz wraps up work. Also explicitly when Deniz says "destilliere das", "das ist ein Pattern", "speicher das als transferable". Use this skill to detect patterns that have occurred 2+ times across different projects and propose a knowledge entry in 02-wissen/. Applies 3-phase model: first occurrence stays as log, second triggers destillation with "abgeleitet" trust, third upgrades to "bestaetigt". Special rules for architecture decisions, debug fixes, tool docs - can be destilled on first occurrence. Always propose first, never auto-write.
 ---
 
 # Wissens-Destillation
@@ -9,13 +9,13 @@ Destilliere gelöste Probleme zu Wissens-Einträgen. Filter: Wiederholung.
 
 ## 3-Phasen-Modell
 
-### Phase 1 — Roh-Log (1. Auftreten)
+### Phase 1 - Roh-Log (1. Auftreten)
 
 Problem → Log-Eintrag im Projekt (via `log`).
 
 **Kein Wissens-Eintrag.** Zu früh, könnte Zufall sein.
 
-### Phase 2 — Destillations-Vorschlag (2. Auftreten)
+### Phase 2 - Destillations-Vorschlag (2. Auftreten)
 
 Beim `log` prüfen: Gab's dieses Pattern schon?
 - Keyword-Suche in Logs anderer Projekte
@@ -30,7 +30,7 @@ Bei OK → Eintrag mit:
 - `projekte: [...]`
 - `zuletzt_verifiziert: heute`
 
-### Phase 3 — Bestätigt (3.+ Auftreten)
+### Phase 3 - Bestätigt (3.+ Auftreten)
 
 Bestehender Eintrag aktualisiert:
 - `vertrauen: bestaetigt`

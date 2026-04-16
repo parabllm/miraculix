@@ -28,4 +28,4 @@ Edamam hat nur Enterprise $29+/Monat. Stattdessen: OFF via Live-API für Barcode
 
 ## Einziger Secret
 
-`OPENAI_API_KEY` — alles andere braucht keine Keys.
+`OPENAI_API_KEY` - alles andere braucht keine Keys.

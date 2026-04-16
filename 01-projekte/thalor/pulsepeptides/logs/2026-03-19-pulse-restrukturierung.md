@@ -13,9 +13,9 @@ Pulse-Restrukturierung. Chat "Pulse Restrukturierung" (270 Messages, 599k chars)
 ## Architektur-Rework
 
 3 n8n-Workflows definiert:
-1. **PulseBot Router** — Slash-Command-Dispatcher
-2. **PulseBot Interactivity** — Button/Modal-Responder (Slack 3s-Timeout Pattern)
-3. **Janoshik Backfill** — periodischer Abgleich Labor-Ergebnisse
+1. **PulseBot Router** - Slash-Command-Dispatcher
+2. **PulseBot Interactivity** - Button/Modal-Responder (Slack 3s-Timeout Pattern)
+3. **Janoshik Backfill** - periodischer Abgleich Labor-Ergebnisse
 
 **Slack 3s-Timeout Pattern** etabliert: Sofort ACK, Worker-Node hinterher, User erfährt via Update-Message.
 
@@ -25,7 +25,7 @@ Google Sheet mit 17 Spalten (Batch-Daten + Test-Ergebnisse). **Status-Lifecycle:
 
 ## Batch-ID-Schema
 
-`{SupplierCode}{YY}{Q#}{Seq}{ProductCode}` — z.B. `LP26Q11BPC`.
+`{SupplierCode}{YY}{Q#}{Seq}{ProductCode}` - z.B. `LP26Q11BPC`.
 
 ## Quelle
 

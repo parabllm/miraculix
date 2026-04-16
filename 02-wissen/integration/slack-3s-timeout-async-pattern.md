@@ -39,8 +39,8 @@ Bei komplexen Workflows (DB-Lookup, OpenAI-Call, Google-Sheet-Write) ist 3s unre
 ## Verwandte Patterns
 
 - **Gmail-Send als Reliability-Gate**: bevor Status-Update in Google Sheet gemacht wird, muss Email-Send erfolgreich sein → bei Fehler bleibt State unverändert, Retry greift beim nächsten Lauf
-- **Batch-ID-Schema** `{SupplierCode}{YY}{Q#}{Seq}{ProductCode}` — z.B. `LP26Q11BPC`: eindeutig, sortierbar, menschenlesbar
+- **Batch-ID-Schema** `{SupplierCode}{YY}{Q#}{Seq}{ProductCode}` - z.B. `LP26Q11BPC`: eindeutig, sortierbar, menschenlesbar
 
 ## Grenzen
 
-Pattern transferierbar auf andere Chat-Bot-Integrationen (Telegram, Discord, Teams). Ähnliche Timeout-Limits dort — Prinzip "erst ACK, dann Arbeit" gilt überall.
+Pattern transferierbar auf andere Chat-Bot-Integrationen (Telegram, Discord, Teams). Ähnliche Timeout-Limits dort - Prinzip "erst ACK, dann Arbeit" gilt überall.

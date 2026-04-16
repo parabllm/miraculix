@@ -25,7 +25,7 @@ Phase 2 abgeschlossen: alle DRY-Runs + erster Live-Test. Repo auf GitHub privat 
 
 ## Neu erstellt
 
-- **`mantle-reconcile-diag.mjs`** — Diagnose-Script für detaillierte Matching-Analyse. CSV-Output mit allen Missing-Kunden + vorgeschlagenen Matches. Noch nicht gelaufen (kein Internet bei Deniz), soll 94 Missing aufklären
+- **`mantle-reconcile-diag.mjs`** - Diagnose-Script für detaillierte Matching-Analyse. CSV-Output mit allen Missing-Kunden + vorgeschlagenen Matches. Noch nicht gelaufen (kein Internet bei Deniz), soll 94 Missing aufklären
 
 ## Doku überarbeitet
 

@@ -12,13 +12,13 @@ V5.1-Reports (Perplexity + Gemini PDF) durch. **Architektur-Korrektur:** Pure pg
 
 ## Neue Architektur: 3-Tier Hybrid
 
-- **Tier 1** — pgvector lokal mit Open-Data-DBs: 80-90% der Scans
-- **Tier 2** — Commercial API Fallback (FatSecret/Edamam) für Markenprodukte + Tier-1-Miss
-- **Tier 3** — GPT-4o Synthesis + User-Feedback-Flywheel. Long-Tail, User-bestätigte Einträge wandern nach Tier 1
+- **Tier 1** - pgvector lokal mit Open-Data-DBs: 80-90% der Scans
+- **Tier 2** - Commercial API Fallback (FatSecret/Edamam) für Markenprodukte + Tier-1-Miss
+- **Tier 3** - GPT-4o Synthesis + User-Feedback-Flywheel. Long-Tail, User-bestätigte Einträge wandern nach Tier 1
 
-## Geo als Soft Hint — bestätigt
+## Geo als Soft Hint - bestätigt
 
-Beide Reports einig: ungefilterte Vektorsuche + Reciprocal Rank Fusion (RRF, k=60) als Soft Re-Ranking. Geo nur Tiebreaker bei semantischem Gleichstand. XML-getaggter Prompt mit ThinkFirst-Pattern (erst Bild verbalisieren, dann Kontext). Studie: 93% Fehlerrate bei Emotion-Recognition wenn MLLMs Kontext über Bildevidenz priorisierten — belegt das Sushi-in-Berlin-Worry empirisch.
+Beide Reports einig: ungefilterte Vektorsuche + Reciprocal Rank Fusion (RRF, k=60) als Soft Re-Ranking. Geo nur Tiebreaker bei semantischem Gleichstand. XML-getaggter Prompt mit ThinkFirst-Pattern (erst Bild verbalisieren, dann Kontext). Studie: 93% Fehlerrate bei Emotion-Recognition wenn MLLMs Kontext über Bildevidenz priorisierten - belegt das Sushi-in-Berlin-Worry empirisch.
 
 ## DB-Quellen aus V5.1
 

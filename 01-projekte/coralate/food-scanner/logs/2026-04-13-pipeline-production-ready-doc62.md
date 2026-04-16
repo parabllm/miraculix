@@ -16,15 +16,15 @@ Food-Scanner-Pipeline **Production-Ready**. Master-Doc DOC-62 ist die einzige Qu
 - Storage-Upload mit User-scoped RLS funktioniert
 - Edge Function `food-scanner` v13 (SSE-Streaming, base64-Bugfix) deployed
 - Edge Function `food-scan-confirm` v5 (User-Korrekturen, Server-Recalc) deployed
-- Cache: `food_scan_log` ist sowohl User-Log als auch Cache-Layer, 6–8× Speedup gemessen
+- Cache: `food_scan_log` ist sowohl User-Log als auch Cache-Layer, 6-8× Speedup gemessen
 - pgvector HNSW Matching gegen 25.558 Einträge (7 Quellen)
 - Test-Script `test-pipeline.mjs` mit SSE-UI-Simulation, interaktiver Korrektur, DB-Check
 
 ## Kritische Entscheidungen
 
-**`verify_jwt=false` — MUSS reviewed werden** (siehe auch [[2026-04-13-session-abschluss-doc62-auth-geloest]])
+**`verify_jwt=false` - MUSS reviewed werden** (siehe auch [[2026-04-13-session-abschluss-doc62-auth-geloest]])
 - Lösung: Auth via `auth.getUser()` im Function-Body
-- Jede neue Edge Function MUSS dasselbe Pattern nutzen — Code-Review-Checkliste in DOC-62 Sektion 4
+- Jede neue Edge Function MUSS dasselbe Pattern nutzen - Code-Review-Checkliste in DOC-62 Sektion 4
 
 **`food_scan_log` als Source-of-Truth UND Cache**
 - Keine separate Cache-Tabelle. Eine Tabelle macht beides

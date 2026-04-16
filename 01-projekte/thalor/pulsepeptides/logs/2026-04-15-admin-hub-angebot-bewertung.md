@@ -13,7 +13,7 @@ Kalani evaluiert Angebot für PulsePeptides Admin-Hub (möglicher Scope-Erweiter
 ## Offen
 
 - Entscheidung Kalanis ausstehend
-- Bei Go: Admin-Hub wäre neues Interface-Layer jenseits von Slack — potenziell eigenes Sub-Projekt
+- Bei Go: Admin-Hub wäre neues Interface-Layer jenseits von Slack - potenziell eigenes Sub-Projekt
 
 ## Quelle
 

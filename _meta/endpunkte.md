@@ -1,4 +1,4 @@
-# Endpunkte — `_api/` JSON-Contracts
+# Endpunkte - `_api/` JSON-Contracts
 
 Die Dateien in `_api/` werden automatisch generiert (Phase 3, via n8n oder lokales Skript). Sind read-only für n8n, MCP-Server, Telegram-Bot. Nicht manuell editieren.
 

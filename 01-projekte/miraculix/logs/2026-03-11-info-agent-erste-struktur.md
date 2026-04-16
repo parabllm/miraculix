@@ -13,7 +13,7 @@ werkzeuge: []
 ## Kern-Ideen
 
 - Zentraler KI-Assistent als Orga-Layer über Projekten, Wissen, Kontakten
-- Idee noch projektungebunden — später konkretisiert als Miraculix (2026-03-31)
+- Idee noch projektungebunden - später konkretisiert als Miraculix (2026-03-31)
 
 ## Quelle
 

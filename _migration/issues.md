@@ -2,7 +2,7 @@
 
 ## Schema-Abweichungen (bewusst getroffen)
 
-### 1. Projekt-Datei-Benennung — `_projekt.md` → `{slug}.md`
+### 1. Projekt-Datei-Benennung - `_projekt.md` → `{slug}.md`
 
 **Schema sagt** (in `_meta/schema.md`): "Über-Projekt (`_projekt.md` im Über-Projekt-Ordner)".
 
@@ -24,7 +24,7 @@ Chat "Metorik Flow" wurde Pulse zugeordnet (Metorik ist WooCommerce-Analytics, P
 
 Erstes Keyword-Match schlug auf BellaVie aus (SEO), später Indiz: Heiran ist Pulse-Lab.
 
-**Status:** Kein Log erstellt — zu wenig klare Evidenz. Fallback via `00-eingang/claude/conversations.json` falls später relevant.
+**Status:** Kein Log erstellt - zu wenig klare Evidenz. Fallback via `00-eingang/claude/conversations.json` falls später relevant.
 
 ### 4. "Kalender" Chat (2026-03-24, 120k chars)
 
@@ -36,7 +36,7 @@ Auf Miraculix zugeordnet (Kapazitäts-/Event-Tracking). `vertrauen: angenommen`.
 
 ### 5. ~37 Claude-Chats ohne Titel/Content
 
-Chat-Messages > 0 aber Textlänge 0 — vermutlich Image-Only, Tool-Output-Stubs oder abgebrochene Sessions. Nicht destillierbar.
+Chat-Messages > 0 aber Textlänge 0 - vermutlich Image-Only, Tool-Output-Stubs oder abgebrochene Sessions. Nicht destillierbar.
 
 **Quelle bleibt:** `00-eingang/claude/conversations.json`. Bei Bedarf manuell nachziehen.
 
@@ -53,9 +53,9 @@ Die ~55 Notion-Docs (WF1-Specs, Hetzner-Setup, Cora-AI-Architecture, Food-Scanne
 
 ## Kontakte ohne eigene Files (erwähnt, nicht angelegt)
 
-- **Simea** — interne HAYS-Ansprechpartnerin (im HAYS-Projekt erwähnt). Keine Nachname/Details in Quelle.
-- **Calvin Blick** — Co-Worker im HeroSoftware Attio-Workspace (Robin-Team). Attio-Member-ID vorhanden, aber nicht als externer Kontakt relevant.
-- **Natalia, Andrej** — Maddox' Geschwister (im BellaVie-Kontext erwähnt, nicht als Kontakte relevant).
+- **Simea** - interne HAYS-Ansprechpartnerin (im HAYS-Projekt erwähnt). Keine Nachname/Details in Quelle.
+- **Calvin Blick** - Co-Worker im HeroSoftware Attio-Workspace (Robin-Team). Attio-Member-ID vorhanden, aber nicht als externer Kontakt relevant.
+- **Natalia, Andrej** - Maddox' Geschwister (im BellaVie-Kontext erwähnt, nicht als Kontakte relevant).
 
 Falls diese Personen später aktiv werden → eigene Kontakt-Files anlegen.
 

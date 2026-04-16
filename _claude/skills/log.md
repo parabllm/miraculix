@@ -1,17 +1,17 @@
 ---
 name: miraculix-log
-description: Triggered whenever Deniz says "log", "fortschritt speichern", "pack das in logs", "speicher den stand", "abschluss", or at the end of a working session. Use this skill to capture session learnings — write log entries to the relevant project(s), update task statuses, update project current state if changed, and critically check for cross-project patterns that occurred 2+ times and propose knowledge destillation. This is how raw work becomes documented work.
+description: Triggered whenever Deniz says "log", "fortschritt speichern", "pack das in logs", "speicher den stand", "abschluss", or at the end of a working session. Use this skill to capture session learnings - write log entries to the relevant project(s), update task statuses, update project current state if changed, and critically check for cross-project patterns that occurred 2+ times and propose knowledge destillation. This is how raw work becomes documented work.
 ---
 
 # Log (Session-Abschluss)
 
 Session-Erkenntnisse speichern. Logs + Tasks + ggf. Destillation.
 
-## Schritt 1 — Scope
+## Schritt 1 - Scope
 
 Welche Projekte waren Thema? Aus Gesprächsverlauf ableiten. Bei Unklarheit fragen.
 
-## Schritt 2 — Log-Einträge erstellen
+## Schritt 2 - Log-Einträge erstellen
 
 Pro Projekt in `01-projekte/{projekt}/logs/{YYYY-MM-DD}-{titel}.md`:
 
@@ -35,18 +35,18 @@ Body:
 
 **Destilliert, nicht Chat-Rohtext.** 30 Sekunden scanbar.
 
-## Schritt 3 — Task-Status
+## Schritt 3 - Task-Status
 
 - Erledigt → Checkbox abhaken / `status: erledigt`
 - Neue Tasks → hinzufügen
 - Blockiert → `status: blockiert` + Grund
 
-## Schritt 4 — Projekt-Stand (falls nötig)
+## Schritt 4 - Projekt-Stand (falls nötig)
 
 Wenn substantiell geändert: `{slug}.md` `## Aktueller Stand` updaten.
-Nicht bei jedem kleinen Fortschritt — nur bei echter Stand-Änderung.
+Nicht bei jedem kleinen Fortschritt - nur bei echter Stand-Änderung.
 
-## Schritt 5 — Wissens-Destillation prüfen
+## Schritt 5 - Wissens-Destillation prüfen
 
 **Kritisch.** Bevor committen, prüfe:
 - Pattern aus dieser Session in anderen Projekten schon aufgetaucht?
@@ -54,7 +54,7 @@ Nicht bei jedem kleinen Fortschritt — nur bei echter Stand-Änderung.
 
 Bei Match (2+) → Vorschlag siehe `miraculix-wissens-destillation` Skill.
 
-## Schritt 6 — Plan zeigen
+## Schritt 6 - Plan zeigen
 
 ```
 **Geplante Änderungen:**

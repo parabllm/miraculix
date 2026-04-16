@@ -12,7 +12,7 @@ Kalender-Orga. Chat "Kalender" (38 Messages, 120k chars).
 
 ## Annahme
 
-Chat behandelt vermutlich Google-Calendar-Integration für Miraculix — Kapazitäts-Tracking, Event-Struktur (HAYS-Events mit `visibility=private`), operative Ansicht auf Tagesebene. Content nicht detailliert geprüft.
+Chat behandelt vermutlich Google-Calendar-Integration für Miraculix - Kapazitäts-Tracking, Event-Struktur (HAYS-Events mit `visibility=private`), operative Ansicht auf Tagesebene. Content nicht detailliert geprüft.
 
 ## Quelle
 

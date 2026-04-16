@@ -40,7 +40,7 @@ n8n Cloud hat **60s Execution-Timeout** und begrenztes Execution-Limit pro Plan.
 
 ## Script-Design-Pattern (aus Hero-Refactor)
 
-- **Single-File Scripts**, bewusst keine Shared Modules — Code-Duplikation mit `// SYNC:`-Kommentaren markiert
+- **Single-File Scripts**, bewusst keine Shared Modules - Code-Duplikation mit `// SYNC:`-Kommentaren markiert
 - **Standardisierte Flags:** `--help`, `--check`, `--dry` in jedem Script
 - **Schreibende Scripts (CREATE-Ops):** Default `--dry`, Live-Lauf nur mit `--execute`
 - **`.env` in 3 Kategorien:** Secrets / Operative / Domain-Konstanten (letztere hardcoded im Script)
@@ -51,8 +51,8 @@ n8n Cloud hat **60s Execution-Timeout** und begrenztes Execution-Limit pro Plan.
 
 ## Wo angewendet
 
-- [[herosoftware]] — 4 Scripts produktiv + `wf1-backup`/`mantle-reconcile` als Disaster Recovery
-- [[thalor]] — Website-Hosting auf gleichem Hetzner-Server
+- [[herosoftware]] - 4 Scripts produktiv + `wf1-backup`/`mantle-reconcile` als Disaster Recovery
+- [[thalor]] - Website-Hosting auf gleichem Hetzner-Server
 
 ## Wann n8n Cloud reicht
 

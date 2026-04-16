@@ -12,7 +12,7 @@ eSIM in Marokko mit Telefon und Daten. Chat "eSIM in Marokko mit Telefon und Dat
 
 ## Kontext
 
-Reise-Vorbereitung Marokko 02.04.–15.04.2026. Packliste + eSIM-Provider-Wahl geklärt.
+Reise-Vorbereitung Marokko 02.04.-15.04.2026. Packliste + eSIM-Provider-Wahl geklärt.
 
 ## Quelle
 

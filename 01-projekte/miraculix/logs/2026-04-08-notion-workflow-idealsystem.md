@@ -12,11 +12,11 @@ werkzeuge: ["notion"]
 
 ## Ergebnis (Notion-Struktur, Stand 08.04.2026)
 
-- **Projects-DB** — PRJ-1 bis PRJ-10
-- **Contacts-DB** — CT-1 bis CT-20
-- **Docs-DB** — ~40 Docs mit Lifecycle (Active/Deprecated) + Doc Type + Stability
-- **Logs-DB** — LG-1 bis LG-18, append-only
-- **Tasks-DB** — TK-1 bis TK-7
+- **Projects-DB** - PRJ-1 bis PRJ-10
+- **Contacts-DB** - CT-1 bis CT-20
+- **Docs-DB** - ~40 Docs mit Lifecycle (Active/Deprecated) + Doc Type + Stability
+- **Logs-DB** - LG-1 bis LG-18, append-only
+- **Tasks-DB** - TK-1 bis TK-7
 - **Agent Instructions** pro Projekt (statischer Kontext)
 - **Skills-basierte Enrichment** (hays-context, coralate-context, etc.)
 

@@ -8,7 +8,7 @@ quelle: chat_session
 werkzeuge: ["react-native", "expo", "supabase"]
 ---
 
-Technische Umsetzung coralate — App-Shell + Cora-Integration. Chat "Technische Umsetzung des Coralate-Projekts" (53 Messages, 200k chars).
+Technische Umsetzung coralate - App-Shell + Cora-Integration. Chat "Technische Umsetzung des Coralate-Projekts" (53 Messages, 200k chars).
 
 ## Scope
 
@@ -16,8 +16,8 @@ React-Native + Expo App-Architektur aufgesetzt. Cora-AI-Integration-Pattern: dre
 
 ## Verwandte Chats
 
-- "Cora Manager" (2026-04-03, 20 Messages, 70k) — Cora-State-Management
-- "Knowledge Chunks für Cora AI Engine erstellen" (2026-04-04, 2 Messages, 12k) — RAG-Input-Strukturierung
+- "Cora Manager" (2026-04-03, 20 Messages, 70k) - Cora-State-Management
+- "Knowledge Chunks für Cora AI Engine erstellen" (2026-04-04, 2 Messages, 12k) - RAG-Input-Strukturierung
 
 ## Quelle
 

@@ -21,7 +21,7 @@ vertrauen: extrahiert
 Kompletter Digital-Aufbau des Beauty-Salons **BellaVie** in Neunkirchen (Saarland): Website (Framer), Fresha-Booking, lokale SEO-Portale, Preisliste.
 
 - **Auftraggeber:** [[maddox-yakymenskyy]] (Freund + Kunde, Sohn der Gründer, Manager)
-- **Website:** [bellavie-nk.de](http://bellavie-nk.de) — Framer, Hosting via GoDaddy
+- **Website:** [bellavie-nk.de](http://bellavie-nk.de) - Framer, Hosting via GoDaddy
 - **Booking:** Fresha (84 Services, 10 Kategorien)
 - **Team:** 6 Personen inkl. Maddox
 - **Content-Workflow:** Strategische Ausrichtung + Design-Anpassungen laufen in separatem Gemini-Workflow; Claude = Technical Lead für Launch, Tracking, lokale SEO, Automatisierungen
@@ -33,7 +33,7 @@ Stand 2026-04-14: Projekt ist technisch fertig. Task "Abrechnung Hero+Maddox" (T
 ## Offene Aufgaben
 
 - [ ] Abrechnung Hero+Maddox (TK-7, High) #hoch
-- [ ] SEO-Strategie aufstellen — lokale SEO, Keyword-Mapping, Portal-Strategie (TK-1, Medium) #mittel
+- [ ] SEO-Strategie aufstellen - lokale SEO, Keyword-Mapping, Portal-Strategie (TK-1, Medium) #mittel
 
 ## Out of Scope
 
@@ -43,4 +43,4 @@ Stand 2026-04-14: Projekt ist technisch fertig. Task "Abrechnung Hero+Maddox" (T
 
 ## Kontakte
 
-- [[maddox-yakymenskyy]] — Entscheider, Manager des Salons
+- [[maddox-yakymenskyy]] - Entscheider, Manager des Salons

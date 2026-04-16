@@ -45,11 +45,11 @@ Start: ~75% Mikro-Coverage in `nutrition_db`. Nach Etappe 3 (sicheres Cross-DB B
 
 ## 5-Etappen-Plan
 
-1. **Food-Group-Backfill** — alle 23.305 Rows LLM-klassifizieren (~1h, ~$2)
-2. **Provenance-Schema** — jeder Nutrient-Wert bekommt Source-Tag (~2h)
-3. **Cross-DB Borrowing** — Dry-Run, Audit, Commit mit Category + CV + Simple-Item Regeln (~4h)
-4. **Vision-Prompt V2 + RPC-Erweiterung** — XML-structured, Kategorie-Output (~3h)
-5. **OFF Lazy-Load** — Barcode-Flow mit Borrowing-Policy (~4h)
+1. **Food-Group-Backfill** - alle 23.305 Rows LLM-klassifizieren (~1h, ~$2)
+2. **Provenance-Schema** - jeder Nutrient-Wert bekommt Source-Tag (~2h)
+3. **Cross-DB Borrowing** - Dry-Run, Audit, Commit mit Category + CV + Simple-Item Regeln (~4h)
+4. **Vision-Prompt V2 + RPC-Erweiterung** - XML-structured, Kategorie-Output (~3h)
+5. **OFF Lazy-Load** - Barcode-Flow mit Borrowing-Policy (~4h)
 
 **Gesamt:** ~14h Build + ~$5 LLM-Kosten.
 

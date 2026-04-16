@@ -18,7 +18,7 @@ Pass 1 (0.55 / 2) → Pass 2 (0.6 / 3 `--resume`) → Pass 3 (0.65 / 4 `--resume
 
 SQL-Funktion `borrow_missing_nutrients_v2(id, threshold, min_n)` parametrisch in DB deployed.
 
-## Jann Voice-Call — Ingredient-Korrektur-Requirements
+## Jann Voice-Call - Ingredient-Korrektur-Requirements
 
 - User muss Gramm-Werte pro Ingredient editieren
 - Neue Zutaten hinzufügen, bestehende entfernen
@@ -33,4 +33,4 @@ SQL-Funktion `borrow_missing_nutrients_v2(id, threshold, min_n)` parametrisch in
 
 ## Parkiert
 
-`BLS/USDA food_groups` — Borrowing nutzt nur Embeddings, nicht `food_group` als Filter. Später optional als Qualitäts-Guardrail.
+`BLS/USDA food_groups` - Borrowing nutzt nur Embeddings, nicht `food_group` als Filter. Später optional als Qualitäts-Guardrail.

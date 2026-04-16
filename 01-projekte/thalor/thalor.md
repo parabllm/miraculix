@@ -38,10 +38,10 @@ Stand 2026-04-16:
 
 ## Sub-Projekte
 
-- [[herosoftware]] — Robin Kronshagen, CRM-Automation (größter aktiver Client, bezahlt)
-- [[bellavie]] — Maddox Yakymenskyy, Website + Fresha + SEO (in Abrechnungs-/Abschluss-Phase)
-- [[pulsepeptides]] — Kalani Ginepri, PulseBot n8n + Janoshik OCR (unbezahltes Referenzprojekt)
-- [[resolvia]] — David Schreiner, Stripe→Attio Sync (500€, wartet auf Domain-in-Stripe-Metadata von David)
+- [[herosoftware]] - Robin Kronshagen, CRM-Automation (größter aktiver Client, bezahlt)
+- [[bellavie]] - Maddox Yakymenskyy, Website + Fresha + SEO (in Abrechnungs-/Abschluss-Phase)
+- [[pulsepeptides]] - Kalani Ginepri, PulseBot n8n + Janoshik OCR (unbezahltes Referenzprojekt)
+- [[resolvia]] - David Schreiner, Stripe→Attio Sync (500€, wartet auf Domain-in-Stripe-Metadata von David)
 
 ## Offene Aufgaben
 

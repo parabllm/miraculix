@@ -28,7 +28,7 @@ Attio (Single Source of Truth)
 
 - **Code-Review-Ergebnis:** CHANGELOG.md, `package.json` v1.1.0, Node ≥20.10, `.env.example` komplett, `.gitignore` filtert `*.lock` und `missing-analysis.csv`
 - **Nachzubessern vor Donnerstag-Übergabe:**
-  1. `mantle-reconcile-diag.mjs` nachliefern (kritisch — Doku verweist darauf)
+  1. `mantle-reconcile-diag.mjs` nachliefern (kritisch - Doku verweist darauf)
   2. `deniz@thalor.de` und `Roman Staempfli` aus OPERATIONS.md anonymisieren (auf `backend@herosoftware.com` / `Max Mustermann`)
 
 ## Quelle

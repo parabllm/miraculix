@@ -12,7 +12,7 @@ SAP-Bewerbung. Chat "SAP Bewerbung" (47 Messages, 164k chars).
 
 ## Scope
 
-Bewerbungs-Prozess für eine SAP-Stelle. Career-Bucket, keine Projekt-Zuordnung. Status nach Chat-Ende nicht klar — in Folge-Chats nicht mehr aufgetaucht.
+Bewerbungs-Prozess für eine SAP-Stelle. Career-Bucket, keine Projekt-Zuordnung. Status nach Chat-Ende nicht klar - in Folge-Chats nicht mehr aufgetaucht.
 
 ## Verwandte Chats (Career)
 

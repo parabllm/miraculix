@@ -34,11 +34,11 @@ vertrauen: extrahiert
 Stand 2026-04-16: **Migration von Notion-Second-Brain in Obsidian läuft** (dieser aktuelle Prozess). Framework steht, CLAUDE.md + Schema + Skills sind platziert, Git ist initialisiert.
 
 Vorgeschichte (Claude-Chats):
-- ~~2026-03-11 "Info Agent und Struktur" — erste Ideen für persönlichen KI-Assistenten~~
-- ~~2026-03-28 "Externe Speicherverwaltung für Claude" — Memory-Konzept~~
-- ~~2026-03-31 "Miraculix — persönlicher KI-Assistent Setup" — Namensgebung + Konzept~~
-- ~~2026-04-08 "Notion-Workflow optimieren und Idealsystem entwickeln" — Systemdesign~~
-- ~~2026-04-16 "Migration von Notion zu Obsidian als zentrale Wissensbasis" + "Obsidian Second Brain Setup implementieren" — dieses Migrations-Framework entstanden~~
+- ~~2026-03-11 "Info Agent und Struktur" - erste Ideen für persönlichen KI-Assistenten~~
+- ~~2026-03-28 "Externe Speicherverwaltung für Claude" - Memory-Konzept~~
+- ~~2026-03-31 "Miraculix - persönlicher KI-Assistent Setup" - Namensgebung + Konzept~~
+- ~~2026-04-08 "Notion-Workflow optimieren und Idealsystem entwickeln" - Systemdesign~~
+- ~~2026-04-16 "Migration von Notion zu Obsidian als zentrale Wissensbasis" + "Obsidian Second Brain Setup implementieren" - dieses Migrations-Framework entstanden~~
 
 ## Offene Aufgaben
 
@@ -61,8 +61,8 @@ Siehe `_claude/skills/`:
 
 ## Out of Scope
 
-- Eigene App oder SaaS — Miraculix ist ein persönlicher Vault, keine Produkt
-- Multi-User oder Sharing — Single-User-System
+- Eigene App oder SaaS - Miraculix ist ein persönlicher Vault, keine Produkt
+- Multi-User oder Sharing - Single-User-System
 
 ## Kontakte
 

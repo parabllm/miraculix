@@ -2,7 +2,7 @@
 
 **Datum:** 2026-04-16
 **Dauer:** ~1 Session
-**Auftrag:** [[MIGRATION]] — Notion-Export + Claude-Chats → Obsidian-Vault
+**Auftrag:** [[MIGRATION]] - Notion-Export + Claude-Chats → Obsidian-Vault
 
 ---
 
@@ -47,20 +47,20 @@
 
 5 Cross-Project-Patterns destilliert:
 
-- `crm-integration/attio-match-kaskade.md` — Domain → Email → Name → Create (Hero + Resolvia)
-- `architektur/attio-als-ssot.md` — Attio als SSOT über alle Thalor-Clients
-- `claude-workflow/continuity-doc-pattern.md` — Chat-Handover via Markdown-File (Cora + Food Scanner)
-- `n8n/webhook-timeout-hetzner-cron-pattern.md` — Split n8n/Hetzner für Realtime vs. Batch
-- `integration/slack-3s-timeout-async-pattern.md` — Sofort-ACK + Worker (Pulse)
+- `crm-integration/attio-match-kaskade.md` - Domain → Email → Name → Create (Hero + Resolvia)
+- `architektur/attio-als-ssot.md` - Attio als SSOT über alle Thalor-Clients
+- `claude-workflow/continuity-doc-pattern.md` - Chat-Handover via Markdown-File (Cora + Food Scanner)
+- `n8n/webhook-timeout-hetzner-cron-pattern.md` - Split n8n/Hetzner für Realtime vs. Batch
+- `integration/slack-3s-timeout-async-pattern.md` - Sofort-ACK + Worker (Pulse)
 
 ## Review-Punkte für Deniz
 
 Siehe `_migration/issues.md` für Details. Kurz:
 
 1. **Schema-Abweichung:** `_projekt.md` wurde zu `{slug}.md` umbenannt (Obsidian-Wikilinks funktionieren sonst nicht). Schema in `_meta/schema.md` ggf. anpassen.
-2. **"Metorik Flow"** Chat 2026-03-19 — PulsePeptides-Zuordnung als `angenommen` markiert. Bitte kurz bestätigen.
-3. **"Kalender"** Chat 2026-03-24 — Miraculix-Zuordnung als `angenommen` markiert.
-4. **37 leere Claude-Chats** (msgs > 0, chars = 0) übersprungen — Image-Only oder Tool-Stubs. Fallback im Source-JSON.
+2. **"Metorik Flow"** Chat 2026-03-19 - PulsePeptides-Zuordnung als `angenommen` markiert. Bitte kurz bestätigen.
+3. **"Kalender"** Chat 2026-03-24 - Miraculix-Zuordnung als `angenommen` markiert.
+4. **37 leere Claude-Chats** (msgs > 0, chars = 0) übersprungen - Image-Only oder Tool-Stubs. Fallback im Source-JSON.
 5. **Notion-Docs (~55)** wurden NICHT einzeln migriert. Schlüssel-Infos in `_projekt.md`/Logs absorbiert. Detail-Specs bleiben als Fallback unter `00-eingang/notion/Second Brain/Docs/`.
 
 ## Ambiguitäten aktiv
@@ -75,7 +75,7 @@ Keine. Alle Entscheidungen wurden getroffen; keine AMBIG-Files in `00-eingang/un
 - [ ] Schema-Abweichung `_projekt.md` → `{slug}.md` in `_meta/schema.md` korrigieren (oder Gegenlösung etablieren)
 - [ ] Obsidian Community-Plugins einrichten: Dataview, Templater, Calendar, obsidian-git
 - [ ] Claude-Desktop-Skills aus `_claude/skills/` hochladen (vault-system Always On)
-- [ ] Kontaktbasis E-Mail/Telefon befüllen (alle Kontakte haben leere `email:`/`telefon:` Felder — keine Quelldaten vorhanden)
+- [ ] Kontaktbasis E-Mail/Telefon befüllen (alle Kontakte haben leere `email:`/`telefon:` Felder - keine Quelldaten vorhanden)
 
 ### Mittel
 - [ ] Aufgaben-Files (`aufgaben/` pro Projekt) für die 7 Notion-Tasks erstellen, falls gewünscht (aktuell nur als Checkbox-Liste in `_projekt.md`)

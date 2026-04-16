@@ -8,7 +8,7 @@ quelle: chat_session
 werkzeuge: []
 ---
 
-Miraculix Master-Plan. Chat "PLANING" (202 Messages, 520k chars) — größter Miraculix-Chat vor der Migration.
+Miraculix Master-Plan. Chat "PLANING" (202 Messages, 520k chars) - größter Miraculix-Chat vor der Migration.
 
 ## Scope
 

@@ -15,7 +15,7 @@ Hetzner-Server eingerichtet (`204.168.188.228`). Thalor-Infrastruktur live.
 - **Hetzner VPS** für 4,15€/Monat (Ubuntu 24.04, Helsinki)
 - **Eigenes n8n** auf `https://n8n.thalor.de`, SSL via Let's Encrypt, passwortgeschützt, 24/7 online
 - **SSL-Auto-Renewal** bis Juni 2026, dann automatisch
-- **`daily-sync.mjs`** Cron-Job läuft täglich 04:00 — synct Mantle → Attio
+- **`daily-sync.mjs`** Cron-Job läuft täglich 04:00 - synct Mantle → Attio
 - Alles auf einem Server
 
 ## Kontext

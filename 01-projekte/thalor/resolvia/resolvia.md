@@ -19,9 +19,9 @@ vertrauen: extrahiert
 
 ## Kontext
 
-**Stripe→Attio CRM Sync** für Resolvia AI. Billing-Events aus Stripe (Checkout, Subscription, Payment) werden nach Attio gespiegelt — gleiches Pattern wie [[herosoftware]] WF1 (Mantle→Attio), adaptiert für Stripe.
+**Stripe→Attio CRM Sync** für Resolvia AI. Billing-Events aus Stripe (Checkout, Subscription, Payment) werden nach Attio gespiegelt - gleiches Pattern wie [[herosoftware]] WF1 (Mantle→Attio), adaptiert für Stripe.
 
-- **Auftraggeber:** [[david-schreiner]] — vermittelt von [[robin-kronshagen]]
+- **Auftraggeber:** [[david-schreiner]] - vermittelt von [[robin-kronshagen]]
 - **Budget:** 500 € fix, bezahlter Freelance-Auftrag
 - **Tech:** n8n, Attio, Stripe
 - **Primary Match Key:** Domain (muss David in Stripe-Metadata einbauen)
@@ -29,7 +29,7 @@ vertrauen: extrahiert
 
 ## Aktueller Stand
 
-Stand 2026-04-07 (letzter Log: "Call mit David Schreiner — Stripe→Attio Scope + Domain-Implementierung"): Scope geklärt. **Blockiert durch David** — muss Domain-in-Stripe-Metadata backend-seitig einbauen und API-Zugänge bereitstellen, bevor Implementierung starten kann.
+Stand 2026-04-07 (letzter Log: "Call mit David Schreiner - Stripe→Attio Scope + Domain-Implementierung"): Scope geklärt. **Blockiert durch David** - muss Domain-in-Stripe-Metadata backend-seitig einbauen und API-Zugänge bereitstellen, bevor Implementierung starten kann.
 
 ## Offene Aufgaben
 
@@ -45,4 +45,4 @@ Stand 2026-04-07 (letzter Log: "Call mit David Schreiner — Stripe→Attio Scop
 
 ## Kontakte
 
-- [[david-schreiner]] — Entscheider, vermittelt durch [[robin-kronshagen]]
+- [[david-schreiner]] - Entscheider, vermittelt durch [[robin-kronshagen]]

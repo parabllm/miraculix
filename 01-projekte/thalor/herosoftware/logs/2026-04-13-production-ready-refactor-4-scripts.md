@@ -14,7 +14,7 @@ Alle 4 Cron-Scripts (daily-sync, mantle-reconcile, lgm-push, lgm-status-sync) vo
 
 ## Architektur-Entscheidung
 
-**Single-File Scripts** statt Shared Modules. Jedes Script self-contained mit eigenem Logger, Notify, HTTP-Client, Config-Loader. Code-Duplikation bewusst akzeptiert (Plan-Normalisierung in daily-sync und mantle-reconcile identisch) — mit `// SYNC:`-Kommentaren und INTERNALS.md als Guardrail.
+**Single-File Scripts** statt Shared Modules. Jedes Script self-contained mit eigenem Logger, Notify, HTTP-Client, Config-Loader. Code-Duplikation bewusst akzeptiert (Plan-Normalisierung in daily-sync und mantle-reconcile identisch) - mit `// SYNC:`-Kommentaren und INTERNALS.md als Guardrail.
 
 ## Heute erstellt
 
@@ -22,15 +22,15 @@ Alle 4 Cron-Scripts (daily-sync, mantle-reconcile, lgm-push, lgm-status-sync) vo
 - 5 Doku-Files: README, ARCHITECTURE, DEPLOYMENT, OPERATIONS, INTERNALS
 - `.env.example`, `.gitignore`, `package.json` (Node 20+, einzige Dep: `nodemailer`)
 - Alle 4 Scripts production-ready:
-  - `daily-sync.mjs` — 661 Zeilen
-  - `mantle-reconcile.mjs` — 928 Zeilen (vorher `wf1-backup`)
-  - `lgm-status-sync.mjs` — 643 Zeilen
-  - `lgm-push.mjs` — 708 Zeilen
+  - `daily-sync.mjs` - 661 Zeilen
+  - `mantle-reconcile.mjs` - 928 Zeilen (vorher `wf1-backup`)
+  - `lgm-status-sync.mjs` - 643 Zeilen
+  - `lgm-push.mjs` - 708 Zeilen
 
 ## Tests gelaufen
 
 - `daily-sync --check`: Mantle + Attio Auth OK
-- `daily-sync --dry` (full, 10.489 Matches): **624 updated, 9.865 skipped, 0 errors, 17m 6s**. Plausibel vs. Server-Cron (200 updated, 10.262 skipped) — Differenz durch Mantle sliding 30-Tage-Window für `last30Revenue`
+- `daily-sync --dry` (full, 10.489 Matches): **624 updated, 9.865 skipped, 0 errors, 17m 6s**. Plausibel vs. Server-Cron (200 updated, 10.262 skipped) - Differenz durch Mantle sliding 30-Tage-Window für `last30Revenue`
 - `mantle-reconcile --check`: OK
 - `lgm-status-sync --check`: LGM + Attio OK
 - **Notify via STRATO SMTP:** bestätigt, Mail kommt an

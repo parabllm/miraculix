@@ -16,4 +16,4 @@ vertrauen: extrahiert
 quelle: notion_migration
 ---
 
-Auftraggeber [[herosoftware]] — größter aktiver Thalor-Client. Entscheider für Attio-Listen, LGM-Sequences, Clay-Templates, API-Keys.
+Auftraggeber [[herosoftware]] - größter aktiver Thalor-Client. Entscheider für Attio-Listen, LGM-Sequences, Clay-Templates, API-Keys.

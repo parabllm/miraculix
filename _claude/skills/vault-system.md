@@ -1,6 +1,6 @@
 ---
 name: miraculix-vault-system
-description: Always-on context for working with Deniz Özbek's Obsidian Second Brain "Miraculix". Use this skill whenever Deniz mentions his vault, projects, Obsidian, his personal knowledge base, or asks anything about his work context (Thalor, Coralate, HAYS, BellaVie, HeroSoftware, Resolvia, PulsePeptides, Bachelor-Thesis, Terminbuchungs-App). Also trigger when Deniz uses trigger words like "tages-start", "log", "eingang verarbeiten", "abgleich", "vault prüfen". Contains vault structure, active projects, knowledge domains, naming conventions, and provenance rules. This skill is the foundation — read it first before any vault operation.
+description: Always-on context for working with Deniz Özbek's Obsidian Second Brain "Miraculix". Use this skill whenever Deniz mentions his vault, projects, Obsidian, his personal knowledge base, or asks anything about his work context (Thalor, Coralate, HAYS, BellaVie, HeroSoftware, Resolvia, PulsePeptides, Bachelor-Thesis, Terminbuchungs-App). Also trigger when Deniz uses trigger words like "tages-start", "log", "eingang verarbeiten", "abgleich", "vault prüfen". Contains vault structure, active projects, knowledge domains, naming conventions, and provenance rules. This skill is the foundation - read it first before any vault operation.
 ---
 
 # Miraculix Vault-System
@@ -23,7 +23,7 @@ Deniz Özbeks Obsidian-Vault ist die Single Source of Truth für alle Projekte, 
 04-tagebuch/          Daily Notes (YYYY/MM/YYYY-MM-DD.md)
 05-archiv/            Abgeschlossenes
 _api/                 Generierte JSONs (read-only)
-_anhaenge/            Große Dateien (PDFs, Excel, PPTX) — nicht im Git
+_anhaenge/            Große Dateien (PDFs, Excel, PPTX) - nicht im Git
 _claude/skills/       Master-Version der Skills (ist dort UND im Account-Skill-UI)
 _meta/                Schema + Glossar + Endpoints
 _migration/           Migrations-Artefakte (Progress, Report)
@@ -35,11 +35,11 @@ _migration/           Migrations-Artefakte (Progress, Report)
 
 | Über-Projekt | Pfad | Bereich | Status |
 |---|---|---|---|
-| Thalor | `01-projekte/thalor/` | client_work | aktiv — 4 Sub: herosoftware, bellavie, pulsepeptides, resolvia |
-| Coralate | `01-projekte/coralate/` | produkt | aktiv — Sub: food-scanner |
-| HAYS | `01-projekte/hays/` | intern | aktiv — Werkstudent CEMEA License Management |
-| Bachelor-Thesis | `01-projekte/bachelor-thesis/` | studium | aktiv — Abgabe 2026-06-15 KRITISCH |
-| Miraculix | `01-projekte/miraculix/` | intern | aktiv — dieser Vault + KI-Orga |
+| Thalor | `01-projekte/thalor/` | client_work | aktiv - 4 Sub: herosoftware, bellavie, pulsepeptides, resolvia |
+| Coralate | `01-projekte/coralate/` | produkt | aktiv - Sub: food-scanner |
+| HAYS | `01-projekte/hays/` | intern | aktiv - Werkstudent CEMEA License Management |
+| Bachelor-Thesis | `01-projekte/bachelor-thesis/` | studium | aktiv - Abgabe 2026-06-15 KRITISCH |
+| Miraculix | `01-projekte/miraculix/` | intern | aktiv - dieser Vault + KI-Orga |
 | Persönlich | `01-projekte/persoenlich/` | persoenlich | aktiv |
 | Terminbuchung-App | `01-projekte/terminbuchung-app/` | produkt | pausiert bis nach Thesis |
 
@@ -85,10 +85,10 @@ Beispiel:
 
 ## Vertrauens-Stufen (Pflicht)
 
-- `extrahiert` — direkt aus Quelle
-- `abgeleitet` — logisch geschlossen mit Begründung
-- `angenommen` — Vermutung, braucht Prüfung
-- `bestaetigt` — nach expliziter Bestätigung hochgestuft
+- `extrahiert` - direkt aus Quelle
+- `abgeleitet` - logisch geschlossen mit Begründung
+- `angenommen` - Vermutung, braucht Prüfung
+- `bestaetigt` - nach expliziter Bestätigung hochgestuft
 
 ## Operations-Trigger
 
@@ -106,5 +106,5 @@ Beispiel:
 - `_meta/` oder `CLAUDE.md` ändern ohne Anweisung
 - Frontmatter-Schema erfinden das nicht in `_meta/schema.md` steht
 - Mehrere Files gleichzeitig ändern ohne vorher Plan zu zeigen
-- Informationen zwischen Projekten kopieren — stattdessen Wikilinks
+- Informationen zwischen Projekten kopieren - stattdessen Wikilinks
 - API-Keys im Klartext

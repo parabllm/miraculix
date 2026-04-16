@@ -8,11 +8,11 @@ quelle: chat_session
 werkzeuge: ["claude-desktop"]
 ---
 
-Miraculix bekommt Namen + konkrete Setup-Anleitung. Chat "Miraculix — persönlicher KI-Assistent Setup" (10 Messages, 30k chars).
+Miraculix bekommt Namen + konkrete Setup-Anleitung. Chat "Miraculix - persönlicher KI-Assistent Setup" (10 Messages, 30k chars).
 
 ## Namensgebung
 
-"Miraculix" — der KI-Assistent als eigene Persönlichkeit (direkt, kritischer Sparringspartner, keine Prosa-Wände, Deutsch).
+"Miraculix" - der KI-Assistent als eigene Persönlichkeit (direkt, kritischer Sparringspartner, keine Prosa-Wände, Deutsch).
 
 ## Setup-Konzept
 
@@ -20,4 +20,4 @@ Claude-Desktop mit festem Always-On-Kontext + Projekt-spezifischen Skills + pers
 
 ## Quelle
 
-Claude-Chat "Miraculix — persönlicher KI-Assistent Setup" 2026-03-31.
+Claude-Chat "Miraculix - persönlicher KI-Assistent Setup" 2026-03-31.

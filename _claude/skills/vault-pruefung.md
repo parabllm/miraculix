@@ -1,6 +1,6 @@
 ---
 name: miraculix-vault-pruefung
-description: Triggered when Deniz says "vault prüfen", "lint", "konsistenz check", "ist alles aktuell?", "geh mal alles durch", "vault audit" or similar — typically weekly or when Deniz wants to verify vault health. Use this skill to scan the vault for outdated information, contradictions, structural problems, duplicates, stale inbox items, and skill-drift. Produce a priority-sorted report — do NOT auto-fix. Deniz decides per finding.
+description: Triggered when Deniz says "vault prüfen", "lint", "konsistenz check", "ist alles aktuell?", "geh mal alles durch", "vault audit" or similar - typically weekly or when Deniz wants to verify vault health. Use this skill to scan the vault for outdated information, contradictions, structural problems, duplicates, stale inbox items, and skill-drift. Produce a priority-sorted report - do NOT auto-fix. Deniz decides per finding.
 ---
 
 # Vault-Prüfung (Lint)
@@ -49,10 +49,10 @@ Bei Drift: Diff zeigen. Deniz bestätigt → Skill updaten UND erinnern: "Neue V
 ## Ausgabe-Format
 
 ```
-## Vault-Prüfung — 2026-04-16
+## Vault-Prüfung - 2026-04-16
 
 ### Veraltet (X)
-- ⚠️ `02-wissen/n8n/webhook-pattern.md` — 9 Wochen alt
+- ⚠️ `02-wissen/n8n/webhook-pattern.md` - 9 Wochen alt
 
 ### Widersprüche (X)
 - ❌ coralate.md sagt "SDK 54", wissen sagt "SDK 55"

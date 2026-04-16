@@ -19,11 +19,11 @@ Clay-Enrichment-Layer gebaut. Chat "Clay Hero" (510 Messages, 1.1M chars). Folge
 
 ## LGM-Mapping
 
-LGM-Events (Replies, Clicks, Conversions) schreiben zurück nach Attio als Notes/Tasks. Attio-Liste = LGM-Sequence — Robin sortiert manuell in Listen, Scripts routen in die richtigen LGM-Audiences.
+LGM-Events (Replies, Clicks, Conversions) schreiben zurück nach Attio als Notes/Tasks. Attio-Liste = LGM-Sequence - Robin sortiert manuell in Listen, Scripts routen in die richtigen LGM-Audiences.
 
 ## Kritische Pattern aus Clay Hero 2
 
-- **Attio hatte Duplikate** — 6 verschiedene Quellen erstellten Companies (Email-Sync, Robin, Calvin, Claude, WF1, WF4)
+- **Attio hatte Duplikate** - 6 verschiedene Quellen erstellten Companies (Email-Sync, Robin, Calvin, Claude, WF1, WF4)
 - **Goldene Regel:** 1 Mantle-Profil = 1 Attio-Company
 - **Reihenfolge:** Duplikat-Finder → Aufräumen → Name-Matching
 - **Matching-Kette 4 Stufen** mit Duplikat-Check bei jeder Stufe

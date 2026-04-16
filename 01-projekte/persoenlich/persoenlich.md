@@ -27,14 +27,14 @@ Sammel-Bucket für persönliche Inhalte die in keinen projekt-spezifischen Bucke
 ## Aktueller Stand
 
 Stand 2026-04-16:
-- Marokko-Reise 02.04.–15.04.2026 abgeschlossen
-- Supplement-Stack, Neurotransmitter-Network, Peptide-Protokolle, Energie-Stabilität, Haltung/Mobilität, Augenringe — Research-Docs in Notion, wandern bei Bedarf in `02-wissen/health/`
+- Marokko-Reise 02.04.-15.04.2026 abgeschlossen
+- Supplement-Stack, Neurotransmitter-Network, Peptide-Protokolle, Energie-Stabilität, Haltung/Mobilität, Augenringe - Research-Docs in Notion, wandern bei Bedarf in `02-wissen/health/`
 - Profil "Deniz Özbek" (Selbstbeschreibung)
 - Freelance & Automation Kontext (Selbstbeschreibung Meta)
 
 ## Offene Aufgaben
 
-- [ ] Zertifikate holen für CV — Instagram durchschauen (TK-2, Low) #niedrig
+- [ ] Zertifikate holen für CV - Instagram durchschauen (TK-2, Low) #niedrig
 
 ## Research-Themen (aus Notion-Docs, optional später nach 02-wissen/)
 
@@ -53,4 +53,4 @@ Stand 2026-04-16:
 
 ## Kontakte
 
-_(keine — Personal-Life-Bucket ist nur Deniz selbst)_
+_(keine - Personal-Life-Bucket ist nur Deniz selbst)_

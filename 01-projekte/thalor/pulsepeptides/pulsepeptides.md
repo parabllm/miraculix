@@ -23,7 +23,7 @@ Internes Batch-Management für kompletten Batch-Lifecycle (Order → Receive →
 - **Stack:** n8n Cloud, Slack (PulseBot), Google Sheets (SSOT, 17 Spalten), Gmail, Browserless, OpenAI GPT-4o
 - **Primäre Interface:** Slack Slash-Command `/pulse` mit Subcommands
 - **Externes Labor:** Janoshik (HPLC + Endotoxin-Tests)
-- **Batch-ID-Schema:** `{SupplierCode}{YY}{Q#}{Seq}{ProductCode}` — z.B. `LP26Q11BPC`
+- **Batch-ID-Schema:** `{SupplierCode}{YY}{Q#}{Seq}{ProductCode}` - z.B. `LP26Q11BPC`
 - **Status-Lifecycle:** Ordered → Received → Testing → Partially Tested → Active → Archived
 
 **3 n8n-Workflows:**
@@ -37,7 +37,7 @@ Internes Batch-Management für kompletten Batch-Lifecycle (Order → Receive →
 
 ## Aktueller Stand
 
-Stand 2026-04-15: Chat "Pulse Peptides Admin Hub Angebot bewerten" — Kalani evaluiert Admin-Hub-Angebot. Vorherige Implementierung (PulseBot, Janoshik OCR) läuft produktiv.
+Stand 2026-04-15: Chat "Pulse Peptides Admin Hub Angebot bewerten" - Kalani evaluiert Admin-Hub-Angebot. Vorherige Implementierung (PulseBot, Janoshik OCR) läuft produktiv.
 
 ## Offene Aufgaben
 
@@ -51,4 +51,4 @@ _(werden aus Claude-Logs destilliert in Phase D)_
 
 ## Kontakte
 
-- [[kalani-ginepri]] — Auftraggeber, Entscheider
+- [[kalani-ginepri]] - Auftraggeber, Entscheider

@@ -50,7 +50,7 @@ Stand 2026-04-13 (Master-Doc: DOC-62, v8):
 
 ## Offene Aufgaben
 
-_(Multi-Layer-Design Start, Kategorie-Fix — werden in Phase D aus Logs konkretisiert)_
+_(Multi-Layer-Design Start, Kategorie-Fix - werden in Phase D aus Logs konkretisiert)_
 
 ## Kontext-Notizen
 
@@ -60,4 +60,4 @@ _(Multi-Layer-Design Start, Kategorie-Fix — werden in Phase D aus Logs konkret
 
 ## Kontakte
 
-- [[jann-allenberger]] — Backend-Adjustments, Pipeline-Input
+- [[jann-allenberger]] - Backend-Adjustments, Pipeline-Input

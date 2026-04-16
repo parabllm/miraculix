@@ -16,7 +16,7 @@ Lokale SEO-Portale (Google Business Profile, Gelbeseiten, Yelp, weitere) struktu
 
 ## Offen
 
-SEO-Strategie final aufstellen (Keyword-Mapping, Portal-Strategie) — in BellaVie-Tasks als TK-1 (Medium).
+SEO-Strategie final aufstellen (Keyword-Mapping, Portal-Strategie) - in BellaVie-Tasks als TK-1 (Medium).
 
 ## Quelle
 

@@ -37,13 +37,13 @@ Werkstudent-Rolle bei **HAYS AG Mid Office Global License Management**. Kernvera
 
 ## Aktueller Stand
 
-Stand 2026-04-08 (letzte Notion-Aktualisierung): 7 Power Automate Flows live, Deniz ist Sole-Administrator. Konzeptpapier Lizenzmanagement-Lösung (Power-BI-Dashboard) in Arbeit. Power-BI-Implementation wird von externem Experten umgesetzt — Deniz liefert nur Konzept.
+Stand 2026-04-08 (letzte Notion-Aktualisierung): 7 Power Automate Flows live, Deniz ist Sole-Administrator. Konzeptpapier Lizenzmanagement-Lösung (Power-BI-Dashboard) in Arbeit. Power-BI-Implementation wird von externem Experten umgesetzt - Deniz liefert nur Konzept.
 
-Siehe [[bachelor-thesis]] — HAYS ist die empirische Quelle (7-9 Interviews).
+Siehe [[bachelor-thesis]] - HAYS ist die empirische Quelle (7-9 Interviews).
 
 ## Offene Aufgaben
 
-_(werden aus Claude-Logs destilliert in Phase D — aktuell keine expliziten HAYS-Tasks in Notion-Tasks-DB)_
+_(werden aus Claude-Logs destilliert in Phase D - aktuell keine expliziten HAYS-Tasks in Notion-Tasks-DB)_
 
 ## Abgeschlossene Meilensteine
 
@@ -57,6 +57,6 @@ _(werden aus Claude-Logs destilliert in Phase D — aktuell keine expliziten HAY
 
 ## Kontakte
 
-- [[christine-kampmann]] — Vorgesetzte
-- [[julia-renzikowski]] — Kollegin
-- Simea — interne Ansprechpartnerin (nicht als eigener Kontakt)
+- [[christine-kampmann]] - Vorgesetzte
+- [[julia-renzikowski]] - Kollegin
+- Simea - interne Ansprechpartnerin (nicht als eigener Kontakt)

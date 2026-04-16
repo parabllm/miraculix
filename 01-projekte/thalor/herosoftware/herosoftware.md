@@ -39,28 +39,28 @@ Client-Projekt von Robin Kronshagen (Founder HeroSoftware GmbH). Vollständiges 
 
 ## Aktueller Stand
 
-Stand 2026-04-13 (letzter Log): **Production-Ready Refactor abgeschlossen** — alle 4 Scripts gebaut, daily-sync + LGM-Auth-Checks validiert. Repo auf GitHub privat gesichert. Phase 2 komplett validiert.
+Stand 2026-04-13 (letzter Log): **Production-Ready Refactor abgeschlossen** - alle 4 Scripts gebaut, daily-sync + LGM-Auth-Checks validiert. Repo auf GitHub privat gesichert. Phase 2 komplett validiert.
 
 **Komponenten live:**
-- **WF1 (n8n Cloud, 17 Nodes)** — Mantle→Attio Echtzeit-Webhook, Activity Notes in Node 17 integriert
-- **`daily-sync.mjs`** — täglich 06:00, MRR/Plans-Update aller Attio-Companies
-- **`lgm-push.mjs`** — Dienstag 07:00, pusht aus 4 Attio-Listen in 8 LGM-Audiences (DE+EN)
-- **`lgm-status-sync.mjs`** — täglich 12:00, LGM-Status zurück nach Attio
-- **`wf1-backup.mjs`** — jeden zweiten Sonntag 01:00, WF1-Logik gegen alle Mantle-Customers (Disaster Recovery + Backfill)
+- **WF1 (n8n Cloud, 17 Nodes)** - Mantle→Attio Echtzeit-Webhook, Activity Notes in Node 17 integriert
+- **`daily-sync.mjs`** - täglich 06:00, MRR/Plans-Update aller Attio-Companies
+- **`lgm-push.mjs`** - Dienstag 07:00, pusht aus 4 Attio-Listen in 8 LGM-Audiences (DE+EN)
+- **`lgm-status-sync.mjs`** - täglich 12:00, LGM-Status zurück nach Attio
+- **`wf1-backup.mjs`** - jeden zweiten Sonntag 01:00, WF1-Logik gegen alle Mantle-Customers (Disaster Recovery + Backfill)
 - **Clay:** 2 Templates live (Executive Leadership + Churns), pro Attio-Liste eigenes Template
 
-**Scripts laufen aktuell noch lokal bei Deniz**, nicht auf dem Hetzner-Server — Cron-Setup ist offene Task.
+**Scripts laufen aktuell noch lokal bei Deniz**, nicht auf dem Hetzner-Server - Cron-Setup ist offene Task.
 
 ## Offene Aufgaben
 
 - [ ] Cron auf Hetzner für die 4 Scripts einrichten (TK-4, High) #hoch
-- [ ] Prozess-Doku endkundenfertig für Robin/Calvin (Loom + schriftlich) (TK-6, Low — ans Ende) #niedrig
-- [ ] Abrechnung Hero+Maddox — Projekte beenden und abrechnen (TK-7, High, 2026-04-14) #hoch
+- [ ] Prozess-Doku endkundenfertig für Robin/Calvin (Loom + schriftlich) (TK-6, Low - ans Ende) #niedrig
+- [ ] Abrechnung Hero+Maddox - Projekte beenden und abrechnen (TK-7, High, 2026-04-14) #hoch
 
 ## Abgeschlossene Meilensteine
 
 - ~~Neue API-Keys getauscht (Mantle, Attio, LGM, Clay) in allen Env + n8n WF1~~ 2026-04-13 (TK-3)
-- ~~WF Error Slack — Error-Notification + Reply-Push~~ (TK-5)
+- ~~WF Error Slack - Error-Notification + Reply-Push~~ (TK-5)
 - ~~Production-Ready Refactor alle 4 Scripts~~ 2026-04-13
 - ~~Phase 2 validiert, Repo privat gesichert~~ 2026-04-13
 
@@ -73,5 +73,5 @@ Stand 2026-04-13 (letzter Log): **Production-Ready Refactor abgeschlossen** — 
 
 ## Kontakte
 
-- [[robin-kronshagen]] — Founder, Entscheider
-- Calvin Blick — Co-Worker im Attio-Workspace (nicht als eigener Kontakt angelegt)
+- [[robin-kronshagen]] - Founder, Entscheider
+- Calvin Blick - Co-Worker im Attio-Workspace (nicht als eigener Kontakt angelegt)

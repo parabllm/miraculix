@@ -21,14 +21,14 @@ vertrauen: extrahiert
 
 **Forschungsfrage:** Wie müssen KI-Systeme im Recruiting bei deutschen Personaldienstleistern strategisch gestaltet werden, um sowohl betriebliche Effizienz als auch KI-Compliance-Anforderungen als Erfolgsfaktoren zu erfüllen?
 
-**Kernthese:** Große Personaldienstleister wie HAYS stehen vor strukturellem Problem — KI-Implementierung intern weniger fortgeschritten als bei kleineren agileren Firmen, gleichzeitig unterliegen sie zusätzlich EU AI Act (Hochrisiko-Einstufung Recruiting). **Wer Governance früh aufbaut, macht Compliance zum Wettbewerbsvorteil** — Explainable AI als strategisches Differenzierungsmerkmal.
+**Kernthese:** Große Personaldienstleister wie HAYS stehen vor strukturellem Problem - KI-Implementierung intern weniger fortgeschritten als bei kleineren agileren Firmen, gleichzeitig unterliegen sie zusätzlich EU AI Act (Hochrisiko-Einstufung Recruiting). **Wer Governance früh aufbaut, macht Compliance zum Wettbewerbsvorteil** - Explainable AI als strategisches Differenzierungsmerkmal.
 
-- **Hochschule:** HdWM Mannheim — Business Management (Bachelor)
+- **Hochschule:** HdWM Mannheim - Business Management (Bachelor)
 - **Betreuer:** [[christoph-sandbrink]]
-- **Abgabe:** **15.06.2026 — HARTE Deadline**
+- **Abgabe:** **15.06.2026 - HARTE Deadline**
 - **Methodik Erhebung:** Qualitative leitfadengestützte Experteninterviews
 - **Methodik Auswertung:** Qualitative Inhaltsanalyse nach Mayring
-- **Stichprobe:** 7–9 HAYS-interne Experten in zwei Clustern
+- **Stichprobe:** 7-9 HAYS-interne Experten in zwei Clustern
 - **Tools:** Zotero für Referenzmanagement
 
 **Interview-Cluster (aus Christine's Empfehlungen 17.03.2026):**
@@ -63,6 +63,6 @@ Stand 2026-04-08: Interview-Kandidaten empfohlen von Christine (17.03.2026), Fre
 
 ## Kontakte
 
-- [[christoph-sandbrink]] — Betreuer
-- [[christine-kampmann]] — Enablerin, selbst Interview-Kandidatin (Strategie-Cluster)
-- [[anna-luettgen]], [[florian-goennwein]], [[francis-davis]], [[rob-norris]], [[johannes-leuschner]], [[rini-kodzadziku]], [[florian-meyer]], [[arda-sener]], [[lara-luennemann]], [[leon-raedisch]], [[felix-schwarz]] — Interview-Kandidaten
+- [[christoph-sandbrink]] - Betreuer
+- [[christine-kampmann]] - Enablerin, selbst Interview-Kandidatin (Strategie-Cluster)
+- [[anna-luettgen]], [[florian-goennwein]], [[francis-davis]], [[rob-norris]], [[johannes-leuschner]], [[rini-kodzadziku]], [[florian-meyer]], [[arda-sener]], [[lara-luennemann]], [[leon-raedisch]], [[felix-schwarz]] - Interview-Kandidaten

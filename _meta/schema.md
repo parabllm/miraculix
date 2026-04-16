@@ -1,4 +1,4 @@
-# Schema — Frontmatter-Spezifikation
+# Schema - Frontmatter-Spezifikation
 
 Jedes File im Vault (außer `00-eingang/unverarbeitet/`) hat YAML-Frontmatter nach diesem Schema.
 
@@ -6,7 +6,7 @@ Jedes File im Vault (außer `00-eingang/unverarbeitet/`) hat YAML-Frontmatter na
 
 ## Über-Projekt (`{slug}.md` im Über-Projekt-Ordner)
 
-Filename-Konvention: `01-projekte/{slug}/{slug}.md` — der Filename entspricht dem Ordnernamen. Grund: Obsidian-Wikilinks resolven auf Dateinamen, `_projekt.md` würde in allen Projekten denselben Namen haben und Verlinkungen unmöglich machen.
+Filename-Konvention: `01-projekte/{slug}/{slug}.md` - der Filename entspricht dem Ordnernamen. Grund: Obsidian-Wikilinks resolven auf Dateinamen, `_projekt.md` würde in allen Projekten denselben Namen haben und Verlinkungen unmöglich machen.
 
 Beispiel: `01-projekte/thalor/thalor.md`, `01-projekte/hays/hays.md`
 

@@ -8,15 +8,15 @@ quelle: chat_session
 werkzeuge: []
 ---
 
-Health-Research-Session (neutraler Research-Kontext, NIE diagnostisch interpretieren — Regel aus CLAUDE.md).
+Health-Research-Session (neutraler Research-Kontext, NIE diagnostisch interpretieren - Regel aus CLAUDE.md).
 
 ## 5 Mini-Chats
 
-- **HEALTH** (32 Messages, 86k chars) — Haupt-Research zu Energie/Neurotransmittern
-- **Supplement-Stack-Optimierung für Kraftsport und Körperkomposition** (2 Messages, 4k) — Stack-Fragen (Omega-3, Vit D3+K2, Magnesium, Ashwagandha, Kreatin, Zink, Vit C), peer-reviewed Evidenz gefordert
+- **HEALTH** (32 Messages, 86k chars) - Haupt-Research zu Energie/Neurotransmittern
+- **Supplement-Stack-Optimierung für Kraftsport und Körperkomposition** (2 Messages, 4k) - Stack-Fragen (Omega-3, Vit D3+K2, Magnesium, Ashwagandha, Kreatin, Zink, Vit C), peer-reviewed Evidenz gefordert
 - **Zyklische Energieschwankungen und Optimierungsstrategien** (2 Messages, 4k)
 - **Biologische Ursachen und Behandlung von Augenringen** (2 Messages, 4k)
-- **💬 Ich möchte mein Dopamin/Seroto…** (2 Messages, 5k) — Neurotransmitter
+- **💬 Ich möchte mein Dopamin/Seroto…** (2 Messages, 5k) - Neurotransmitter
 
 ## Kern-Themen
 

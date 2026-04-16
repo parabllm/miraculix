@@ -1,4 +1,4 @@
-# START HERE — So setzt du Miraculix auf
+# START HERE - So setzt du Miraculix auf
 
 Deine Reihenfolge. Exakt, Schritt für Schritt.
 
@@ -14,7 +14,7 @@ Deine Reihenfolge. Exakt, Schritt für Schritt.
 
 ---
 
-## Schritt 1 — Framework platzieren (2 Min)
+## Schritt 1 - Framework platzieren (2 Min)
 
 1. Diese ZIP entpacken nach `C:\Users\deniz\Documents\`
 2. **Ergebnis-Check:** Im Ordner `miraculix\` liegt direkt `CLAUDE.md` und `MIGRATION.md`. Nicht verschachtelt!
@@ -40,7 +40,7 @@ C:\Users\deniz\Documents\
 
 ---
 
-## Schritt 2 — Git initialisieren (1 Min)
+## Schritt 2 - Git initialisieren (1 Min)
 
 PowerShell öffnen (Windows-Taste → "powershell"):
 
@@ -51,11 +51,11 @@ git add .
 git commit -m "initial: miraculix framework"
 ```
 
-Wichtig — das Initial-Commit. Dein Rollback-Punkt falls was schiefgeht.
+Wichtig - das Initial-Commit. Dein Rollback-Punkt falls was schiefgeht.
 
 ---
 
-## Schritt 3 — Claude Code starten (1 Min)
+## Schritt 3 - Claude Code starten (1 Min)
 
 In derselben PowerShell:
 
@@ -69,7 +69,7 @@ Wenn du wieder im Terminal bist, siehst du einen Prompt. Jetzt gib den Migration
 
 ---
 
-## Schritt 4 — Der Migrations-Prompt
+## Schritt 4 - Der Migrations-Prompt
 
 **Copy-paste genau das:**
 
@@ -83,14 +83,14 @@ Quellen:
 Führe Migration gemäß MIGRATION.md durch. Arbeite autonom.
 Zeig nur bei wirklich ambigen Entscheidungen oder Widersprüchen.
 Commit nach jedem Projekt in Git.
-Neueste Version gewinnt bei Widersprüchen — Timestamps nutzen.
+Neueste Version gewinnt bei Widersprüchen - Timestamps nutzen.
 
 Start.
 ```
 
 ---
 
-## Schritt 5 — Warten (1-3 Stunden)
+## Schritt 5 - Warten (1-3 Stunden)
 
 Claude Code arbeitet jetzt:
 - Phase A: Inventur (15-30 Min)
@@ -104,17 +104,17 @@ Claude Code arbeitet jetzt:
 
 **Du kannst:**
 - Den Computer laufen lassen, was anderes machen
-- Gelegentlich reinschauen — er loggt in `_migration/progress.md`
+- Gelegentlich reinschauen - er loggt in `_migration/progress.md`
 - Bei Bedarf unterbrechen mit `Ctrl+C` und später wieder starten
 
 **Was er NICHT tut:**
 - Schläft nicht von selber
 - Macht nichts destruktives ohne Grund
-- Bricht auch nicht mit Fehlern ab — bei Problemen meldet er zurück
+- Bricht auch nicht mit Fehlern ab - bei Problemen meldet er zurück
 
 ---
 
-## Schritt 6 — Nach Abschluss
+## Schritt 6 - Nach Abschluss
 
 Wenn Claude Code sagt "Migration abgeschlossen":
 
@@ -144,7 +144,7 @@ Wenn Claude Code sagt "Migration abgeschlossen":
 
 ---
 
-## Schritt 7 — Erste echte Nutzung
+## Schritt 7 - Erste echte Nutzung
 
 ```
 tages-start
@@ -183,7 +183,7 @@ Und du bist drin. Der Vault lebt.
 |---|---|
 | `CLAUDE.md` | Boot-Instruction für jede KI die auf Vault zugreift |
 | `MIGRATION.md` | Auftrag für Claude Code (wird nach Migration archiviert) |
-| `_meta/schema.md` | Frontmatter-Specs — wie Files aussehen müssen |
+| `_meta/schema.md` | Frontmatter-Specs - wie Files aussehen müssen |
 | `_meta/glossar.md` | Begriffsdefinitionen |
 | `_claude/skills/*.md` | Die 6 Operations-Skills |
 | `_migration/report.md` | Abschluss-Bericht nach Migration |

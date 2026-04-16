@@ -7,12 +7,12 @@ description: Triggered whenever Deniz says "eingang verarbeiten", "digest", "inb
 
 Inbox klassifizieren, einsortieren, bundled schreiben.
 
-## Schritt 1 — Inbox lesen
+## Schritt 1 - Inbox lesen
 
 Alle Files in `00-eingang/unverarbeitet/` mit `status: unverarbeitet`.
 Auch: wenn Deniz content in Chat paste'd + "sortier das ein" → als Inbox-Item behandeln.
 
-## Schritt 2 — Pro Item klassifizieren
+## Schritt 2 - Pro Item klassifizieren
 
 **a) Termin mit Uhrzeit?** → Google Calendar Event, Kontakte matchen, Projekt zuordnen.
 **b) Aufgabe ohne Uhrzeit?** → Task im Vault (Checkbox oder eigenes File).
@@ -21,7 +21,7 @@ Auch: wenn Deniz content in Chat paste'd + "sortier das ein" → als Inbox-Item 
 **e) Dokument?** → In `_anhaenge/{bereich}/`, Companion-Markdown.
 **f) Unklar?** → In Inbox mit AMBIG_-Prefix.
 
-## Schritt 3 — Entity-Matching
+## Schritt 3 - Entity-Matching
 
 Für jeden Namen / Projektbezug:
 1. `03-kontakte/*.md` Aliase prüfen
@@ -29,7 +29,7 @@ Für jeden Namen / Projektbezug:
 3. Bei Match → Wikilink + Frontmatter-Relation
 4. Bei Unsicherheit → fragen
 
-## Schritt 4 — Plan zeigen
+## Schritt 4 - Plan zeigen
 
 ```
 **Item 1:** "Morgen Paddle mit Maddox 10:00"
@@ -37,10 +37,10 @@ Für jeden Namen / Projektbezug:
 
 **Item 2:** "HeroSoftware WF4 Webhook-Fix: Domain-Match war das Problem"
 → Log in [[herosoftware/logs/2026-04-16-wf4-fix]]
-→ 2. Auftreten — Wissens-Eintrag `02-wissen/n8n/webhook-race-condition.md`?
+→ 2. Auftreten - Wissens-Eintrag `02-wissen/n8n/webhook-race-condition.md`?
 ```
 
-## Schritt 5 — Ausführen
+## Schritt 5 - Ausführen
 
 Nach OK: alles gebündelt.
 - Vault-Files erstellen/updaten

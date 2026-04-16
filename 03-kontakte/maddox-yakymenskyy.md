@@ -16,4 +16,4 @@ vertrauen: extrahiert
 quelle: notion_migration
 ---
 
-Kunde [[bellavie]] — Beauty-Salon Neunkirchen. Freund + Kunde zugleich (HdWM-Kontakt). Manager des Salons, gleichzeitig Entscheider für Website, Preisliste, Fresha-Setup.
+Kunde [[bellavie]] - Beauty-Salon Neunkirchen. Freund + Kunde zugleich (HdWM-Kontakt). Manager des Salons, gleichzeitig Entscheider für Website, Preisliste, Fresha-Setup.

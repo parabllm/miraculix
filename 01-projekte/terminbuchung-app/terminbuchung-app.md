@@ -18,7 +18,7 @@ vertrauen: extrahiert
 
 **Eigene Terminbuchungs-App als Fresha-Alternative.** Ziel: moderne, eigenständige Booking-Plattform die als Framework für Dienstleistungsbetriebe (Friseure, Beauty, Studios) dient.
 
-**Strategische Rationale:** Technischer Leverage statt reiner Service-Abhängigkeit. Fresha kann jederzeit Preise anheben oder Features streichen — eine eigene Plattform ist ein Asset.
+**Strategische Rationale:** Technischer Leverage statt reiner Service-Abhängigkeit. Fresha kann jederzeit Preise anheben oder Features streichen - eine eigene Plattform ist ein Asset.
 
 - **Produkt-Typ:** Eigenes SaaS-Produkt, kein Client-Auftrag
 - **Ziel-Plattform:** iOS + Android (initial), Web-Dashboard für Betreiber (später)
@@ -27,12 +27,12 @@ vertrauen: extrahiert
 **Tech-Stack (geplant):**
 - Frontend: React Native + Expo
 - Backend: Supabase (Auth, Postgres, Storage, Edge Functions)
-- Payments: Stripe (später — nicht Phase 1)
+- Payments: Stripe (später - nicht Phase 1)
 - Notifications: Expo Push
 
-Stack überlappt bewusst mit [[coralate]] — gleiche Skills, gleiche Tooling-Disziplin, reduzierter Learning-Overhead.
+Stack überlappt bewusst mit [[coralate]] - gleiche Skills, gleiche Tooling-Disziplin, reduzierter Learning-Overhead.
 
-**Abgrenzung:** Nicht mit [[coralate]] vermischen — coralate = Fitness, Terminbuchung = Booking.
+**Abgrenzung:** Nicht mit [[coralate]] vermischen - coralate = Fitness, Terminbuchung = Booking.
 
 ## Aktueller Stand
 
@@ -52,4 +52,4 @@ Frühestens nach Thesis-Abgabe Mitte Juni 2026.
 
 ## Kontakte
 
-_(keine — bei Reaktivierung [[maddox-yakymenskyy]] als Pilot-Kontakt)_
+_(keine - bei Reaktivierung [[maddox-yakymenskyy]] als Pilot-Kontakt)_
