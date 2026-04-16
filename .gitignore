@@ -38,3 +38,7 @@ npm-debug.log*
 
 # Google Drive Upload-Cache
 .tmp.driveupload/
+
+# Source-Exports nicht committen (zu gro├ƒ)
+00-eingang/claude/*.json
+00-eingang/notion/
