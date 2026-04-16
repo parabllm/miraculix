@@ -24,15 +24,21 @@ _migration/           Migrations-Artefakte
 
 ## Aktive Über-Projekte
 
-**Diese Tabelle wird beim Migrations-Abschluss durch Claude Code automatisch befüllt.**
-
-Format:
-
-| Über-Projekt | Pfad | Bereich | Hauptkontakt |
+| Über-Projekt | Pfad | Bereich | Status |
 |---|---|---|---|
-| ... | ... | ... | ... |
+| Thalor | `01-projekte/thalor/` | client_work | aktiv (4 Sub-Projekte: herosoftware, bellavie, pulsepeptides, resolvia) |
+| Coralate | `01-projekte/coralate/` | produkt | aktiv (Sub: food-scanner) |
+| HAYS | `01-projekte/hays/` | intern | aktiv |
+| Bachelor-Thesis | `01-projekte/bachelor-thesis/` | studium | aktiv (Abgabe 2026-06-15 — KRITISCH) |
+| Miraculix | `01-projekte/miraculix/` | intern | aktiv (dieser Vault + KI-Orga) |
+| Persönlich | `01-projekte/persoenlich/` | persoenlich | aktiv |
+| Terminbuchung-App | `01-projekte/terminbuchung-app/` | produkt | pausiert (bis nach Thesis) |
 
-Diese Tabelle wird manuell gepflegt wenn neue Über-Projekte entstehen. Deniz sagt explizit "neues Über-Projekt: X".
+Tabelle wird manuell gepflegt wenn neue Über-Projekte entstehen.
+
+### Wichtige Konvention
+Projekt-Haupt-Files heißen `{slug}.md` (nicht `_projekt.md`), damit Obsidian-Wikilinks funktionieren.
+Beispiel: `01-projekte/thalor/thalor.md`, `01-projekte/thalor/herosoftware/herosoftware.md`
 
 ---
 
@@ -40,13 +46,17 @@ Diese Tabelle wird manuell gepflegt wenn neue Über-Projekte entstehen. Deniz sa
 
 | Domain | Pfad | Typische Inhalte |
 |---|---|---|
-| n8n | `02-wissen/n8n/` | Webhook-Patterns, Code-Nodes, Race-Conditions |
-| Supabase | `02-wissen/supabase/` | Edge Functions, RLS, Schema-Patterns |
-| React Native | `02-wissen/react-native/` | Expo, Zustand, Navigation |
-| Marketing | `02-wissen/marketing/` | SEO, Outreach |
-| Power Automate | `02-wissen/power-automate/` | HAYS Flows, SharePoint |
+| Architektur | `02-wissen/architektur/` | System-Design, SSOT-Patterns |
 | Claude Prompting | `02-wissen/claude-prompting/` | Skill-Design, Vault-Patterns |
+| Claude Workflow | `02-wissen/claude-workflow/` | Continuity-Docs, Chat-Handover |
+| CRM-Integration | `02-wissen/crm-integration/` | Attio, Match-Kaskaden |
 | Design | `02-wissen/design/` | UI-Patterns, Branding |
+| Integration | `02-wissen/integration/` | Slack-Patterns, Timeout-Handling |
+| Marketing | `02-wissen/marketing/` | SEO, Outreach |
+| n8n | `02-wissen/n8n/` | Webhook-Patterns, Race-Conditions |
+| Power Automate | `02-wissen/power-automate/` | HAYS Flows, SharePoint |
+| React Native | `02-wissen/react-native/` | Expo, Zustand, Navigation |
+| Supabase | `02-wissen/supabase/` | Edge Functions, RLS |
 
 Neue Domains einfach als Ordner anlegen. Kein Gate.
 

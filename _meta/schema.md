@@ -4,7 +4,11 @@ Jedes File im Vault (außer `00-eingang/unverarbeitet/`) hat YAML-Frontmatter na
 
 ---
 
-## Über-Projekt (`_projekt.md` im Über-Projekt-Ordner)
+## Über-Projekt (`{slug}.md` im Über-Projekt-Ordner)
+
+Filename-Konvention: `01-projekte/{slug}/{slug}.md` — der Filename entspricht dem Ordnernamen. Grund: Obsidian-Wikilinks resolven auf Dateinamen, `_projekt.md` würde in allen Projekten denselben Namen haben und Verlinkungen unmöglich machen.
+
+Beispiel: `01-projekte/thalor/thalor.md`, `01-projekte/hays/hays.md`
 
 ```yaml
 ---
@@ -26,7 +30,11 @@ vertrauen: extrahiert
 
 ---
 
-## Sub-Projekt
+## Sub-Projekt (`{slug}.md` im Sub-Projekt-Ordner)
+
+Filename-Konvention: `01-projekte/{ueber-projekt}/{slug}/{slug}.md`
+
+Beispiel: `01-projekte/thalor/herosoftware/herosoftware.md`
 
 ```yaml
 ---
