@@ -59,6 +59,12 @@ Stand 2026-04-13 (letzter Log): **Food-Scanner Pipeline Production-Ready** - Mas
 
 - [[food-scanner]] - Nährwert-Retrieval-Pipeline (5 DBs + OFF, pgvector Hybrid-3-Tier, Edge Function live)
 
+## Detail-Docs
+
+- [[cora-ai-architektur]] - 3 Modi, SaMD-Position, Action-Button-Typen, Backend-Pipeline
+- [[design-system]] - Color Tokens, Typography, Motion, Haptics, Buttons, Border Radius
+- [[tech-stack-conventions]] - Core Dependencies, File Structure, Store Persistence, Mandatory Rules
+
 ## Offene Aufgaben
 
 _(in Cora HQ, nicht hier - siehe Team-Workspace)_

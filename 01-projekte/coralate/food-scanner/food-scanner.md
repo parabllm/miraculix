@@ -58,6 +58,13 @@ _(Multi-Layer-Design Start, Kategorie-Fix - werden in Phase D aus Logs konkretis
 - V5.1 Architektur-Lock mit Hybrid 3-Tier bestätigt, Geo via RRF
 - Safety-Rails für Scope 5 DBs + OFF definiert
 
+## Detail-Docs
+
+- [[architektur-v8]] - Master-Architektur (Storage, Auth, Edge Functions, pgvector, Cache, Schema) - ersetzt 9 ältere Docs
+- [[frontend-integration]] - React-Native-Integration für Jann (SSE, Konfirmation, Recalc)
+- [[prompt-log]] - Vision-Prompt-Versionierung (aktuell v5, Prinzipien-basiert)
+- [[roadmap]] - Nutrient DB Roadmap (Borrowing-Hierarchie, Matching-System)
+
 ## Kontakte
 
 - [[jann-allenberger]] - Backend-Adjustments, Pipeline-Input

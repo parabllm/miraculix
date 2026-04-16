@@ -55,6 +55,28 @@ _(werden aus Claude-Logs destilliert in Phase D - aktuell keine expliziten HAYS-
 - Direkte HR-Themen (Vertrag, Personalakte)
 - Power-BI-Implementation (externer Experte, nicht Deniz)
 
+## Report-Identifier pro Produkt
+
+| Produkt | Identifier | Besonderheit |
+|---|---|---|
+| LinkedIn RPS | Email im `Beschreibung`-Feld | Manueller CSV-Upload-Workaround vor Monatsende |
+| LinkedIn SalesNav | Email direkt | Sauberster Report |
+| LinkedIn LTI | Email direkt | Kein Problem |
+| StepStone | Email direkt | Andere Reporting-Logik (Unlock-Zählung, kein Rating) |
+| Indeed | Email direkt | Kein Problem |
+| Xing | Xing-Profil | HAYS-Email nicht auszuspielen - manuelle Zuordnung nötig |
+
+## Arbeitshinweise
+
+- Kein direkter PC-Zugriff auf Arbeitslaptop von zuhause
+- Workflow: Datei per Mail → Upload → Claude analysiert → Download → zurück an HAYS
+- HAYS-Events im Kalender immer `visibility: "private"`
+
+## Detail-Docs
+
+- [[power-automate-flows]] - Vollständige Doku der 7 Flows (Node-Trees, Expressions, Edge Cases)
+- [[lizenzmanagement-konzept]] - Konzeptpapier Power-BI-Dashboard für Christine
+
 ## Kontakte
 
 - [[christine-kampmann]] - Vorgesetzte
