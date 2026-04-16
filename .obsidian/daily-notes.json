@@ -1,0 +1,6 @@
+{
+  "folder": "04-tagebuch",
+  "format": "YYYY/MM/YYYY-MM-DD",
+  "template": ".obsidian/templates/daily-note",
+  "autorun": false
+}

@@ -1,0 +1,16 @@
+{
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "_anhaenge",
+  "newFileLocation": "current",
+  "showUnsupportedFiles": false,
+  "defaultViewMode": "source",
+  "livePreview": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "readableLineLength": true,
+  "useTab": false,
+  "tabSize": 2,
+  "trashOption": "local"
+}

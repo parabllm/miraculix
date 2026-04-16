@@ -1,0 +1,37 @@
+# Große Dateien - liegen auf Disk, nicht in Git
+_anhaenge/
+!_anhaenge/.gitkeep
+!_anhaenge/**/.gitkeep
+
+# Obsidian Workspace-State (lokal)
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Plugin-Configs und Templates bleiben im Git
+!.obsidian/templates/
+!.obsidian/plugins/
+!.obsidian/snippets/
+
+# Secrets
+_secrets/
+*.env
+*.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Generierte API-JSONs
+# _api/*.json
+
+# Temp
+*.tmp
+*.bak
+~*
