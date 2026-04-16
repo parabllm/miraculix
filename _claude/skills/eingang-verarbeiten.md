@@ -1,58 +1,58 @@
-# Eingang-Verarbeiten Skill (Digest)
-
-**Trigger:** "eingang verarbeiten", "digest", "inbox sortieren", "sortier das ein"
-
+---
+name: miraculix-eingang-verarbeiten
+description: Triggered whenever Deniz says "eingang verarbeiten", "digest", "inbox sortieren", "sortier das ein", "digest die inbox", or pastes content into the chat with instructions to categorize/sort it. Use this skill to read all unprocessed items in 00-eingang/, classify each one (appointment/task/meeting/context-update/document/unknown), match entities against existing contacts and projects, show a plan to Deniz, wait for OK, then bundle-write to the correct vault locations. This is the main digestion mechanism for voice dumps, transcripts, chat exports and random inputs.
 ---
 
-## Ablauf
+# Eingang-Verarbeiten (Digest)
 
-### Schritt 1 — Inbox lesen
-Alle Files in `00-eingang/` mit `status: unverarbeitet`.
+Inbox klassifizieren, einsortieren, bundled schreiben.
 
-### Schritt 2 — Pro Item klassifizieren
+## Schritt 1 — Inbox lesen
 
-**a) Termin mit Uhrzeit?** → Google Calendar Event. Kontakte matchen. Projekt zuordnen.
+Alle Files in `00-eingang/unverarbeitet/` mit `status: unverarbeitet`.
+Auch: wenn Deniz content in Chat paste'd + "sortier das ein" → als Inbox-Item behandeln.
 
-**b) Aufgabe ohne Uhrzeit?** → Task im Vault (Checkbox oder File je nach Komplexität). Projekt zuordnen.
+## Schritt 2 — Pro Item klassifizieren
 
-**c) Meeting-Transkript?** → Meeting-File im Projekt. Offene Punkte extrahieren als Tasks. Zusammenfassung schreiben.
+**a) Termin mit Uhrzeit?** → Google Calendar Event, Kontakte matchen, Projekt zuordnen.
+**b) Aufgabe ohne Uhrzeit?** → Task im Vault (Checkbox oder eigenes File).
+**c) Meeting-Transkript?** → Meeting-File in `meetings/` des Projekts.
+**d) Kontext-Update?** → Bestehendes File updaten, NICHT neues erstellen.
+**e) Dokument?** → In `_anhaenge/{bereich}/`, Companion-Markdown.
+**f) Unklar?** → In Inbox mit AMBIG_-Prefix.
 
-**d) Info die Kontext updatet?** → Bestehendes Projekt-File updaten. NICHT neues File wenn schon eins da. Edit vorschlagen mit old_str → new_str.
+## Schritt 3 — Entity-Matching
 
-**e) Dokument (PDF, Datei)?** → In `_anhaenge/{bereich}/` ablegen. Companion-Markdown-File. Fragen: "Welches Projekt?"
-
-**f) Unklar?** → In `00-eingang/unverarbeitet/` mit Flag lassen. Fragen.
-
-### Schritt 3 — Entity-Matching
 Für jeden Namen / Projektbezug:
 1. `03-kontakte/*.md` Aliase prüfen
-2. `01-projekte/**/_projekt.md` Aliase prüfen
+2. `01-projekte/**/*.md` Aliase prüfen
 3. Bei Match → Wikilink + Frontmatter-Relation
 4. Bei Unsicherheit → fragen
 
-### Schritt 4 — Plan zeigen
+## Schritt 4 — Plan zeigen
 
 ```
 **Item 1:** "Morgen Paddle mit Maddox 10:00"
-→ Google Calendar Event, morgen 10:00-11:30, [[maddox]]
+→ Google Calendar Event, morgen 10:00-11:30, [[maddox-yakymenskyy]]
 
-**Item 2:** "Maddox Call wegen BellaVie SEO"
-→ Aufgabe in [[bellavie-website]], Kontakt [[maddox]], kein Datum
+**Item 2:** "HeroSoftware WF4 Webhook-Fix: Domain-Match war das Problem"
+→ Log in [[herosoftware/logs/2026-04-16-wf4-fix]]
+→ 2. Auftreten — Wissens-Eintrag `02-wissen/n8n/webhook-race-condition.md`?
 ```
 
-### Schritt 5 — Ausführen (nach OK)
-- Vault-Files erstellen/updaten
-- Calendar Events
-- Google Tasks
-- Inbox-Items auf `verarbeitet` setzen
+## Schritt 5 — Ausführen
 
----
+Nach OK: alles gebündelt.
+- Vault-Files erstellen/updaten
+- Calendar Events (falls MCP)
+- Inbox-Items auf `verarbeitet` setzen
 
 ## Regeln
 
 - **Nie automatisch.** Erst Plan, dann OK.
-- **Ein Voice-Dump = viele Fragmente.** Zerlegen, einzeln klassifizieren.
-- **Duplikat-Check.** Bevor neues File, prüfe ob existiert.
-- **Kontext-Updates statt neue Files.** "SAP ist durch" → existierendes File finden, Edit vorschlagen.
-- **Transkripte:** `ist_transkript: true`. Extrahieren: Teilnehmer, offene Punkte, Entscheidungen.
-- **Unbekannte Personen:** fragen, nicht raten.
+- **Ein Voice-Dump = viele Fragmente.** Zerlegen.
+- **Duplikat-Check** via Aliase.
+- **Kontext-Updates statt neue Files.**
+- **Transkripte:** `ist_transkript: true`, Teilnehmer + offene Punkte extrahieren.
+- **Unbekannte Personen:** fragen.
+- **Nicht-klassifizierbares:** AMBIG_-Prefix, nicht raten.

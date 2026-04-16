@@ -1,88 +1,93 @@
-# Wissens-Destillation Skill
-
-**Trigger implizit** beim `log` — Claude prüft Destillations-Kandidaten.
-**Explizit:** "destilliere das", "das ist ein Pattern", "speicher das als transferable"
-
+---
+name: miraculix-wissens-destillation
+description: Triggered implicitly during "log" when Deniz wraps up work. Also explicitly when Deniz says "destilliere das", "das ist ein Pattern", "speicher das als transferable". Use this skill to detect patterns that have occurred 2+ times across different projects and propose a knowledge entry in 02-wissen/. Applies 3-phase model: first occurrence stays as log, second triggers destillation with "abgeleitet" trust, third upgrades to "bestaetigt". Special rules for architecture decisions, debug fixes, tool docs — can be destilled on first occurrence. Always propose first, never auto-write.
 ---
 
-## Zweck
+# Wissens-Destillation
 
-Destilliere gelöste Probleme zu Wissens-Einträgen in `02-wissen/`. Filter: Wiederholung. Nicht jedes gelöste Problem wird Wissen. Nur was **2× oder öfter auftritt** hat Transfer-Wert.
-
----
+Destilliere gelöste Probleme zu Wissens-Einträgen. Filter: Wiederholung.
 
 ## 3-Phasen-Modell
 
-### Phase 1 — Roh-Log (beim ersten Auftreten)
-Problem gelöst → Log-Eintrag. Enthält:
-- was war das Problem
-- wie wurde es gelöst
-- relevante Code-Snippets / Configs / Patterns
+### Phase 1 — Roh-Log (1. Auftreten)
+
+Problem → Log-Eintrag im Projekt (via `log`).
 
 **Kein Wissens-Eintrag.** Zu früh, könnte Zufall sein.
 
-### Phase 2 — Destillations-Vorschlag (beim zweiten Auftreten)
-Claude erkennt beim `log`: "Dieses Pattern gab's schon in [anderes Projekt]."
+### Phase 2 — Destillations-Vorschlag (2. Auftreten)
 
-Cross-Project-Check:
-- `_api/wissens-index.json` nach Pattern-Match
-- Projekt-Logs nach ähnlichen Titeln (Keyword-Suche reicht)
+Beim `log` prüfen: Gab's dieses Pattern schon?
+- Keyword-Suche in Logs anderer Projekte
+- `_api/wissens-index.json` nach Domain-Match (falls vorhanden)
 
-Wenn Match:
-> "Webhook-Timing-Problem jetzt 2× aufgetreten. 2026-03-12 HeroSoftware, jetzt Resolvia. Wissens-Eintrag `02-wissen/n8n/webhook-race-condition.md`? Vertrauen: `abgeleitet`."
+Bei Match:
+> "Dieses Webhook-Timing-Problem ist 2× aufgetreten. 2026-03-12 HeroSoftware, jetzt Resolvia. Wissens-Eintrag `02-wissen/n8n/webhook-race-condition.md`? Vertrauen: `abgeleitet`."
 
-Bei OK: Wissens-Eintrag mit:
+Bei OK → Eintrag mit:
 - `vertrauen: abgeleitet`
 - `quellen: [[log1]], [[log2]]`
-- `zuletzt_verifiziert: [heute]`
-- `projekte: [projekt1, projekt2]`
+- `projekte: [...]`
+- `zuletzt_verifiziert: heute`
 
-### Phase 3 — Verifiziert (beim dritten+ Auftreten)
-Existierender Eintrag wird aktualisiert:
+### Phase 3 — Bestätigt (3.+ Auftreten)
+
+Bestehender Eintrag aktualisiert:
 - `vertrauen: bestaetigt`
-- `zuletzt_verifiziert: [heute]`
-- Neue Quelle in `quellen`
-- Neues Projekt in `projekte`
+- Neue Quelle + Projekt anhängen
+- `zuletzt_verifiziert: heute`
 
 Diff zeigen, OK abwarten.
 
----
-
-## Spezial-Regeln
+## Spezial-Regeln (früher destillieren)
 
 ### Architektur-Entscheidungen
-Treten oft nur 1× auf aber hohen Transfer-Wert (z.B. "Cal.com Fork abgelehnt"). 
+Oft nur 1× aber hoher Transfer-Wert (z.B. "Cal.com Fork abgelehnt wegen AGPLv3").
 
 → Wenn Deniz als "Design-Decision" / "Architektur-Entscheidung" labelt: sofort destillieren. `vertrauen: extrahiert`, `kategorie: entscheidung`.
 
-### Debug-Fixes
-Wenn Fix spezifisch für Error-Output mit eindeutigem Fingerprint: früher destillieren. Schon beim ersten Auftreten.
+### Debug-Fixes mit Fingerprint
+Exakte Fehlermeldung + spezifischer Fix → früher destillieren.
 
 → `kategorie: debug_fix`, `vertrauen: extrahiert`.
 
 ### Tool-Dokumentation
-"So funktioniert Mantle API" / "Attio Convention" → `kategorie: referenz` oder `tool`. Direkt destillieren.
+"So funktioniert Mantle API" / "Attio Convention" → direkt destillieren.
 
-→ `vertrauen: extrahiert` (Deniz) oder `bestaetigt` (validiert).
-
----
+→ `kategorie: referenz` oder `tool`.
 
 ## Widerspruchs-Check
 
-Vor Erstellung/Update eines Wissens-Eintrags:
+Vor Erstellung/Update:
 - Widersprechender Eintrag in Domain?
 - Kompatibel mit anderem Pattern?
 
 Bei Widerspruch:
 - Kein neuer Eintrag
-- `widerspricht:` Feld setzen, auf Log verweisen
-- Deniz: "Widerspricht `02-wissen/n8n/webhook-batching.md`. Welcher Ansatz stimmt?"
+- `widerspricht:` Feld im bestehenden setzen
+- Deniz: "Widerspricht `X`. Welcher Ansatz stimmt?"
 
+## Frontmatter-Template
+
+```yaml
 ---
+typ: wissen
+name: "Titel"
+aliase: ["..."]
+domain: ["..."]
+kategorie: pattern
+vertrauen: abgeleitet
+quellen: ["[[log1]]", "[[log2]]"]
+projekte: ["[[projekt-a]]"]
+zuletzt_verifiziert: 2026-04-16
+widerspricht: null
+erstellt: 2026-04-16
+---
+```
 
 ## Regeln
 
-- **Nie ungefragt destillieren.** Vorschlag, OK abwarten.
-- **Quellen verlinken, nicht kopieren.** Details bleiben im Log.
-- **Destillation ≠ Move.** Log bleibt. Wissens-Eintrag ist Aggregation.
-- **Projekt-spezifisches nicht ins Wissen.** Nur transferables.
+- **Nie ungefragt destillieren.**
+- **Quellen verlinken, nicht kopieren.**
+- **Destillation ist kein Move.** Log bleibt.
+- **Projekt-Spezifisches nicht ins Wissen.** Nur Transferables.
