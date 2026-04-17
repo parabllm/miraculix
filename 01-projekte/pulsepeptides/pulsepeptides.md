@@ -92,3 +92,6 @@ Stand 2026-04-17: COO-Rolle gestartet. Erste Bestellung ausgeloest (100 Kits Arg
 - [[patrick-pulse]] Developer/Backend
 - [[german-pulse]] Website/WordPress
 - [[lizzi-pulse]] Design/Labels
+
+- [ ] Morgen Telegram checken: Hat ZY auf KPV-Anfrage geantwortet? Dann Christian im Slack-Thread bescheid geben.
+- [ ] Thymosin-Kunde: Compensation-Nachricht an Christian in Slack schreiben

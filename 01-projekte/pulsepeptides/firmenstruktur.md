@@ -156,3 +156,59 @@ Pulse Peptides Limited (Zypern) — operative Bestellungen
 - Vollständige Preislisten Supplier (Call 14:15)
 - Verkaufspreis-Dokumentation
 - Alternativer Banking-Anbieter (Revolut-Ersatz)
+
+
+## Slack-Workspace Struktur
+
+### Operations (COO relevant)
+
+| Channel | Zweck | Wer |
+|---|---|---|
+| #general | Team-Kommunikation allgemein | Alle |
+| #inventory | Lagerbestand (alt) | Kai, Team |
+| #inventory- | Lagerbestand (neu, zu mergen mit #inventory) | Kai, Team |
+| #backorders | Nachbestellungen | Kai, COO |
+| #custom-order-requests | Manual/Custom Orders | Christian, Kai, COO |
+| #failed-shipments | Defekte und fehlgeschlagene Lieferungen | Christian, Kai |
+| #csupport-general | Customer Support allgemein | Christian |
+| #csupport-shipments | Support Versandfragen | Christian |
+| #financial | Finanzen allgemein | Kalani, COO |
+| #crypto-payments | Krypto-Zahlungen | Kalani, COO |
+| #forwarding | Zweck unklar, zu klären | - |
+| #shipping-costs-change | Versandkosten-Änderungen | Kai |
+| #affiliate-programm | Affiliate-Programm | Kalani |
+| #office-eppelheim | Kais Lager Appelheim | Kai |
+
+### Automatisierte Channels (n8n Flows)
+
+| Channel | Zweck |
+|---|---|
+| #jumingo | Metorik-Exporte via n8n automatisch |
+| #dhl | DHL-Daten via n8n automatisch |
+
+### Entwicklung/Tech
+
+| Channel | Zweck | Wer |
+|---|---|---|
+| #backend | Server und Backend | Patrick |
+| #webdev | Website WordPress | German |
+| #aidev | KI-Automatisierungen | Deniz, Kalani |
+| #adminhubphase1 | Admin Hub Entwicklung | Forster Labs |
+| #customer-supprt-hubdev | Support Hub Entwicklung | Forster Labs |
+| #qcanalytics | QC und Analytics | Kalani |
+| #workflow_testing | Deniz Testing-Channel | Deniz |
+
+### Sonstiges
+
+| Channel | Zweck | Wer |
+|---|---|---|
+| #virtual-assistant | Freelancer für Monkey Tasks | Rasmus Madsen |
+| #goggleads | Google Ads | Kalani |
+| #random | Smalltalk | Alle |
+
+### Offene Punkte Slack-Struktur
+
+- #inventory und #inventory- sollten gemergt werden (Kalani hat das erwähnt)
+- #forwarding Zweck unklar, mit Kalani klären
+- #shipping-costs-change Zweck unklar, mit Kai klären
+- Projektmanagement-Tool noch nicht definiert (steht in coo-aufgaben.md)
