@@ -30,3 +30,7 @@ Would you have some availability in the coming weeks?
 
 Best regards
 Deniz Özbek
+
+## Anfrage-Entwurf (humanisiert, 2026-04-17)
+
+Hi Rob, I'm Deniz, a working student in Global License Management at HAYS in Mannheim. My bachelor thesis looks at AI compliance in recruiting under the EU AI Act, specifically around automated decision-making and data protection. Christine pointed me in your direction. An hour on Teams, fully anonymous if you'd like. Any availability in the coming weeks? Best, Deniz

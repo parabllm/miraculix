@@ -30,3 +30,7 @@ Wärst du dabei?
 
 Viele Grüße
 Deniz Özbek
+
+## Anfrage-Entwurf (humanisiert, 2026-04-17)
+
+Hallo Lara, ich bin Deniz, Werkstudent im Global License Management bei HAYS in Mannheim. Ich schreibe meine Bachelorarbeit darüber, was der EU AI Act für den Recruiting-Alltag bei großen Personaldienstleistern bedeutet. Christine hat mir empfohlen, dich anzuschreiben. Ich würde gerne von dir hören wie das in der Praxis aussieht. Eine Stunde per Teams, keine Vorbereitung, auf Wunsch anonym. Wärst du dabei? Viele Grüße, Deniz

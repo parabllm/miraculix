@@ -43,3 +43,15 @@ Siehe [[mitarbeiteranfragen]] für Status der einzelnen Kandidaten.
 ## Offene Punkte nach Call
 
 _(nach Call eintragen)_
+
+
+## Anfrage-Entwürfe (zwischengespeichert 2026-04-17)
+
+Alle finalisierten Anschreiben in den jeweiligen Kontakt-Files gespeichert. Hier zur Übersicht:
+
+**Christine:** Direkte Anfrage, kein Intro nötig. Kurz und persönlich.
+**Anna, Florian G., Rini, Johannes, Leon, Arda, Lara, Felix:** DE, mit Christine-Referenz, eine Stunde Teams.
+**Francis, Rob:** EN, mit Christine-Referenz, eine Stunde Teams.
+**Florian Meyer:** LinkedIn, kein Christine-Referenz, Klammer vor Versand konkretisieren.
+
+Status: Entwürfe fertig. Warten auf E-Mail-Adressen, dann rausschicken.

@@ -30,3 +30,7 @@ Hättest du in den nächsten Wochen Zeit?
 
 Viele Grüße
 Deniz Özbek
+
+## Anfrage-Entwurf (humanisiert, 2026-04-17)
+
+Hallo Rini, ich bin Deniz, Werkstudent im Global License Management bei HAYS in Mannheim. Ich schreibe meine Bachelorarbeit dazu, wie HAYS KI im Recruiting einsetzt und wo der EU AI Act dabei reinspielt. Christine hat mir empfohlen, dich anzuschreiben. Gerade aus dem Innovations- und Digitalbereich interessiert mich die Sicht sehr. Eine Stunde per Teams, auf Wunsch anonym. Hast du in den nächsten Wochen Zeit? Viele Grüße, Deniz

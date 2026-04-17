@@ -34,3 +34,7 @@ Deniz Özbek
 ---
 
 **Vor Versand: LinkedIn-Profil prüfen und Klammer oben konkretisieren.**
+
+## Anfrage-Entwurf (humanisiert, 2026-04-17)
+
+Hallo Florian, ich bin Deniz, Student an der HdWM Mannheim. Ich schreibe meine Bachelorarbeit zu KI-Compliance im Recruiting unter dem EU AI Act. Dein Profil hat mich aufmerksam gemacht [hier konkret ergänzen]. Ich würde mich freuen, deine Perspektive in einem Gespräch von etwa einer Stunde per Teams einzuholen, auf Wunsch anonym. Hättest du Interesse? Viele Grüße, Deniz

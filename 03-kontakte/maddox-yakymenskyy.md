@@ -7,7 +7,7 @@ verbindung: ["beruflich", "privat", "studium"]
 rolle: entscheider
 staerke: eng
 projekte: ["[[bellavie]]"]
-email: ""
+email: "maddoxyakymenskyy@gmail.com"
 telefon: ""
 wie_kennengelernt: "Enger Uni-Kontakt an der HdWM, später Kunde über BellaVie"
 notizen: "Sohn der BellaVie-Gründer, Manager des Salons in Neunkirchen (Saarland). 2 Geschwister: Natalia, Andrej."
@@ -16,4 +16,4 @@ vertrauen: extrahiert
 quelle: notion_migration
 ---
 
-Kunde [[bellavie]] - Beauty-Salon Neunkirchen. Freund + Kunde zugleich (HdWM-Kontakt). Manager des Salons, gleichzeitig Entscheider für Website, Preisliste, Fresha-Setup.
+Kunde [[bellavie]]. Freund + Kommilitone HdWM. Manager des Salons, Entscheider für Website, Preisliste, Fresha-Setup.

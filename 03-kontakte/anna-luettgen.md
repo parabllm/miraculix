@@ -30,3 +30,7 @@ Hättest du in den nächsten Wochen einen Termin für mich?
 
 Viele Grüße
 Deniz Özbek
+
+## Anfrage-Entwurf (humanisiert, 2026-04-17)
+
+Hallo Anna, ich bin Deniz, Werkstudent im Global License Management bei HAYS in Mannheim. Ich schreibe gerade meine Bachelorarbeit darüber, wie Personaldienstleister wie HAYS mit dem EU AI Act im Recruiting umgehen. Christine hat mir empfohlen, dich anzuschreiben. Ich suche interne Leute für ein Gespräch von etwa einer Stunde per Teams, keine Vorbereitung nötig, auf Wunsch anonym. Hast du in den nächsten Wochen einen Slot? Viele Grüße, Deniz

@@ -77,3 +77,17 @@ Erster operativer Onboarding-Call als COO. Fokus: wie läuft der Bestellprozess 
 ## Offene Punkte nach Call
 
 _(nach Call eintragen)_
+
+## Vorab-Infos (vor Call, kurzes Gespräch)
+
+- Call verschoben auf 14:15 (Power Outage Bali 17:00-20:00 Uhr)
+- Metorik-Zugang: läuft über WordPress
+- Pulse Organization E-Mail: pulseorganization@protonmail.com (Passwort in 1Password)
+- Inventar-Einsicht: nach Anmeldung in Metorik sichtbar
+- Preislisten und Details: werden im Call 14:15 durchgegangen
+
+## Supplier-Infos (vorab)
+
+- **Lab Peptides:** produziert schnell
+- **ZY Peptides:** produziert langsam
+- **Sofort-Aktion:** Tireptide müssen bestellt werden (Kalani hat das erwähnt)

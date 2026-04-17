@@ -2,22 +2,42 @@
 typ: wissen
 projekt: "[[pulsepeptides]]"
 thema: lieferanten
-status: leer
+status: in_arbeit
 erstellt: 2026-04-17
-vertrauen: angenommen
-quelle: chat_session
+zuletzt_aktualisiert: 2026-04-17
+vertrauen: extrahiert
+quelle: voice_dump
 ---
 
 # Lieferanten
 
-Platzhalter. Aktuell bekannt nur die aus PulseBot-Daten (siehe Google Sheets). Vollständige Liste kommt von Kalani.
+## Übersicht
 
-## Bekannte Lieferanten (aus PulseBot)
+| Supplier | Code | Produktionsgeschwindigkeit | Bestellkanal |
+|---|---|---|---|
+| Lab Peptides | LP | schnell | Telegram |
+| ZY Peptides | ZY | langsam | Telegram |
 
-## Konditionen
+## Lab Peptides
 
-## Ansprechpartner
+- Produktionsgeschwindigkeit: schnell
+- Bestellkanal: Telegram-Gruppe
+- Preisliste: Standort noch zu erfragen (Call 14:15)
 
-## Lead Times
+## ZY Peptides
 
-## Zahlungskanäle
+- Produktionsgeschwindigkeit: langsam
+- Bestellkanal: Telegram-Gruppe
+- Preisliste: Standort noch zu erfragen (Call 14:15)
+
+## Offene Bestellungen
+
+- Tireptide: müssen bestellt werden (Kalani, 2026-04-17)
+
+## Offen (Call 14:15)
+
+- Wo liegen die Preislisten?
+- Wann bestelle ich bei Lab Peptides vs. ZY? (Auswahlkriterien)
+- Konkrete Bestellnachricht / Template
+- Mindestmengen, Bulk-Schwellen
+- Tipps und Quirks der Supplier

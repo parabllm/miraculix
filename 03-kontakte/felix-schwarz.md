@@ -30,3 +30,7 @@ Hättest du in den nächsten Wochen einen Termin frei?
 
 Viele Grüße
 Deniz Özbek
+
+## Anfrage-Entwurf (humanisiert, 2026-04-17)
+
+Hallo Felix, ich bin Deniz, Werkstudent im Global License Management bei HAYS in Mannheim. Ich schreibe meine Bachelorarbeit dazu, wie sich der EU AI Act auf Recruiting-Prozesse und operative Governance bei Personaldienstleistern auswirkt. Christine hat mir empfohlen, mich bei dir zu melden. Deine Perspektive aus dem Operations-Bereich wäre sehr wertvoll. Eine Stunde per Teams, auf Wunsch anonym. Hast du in den nächsten Wochen einen Termin? Viele Grüße, Deniz

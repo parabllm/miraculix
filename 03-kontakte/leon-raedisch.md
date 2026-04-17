@@ -30,3 +30,7 @@ Hast du in den nächsten Wochen einen Slot frei?
 
 Viele Grüße
 Deniz Özbek
+
+## Anfrage-Entwurf (humanisiert, 2026-04-17)
+
+Hallo Leon, ich bin Deniz, Werkstudent im Global License Management bei HAYS in Mannheim. Ich schreibe meine Bachelorarbeit darüber, wie KI den Recruiting- und Sales-Alltag verändert und was der EU AI Act für HAYS bedeutet. Christine hat mir deinen Kontakt weitergegeben. Mich interessiert konkret wie das auf Kundenseite ankommt. Eine Stunde per Teams, keine Vorbereitung nötig, auf Wunsch anonym. Hast du in den nächsten Wochen einen Slot? Viele Grüße, Deniz

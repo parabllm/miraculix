@@ -46,6 +46,7 @@ Nach OK: alles gebündelt.
 - Vault-Files erstellen/updaten
 - Calendar Events (falls MCP)
 - Inbox-Items auf `verarbeitet` setzen
+- **Dokumente (PDF, PPTX, XLSX etc.):** physisch nach `_anhaenge/{bereich}/` verschieben, danach aus `unverarbeitet/` löscht sich die Quelle damit selbst
 
 ## Regeln
 

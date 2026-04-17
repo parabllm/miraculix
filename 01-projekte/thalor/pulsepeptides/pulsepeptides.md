@@ -11,7 +11,7 @@ rolle_deniz: "COO"
 transition_start: 2026-04-17
 transition_ende_geplant: 2026-05-08
 kontakte: ["[[kalani-ginepri]]", "[[christian-pulse]]", "[[kai-pulse]]", "[[patrick-pulse]]", "[[german-pulse]]", "[[lizzi-pulse]]"]
-tech_stack: ["wordpress", "woocommerce", "elementor", "n8n", "slack", "google-sheets", "gmail", "browserless", "openai", "freshdesk", "motific", "vercel", "telegram"]
+tech_stack: ["wordpress", "woocommerce", "elementor", "n8n", "slack", "google-sheets", "gmail", "browserless", "openai", "freshdesk", "Metorik", "vercel", "telegram"]
 notion_url: ""
 erstellt: 2026-04-16
 notizen: "Peptide-E-Commerce. Seit 2026-04-17 intern offiziell COO. Transitionsphase ca. 3 Wochen. Vergütung Phase 1: Reisen, Essen, Tools. Firmenstruktur siehe [[firmenstruktur]]."
@@ -80,12 +80,12 @@ Intern offiziell COO ab 2026-04-17. Kein externer Titel nach aussen. Transitions
 
 ## Aktueller Stand
 
-Stand 2026-04-17: COO-Rolle gestartet. Onboarding-Call gestern (siehe Log 2026-04-16). Call heute 13:00 Orderprozess und Motific. Admin-Hub-Entscheidung ausstehend.
+Stand 2026-04-17: COO-Rolle gestartet. Onboarding-Call gestern (siehe Log 2026-04-16). Call heute 13:00 Orderprozess und Metorik. Admin-Hub-Entscheidung ausstehend.
 
 ## Offene Aufgaben
 
 - Orderprozess-Call heute 13:00 mit Kalani
-- Motific-Zugang einrichten (kommt via 1Password)
+- Metorik-Zugang einrichten (kommt via 1Password)
 - Alternativen Banking-Anbieter für Kartenzahlungen recherchieren (Revolut-Ersatz)
 - Knowledge Base iterativ befüllen
 - Übergabeplan mit Kalani definieren

@@ -31,11 +31,11 @@ Drei separate Entitäten mit unterschiedlichen Funktionen:
 
 - **Funktion:** Annahme von Kartenzahlungen der Kunden
 - **Konto:** Revolut Business
-- **Registrierung:** offen
 - **Inhaber:** Kalani
 - **Accountant:** Sultan
-- **Compliance-Workaround:** Revolut Business akzeptiert keine Zahlungen für Peptid-Shops. Zahlungen laufen deshalb über **pulseprana.com** (Consulting Service), also werden als Consulting-Zahlungen deklariert.
-- **Pain-Point:** Revolut findet das irgendwann raus. Alternativer Banking-Anbieter für Kartenzahlungen muss gefunden werden bevor das passiert.
+- **E-Mail:** pulseorganization@protonmail.com (Passwort in 1Password)
+- **Compliance-Workaround:** Revolut Business akzeptiert keine Zahlungen für Peptid-Shops. Zahlungen laufen über pulseprana.com (Consulting Service).
+- **Pain-Point:** Revolut findet das irgendwann raus. Alternativer Banking-Anbieter muss gefunden werden.
 
 ### 3. Pulse Enterprise Limited — Hongkong / Air Wallet
 
@@ -44,7 +44,7 @@ Drei separate Entitäten mit unterschiedlichen Funktionen:
 - **Registrierung:** Hongkong
 - **Inhaber:** Kalani
 - **Steuern:** 0% (Hongkong-Regelung)
-- **Geldfluss:** Geld von Revolut Business wird hierher transferiert und dort gelagert
+- **Geldfluss:** Geld von Revolut Business wird hierher transferiert
 
 ---
 
@@ -71,7 +71,7 @@ Pulse Peptides Limited (Zypern) — operative Bestellungen
 | Thema | Risiko | Status |
 |---|---|---|
 | Revolut Business | Entdeckt Peptid-Zahlungen, sperrt Konto | Aktiv, Lösung offen |
-| Krypto-Limit | 12.000 EUR legal pro Person/Jahr, skaliert nicht | Aktiv, Lösung offen |
+| Krypto-Limit | 12.000 EUR legal pro Person/Jahr | Aktiv, Lösung offen |
 | Lager Deutschland | Versand rechtlich nicht zugelassen | Aktiv, Verlagerung Tschechien Mai 2026 |
 | Domain GoDaddy | Compliance, Transfer steht aus | Aktiv |
 | UBO Zypern | Details zu klären | Offen |
@@ -95,17 +95,19 @@ Pulse Peptides Limited (Zypern) — operative Bestellungen
 
 ## Inventory Management
 
-- **Tool:** Motific
-- **Zugang:** kommt über 1Password Vault von Kalani
-- **Einführung:** Call 2026-04-17
+- **Tool:** Metorik
+- **Zugang:** über WordPress (Deniz angemeldet 2026-04-17)
+- **E-Mail:** pulseorganization@protonmail.com (Passwort in 1Password)
+- **Inventar:** nach Anmeldung sichtbar, Details im Call 14:15
 
 ## Order Management
 
 - **Kanal:** Telegram (zwei Gruppen)
-- **Supplier 1:** Lab Peptides
-- **Supplier 2:** ZY Peptides
+- **Supplier 1:** Lab Peptides (schnelle Produktion)
+- **Supplier 2:** ZY Peptides (langsame Produktion)
 - **Zahlung:** Krypto
-- **Krypto-Limit:** 12.000 EUR legal pro Person/Jahr. Aktuelles Restlimit: offen (Call 2026-04-17)
+- **Krypto-Limit:** 12.000 EUR legal pro Person/Jahr. Aktuelles Restlimit: offen
+- **Offene Bestellung:** Tireptide müssen bestellt werden
 
 ## Lieferkette
 
@@ -128,7 +130,7 @@ Pulse Peptides Limited (Zypern) — operative Bestellungen
 |---|---|---|
 | Telegram | Supplier-Kommunikation | vorhanden |
 | Google Sheets | Batch-SSOT (17 Spalten) | vorhanden |
-| Motific | Inventory Management | kommt via 1Password |
+| Metorik | Inventory Management | aktiv (WordPress, 2026-04-17) |
 | Freshdesk | Support-Tickets | kommt via 1Password |
 | Slack | Team-Kommunikation | vorhanden |
 | 1Password | Passwort-Vault Kalani | Zugriff kommt |
@@ -139,7 +141,7 @@ Pulse Peptides Limited (Zypern) — operative Bestellungen
 | Person | Rolle | Ort | Status |
 |---|---|---|---|
 | [[kalani-ginepri]] | CEO | variabel | Gründer |
-| Deniz | COO (informell) | Mannheim | Transition ab 2026-04-17 |
+| Deniz | COO | Mannheim | Transition ab 2026-04-17 |
 | [[christian-pulse]] | Support | Bali | Teilzeit |
 | [[kai-pulse]] | Lager | Appelheim | Teilzeit |
 | [[patrick-pulse]] | Developer/Backend | variabel | Freelancer |
@@ -148,9 +150,9 @@ Pulse Peptides Limited (Zypern) — operative Bestellungen
 
 ## Offen
 
-- Rechtsform-Details Pulse Peptides Limited Zypern (UBO genau, Kalanis genaue Position)
-- Bankverbindung der operativen Firma (Pulse Peptides Limited)
-- Konkrete Krypto-Plattform und Lösung >12k
-- Vollständige Preislisten der Supplier
-- Verkaufspreis-Dokumentation (Bulk-Preise, Strategien)
-- Alternativer Banking-Anbieter für Kartenzahlungen (Revolut-Ersatz)
+- Rechtsform-Details Pulse Peptides Limited Zypern (UBO genau)
+- Bankverbindung operative Firma
+- Krypto-Plattform und Lösung >12k
+- Vollständige Preislisten Supplier (Call 14:15)
+- Verkaufspreis-Dokumentation
+- Alternativer Banking-Anbieter (Revolut-Ersatz)

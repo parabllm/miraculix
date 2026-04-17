@@ -30,3 +30,7 @@ Would you have some time in the coming weeks?
 
 Best regards
 Deniz Özbek
+
+## Anfrage-Entwurf (humanisiert, 2026-04-17)
+
+Hi Francis, I'm Deniz, a working student in Global License Management at HAYS in Mannheim. I'm writing my bachelor thesis on how recruitment firms like HAYS can navigate the EU AI Act strategically. Christine suggested I reach out to you. I'd love to hear your perspective in about an hour on Teams, fully anonymous if you prefer. Would you have some time in the coming weeks? Best, Deniz

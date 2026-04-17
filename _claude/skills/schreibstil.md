@@ -119,3 +119,16 @@ Bevor ein File geschrieben wird:
 > Was an dem Text würde ich als AI-generiert erkennen?
 
 Wenn Antwort länger als zwei Stichpunkte: nochmal überarbeiten.
+
+## Regel 0: Kein Gedankenstrich — überall, immer
+
+Diese Regel gilt NICHT nur für Vault-Content sondern für ALLE Outputs von Miraculix: Kalender-Event-Titel, Chat-Antworten, Dateinamen, E-Mail-Entwürfe, Templates, alles.
+
+Em-Dash (—) und En-Dash (–) sind verboten. Kein Trennzeichen als Stilmittel.
+
+Alternativen:
+- Trennung durch Komma: "Mitarbeiterführung, Stäudner" statt "Mitarbeiterführung — Stäudner"
+- Trennung durch Punkt oder neue Zeile
+- Einfach weglassen wenn nicht nötig
+
+Normale Bindestriche (-) in zusammengesetzten Wörtern sind weiterhin OK.
