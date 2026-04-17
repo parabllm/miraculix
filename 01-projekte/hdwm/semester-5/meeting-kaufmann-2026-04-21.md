@@ -3,9 +3,9 @@ typ: meeting
 name: "Klärungsgespräch KI-Vorwurf — Prof. Dr. Kaufmann"
 ueber_projekt: "[[international-sales]]"
 bereich: studium
-datum: 2026-04-22
+datum: 2026-04-21
 uhrzeit: "09:00"
-ort: HdWM Mannheim (Raum offen)
+ort: HdWM Mannheim — Hauptgebäude, Raum 308
 ist_transkript: false
 teilnehmer: ["[[hans-ruediger-kaufmann]]", "Deniz-Leon Özbek"]
 offene_punkte: []
@@ -17,14 +17,18 @@ vertrauen: extrahiert
 
 # Klärungsgespräch KI-Vorwurf — Prof. Dr. Kaufmann
 
-**Datum:** Dienstag, 22.04.2026, 09:00 Uhr
-**Ort:** HdWM Mannheim
+**Datum:** Dienstag, 21.04.2026, 09:00 Uhr
+**Ort:** HdWM Mannheim — Hauptgebäude, Raum 308
 **Anlass:** Prof. Kaufmann hat per Email auf Turnitin-Ergebnis hingewiesen und Klärungsgespräch angefordert.
 
 **Unterlagen:** [[email-kaufmann-ki-vorwurf]] | [[international-sales-turnitin-bericht]] | [[international-sales-seminararbeit]]
 
 > [!warning] Wichtig: Turnitin-Bericht
 > Den offiziellen Turnitin-Bericht habe ich **nicht** — den hat der Prof. Der Wert (63%) ist mir nur inoffiziell bekannt (über Maddox). Im Gespräch reagiere ich auf den Wert als wäre er neu für mich.
+
+> [!important] Anforderung Prof. Kaufmann (Email 17.04. 18:47)
+> "Please, include these points and bring it along to our meeting."
+> → Ich muss eine **schriftliche Aufstellung meiner KI-Nutzung** ausgedruckt oder als Dokument mitbringen.
 
 ---
 

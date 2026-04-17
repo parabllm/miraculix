@@ -78,11 +78,30 @@ Internet: www.hdwm.de
 
 ---
 
+## Email 3 — Prof. Dr. Kaufmann an Deniz (Antwort)
+
+**Von:** Prof. Dr. Hans Rüdiger Kaufmann
+**An:** Deniz-Leon Özbek
+**Datum:** Fr 2026-04-17, 18:47
+
+> Dear Deniz-Leon,
+>
+> thank you for your prompt answer. According to that, the use of AI goes beyond the one you have stated in your authorship declaration. Please, include these points and bring it along to our meeting on Tuesday, 21.04. 9am in my room 308 in the main HdWM building.
+>
+> Have a good weekend
+>
+> HRK
+
+> [!important] Anforderung des Profs
+> Er bestätigt den Widerspruch explizit ("goes beyond what you stated") und fordert eine **schriftliche Aufstellung der KI-Nutzung** zum Mitbringen am 21.04.
+
+---
+
 ## Nächste Schritte
 
-- [ ] Klärungsgespräch Termin (Di/Mi/Do nächste Woche) — warten auf Antwort Prof. Kaufmann
-- [ ] Vor dem Gespräch: klare, konsistente Darstellung erarbeiten
-- [ ] Turnitin-Bericht genau anschauen: welche konkreten Passagen sind markiert?
+- [x] Termin vereinbart: Di 21.04.2026, 09:00 Uhr, Raum 308, HdWM Hauptgebäude
+- [ ] Schriftliche Aufstellung der KI-Nutzung vorbereiten (für Mitbringen am 21.04.)
+- [ ] Vor dem Gespräch: konsistente Darstellung erarbeiten → [[meeting-kaufmann-2026-04-21]]
 
 **Kontext-Files:**
 - [[international-sales-seminararbeit]] — vollständige Arbeit inkl. Eidesstattlicher Erklärung
