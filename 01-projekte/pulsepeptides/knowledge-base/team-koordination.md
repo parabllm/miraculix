@@ -34,3 +34,17 @@ Platzhalter.
 - Slack: Team-Kommunikation
 - WhatsApp: Kalani und Deniz direkt
 - Discord: Ad-hoc Calls
+
+## COO E-Mail Qualitätskontrolle
+
+- COO checkt regelmäßig ausgehende Kunden-E-Mails
+- Christians Englisch ist manchmal gebrochen, Kalani stört das
+- Bei Qualitätsproblemen: direkt mit Christian in Slack klären
+
+## COO Kommunikationsstil Englisch
+
+Kalani's Erwartung: amerikanisches Englisch, professionell aber nicht formell, leicht autoritativ.
+
+Stil-Referenz: Kalani's Beispiel-Nachricht vom 2026-04-17 (siehe support-eskalation.md).
+
+Miraculix hilft Deniz bei englischen Entwürfen für Slack und E-Mail auf Anfrage.
