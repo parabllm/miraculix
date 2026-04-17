@@ -35,12 +35,14 @@ _migration/           Migrations-Artefakte (Progress, Report)
 
 | Über-Projekt | Pfad | Bereich | Status |
 |---|---|---|---|
-| Thalor | `01-projekte/thalor/` | client_work | aktiv - 4 Sub: herosoftware, bellavie, pulsepeptides, resolvia |
+| Thalor | `01-projekte/thalor/` | client_work | aktiv - Sub: herosoftware, bellavie, resolvia |
+| PulsePeptides | `01-projekte/pulsepeptides/` | operativ | aktiv - Deniz ist COO, eigenes Uber-Projekt |
 | Coralate | `01-projekte/coralate/` | produkt | aktiv - Sub: food-scanner |
 | HAYS | `01-projekte/hays/` | intern | aktiv - Werkstudent CEMEA License Management |
+| HdWM | `01-projekte/hdwm/` | studium | aktiv - Sub: semester-6, bachelor-thesis |
 | Bachelor-Thesis | `01-projekte/bachelor-thesis/` | studium | aktiv - Abgabe 2026-06-15 KRITISCH |
 | Miraculix | `01-projekte/miraculix/` | intern | aktiv - dieser Vault + KI-Orga |
-| Persönlich | `01-projekte/persoenlich/` | persoenlich | aktiv |
+| Persoenlich | `01-projekte/persoenlich/` | persoenlich | aktiv |
 | Terminbuchung-App | `01-projekte/terminbuchung-app/` | produkt | pausiert bis nach Thesis |
 
 Tabelle wird manuell gepflegt wenn neue Über-Projekte entstehen. Deniz sagt dann explizit "neues Über-Projekt: X".

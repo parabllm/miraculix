@@ -16,17 +16,9 @@ vertrauen: extrahiert
 
 ## Kontext
 
-Thalor ist Deniz' eigene AI-Automation-Agency-Brand. Kein externes Unternehmen, sondern Freiberufler-Identität (Kleinunternehmer §19 UStG). Unter diesem Umbrella laufen alle Client-Aufträge plus Infrastruktur (Website, Hetzner, Tooling).
+Thalor ist Deniz' eigene AI-Automation-Agency-Brand. Kein externes Unternehmen, sondern Freiberufler-Identität (Kleinunternehmer §19 UStG). Unter diesem Umbrella laufen alle Client-Auftraege plus Infrastruktur (Website, Hetzner, Tooling).
 
-**Core-Stack** (projektübergreifend): n8n (self-hosted auf Hetzner + n8n Cloud), Attio (CRM/SSOT), Clay (Enrichment, nur Outbound-Ready), La Growth Machine (Outreach), Stripe/Mantle (Billing), Supabase (Backend), Framer (Client-Landingpages), Node.js (Bulk-Scripts).
-
-**Architektur-Prinzipien** (gelten für alle Client-Projekte):
-- Attio = Single Source of Truth
-- Clay nur für "Outbound Ready" Leads (Token-Budget)
-- LGM-Events schreiben zurück nach Attio als Notes/Tasks
-- Backfill via CSV-Import, nicht Workflow
-- Bulk-Ops via lokale Node-Scripts wenn n8n-Timeout limitiert
-- SEO/GEO: Direkter Outreach, keine Link-Marktplätze
+**Core-Stack** (projektuebergreifend): n8n (self-hosted auf Hetzner plus n8n Cloud), Attio (CRM/SSOT), Clay (Enrichment, nur Outbound-Ready), La Growth Machine (Outreach), Stripe/Mantle (Billing), Supabase (Backend), Framer (Client-Landingpages), Node.js (Bulk-Scripts).
 
 ## Aktueller Stand
 
@@ -34,14 +26,14 @@ Stand 2026-04-16:
 - **Website Repo:** `paralm/thalor-website`, Hosting Hetzner VPS, Domain gesichert
 - **Rechtsform:** Freiberufler, Kleinunternehmerregelung §19 UStG
 - **ELSTER-Anmeldung:** pending
-- Aktive Client-Projekte: 4 (siehe unten)
 
 ## Sub-Projekte
 
-- [[herosoftware]] - Robin Kronshagen, CRM-Automation (größter aktiver Client, bezahlt)
-- [[bellavie]] - Maddox Yakymenskyy, Website + Fresha + SEO (in Abrechnungs-/Abschluss-Phase)
-- [[pulsepeptides]] - Kalani Ginepri, PulseBot n8n + Janoshik OCR (unbezahltes Referenzprojekt)
-- [[resolvia]] - David Schreiner, Stripe→Attio Sync (500€, wartet auf Domain-in-Stripe-Metadata von David)
+- [[herosoftware]] - Robin Kronshagen, CRM-Automation (groesster aktiver Client, bezahlt)
+- [[bellavie]] - Maddox Yakymenskyy, Website plus Fresha plus SEO
+- [[resolvia]] - David Schreiner, Stripe zu Attio Sync
+
+Hinweis: PulsePeptides ist kein Thalor-Client mehr. Deniz ist dort COO. Siehe [[pulsepeptides]] als eigenes Uber-Projekt.
 
 ## Offene Aufgaben
 
@@ -51,4 +43,4 @@ Stand 2026-04-16:
 
 ## Kontakte
 
-Alle Client-Entscheider verlinkt auf Sub-Projekt-Ebene. Für Thalor selbst keine externen Kontakte.
+Alle Client-Entscheider verlinkt auf Sub-Projekt-Ebene.
