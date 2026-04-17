@@ -78,7 +78,7 @@ Stand 2026-04-17: COO-Rolle gestartet. Erste Bestellung ausgeloest (100 Kits Arg
 
 ## Offene Aufgaben
 
-- KPV Capsules bei ZY Peptides anfragen (Telegram) und Christian morgen zurueckmelden
+- [ ] KPV Capsules: ZY Peptides angefragt 2026-04-17, Antwort in Telegram checken und Christian zurückmelden #hoch
 - Metorik-Zugang einrichten
 - Alternativen Banking-Anbieter fuer Kartenzahlungen recherchieren
 - Knowledge Base iterativ befuellen
