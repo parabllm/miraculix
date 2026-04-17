@@ -183,3 +183,20 @@ Quelle: Metorik CSV-Export, Stand 2026-04-17. Alle Preise in EUR.
 - NIEMALS TFA-Salz (Trifluoracetat) - giftig
 - NICHT Standard-BPC-157 Acetat
 - Bei jeder Bestellung: explizit "Arg-BPC-157" und TFA-frei bestaetigen lassen
+
+
+## Custom-Only Produkte (nicht im Shop)
+
+Produkte die nur über Manual Orders laufen, nicht im WooCommerce-Shop und nicht im Metorik-Export:
+
+- Tirzepatide
+- Retatrutide
+- KPV (und ggf. weitere)
+
+**Prozess:**
+1. Christian meldet Kundenwunsch in #custom-order-requests
+2. COO fragt beim Supplier an (ZY bevorzugt) ob Produkt verfügbar
+3. Bei Verfügbarkeit: Preis klären, Kalani informieren, Order auslösen
+4. Antwort an Christian: "One of our suppliers has this, we requested it and I will get back to you on this matter tomorrow."
+
+**Wichtig:** Diese Produkte gehen nicht durch den normalen Shop-Flow. Kai wird in #custom-order-requests direkt getaggt für den Versand.
