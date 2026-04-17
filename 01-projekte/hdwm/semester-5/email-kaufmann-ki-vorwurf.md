@@ -1,0 +1,89 @@
+---
+typ: log
+name: "Email-Austausch: Prof. Kaufmann — KI-Vorwurf Seminararbeit"
+art: notiz
+ueber_projekt: "[[international-sales]]"
+bereich: studium
+erstellt: 2026-04-17
+notizen: "Sonderfall: Email-Korrespondenz mit Prof. Dr. Kaufmann zu 63% Turnitin KI-Erkennung. Klärungsgespräch nächste Woche ausstehend. Widerspruch zwischen Eidesstattlicher Erklärung und Email-Aussage muss geklärt werden."
+quelle: extrahiert_aus_screenshot
+vertrauen: extrahiert
+---
+
+# Email-Austausch: Prof. Kaufmann — KI-Vorwurf
+
+**Quelle:** Screenshot `00-eingang/unverarbeitet/Screenshot 2026-04-17 144623.png`
+**Datum:** Freitag, 17.04.2026
+**Betreff:** (nicht sichtbar) — markiert als **High Importance**
+
+---
+
+## Email 1 — Prof. Dr. Kaufmann an Deniz
+
+**Von:** Prof. Dr. Hans Rüdiger Kaufmann
+**An:** Deniz-Leon Özbek
+**Datum:** Fr 2026-04-17, 14:43
+
+> Dear Deniz-Leon,
+>
+> I am currently reading your assignment. The turnitin report of your assignment shows a 62% AI production. This is high. Please, explain to me how you have used AI. I suggest to meet for this next week in the university. Please, suggest a date convenient for you.
+>
+> Have a good weekend
+>
+> HRK
+
+**Absender-Signatur:**
+Prof. Dr. Hans Rüdiger Kaufmann
+Chair of M.A. Clinical Progress in Industrial Ecology
+Editor-in-Chief *Climate Change in Management*
+Vice-Président EuroMed Research Business Institute
+Sr. Vice-Président AMA Global Marketing UG
+Hochschule der Wirtschaft für Management
+Oskar-Meixner-Straße 4-6, 68163 Mannheim
+Tel: +49 (0)621 490 89023
+E-Mail: hans-ruediger.kaufmann@hdwm.org
+Internet: www.hdwm.de
+
+---
+
+## Email 2 — Deniz an Prof. Dr. Kaufmann
+
+**Von:** Deniz-Leon Özbek
+**An:** Prof. Dr. Hans Rüdiger Kaufmann
+**Datum:** Fr 2026-04-17, 14:43 (gleiche Stunde)
+
+> Dear Prof. Dr. Kaufmann,
+>
+> I used Claude for research support and NotebookLM for summarizing sources. Grammar corrections and some ideas were AI assisted, but integrated into my own writing.
+>
+> Tuesday, Wednesday and Thursday would je great.
+>
+> Best regards,
+> Deniz
+
+> [!warning] Tippfehler in gesendeter Email
+> "would je great" — sollte "would be great" heißen. Nicht korrigierbar da bereits gesendet.
+
+---
+
+## Kritische Analyse: Widerspruch
+
+| | Eidesstattliche Erklärung (18.02.2026) | Email an Kaufmann (17.04.2026) |
+|---|---|---|
+| KI-Tool | Google Gemini | Claude + NotebookLM |
+| Zweck | Nur Grammatik/Stil | Research support + Quellen-Zusammenfassung + Ideen |
+| Inhaltliche KI-Beteiligung | "No content-related additions" | "some ideas were AI assisted" |
+
+**Das ist ein direkter Widerspruch.** Beide Aussagen stammen von dir und liegen dem Prof. vor (die Erklärung in der Arbeit, die Email im Postfach).
+
+---
+
+## Nächste Schritte
+
+- [ ] Klärungsgespräch Termin (Di/Mi/Do nächste Woche) — warten auf Antwort Prof. Kaufmann
+- [ ] Vor dem Gespräch: klare, konsistente Darstellung erarbeiten
+- [ ] Turnitin-Bericht genau anschauen: welche konkreten Passagen sind markiert?
+
+**Kontext-Files:**
+- [[international-sales-seminararbeit]] — vollständige Arbeit inkl. Eidesstattlicher Erklärung
+- [[international-sales-turnitin-bericht]] — Turnitin-Bericht Details

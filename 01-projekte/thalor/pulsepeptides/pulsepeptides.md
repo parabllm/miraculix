@@ -110,3 +110,7 @@ Stand 2026-04-17: COO-Rolle gestartet. Onboarding-Call gestern (siehe Log 2026-0
 ## COO-Agenda
 
 Strukturelle Aufgaben und interne Baustellen: siehe [[coo-aufgaben]].
+
+## Offene Aufgaben
+
+- [ ] KPV Capsules bei ZY Peptides anfragen (Telegram) und Christian morgen zurueckmelden

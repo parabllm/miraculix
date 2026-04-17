@@ -21,6 +21,7 @@ Bachelor Business Management, HdWM Mannheim.
 
 ## Semester-Übersicht
 
+- [[semester-5]] — WiSe 2025/26, abgeschlossen
 - [[semester-6]] — SoSe 2026, letztes Semester
 
 ## Abschluss
