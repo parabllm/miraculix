@@ -190,11 +190,22 @@ Pfad: `04-tagebuch/{jahr}/{monat}/{datum}.md`
 ---
 typ: tagebuch
 datum: 2026-04-16
-kapazitaet: 7                  # 1-10
+kapazitaet_energie: 7          # 1-10, kognitive Fitness heute
+kapazitaet_zeit: 5             # 1-10, wie viel Luft fuer neue Themen
 kapazitaets_notiz: ""
 fokus_projekte: []
 ---
 ```
+
+**Definition:**
+- `kapazitaet_energie` - wie fit bist du kognitiv heute? (1 erschoepft, 10 peak)
+- `kapazitaet_zeit` - wie viel Luft fuer neue Themen und Vorschlaege? (1 Kalender brechend voll, 10 leer)
+
+**Miraculix-Verhalten abgeleitet:**
+- Energie hoch + Zeit niedrig: keine neuen Themen vorschlagen, bei laufenden voll unterstuetzen
+- Energie niedrig + Zeit hoch: nur kleine Tasks vorschlagen, keine Deep-Work-Sessions
+- Beides hoch: Deep-Work-Sessions anbieten
+- Beides niedrig: Pause, maximal Admin
 
 ---
 
@@ -226,4 +237,4 @@ roh: true
 | `bereich` | client_work, produkt, intern, studium, persoenlich, gesundheit, familie |
 | `vertrauen` | extrahiert, abgeleitet, angenommen, bestaetigt |
 | `kapazitaets_last` / `benoetigte_kapazitaet` | niedrig, mittel, hoch |
-| `kapazitaet` (Daily) | integer 1-10 |
+| `kapazitaet_energie` / `kapazitaet_zeit` (Daily) | integer 1-10 |

@@ -66,3 +66,8 @@ Stand 2026-04-08: Interview-Kandidaten empfohlen von Christine (17.03.2026), Fre
 - [[christoph-sandbrink]] - Betreuer
 - [[christine-kampmann]] - Enablerin, selbst Interview-Kandidatin (Strategie-Cluster)
 - [[anna-luettgen]], [[florian-goennwein]], [[francis-davis]], [[rob-norris]], [[johannes-leuschner]], [[rini-kodzadziku]], [[florian-meyer]], [[arda-sener]], [[lara-luennemann]], [[leon-raedisch]], [[felix-schwarz]] - Interview-Kandidaten
+
+
+## Interview-Tracking
+
+Status aller Anfragen und Templates: siehe [[mitarbeiteranfragen]].

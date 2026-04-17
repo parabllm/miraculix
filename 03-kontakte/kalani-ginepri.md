@@ -2,18 +2,18 @@
 typ: kontakt
 name: "Kalani Ginepri"
 aliase: ["Kalani", "Kalani G"]
-gruppen: ["freelance"]
+gruppen: ["freelance", "pulsepeptides"]
 verbindung: ["beruflich"]
 rolle: entscheider
-staerke: lose
+staerke: eng
 projekte: ["[[pulsepeptides]]"]
 email: ""
 telefon: ""
-wie_kennengelernt: "Auftraggeber PulsePeptides - Freelance Client"
-notizen: "Auftraggeber Peptide-E-Commerce. Stack auf seiner Seite: Slack + n8n Cloud + Google Sheets + Gmail + Janoshik (Labor). Batch-Management über PulseBot in Slack. Bislang unbezahltes Referenzprojekt."
+wie_kennengelernt: "Auftraggeber PulsePeptides (Thalor). Seit 2026-04-17 CEO in COO-Onboarding mit Deniz."
+notizen: "CEO und Gründer Pulse Peptides. Nicht steuerpflichtig angemeldet. Inhaber Pulse Organization Limited und Pulse Enterprise Limited. 100% Shareholder Pulse Peptides Limited Zypern. Accountant Sultan für Pulse Organization Limited. Kommuniziert via WhatsApp mit Deniz, Slack im Team, Discord für Calls."
 erstellt: 2026-04-16
-vertrauen: extrahiert
-quelle: notion_migration
+vertrauen: bestaetigt
+quelle: voice_dump
 ---
 
-Entscheider [[pulsepeptides]]. Kommunikation via Slack und WhatsApp.
+CEO [[pulsepeptides]]. Gründer. Einarbeitung Deniz als COO ab 2026-04-17, täglich Rücksprache in Transitionsphase (~3 Wochen).

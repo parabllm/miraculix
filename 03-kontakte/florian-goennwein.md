@@ -10,8 +10,23 @@ projekte: ["[[bachelor-thesis]]"]
 email: ""
 telefon: ""
 wie_kennengelernt: "Empfohlen von Christine Kampmann (17.03.2026) für Bachelor-Thesis Interview"
-notizen: "Thesis-Interview-Kandidat. Cluster: Compliance. Erkenntnisinteresse: EU AI Act Readiness, regulatorische Risikobewertung, DSGVO-Schnittstelle."
+notizen: "Thesis-Interview-Kandidat. Cluster: Legal/Compliance. Rolle bei HAYS: Legal/Compliance. Erkenntnisinteresse: EU AI Act Readiness, regulatorische Risikobewertung, DSGVO-Schnittstelle. Interview-Status: offen."
 erstellt: 2026-04-16
 vertrauen: extrahiert
 quelle: notion_migration
 ---
+
+Interview-Kandidat [[bachelor-thesis]]. Legal/Compliance. Compliance-Cluster.
+
+## Anfrage-Template
+
+Hallo Florian,
+
+ich bin Deniz Özbek, Werkstudent im Global License Management bei HAYS in Mannheim. Ich schreibe meine Bachelorarbeit darüber, wie sich der EU AI Act konkret auf Recruiting-Prozesse bei Personaldienstleistern auswirkt und was das für Unternehmen wie HAYS aus Compliance-Sicht bedeutet. Christine Kampmann hat mir empfohlen, mich an dich zu wenden.
+
+Für meine qualitative Studie suche ich Expertinnen und Experten aus dem Legal- und Compliance-Bereich. Ein Gespräch von etwa einer Stunde per Teams wäre super, auf Wunsch natürlich anonym.
+
+Hättest du in den nächsten Wochen kurz Zeit?
+
+Viele Grüße
+Deniz Özbek
