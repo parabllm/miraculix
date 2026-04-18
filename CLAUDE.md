@@ -92,6 +92,7 @@ Jede faktische Aussage wird datiert, nicht über File-Datum:
 |---|---|---|
 | "tages-start" / "was steht an" | `_claude/skills/tages-start.md` | Morgens |
 | "eingang verarbeiten" / "digest" | `_claude/skills/eingang-verarbeiten.md` | Wenn Inbox voll |
+| "hol den eingang aus dem drive" / "drive pull" | `_claude/skills/drive-eingang-holen.md` | Wenn Mobile Files in Drive abgelegt hat |
 | "abgleich X" / "reconcile X" | `_claude/skills/abgleich.md` | Nach Input-Welle zu Projekt |
 | "vault prüfen" / "lint" | `_claude/skills/vault-pruefung.md` | Wöchentlich |
 | "log" / "fortschritt speichern" | inline | Nach Arbeitssession |
