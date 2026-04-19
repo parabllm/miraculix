@@ -11,7 +11,9 @@ vertrauen: extrahiert
 erstellt: 2026-04-16
 ---
 
-Kompletter Food-Scanner-Flow, Stand 2026-04-13, Pipeline End-to-End validiert, Production-Ready für Frontend-Integration durch Jann. Dies ist die einzige kanonische Quelle - ersetzt alle vorherigen Architektur-Docs.
+Kompletter Food-Scanner-Flow, Stand 2026-04-19 Abend, Pipeline End-to-End validiert, Production-Ready für Frontend-Integration durch Jann. Dies ist die einzige kanonische Quelle - ersetzt alle vorherigen Architektur-Docs.
+
+Update 2026-04-19: Vision-Prompt v6 deployed mit `food_group` Pflichtfeld, Ambiguity Rule, Grams-Anker. `match_nutrition` RPC erweitert um optionalen `food_group_filter`. Pre-Filter-Matching im Food-Scanner aktiv mit silent Fallback auf unfiltered Match bei leerem Ergebnis.
 
 ## Executive Summary
 
@@ -34,7 +36,7 @@ User scannt Essen via Foto oder Barcode. System erkennt Gericht und Zutaten, mat
 - **Image Resize:** expo-image-manipulator (App) / sharp (Test-Skript), 800px JPEG q=0.85
 - **Storage:** Supabase Storage Bucket `food-scans`, privat, 5 MB Limit
 - **Auth:** Supabase Auth (ES256 asymmetric)
-- **Backend:** Supabase Edge Functions (Deno) → `food-scanner` (v13), `food-scan-confirm` (v5)
+- **Backend:** Supabase Edge Functions (Deno) → `food-scanner` (v17), `food-scan-confirm` (v6)
 - **Vision LLM:** Gemini 2.5 Flash Lite
 - **Embeddings:** OpenAI text-embedding-3-small (1536-dim)
 - **Vector Index:** pgvector HNSW mit Cosine Similarity
@@ -144,7 +146,7 @@ Identische Sicherheit zu `verify_jwt=true`, nur an anderer Stelle validiert. `au
 - **Anon-Key (Publishable):** `sb_publishable_Lp2zW-Np-SQksog8D5yz2A_yG5E48EW` (NICHT Legacy HS256)
 - **JWT:** nach Login via `/auth/v1/token`, ES256-signiert, im `Authorization: Bearer <jwt>` Header
 
-## Edge Function `food-scanner` (v13)
+## Edge Function `food-scanner` (v17)
 
 - **Slug:** `food-scanner`, `verify_jwt: false`
 - **Endpoint:** `POST https://vviutyisqtimicpfqbmi.supabase.co/functions/v1/food-scanner`
@@ -156,7 +158,7 @@ Identische Sicherheit zu `verify_jwt=true`, nur an anderer Stelle validiert. `au
 - `ingredient` → `{ index, ingredient, ts }` - pro erkannte Zutat einzeln
 - `vision_done` → `{ ingredient_count, ts }`
 - `embed_done` → `{ ts }`
-- `match_done` → `{ ts }`
+- `match_done` → `{ ts, fallback_count }` - `fallback_count` zählt Ingredients bei denen der food_group Pre-Filter 0 Matches lieferte und auf unfiltered Retrieval zurückgefallen ist
 - `final` → `{ scan_id, dish_name, ingredients[], totals, tier_used, model, version, latency_ms, cached }`
 - `error` → `{ scan_id, message, ts }`
 
@@ -178,13 +180,19 @@ Bei Cache-HIT nur `start` und `final` mit `cached: true`.
 
 **Warum `thinkingBudget: 0`:** Gemini 2.5 Flash Lite hat Thinking-Mode der Output-Tokens silent verbraucht. Ohne diesen Parameter werden 50-80% der Tokens für Thinking benutzt, JSON wird abgeschnitten, Parser-Errors.
 
-### Vision-Prompt (gekürzt)
+### Vision-Prompt v6 (gekürzt, Stand 2026-04-19)
 
 - Analyze the PRIMARY PLATE only
 - Return STRICT JSON mit `dish_name` und `ingredients[]`
+- Ingredient-Shape: `name`, `food_group` (Pflichtfeld, 19-Werte-Enum aligned mit `nutrition_db.food_group_normalized`), `grams`, `preparation`, `visibility`
 - Naming: base food as in nutrition database, concrete not category, decompose if nutritionally relevant, skip garnishes under 5g
-- Inferred Ingredients: invisible items (cooking oil, butter, dressing, eggs in batter) mit realistic grams hinzufügen
+- Food_Group: Pflichtfeld. Klassifikations-Hinweise für Grenzfälle (processed vs unprocessed meat, bakery vs grains_pasta, dairy_eggs als Sammelkategorie). Beim Decomposing werden Komponenten einzeln klassifiziert, nie als prepared_dishes.
+- Ambiguity Rule: bei mehrdeutigen Foods die most common everyday form. Defaults für egg, flour, rice/pasta/bread, milk, sugar.
+- Grams Estimation: Hand/Utensil-Anker (palm 100g meat, fist 150g rice cooked, tablespoon 15g oil), plus 5 Whole-Item-Referenzen (egg 50g, banana 120g, apple 180g, bread slice 30g, cheese slice 20g)
+- Inferred Ingredients: invisible items (cooking oil, butter, dressing, eggs in batter) mit realistic grams, Ambiguity Rule + food_group auch auf inferred anwenden
 - Output: 3-13 ingredients max, kein Prosa außerhalb JSON
+
+Volle Prompt-Historie und Versions-Rationale in [[prompt-log]].
 
 ### Embedding-Strategie
 
@@ -200,9 +208,34 @@ const embedTexts = visionIngredients.map(ing =>
 
 Model: `text-embedding-3-small` (1536-dim).
 
-### Match-Logik
+### Match-Logik mit food_group Pre-Filter
 
-Parallele `match_nutrition` RPC-Calls, einer pro Ingredient. TOP-5 intern, TOP-3 ans Frontend für Debug. Best Match für `per_ingredient_nutrients`.
+Seit v17: Parallele `match_nutrition` RPC-Calls mit `food_group_filter` aus dem Vision-Output.
+
+Der Filter shrinkt den Kandidatenraum von 23.305 Rows auf den jeweiligen Group-Scope (ca. 200-4.000 Rows je nach Group). Dadurch werden semantisch nahe, aber nährwerttechnisch falsche Matches über Group-Grenzen hinweg ausgeschlossen (z.B. avocado → avocado oil, strawberry → rhubarb, garlic → Null-Mikro-Rows aus anderen Quellen).
+
+Fallback-Strategie: Wenn der Pre-Filter 0 Matches liefert (Vision misklassifiziert oder niche Group), zweiter RPC-Call ohne Filter. Die `fallback_triggered` Flag wird pro Ingredient im `food_scan_log.ingredients` JSONB persistiert und im `match_done` SSE-Event als aggregierter `fallback_count` gemeldet. Fallback-Rate ist der erste Health-Indikator für Vision-Klassifikations-Qualität.
+
+TOP-5 intern, TOP-3 ans Frontend für Debug. Best Match für `per_ingredient_nutrients`.
+
+```ts
+async function matchWithFilter(serviceClient, emb, groupFilter) {
+  const primary = await serviceClient.rpc('match_nutrition', {
+    query_embedding: emb,
+    match_count: MATCH_COUNT,
+    food_group_filter: groupFilter
+  }).then(r => r.data ?? []);
+  if (primary.length === 0 && groupFilter) {
+    const fallback = await serviceClient.rpc('match_nutrition', {
+      query_embedding: emb,
+      match_count: MATCH_COUNT,
+      food_group_filter: null
+    }).then(r => r.data ?? []);
+    return { results: fallback, filter_used: groupFilter, fallback_triggered: true };
+  }
+  return { results: primary, filter_used: groupFilter, fallback_triggered: false };
+}
+```
 
 ### Critical Bugfix: base64 chunked encoding (v13)
 
@@ -231,15 +264,16 @@ Bei `{ barcode }`: Cache-Lookup mit `scan_hash = 'bc_' + barcode` → bei MISS O
 
 ## PG Vector Matching (nutrition_db)
 
-### Datenbestand: 25.558 Einträge aus 7 Quellen
+### Datenbestand: 23.305 Einträge aus 6 Quellen (Stand 2026-04-19)
 
 - USDA_SR: 7.793 (US Department of Agriculture Standard Reference)
 - BLS: 7.140 (Bundeslebensmittelschlüssel, DE)
 - CIQUAL: 3.341 (ANSES, FR)
 - COFID: 2.886 (UK Composition of Foods)
 - NEVO: 2.328 (NL)
-- OFF: 2.000 (Open Food Facts, Marken - noch keine `name_en`)
 - USDA_FND: 135 (Foundation Foods, neue Methodologie)
+
+**Note 2026-04-19:** OFF ursprünglich geplant mit ~2.000 Einträgen, nach DB-Reset 2026-04-13 entfernt. Neue Strategie ist Cache-Aside Lazy-Load pro Barcode-Scan (Etappe 5). Die `source` CHECK-Constraint erlaubt OFF weiterhin für zukünftige Lazy-Load-Einträge.
 
 Alle haben: `name_original`, `name_en` (sofern verfügbar), 20 Nutrient-Spalten, `embedding` (1536-dim auf `name_en` via OpenAI), `food_group`, `food_group_normalized`.
 
@@ -263,35 +297,44 @@ CREATE INDEX nutrition_db_food_group_idx ON public.nutrition_db USING btree (foo
 CREATE INDEX idx_nutrition_food_group_normalized ON public.nutrition_db USING btree (food_group_normalized);
 ```
 
-### match_nutrition RPC
+### match_nutrition RPC (Stand 2026-04-19)
 
 ```sql
 CREATE OR REPLACE FUNCTION public.match_nutrition(
-  query_embedding vector, match_count integer DEFAULT 50
+  query_embedding vector,
+  match_count integer DEFAULT 50,
+  food_group_filter text DEFAULT NULL
 )
 RETURNS TABLE(id bigint, source text, source_id text, name_en text, name_original text,
               food_group text, origin_country text, similarity double precision, full_row jsonb)
 LANGUAGE sql STABLE
 SET search_path TO 'public'
-AS $$
+AS $func$
   SELECT n.id, n.source, n.source_id, n.name_en, n.name_original,
          n.food_group, n.origin_country,
          1 - (n.embedding <=> query_embedding) AS similarity,
          to_jsonb(n) AS full_row
   FROM public.nutrition_db n
   WHERE n.embedding IS NOT NULL
+    AND (food_group_filter IS NULL OR n.food_group_normalized = food_group_filter)
   ORDER BY n.embedding <=> query_embedding
   LIMIT match_count;
-$$;
+$func$;
 ```
 
 Cosine-Distance `<=>` liefert 0 (identisch) bis 2 (entgegengesetzt). `1 - distance` ergibt similarity 0-1.
 
+Parameter `food_group_filter` ist optional (DEFAULT NULL). Wenn NULL wird der Filter übersprungen und die Function verhält sich wie vor v17. Damit bleibt das Borrow-Script (ruft `match_nutrition(embedding, match_count)` ohne Filter auf) unberührt. Der Filter geht auf `food_group_normalized` (lowercase snake_case), nicht auf `food_group` (Source-Original-Case).
+
+Migration-Historie:
+- Ursprung 2026-04-13: zwei Parameter (`query_embedding`, `match_count`)
+- 2026-04-19: erweitert um `food_group_filter text DEFAULT NULL` (Migration `match_nutrition_add_food_group_filter`). Alte Signatur gedroppt (Migration `match_nutrition_drop_old_signature`) um Function-Overloading-Ambiguität zu vermeiden.
+
 ### Bekannte Limitations
 
-- **Avocado vs Avocado-Oil-Problem:** Embeddings semantisch nah, nährwerttechnisch grundverschieden (160 kcal vs 884 kcal/100g). Fix → Multi-Layer Matching mit `food_group_normalized` Filter (siehe [[roadmap]]).
+- **Avocado vs Avocado-Oil-Problem:** Seit v17 teilweise gelöst über `food_group_filter`. Vision klassifiziert Avocado als `fruits`, Avocado-Oil als `fats_oils`. Pre-Filter trennt die Domains vor dem Vector-Match. Restrisiko: wenn Vision den food_group falsch setzt, greift der Fallback ohne Filter und das ursprüngliche Problem ist wieder da. Observability via `fallback_triggered` pro Ingredient.
 - **OFF-Einträge ohne `name_en`:** Embeddings auf `name_original` (FR/DE). Funktioniert via multilingual Model, aber nicht optimal.
-- **`food_group_normalized` nullable:** Backfill für 25.558 Einträge in Roadmap.
+- **`food_group_normalized` Backfill:** Abgeschlossen (Stand 2026-04-19). 100% Coverage auf 23.305 Rows. Filter-RPC kann deshalb ohne NULL-Handling in den Daten arbeiten.
 
 ## Edge Function `food-scan-confirm` (v5)
 
@@ -430,7 +473,7 @@ CREATE TABLE public.food_scan_log (
 - `pending_confirmation` → Vision fertig, wartet auf User
   - User-Confirm → `confirmed` (Endstatus, zählt in Daily Macros)
 
-### EnrichedIngredient JSON-Shape
+### EnrichedIngredient JSON-Shape (Stand 2026-04-19)
 
 ```ts
 interface EnrichedIngredient {
@@ -438,8 +481,11 @@ interface EnrichedIngredient {
   grams: number;
   preparation?: string;             // "sliced"
   visibility: 'visible' | 'inferred';
+  food_group?: string;              // "fruits" (neu seit v17, aus Vision-Prompt)
   matches: NutritionMatch[];        // Top-3 Kandidaten
   matched_source: string | null;    // "USDA_SR/173573"
+  filter_used?: string | null;      // welcher food_group_filter beim RPC-Call verwendet wurde
+  fallback_triggered?: boolean;     // true wenn primärer Filter 0 Matches lieferte und auf unfiltered zurückgefallen
   per_ingredient_nutrients: {       // skaliert auf grams
     enerc_kcal, procnt_g, fat_g, choavl_g, fibtg_g,
     na_mg, k_mg, ca_mg, fe_mg, mg_mg, zn_mg,
@@ -449,13 +495,17 @@ interface EnrichedIngredient {
 }
 ```
 
+`food_group`, `filter_used`, `fallback_triggered` sind additive Felder und brechen den Frontend-Contract DOC-62 nicht. Frontend kann sie aktuell ignorieren.
+
 ## Deployment Reference
 
-### Aktuelle Versionen (2026-04-13)
+### Aktuelle Versionen (2026-04-19 Abend)
 
-- `food-scanner` Edge Function: **v13** (verify_jwt=false, base64 chunked encoding)
-- `food-scan-confirm` Edge Function: **v5**
-- `nutrition_db`: 25.558 Einträge mit HNSW Embedding Index
+- `food-scanner` Edge Function: **v17** (Vision-Prompt v6 mit food_group Pflichtfeld, RPC-Integration mit Pre-Filter + Fallback, SSE event version string 'v17')
+- `food-scan-confirm` Edge Function: **v6**
+- `food-scanner-gemini` Edge Function: **deprecated (410 Gone)** seit 2026-04-13
+- `nutrition_db`: 23.305 Einträge mit HNSW Embedding Index, food_group_normalized 100% gefüllt, provenance 100% gefüllt
+- `match_nutrition` RPC: erweitert um `food_group_filter text DEFAULT NULL`, Borrow-Script-kompatibel
 - Storage Bucket `food-scans`: privat, 5 MB Limit, JPEG/PNG
 
 ### Wichtige Konstanten
