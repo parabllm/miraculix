@@ -1,7 +1,7 @@
 ---
 typ: aufgabe
 name: "Cora AI Architektur (3 Modi, SaMD, RAG)"
-projekt: "[[coralate]]"
+projekt: "[[cora-ai]]"
 status: in_arbeit
 benoetigte_kapazitaet: hoch
 kontext: ["desktop"]

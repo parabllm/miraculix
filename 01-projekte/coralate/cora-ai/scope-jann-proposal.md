@@ -1,15 +1,15 @@
 ---
-typ: sub-projekt
-name: "Cora Scope Proposal — Reactive, Proactive, Hard Limits (Jann)"
+typ: aufgabe
+name: "Cora Scope Proposal, Reactive/Proactive/Hard Limits (Jann)"
 aliase: ["Cora Scope Proposal", "Jann Cora Proposal", "iMessage Bridge Idee"]
-ueber_projekt: "[[coralate]]"
+projekt: "[[cora-ai]]"
 bereich: produkt
 umfang: offen
 status: pausiert
 kapazitaets_last: niedrig
 kontakte: ["[[jann-allenberger]]", "[[lars-blum]]"]
 erstellt: 2026-04-17
-notizen: "Roadmap-Idee von Jann. Deniz skeptisch gegenüber Chatbot-Richtung. Nicht für aktuelle Implementierung vorgesehen — future scope."
+notizen: "Roadmap-Idee von Jann. Deniz skeptisch gegenüber Chatbot-Richtung. Nicht für aktuelle Implementierung vorgesehen, future scope."
 quelle: extrahiert
 vertrauen: extrahiert
 ---

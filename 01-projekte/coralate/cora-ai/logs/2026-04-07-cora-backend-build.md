@@ -1,6 +1,6 @@
 ---
 typ: log
-projekt: "[[coralate]]"
+projekt: "[[cora-ai]]"
 datum: 2026-04-07
 art: meilenstein
 vertrauen: extrahiert
