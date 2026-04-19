@@ -28,11 +28,11 @@ Kompletter Digital-Aufbau des Beauty-Salons **BellaVie** in Neunkirchen (Saarlan
 
 ## Aktueller Stand
 
-Stand 2026-04-14: Projekt ist technisch fertig. Task "Abrechnung Hero+Maddox" (TK-7, High) steht → Projekt beenden und Abrechnung vereinbaren.
+Stand 2026-04-19: Abrechnung Maddox/BellaVie abgeschlossen (400 EUR).
 
 ## Offene Aufgaben
 
-- [ ] Abrechnung Hero+Maddox (TK-7, High) #hoch
+- [x] Abrechnung Maddox/BellaVie 400 EUR - abgerechnet 2026-04-19
 - [ ] SEO-Strategie aufstellen - lokale SEO, Keyword-Mapping, Portal-Strategie (TK-1, Medium) #mittel
 
 ## Out of Scope

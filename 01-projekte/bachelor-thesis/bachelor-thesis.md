@@ -40,12 +40,13 @@ vertrauen: extrahiert
 
 ## Aktueller Stand
 
-Stand 2026-04-08: Interview-Kandidaten empfohlen von Christine (17.03.2026), Freigabe zur Kontaktanbahnung steht. Interviewleitfaden + Methodik + Thesis-Konzept dokumentiert in Notion. Interview-Protokolle strukturiert. Durchgeführte Interviews: _(Stand aus Logs/Chats zu ergänzen in Phase D)_
+Stand 2026-04-17: Christine-Call durchgeführt, Freigabe für Interviews erteilt. Anschreiben-Entwürfe für alle 12 Kandidaten fertig. Nächster Schritt: E-Mail-Adressen besorgen und Anschreiben rausschicken (Montag 20.04.).
 
 ## Offene Aufgaben
 
-- [ ] Interviews mit 7-9 Kandidaten terminieren und durchführen #hoch
+- [ ] Montag 20.04.: Interview-Anschreiben rausschicken (E-Mail-Adressen der Kandidaten besorgen) #hoch
 - [ ] Interviewleitfaden finalisieren pro Cluster #hoch
+- [ ] Gliederung erstellen #hoch
 - [ ] Kapitel-Drafts (Theorie, Methodik, Ergebnisse, Diskussion) #hoch
 - [ ] Abgabe 15.06.2026 #hoch
 
@@ -66,7 +67,6 @@ Stand 2026-04-08: Interview-Kandidaten empfohlen von Christine (17.03.2026), Fre
 - [[christoph-sandbrink]] - Betreuer
 - [[christine-kampmann]] - Enablerin, selbst Interview-Kandidatin (Strategie-Cluster)
 - [[anna-luettgen]], [[florian-goennwein]], [[francis-davis]], [[rob-norris]], [[johannes-leuschner]], [[rini-kodzadziku]], [[florian-meyer]], [[arda-sener]], [[lara-luennemann]], [[leon-raedisch]], [[felix-schwarz]] - Interview-Kandidaten
-
 
 ## Interview-Tracking
 

@@ -158,3 +158,27 @@ Alle Features aufzuzaehlen ohne Launch-Priorisierung fuehrt dazu dass Jann an zu
 
 **3. Chat-Interface unterschaetzt.**
 "Testweise einbauen" klingt nach 2 Tagen. Ein Chat-Interface das auf Workout- und Ernaehrungs-Daten zugreift und Actions ausfuehrt ist architektonisch nicht trivial. Scope muss vor dem ersten Commit klar sein, sonst wird der Test-Build zur Last.
+
+## Nachtrag (Recap Voice-Dump 2026-04-18 18:00)
+
+Voice-Dump nach dem Meeting. Bestätigung der Outcomes plus vier verschriftlichte Punkte.
+
+### Regulatorien
+
+Linie passt. Keine medizinischen Empfehlungen. Fitnesstipps auf Basis von Korrelations-Daten.
+
+### Workout-Planung und -Bearbeitung
+
+Basis: vergangene Trainingsdaten plus initiale Onboarding-Daten. Sign-In Form damit blockierender Input für Cora-Output ab Tag 1, nicht Nice-to-have.
+
+### Trigger (Erstentwurf bestätigt)
+
+- workout_start
+- workout_end
+- Weitere nach Git-Analyse der App identifizieren
+
+### API-Contract
+
+- Definition nach Git-Pull
+- [[jann-allenberger]] gibt Frontend-Bedarf vor, Deniz passt cora-engine an
+- Git-Stand in nächster Session ziehen, alle Trigger-Punkte inkl. Food Scanner Flow identifizieren

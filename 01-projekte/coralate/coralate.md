@@ -55,6 +55,8 @@ Coralate vermeidet Software-as-a-Medical-Device-Einstufung durch:
 
 Stand 2026-04-13 (letzter Log): **Food-Scanner Pipeline Production-Ready** - Master-Doc DOC-62, 9 alte Docs deprecated, Chat-Übergabe vorbereitet. DB-Reset + Clean Re-Import durch. Kritische Einsicht: Matching-System ist Grundinfrastruktur für Backfill, Borrowing und Retrieval.
 
+Stand 2026-04-19: **TestFlight verfügbar** - App kann ab sofort live auf echtem iPhone getestet werden. Ermöglicht Live-Tests parallel zur Entwicklung.
+
 ## Sub-Projekte
 
 - [[food-scanner]] Nährwert-Retrieval-Pipeline (5 DBs + OFF, pgvector Hybrid-3-Tier, Edge Function live)

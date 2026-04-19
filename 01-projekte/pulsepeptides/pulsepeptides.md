@@ -49,7 +49,6 @@ Seit 2026-04-17 intern offiziell COO. Transitionsphase ca. 3 Wochen. Umfang 5-10
 **Onboarding:** taeglich Ruecksprache in Transitionsphase.
 
 **Offene Punkte:**
-- Uebergabeplan (was wann konkret)
 - Fixe Verguetung definieren (nach Transition)
 
 ## Technischer Stack (Bot-Seite)
@@ -78,11 +77,12 @@ Stand 2026-04-17: COO-Rolle gestartet. Erste Bestellung ausgeloest (100 Kits Arg
 
 ## Offene Aufgaben
 
-- [ ] KPV Capsules: ZY Peptides angefragt 2026-04-17, Antwort in Telegram checken und Christian zurückmelden #hoch
-- Metorik-Zugang einrichten
-- Alternativen Banking-Anbieter fuer Kartenzahlungen recherchieren
-- Knowledge Base iterativ befuellen
-- Uebergabeplan mit Kalani definieren
+- [ ] Montag: Kalani fragen wie viele KPV-Bottles bestellen (ZY Peptides hat geantwortet: "Yes, how many?"), dann Reply senden #hoch
+- [ ] Montag: Thymosin-Kunde Compensation-Nachricht an Christian in Slack schreiben #hoch
+- [ ] Call mit Kalani planen - Übergabe-Stand besprechen (Details: [[coo-aufgaben]]) #mittel
+- [ ] Metorik-Zugang einrichten
+- [ ] Alternativen Banking-Anbieter fuer Kartenzahlungen recherchieren
+- [ ] Knowledge Base iterativ befuellen
 
 ## Kontakte
 
@@ -92,6 +92,3 @@ Stand 2026-04-17: COO-Rolle gestartet. Erste Bestellung ausgeloest (100 Kits Arg
 - [[patrick-pulse]] Developer/Backend
 - [[german-pulse]] Website/WordPress
 - [[lizzi-pulse]] Design/Labels
-
-- [ ] Morgen Telegram checken: Hat ZY auf KPV-Anfrage geantwortet? Dann Christian im Slack-Thread bescheid geben.
-- [ ] Thymosin-Kunde: Compensation-Nachricht an Christian in Slack schreiben

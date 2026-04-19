@@ -22,7 +22,7 @@ Wird iterativ befüllt. Jede Aufgabe bekommt einen Status und einen Log-Verweis 
 
 - **Status:** offen
 - **Frage:** Welche App nutzen wir intern für Aufgaben und Projekte?
-- **Optionen:** noch nicht evaluiert
+- **Kandidaten:** Linear, Asana, ClickUp, Notion, Monday (noch nicht evaluiert)
 - **Kriterien:** Team-tauglich (Kalani, Christian, Kai), einfach, nicht overengineered
 
 ### Interne Kommunikationsstruktur

@@ -48,32 +48,32 @@ Provenance: `{method: "borrowed", source: "USDA_SR/12345", similarity: 0.91}`
 Mehrere Rows mit Wert, Varianz < 20%.
 Provenance: `{method: "borrowed_median", sources: [...], n: 4}`
 
-### Stufe 3: LLM-Imputation (Fallback, tbd)
+### Stufe 3: NULL
 
-Nur wenn keine Nachbarn verfügbar. Modell: gpt-4.1-mini, strict JSON output.
-Provenance: `{method: "llm_imputed", model: "gpt-4.1-mini", confidence: "low"}`
-UI warnt: "geschätzt"
+Wenn keine Nachbarn verfügbar oder Kategorie unsafe. Provenance: `{method: "none"}`. UI: "keine Daten verfügbar".
 
-### Stufe 4: NULL
-
-Wenn alle Stufen scheitern oder LLM keine sichere Antwort. Provenance: `{method: "none"}`. UI: "keine Daten verfügbar".
-
-**Offene Entscheidung:** LLM-Imputation aufnehmen oder nicht? Strenge Wissenschaftlichkeit vs. Coverage.
+**LLM-Imputation verworfen** (Entscheidung 2026-04-14, bestätigt 2026-04-19):
+- Research zeigte Failure-Modes: Regression-to-Mean, halluzinierte Mikro-Werte, biologisch unmögliche Kombinationen
+- Erfahrung aus Etappe 1: LLMs eignen sich für Klassifikation (kategorisch), nicht für numerische Werte
+- Policy: "Unknown is better than wrong." Transparente NULLs > fabrizierte Werte.
 
 ## Category-Safe-Listen
 
-### Safe für Borrowing
+### Safe für Borrowing (17 Kategorien)
 
-- grains_pasta, bakery, vegetables, fruits, legumes_nuts_seeds
-- meat_raw, seafood, dairy_eggs (nicht-fortified)
-- fats_oils, herbs_spices
+- grains_pasta, bakery, breakfast_cereals
+- vegetables, fruits, legumes_nuts_seeds
+- meat_unprocessed, meat_processed, seafood
+- dairy_eggs, fats_oils, herbs_spices
+- sauces_condiments, food_additives, prepared_dishes
+- snacks, beverages_nonalcoholic
 
 ### Unsafe (NIE borrowen, auch bei hoher Similarity)
 
 - plant_based_alternatives (Fortifizierung variiert extrem)
 - supplements (Dosierungen variieren)
 - beverages_alcoholic (bimodal in Nährwerten)
-- sweets_desserts (Zucker-/Fett-Gehalt variiert)
+- sweets_desserts (Zucker- / Fett-Gehalt variiert)
 - packaged-Produkte mit "sugar-free", "low-fat", "fortified"
 
 Policy bei unsafe: Wert bleibt NULL, UI zeigt "unbekannt".
@@ -85,7 +85,7 @@ Dieses Doc als Master-Plan, laufend aktualisiert.
 
 ### Phase 1: Matching-System (Grundinfrastruktur)
 
-**1a.** `food_group_normalized` Backfill (23.305 Rows) via LLM-Klassifikation (gpt-4.1-mini, strict JSON).
+**1a. ERLEDIGT 2026-04-19.** `food_group_normalized` Backfill (23.305 Rows) via LLM-Klassifikation (gpt-4.1-mini, strict JSON Enum, 21 Kategorien). 100% Coverage. Skript in `corelate-v3/scripts/food-group-backfill/`. Snapshot-Tabelle `nutrition_db_food_group_backup` als Rollback-Basis. Details: [[2026-04-19-etappe-1-food-group-backfill-abgeschlossen]].
 
 ### Must-have vor App-Launch
 
