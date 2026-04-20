@@ -10,6 +10,7 @@ quelle: extrahiert_aus_pdf
 vertrauen: extrahiert
 ---
 
+
 # Turnitin KI-Erkennungsbericht
 
 **Originaldatei:** `00-eingang/unverarbeitet/2026-02-18_Deniz_Özbek_International_Sales_Term_Paper-2.pdf`

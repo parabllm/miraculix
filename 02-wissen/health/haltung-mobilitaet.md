@@ -1,14 +1,21 @@
 ---
 typ: wissen
-name: "Haltung & Mobilität"
-aliase: ["Haltung", "Mobilität", "Upper Crossed Syndrome"]
-domain: ["health", "haltung", "mobilitaet"]
+name: Haltung & Mobilität
+aliase:
+  - Haltung
+  - Mobilität
+  - Upper Crossed Syndrome
+domain:
+  - health
+  - haltung
+  - mobilitaet
 kategorie: referenz
 vertrauen: angenommen
 quellen: []
-projekte: ["[[persoenlich]]"]
+projekte:
+  - "[[persönlich]]"
 zuletzt_verifiziert: 2026-04-08
-widerspricht: null
+widerspricht:
 erstellt: 2026-04-16
 ---
 

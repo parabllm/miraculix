@@ -1,14 +1,19 @@
 ---
 typ: wissen
-name: "Supplement Stack & Biohacking"
-aliase: ["Supplement Stack", "Biohacking Stack"]
-domain: ["health", "supplementierung"]
+name: Supplement Stack & Biohacking
+aliase:
+  - Supplement Stack
+  - Biohacking Stack
+domain:
+  - health
+  - supplementierung
 kategorie: referenz
 vertrauen: extrahiert
 quellen: []
-projekte: ["[[persoenlich]]"]
+projekte:
+  - "[[persönlich]]"
 zuletzt_verifiziert: 2026-04-08
-widerspricht: null
+widerspricht:
 erstellt: 2026-04-16
 ---
 

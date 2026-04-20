@@ -19,6 +19,12 @@ vertrauen: extrahiert
 
 Bachelor Business Management, HdWM Mannheim.
 
+## Studiengang
+
+- [[modulhandbuch-business-management]] (alle Module, ECTS, Prüfungsformen, Thesis-Zoom)
+- [[pruefungsordnung]] (Rahmenprüfungsordnung HdWM, Stand 14.01.2026)
+- [[leitfaden-wissenschaftliches-arbeiten]] (APA 7 Zitation, Formalia, Struktur, KI-Regeln, Stand August 2025)
+
 ## Semester-Übersicht
 
 - [[semester-5]] — WiSe 2025/26, abgeschlossen

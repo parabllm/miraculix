@@ -73,14 +73,17 @@ Seit 2026-04-17 intern offiziell COO. Transitionsphase ca. 3 Wochen. Umfang 5-10
 
 ## Aktueller Stand
 
-Stand 2026-04-20: KPV Capsules für nächste Bestellung eingeplant (ZY Peptides hat Verfuegbarkeit bestaetigt). Christian wurde informiert ("available soon"). Affiliate Valko_body approved. US-Markt wird geprueft.
+Stand 2026-04-20: KPV Sourcing wechselt von ZY zu neuem Supplier via Testing Badge. Gleicher Supplier soll zusätzlich BPC-157 und 5-Amino-1 Kapseln liefern (neuer Produktlaunch, Quality Control nötig). Pakete: 500 statt 1444 nachbestellen (Paketdesign kann sich ändern). Affiliate Valko_body approved. US-Markt wird geprüft. Kalani-Besuch in Deutschland ab Mittwoch 22.04.
 
 ## Offene Aufgaben
 
-- [ ] Kalani fragen: wie viele KPV Bottles bei ZY bestellen? Dann ZY Reply senden mit Menge #hoch
+- [ ] Neuen Supplier-Deal durchziehen: KPV + BPC-157 + 5-Amino-1 Kapseln sourcen (via Testing Badge) und Quality Control durchführen #hoch
+- [ ] 500 Pakete bestellen (Paketdesign kann sich ändern) #mittel
 - [ ] Thymosin-Kunde Compensation-Nachricht an Christian in Slack schreiben #hoch
+- [ ] Prostamax Peptide Custom-Order-Anfrage beantworten (Christian) #hoch
 - [ ] Affiliate Valko_body: nächste Schritte klären (Onboarding, Konditionen) #mittel
-- [ ] Call mit Kalani planen - Übergabe-Stand besprechen (Details: [[coo-aufgaben]]) #mittel
+- [ ] US Shipments: konkrete Schritte mit Kalani klären #mittel
+- [ ] Lager-Besuch Mittwoch 22.04. Eppelheim mit Kalani und Kai #hoch
 - [ ] Knowledge Base iterativ befüllen
 
 ## Abgeschlossene Meilensteine
@@ -91,7 +94,7 @@ Stand 2026-04-20: KPV Capsules für nächste Bestellung eingeplant (ZY Peptides 
 
 - [[kalani-ginepri]] CEO
 - [[christian-pulse]] Support Bali
-- [[kai-pulse]] Lager Appelheim
+- [[kai-pulse]] Lager Eppelheim
 - [[patrick-pulse]] Developer/Backend
 - [[german-pulse]] Website/WordPress
 - [[lizzi-pulse]] Design/Labels

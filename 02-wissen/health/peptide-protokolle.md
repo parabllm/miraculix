@@ -1,14 +1,22 @@
 ---
 typ: wissen
-name: "Peptide Protokolle"
-aliase: ["Peptide", "Semax", "Ipamorelin", "Retatrutide"]
-domain: ["health", "peptide", "research"]
+name: Peptide Protokolle
+aliase:
+  - Peptide
+  - Semax
+  - Ipamorelin
+  - Retatrutide
+domain:
+  - health
+  - peptide
+  - research
 kategorie: referenz
 vertrauen: extrahiert
 quellen: []
-projekte: ["[[persoenlich]]"]
+projekte:
+  - "[[persönlich]]"
 zuletzt_verifiziert: 2026-04-08
-widerspricht: null
+widerspricht:
 erstellt: 2026-04-16
 ---
 

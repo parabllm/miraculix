@@ -1,6 +1,6 @@
 ---
 typ: log
-projekt: "[[persoenlich]]"
+projekt: "[[persönlich]]"
 datum: 2026-03-23
 art: notiz
 vertrauen: extrahiert

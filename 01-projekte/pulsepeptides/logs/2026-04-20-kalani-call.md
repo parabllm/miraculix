@@ -4,7 +4,7 @@ datum: 2026-04-20
 projekt: "[[pulsepeptides]]"
 teilnehmer: ["[[kalani-ginepri]]", "Deniz"]
 thema: "COO Weekly - Affiliate, Custom Orders, US Shipments"
-status: geplant
+status: abgeschlossen
 erstellt: 2026-04-20
 quelle: voice_dump
 vertrauen: bestaetigt
@@ -59,8 +59,55 @@ Kalani plant in den nächsten Tagen nach Deutschland zu fliegen (morgen oder üb
 
 ## Besprochenes
 
-_(wird im Call befüllt)_
+### Paketdesign/Verpackung
+
+- Kai wollte 1444 Pakete nachbestellen (aktueller Bestand geht zur Neige)
+- Kalani: Paketdesign ändert sich eventuell in nächster Zeit, deshalb nicht große Menge
+- Kompromiss: 500 Pakete bestellen
+
+### KPV Sourcing
+
+- ZY Peptides Route wird nicht weiter verfolgt
+- Kalani hat Testing Badge/Testing Kit bei anderem Supplier in der Pipeline
+- Ziel: KPV in ca. 2 Wochen im Stock
+- Kein Reserve Payment vom Kunden einsammeln bis Stock bestätigt ist (bereits in Slack an Christian kommuniziert)
+
+### Neuer Supplier-Lead (strategisch)
+
+- Neuer Supplier liefert KPV via Testing Badge
+- Zusätzlich Fokus auf BPC-157 und 5-Amino-1 Kapseln als Marktlaunch
+- Strategisch großes Thema, Evaluierung + Quality Control nötig
+
+### Kai
+
+- Heute erstmals persönlich getroffen
+- Lager in Eppelheim
+
+### Kalani Deutschland-Besuch
+
+- Landung Mittwoch 22.04. um 14:00
+- Treffen abends im Lager Eppelheim mit Kai und Deniz
+
+
+### Noch offen im Call (nicht final besprochen)
+
+- Affiliate Valko_body Onboarding-Prozess (Konditionen, Tracking)
+- US Shipments: Kalani will US-Markt öffnen, konkrete Schritte ausstehend
+- Thymosin-Kunde Compensation-Kommunikation an Christian
+- Prostamax Peptide Custom-Order-Anfrage
+- COO-Transition offene Punkte
 
 ## Entscheidungen
 
+- 500 Pakete bestellen statt 1444 (Paketdesign kann sich ändern)
+- KPV Sourcing wechselt von ZY zu neuem Supplier via Testing Badge
+- Kein Kunden-Reserve-Payment für KPV bis Stock bestätigt
+- BPC-157 und 5-Amino-1 Kapseln werden als neuer Produktlaunch verfolgt
+- Lager-Besuch Mittwoch 22.04. abends in Eppelheim mit Kalani und Kai
+
 ## Nächste Schritte
+
+- [ ] Sourcing-Tasks in [[pulsepeptides]] anlegen (KPV, BPC-157, 5-Amino-1, Quality Control)
+- [ ] 500 Pakete bestellen
+- [ ] Mittwoch 22.04. Lager-Besuch Eppelheim durchführen
+- [ ] Affiliate-Onboarding, US-Shipments, Thymosin, Prostamax im nächsten Sync final klären
