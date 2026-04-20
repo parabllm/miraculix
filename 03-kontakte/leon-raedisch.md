@@ -7,30 +7,26 @@ verbindung: ["beruflich"]
 rolle: stakeholder
 staerke: lose
 projekte: ["[[bachelor-thesis]]"]
-email: ""
+email: "leon.raedisch@hays.de"
 telefon: ""
 wie_kennengelernt: "Empfohlen von Christine Kampmann (17.03.2026) für Bachelor-Thesis Interview"
-notizen: "Thesis-Interview-Kandidat. Cluster: Sales/Delivery. Rolle bei HAYS: Sales/Key Account Manager. Erkenntnisinteresse: Kundenseitige Erwartungen an KI, Wettbewerbsdruck durch kleinere Anbieter. Interview-Status: offen."
+notizen: "Thesis-Interview-Kandidat. Cluster: Sales/Delivery. Rolle bei HAYS: Senior Teamleiter, Delivery Center Sourcing, Standort Essen. Christine Kampmann sitzt ebenfalls in Essen und ist dort Niederlassungsleiterin, Verbindung zu Christine sehr eng. Interview-Status: angeschrieben 20.04.2026."
 erstellt: 2026-04-16
-vertrauen: extrahiert
-quelle: notion_migration
+zuletzt_aktualisiert: 2026-04-20
+vertrauen: bestaetigt
+quelle: voice_dump
 ---
 
-Interview-Kandidat [[bachelor-thesis]]. Sales/Key Account Manager. Sales-Cluster.
+Interview-Kandidat [[bachelor-thesis]]. Senior Teamleiter Delivery Center Sourcing, Standort Essen. Sales-Cluster.
 
-## Anfrage-Template
+[[christine-kampmann]] ist Niederlassungsleiterin Essen, gleicher Standort, sehr enge Verbindung.
+
+## Finale Anfrage (versendet 20.04.2026)
+
+Betreff: Experteninterview für meine Bachelorarbeit, KI-Compliance im Recruiting
 
 Hallo Leon,
 
-ich bin Deniz Özbek, Werkstudent im Global License Management bei HAYS in Mannheim. Ich schreibe meine Bachelorarbeit darüber, wie KI den Recruiting- und Sales-Alltag verändert und was der EU AI Act für Personaldienstleister wie HAYS bedeutet. Christine Kampmann hat mir deinen Kontakt weitergegeben.
+ich bin Deniz Özbek, Werkstudent im Lizenzmanagement. Ich schreibe gerade meine Bachelorarbeit darüber, wie sich der EU AI Act konkret auf Recruiting-Prozesse bei Personaldienstleistern auswirkt und Christine Kampmann hat mir empfohlen, mich bei dir zu melden.
 
-Ich würde gerne von dir hören, wie das auf Kundenseite und im Sales-Alltag ankommt. Ein Gespräch von etwa einer Stunde per Teams wäre super, keine Vorbereitung nötig, auf Wunsch anonym.
-
-Hast du in den nächsten Wochen einen Slot frei?
-
-Viele Grüße
-Deniz Özbek
-
-## Anfrage-Entwurf (humanisiert, 2026-04-17)
-
-Hallo Leon, ich bin Deniz, Werkstudent im Global License Management bei HAYS in Mannheim. Ich schreibe meine Bachelorarbeit darüber, wie KI den Recruiting- und Sales-Alltag verändert und was der EU AI Act für HAYS bedeutet. Christine hat mir deinen Kontakt weitergegeben. Mich interessiert konkret wie das auf Kundenseite ankommt. Eine Stunde per Teams, keine Vorbereitung nötig, auf Wunsch anonym. Hast du in den nächsten Wochen einen Slot? Viele Grüße, Deniz
+Für meine qualitative Studie führe ich Gespräche mit HAYS-internen Mitarbeitern aus verschiedenen Bereichen. Ein Input aus dem Sourcing wäre für mich sehr wertvoll. Wärst du grundsätzlich offen, dir dafür in den nächsten Wochen kurz Zeit zu nehmen? Auf Wunsch natürlich anonym, Format und Termin ganz nach deiner Verfügbarkeit.

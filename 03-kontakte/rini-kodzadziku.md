@@ -7,30 +7,28 @@ verbindung: ["beruflich"]
 rolle: stakeholder
 staerke: lose
 projekte: ["[[bachelor-thesis]]"]
-email: ""
+email: "rini.kodzadziku@hays.de"
 telefon: ""
 wie_kennengelernt: "Empfohlen von Christine Kampmann (17.03.2026) für Bachelor-Thesis Interview"
-notizen: "Thesis-Interview-Kandidat. Cluster: KI-Arbeitsgruppe/Innovation. Rolle bei HAYS: Digital/Innovation/IT. Erkenntnisinteresse: Technische Machbarkeit, Tool-Landschaft, Implementierungshürden bei Grossunternehmen. Interview-Status: offen."
+notizen: "Thesis-Interview-Kandidat. Cluster: KI-Arbeitsgruppe/Innovation. Rolle bei HAYS: Bereichsleiter im Delivery Center. Direkt unter Anna Lüttgen (Anna leitet das Delivery Center). Leitet die KI-Arbeitsgruppe bei HAYS. Christine hat das Thema mit Deniz besprochen und als passend bestätigt. Connection zu Anna nicht eng genug für Vermittlungsweg, deshalb direkter Anschrieb. Interview-Status: angeschrieben 20.04.2026."
 erstellt: 2026-04-16
-vertrauen: extrahiert
-quelle: notion_migration
+zuletzt_aktualisiert: 2026-04-20
+vertrauen: bestaetigt
+quelle: voice_dump
 ---
 
-Interview-Kandidat [[bachelor-thesis]]. Digital/Innovation. KI-Arbeitsgruppe-Cluster.
+Interview-Kandidat [[bachelor-thesis]]. Bereichsleiter Delivery Center. KI-Arbeitsgruppe-Cluster.
 
-## Anfrage-Template
+Organisation: direkt unter [[anna-luettgen]] (leitet das Delivery Center). Leitet die KI-Arbeitsgruppe bei HAYS. [[christine-kampmann]] hat ihn als passenden Ansprechpartner für die Thesis bestätigt.
+
+## Finale Anfrage (versendet 20.04.2026)
+
+Betreff: Experteninterview für meine Bachelorarbeit, KI-Compliance im Recruiting
 
 Hallo Rini,
 
-ich bin Deniz Özbek, Werkstudent im Global License Management bei HAYS in Mannheim. Ich schreibe meine Bachelorarbeit darüber, wie HAYS und andere große Personaldienstleister KI im Recruiting einsetzen und welche technischen und organisatorischen Hürden dabei eine Rolle spielen. Christine Kampmann hat mir empfohlen, mich an dich zu wenden.
+ich bin Deniz Özbek, Werkstudent im License Management. Ich schreibe gerade meine Bachelorarbeit darüber, wie sich der EU AI Act konkret auf Recruiting-Prozesse bei Personaldienstleistern auswirkt und Christine Kampmann hat mir empfohlen, mich bei dir zu melden. Sie meinte, dass du die KI-Arbeitsgruppe leitest und das Thema deshalb gut zu dir passt.
 
-Ich würde gerne deine Perspektive aus dem Innovations- und Digitalbereich hören. Ein Gespräch von etwa einer Stunde per Teams wäre super, auf Wunsch anonym.
+Für meine qualitative Studie führe ich Gespräche mit HAYS-internen Mitarbeitern aus verschiedenen Bereichen. Aus der KI-Arbeitsgruppe wäre deine Perspektive für mich besonders wertvoll. Wärst du grundsätzlich offen, dir dafür in den nächsten Wochen kurz Zeit zu nehmen? Auf Wunsch natürlich anonym, Format und Termin ganz nach deiner Verfügbarkeit.
 
-Hättest du in den nächsten Wochen Zeit?
-
-Viele Grüße
-Deniz Özbek
-
-## Anfrage-Entwurf (humanisiert, 2026-04-17)
-
-Hallo Rini, ich bin Deniz, Werkstudent im Global License Management bei HAYS in Mannheim. Ich schreibe meine Bachelorarbeit dazu, wie HAYS KI im Recruiting einsetzt und wo der EU AI Act dabei reinspielt. Christine hat mir empfohlen, dich anzuschreiben. Gerade aus dem Innovations- und Digitalbereich interessiert mich die Sicht sehr. Eine Stunde per Teams, auf Wunsch anonym. Hast du in den nächsten Wochen Zeit? Viele Grüße, Deniz
+Gruß

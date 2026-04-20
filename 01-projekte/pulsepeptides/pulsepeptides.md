@@ -79,11 +79,13 @@ Stand 2026-04-20: KPV Capsules für nächste Bestellung eingeplant (ZY Peptides 
 
 - [ ] Kalani fragen: wie viele KPV Bottles bei ZY bestellen? Dann ZY Reply senden mit Menge #hoch
 - [ ] Thymosin-Kunde Compensation-Nachricht an Christian in Slack schreiben #hoch
-- [ ] Affiliate Valko_body: nächste Schritte klaeren (Onboarding, Konditionen) #mittel
+- [ ] Affiliate Valko_body: nächste Schritte klären (Onboarding, Konditionen) #mittel
 - [ ] Call mit Kalani planen - Übergabe-Stand besprechen (Details: [[coo-aufgaben]]) #mittel
-- [ ] Metorik-Zugang einrichten
-- [ ] Alternativen Banking-Anbieter für Kartenzahlungen recherchieren
-- [ ] Knowledge Base iterativ befuellen
+- [ ] Knowledge Base iterativ befüllen
+
+## Abgeschlossene Meilensteine
+
+- ~~Metorik-Zugang eingerichtet~~ 2026-04-20
 
 ## Kontakte
 

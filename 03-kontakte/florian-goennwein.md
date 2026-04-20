@@ -1,36 +1,34 @@
 ---
 typ: kontakt
-name: "Florian Gönnwein"
-aliase: ["Florian Gönnwein", "Florian G"]
+name: "Florian Gönnenwein"
+aliase: ["Florian Gönnenwein", "Florian G", "Florian Gönnwein"]
 gruppen: ["hays"]
 verbindung: ["beruflich"]
 rolle: stakeholder
 staerke: lose
 projekte: ["[[bachelor-thesis]]"]
-email: ""
+email: "florian.goennenwein@hays.de"
 telefon: ""
 wie_kennengelernt: "Empfohlen von Christine Kampmann (17.03.2026) für Bachelor-Thesis Interview"
-notizen: "Thesis-Interview-Kandidat. Cluster: Legal/Compliance. Rolle bei HAYS: Legal/Compliance. Erkenntnisinteresse: EU AI Act Readiness, regulatorische Risikobewertung, DSGVO-Schnittstelle. Interview-Status: offen."
+notizen: "Thesis-Interview-Kandidat. Cluster: Compliance / Legal. Rolle bei HAYS: Legal. Vorgesetzte: Sabine Eufe (Bereichsleiterin Legal). Darüber: Geschäftsführer Alexander Heise. Interview-Status: angeschrieben 20.04.2026."
 erstellt: 2026-04-16
-vertrauen: extrahiert
-quelle: notion_migration
+zuletzt_aktualisiert: 2026-04-20
+vertrauen: bestaetigt
+quelle: voice_dump
 ---
 
-Interview-Kandidat [[bachelor-thesis]]. Legal/Compliance. Compliance-Cluster.
+Interview-Kandidat [[bachelor-thesis]]. Legal. Compliance-Cluster.
 
-## Anfrage-Template
+Vorgesetzte: [[sabine-eufe]] (Bereichsleiterin Legal). Darüber: [[alexander-heise]] (Geschäftsführer).
+
+## Finale Anfrage (versendet 20.04.2026)
+
+Betreff: Experteninterview für meine Bachelorarbeit, KI-Compliance im Recruiting
 
 Hallo Florian,
 
-ich bin Deniz Özbek, Werkstudent im Global License Management bei HAYS in Mannheim. Ich schreibe meine Bachelorarbeit darüber, wie sich der EU AI Act konkret auf Recruiting-Prozesse bei Personaldienstleistern auswirkt und was das für Unternehmen wie HAYS aus Compliance-Sicht bedeutet. Christine Kampmann hat mir empfohlen, mich an dich zu wenden.
+ich bin Deniz Özbek, Werkstudent im License Management. Ich schreibe gerade meine Bachelorarbeit darüber, wie sich der EU AI Act konkret auf Recruiting-Prozesse bei Personaldienstleistern auswirkt und Christine Kampmann hat mir empfohlen, mich bei dir zu melden.
 
-Für meine qualitative Studie suche ich Expertinnen und Experten aus dem Legal- und Compliance-Bereich. Ein Gespräch von etwa einer Stunde per Teams wäre super, auf Wunsch natürlich anonym.
+Für meine qualitative Studie führe ich Gespräche mit HAYS-internen Mitarbeitern aus verschiedenen Bereichen. Aus dem Legal-Bereich wäre deine Perspektive für mich besonders wertvoll. Wärst du grundsätzlich offen, dir dafür in den nächsten Wochen kurz Zeit zu nehmen? Auf Wunsch natürlich anonym, Format und Termin ganz nach deiner Verfügbarkeit.
 
-Hättest du in den nächsten Wochen kurz Zeit?
-
-Viele Grüße
-Deniz Özbek
-
-## Anfrage-Entwurf (humanisiert, 2026-04-17)
-
-Hallo Florian, ich bin Deniz, Werkstudent im Global License Management bei HAYS in Mannheim. Ich schreibe meine Bachelorarbeit dazu, was der EU AI Act konkret für Recruiting-Prozesse bei Personaldienstleistern bedeutet. Christine hat mir empfohlen, mich bei dir zu melden. Als jemand aus dem Legal- und Compliance-Bereich wäre deine Perspektive für mich sehr wertvoll. Eine Stunde per Teams, auf Wunsch anonym. Hast du in den nächsten Wochen kurz Zeit? Viele Grüße, Deniz
+Mit freundlichen Grüßen,

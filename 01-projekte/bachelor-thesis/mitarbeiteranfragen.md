@@ -10,6 +10,7 @@ kontakte: ["[[christine-kampmann]]", "[[anna-luettgen]]", "[[florian-goennwein]]
 quelle: chat_session
 vertrauen: extrahiert
 erstellt: 2026-04-17
+zuletzt_aktualisiert: 2026-04-20
 ---
 
 # Thesis Mitarbeiteranfragen
@@ -23,66 +24,80 @@ Verknüpft mit [[2026-04-17-call-christine-thesis]].
 
 | Kandidat | Rolle bei HAYS | Cluster | Angefragt | Status | Termin |
 |---|---|---|---|---|---|
-| [[christine-kampmann]] | Director, Mid Office License Mgmt | Strategie | nein | Call heute 10:30 | |
-| [[anna-luettgen]] | Director/VP Recruiting | Strategie | nein | offen | |
-| [[florian-goennwein]] | Legal/Compliance | Compliance | nein | offen | |
-| [[francis-davis]] | Legal Global | Compliance | nein | offen | |
+| [[christine-kampmann]] | Director, Mid Office License Mgmt | Strategie | ja | Freigabe erteilt (Call 17.04.) | |
+| [[anna-luettgen]] | Director/VP Recruiting | Strategie | nein | wartet auf Christine-Vermittlung (Christine aktuell krank) | |
+| [[florian-goennwein]] | Legal | Compliance | ja | angeschrieben 20.04. | |
+| [[francis-davis]] | Legal Global | Compliance | nein | offen (englisch) | |
 | [[rob-norris]] | Legal Global / Datenschutz | Compliance | nein | offen | |
-| [[rini-kodzadziku]] | Digital/Innovation/IT | KI-Arbeitsgruppe | nein | offen | |
-| [[johannes-leuschner]] | Digital/Innovation/IT | KI-Arbeitsgruppe | nein | offen | |
-| [[leon-raedisch]] | Sales/Key Account Manager | Sales | nein | offen | |
-| [[arda-sener]] | Recruiting Manager/Team Lead | Sales | nein | offen | |
-| [[lara-luennemann]] | Recruiting Manager/Team Lead | Sales | nein | offen | |
-| [[felix-schwarz]] | Mid Office/Operations | Sales | nein | offen | |
+| [[rini-kodzadziku]] | Bereichsleiter Delivery Center | KI-Arbeitsgruppe | ja | angeschrieben 20.04. | |
+| [[johannes-leuschner]] | Head of Future Business | KI-Arbeitsgruppe | ja | angeschrieben 20.04. | |
+| [[leon-raedisch]] | Senior Teamleiter Sourcing, Essen | Sales | ja | angeschrieben 20.04. | |
+| [[arda-sener]] | Recruiting Manager/Team Lead | Sales | ja | informell angefragt 20.04. | |
+| [[lara-luennemann]] | Recruiting Manager/Team Lead | Sales | nein | fällt weg (Mutterschutz) | |
+| [[felix-schwarz]] | Expert Analytics, Nürnberg | Sales | ja | angeschrieben 20.04. | |
 | [[florian-meyer]] | extern (LinkedIn) | Extern | nein | offen | |
 
 ---
 
-## Anfrage-Template (intern HAYS)
+## Finale versendete Anfragen
 
-Betreff: Experteninterview Bachelorarbeit — KI-Compliance im Recruiting
+### Florian Gönnenwein, angeschrieben 20.04.2026
 
----
-
-Hallo [Name],
-
-ich bin Deniz Özbek, Werkstudent im Mid Office Global License Management bei HAYS. Ich schreibe aktuell meine Bachelorarbeit zum Thema **KI-Compliance als Erfolgsfaktor im Recruiting unter dem EU AI Act**.
-
-Christine Kampmann hat mir empfohlen, dich als Expertin/Experten anzusprechen.
-
-Im Rahmen meiner qualitativen Studie führe ich Experteninterviews mit HAYS-internen Fachleuten durch. Das Interview dauert **30-45 Minuten**, findet per Teams statt und wird auf Wunsch anonymisiert ausgewertet.
-
-Hättest du in den kommenden Wochen Zeit für ein kurzes Gespräch?
-
-Beste Grüße
-Deniz Özbek
-
----
-
-## Anfrage-Template (extern LinkedIn — Florian Meyer)
-
-Betreff: Experteninterview Bachelorarbeit — KI-Compliance im Recruiting
-
----
+Betreff: Experteninterview für meine Bachelorarbeit, KI-Compliance im Recruiting
 
 Hallo Florian,
 
-ich bin Deniz Özbek, Student an der HdWM Mannheim. Ich schreibe meine Bachelorarbeit zu **KI-Compliance als Erfolgsfaktor im Recruiting unter dem EU AI Act** und führe qualitative Experteninterviews durch.
+ich bin Deniz Özbek, Werkstudent im License Management. Ich schreibe gerade meine Bachelorarbeit darüber, wie sich der EU AI Act konkret auf Recruiting-Prozesse bei Personaldienstleistern auswirkt und Christine Kampmann hat mir empfohlen, mich bei dir zu melden.
 
-Dein Profil zeigt [relevante Expertise — vor Versand konkretisieren]. Ich würde mich freuen, deine Perspektive einzuholen.
+Für meine qualitative Studie führe ich Gespräche mit HAYS-internen Mitarbeitern aus verschiedenen Bereichen. Aus dem Legal-Bereich wäre deine Perspektive für mich besonders wertvoll. Wärst du grundsätzlich offen, dir dafür in den nächsten Wochen kurz Zeit zu nehmen? Auf Wunsch natürlich anonym, Format und Termin ganz nach deiner Verfügbarkeit.
 
-Das Interview dauert **30-45 Minuten**, findet per Teams statt und wird auf Wunsch anonymisiert ausgewertet.
+Mit freundlichen Grüßen,
 
-Hättest du Interesse?
+---
 
-Beste Grüße
-Deniz Özbek
+### Rini Kodzadziku, angeschrieben 20.04.2026
+
+Betreff: Experteninterview für meine Bachelorarbeit, KI-Compliance im Recruiting
+
+Hallo Rini,
+
+ich bin Deniz Özbek, Werkstudent im License Management. Ich schreibe gerade meine Bachelorarbeit darüber, wie sich der EU AI Act konkret auf Recruiting-Prozesse bei Personaldienstleistern auswirkt und Christine Kampmann hat mir empfohlen, mich bei dir zu melden. Sie meinte, dass du die KI-Arbeitsgruppe leitest und das Thema deshalb gut zu dir passt.
+
+Für meine qualitative Studie führe ich Gespräche mit HAYS-internen Mitarbeitern aus verschiedenen Bereichen. Aus der KI-Arbeitsgruppe wäre deine Perspektive für mich besonders wertvoll. Wärst du grundsätzlich offen, dir dafür in den nächsten Wochen kurz Zeit zu nehmen? Auf Wunsch natürlich anonym, Format und Termin ganz nach deiner Verfügbarkeit.
+
+Gruß
+
+---
+
+## Template (aktueller Stand, 20.04.2026)
+
+Betreff: Experteninterview für meine Bachelorarbeit, KI-Compliance im Recruiting
+
+Hallo [Vorname],
+
+ich bin Deniz Özbek, Werkstudent im License Management. Ich schreibe gerade meine Bachelorarbeit darüber, wie sich der EU AI Act konkret auf Recruiting-Prozesse bei Personaldienstleistern auswirkt und Christine Kampmann hat mir empfohlen, mich bei dir zu melden.[OPTIONAL: Kontext-Satz wenn Christine konkret etwas erwähnt hat.]
+
+Für meine qualitative Studie führe ich Gespräche mit HAYS-internen Mitarbeitern aus verschiedenen Bereichen. [Bereichs-Bezug-Satz] Wärst du grundsätzlich offen, dir dafür in den nächsten Wochen kurz Zeit zu nehmen? Auf Wunsch natürlich anonym, Format und Termin ganz nach deiner Verfügbarkeit.
+
+Gruß
+
+### Felix Schwarz, angeschrieben 20.04.2026
+
+Betreff: Experteninterview für meine Bachelorarbeit, KI-Compliance im Recruiting
+
+Hallo Felix,
+
+ich bin Deniz Özbek, Werkstudent im Lizenzmanagement. Ich schreibe gerade meine Bachelorarbeit darüber, wie sich der EU AI Act konkret auf Recruiting-Prozesse bei Personaldienstleistern auswirkt und Christine Kampmann hat mir empfohlen, mich bei dir zu melden. Sie meinte, dein Input könnte für meine Arbeit relevant sein.
+
+Wärst du grundsätzlich offen, dir dafür in den nächsten Wochen kurz Zeit zu nehmen? Auf Wunsch natürlich anonym, Format und Termin ganz nach deiner Verfügbarkeit.
 
 ---
 
 ## Nächste Schritte
 
-- [ ] Call Christine 10:30 heute — wer hat sie schon informiert, wer nicht?
-- [ ] Nach Call: Anfragen an alle noch nicht informierten Kandidaten rausschicken
-- [ ] Florian Meyer LinkedIn-Profil prüfen, Template konkretisieren
+- [ ] Antworten abwarten: Florian, Rini, Johannes, Leon, Arda, Felix
+- [ ] Anna Lüttgen: wenn Christine zurück, über sie anfragen
+- [ ] Rob Norris: noch anschreiben (deutsch oder englisch klären)
+- [ ] Francis Davis: anschreiben (englisch)
+- [ ] Florian Meyer: LinkedIn-Profil prüfen, anschreiben (englisch)
 - [ ] Termine eintragen sobald bestätigt

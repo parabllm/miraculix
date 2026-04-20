@@ -7,30 +7,24 @@ verbindung: ["beruflich"]
 rolle: stakeholder
 staerke: lose
 projekte: ["[[bachelor-thesis]]"]
-email: ""
+email: "felix.schwarz@hays.de"
 telefon: ""
 wie_kennengelernt: "Empfohlen von Christine Kampmann (17.03.2026) für Bachelor-Thesis Interview"
-notizen: "Thesis-Interview-Kandidat. Cluster: Sales/Delivery. Rolle bei HAYS: Mid Office/Operations. Erkenntnisinteresse: Schnittstelle Prozess und Governance, praktische Compliance-Anforderungen. Interview-Status: offen."
+notizen: "Thesis-Interview-Kandidat. Cluster: Sales/Delivery. Rolle bei HAYS: Expert Analytics und Insights, Standort Nürnberg. Karrierepfad Expert. Interview-Status: angeschrieben 20.04.2026."
 erstellt: 2026-04-16
-vertrauen: extrahiert
-quelle: notion_migration
+zuletzt_aktualisiert: 2026-04-20
+vertrauen: bestaetigt
+quelle: voice_dump
 ---
 
-Interview-Kandidat [[bachelor-thesis]]. Mid Office/Operations. Sales-Cluster.
+Interview-Kandidat [[bachelor-thesis]]. Expert Analytics und Insights, Standort Nürnberg. Karrierepfad: Expert.
 
-## Anfrage-Template
+## Finale Anfrage (versendet 20.04.2026)
+
+Betreff: Experteninterview für meine Bachelorarbeit, KI-Compliance im Recruiting
 
 Hallo Felix,
 
-ich bin Deniz Özbek, Werkstudent im Global License Management bei HAYS in Mannheim. Ich schreibe meine Bachelorarbeit darüber, wie sich der EU AI Act auf Recruiting-Prozesse und die operative Governance bei Personaldienstleistern wie HAYS auswirkt. Christine Kampmann hat mir empfohlen, mich an dich zu wenden.
+ich bin Deniz Özbek, Werkstudent im Lizenzmanagement. Ich schreibe gerade meine Bachelorarbeit darüber, wie sich der EU AI Act konkret auf Recruiting-Prozesse bei Personaldienstleistern auswirkt und Christine Kampmann hat mir empfohlen, mich bei dir zu melden. Sie meinte, dein Input könnte für meine Arbeit relevant sein.
 
-Ich würde gerne deine Perspektive aus dem Operations-Bereich hören. Ein Gespräch von etwa einer Stunde per Teams wäre super, auf Wunsch anonym.
-
-Hättest du in den nächsten Wochen einen Termin frei?
-
-Viele Grüße
-Deniz Özbek
-
-## Anfrage-Entwurf (humanisiert, 2026-04-17)
-
-Hallo Felix, ich bin Deniz, Werkstudent im Global License Management bei HAYS in Mannheim. Ich schreibe meine Bachelorarbeit dazu, wie sich der EU AI Act auf Recruiting-Prozesse und operative Governance bei Personaldienstleistern auswirkt. Christine hat mir empfohlen, mich bei dir zu melden. Deine Perspektive aus dem Operations-Bereich wäre sehr wertvoll. Eine Stunde per Teams, auf Wunsch anonym. Hast du in den nächsten Wochen einen Termin? Viele Grüße, Deniz
+Wärst du grundsätzlich offen, dir dafür in den nächsten Wochen kurz Zeit zu nehmen? Auf Wunsch natürlich anonym, Format und Termin ganz nach deiner Verfügbarkeit.

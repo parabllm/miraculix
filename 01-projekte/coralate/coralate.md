@@ -55,7 +55,9 @@ Coralate vermeidet Software-as-a-Medical-Device-Einstufung durch:
 
 Stand 2026-04-13 (letzter Log): **Food-Scanner Pipeline Production-Ready** - Master-Doc DOC-62, 9 alte Docs deprecated, Chat-Übergabe vorbereitet. DB-Reset + Clean Re-Import durch. Kritische Einsicht: Matching-System ist Grundinfrastruktur für Backfill, Borrowing und Retrieval.
 
-Stand 2026-04-19: **TestFlight verfügbar** - App kann ab sofort live auf echtem iPhone getestet werden. Ermöglicht Live-Tests parallel zur Entwicklung.
+Stand 2026-04-19: **TestFlight verfügbar** - App kann ab sofort live auf echtem iPhone getestet werden.
+
+Stand 2026-04-20: Food-Scanner Category Fix durch. Nächste Iterationen: Food-Scanner Accuracy-Verbesserung und Cora AI funktionsfähig machen.
 
 ## Sub-Projekte
 
@@ -69,7 +71,14 @@ Stand 2026-04-19: **TestFlight verfügbar** - App kann ab sofort live auf echtem
 
 ## Offene Aufgaben
 
-_(in Cora HQ, nicht hier - siehe Team-Workspace)_
+- [ ] Food-Scanner an sich verbessern (Accuracy, Edge Cases) #hoch
+- [ ] Cora AI funktionsfähig machen #hoch
+- Team-Tasks: siehe Cora HQ Workspace
+
+## Abgeschlossene Meilensteine
+
+- ~~Food-Scanner Category Fix~~ 2026-04-20
+- ~~TestFlight verfügbar~~ 2026-04-19
 
 ## Out of Scope (lokal)
 

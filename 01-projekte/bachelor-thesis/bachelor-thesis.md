@@ -40,11 +40,13 @@ vertrauen: extrahiert
 
 ## Aktueller Stand
 
-Stand 2026-04-17: Christine-Call durchgeführt, Freigabe für Interviews erteilt. Anschreiben-Entwürfe für alle 12 Kandidaten fertig. Nächster Schritt: E-Mail-Adressen besorgen und Anschreiben rausschicken (Montag 20.04.).
+Stand 2026-04-20: 6 von 11 verbleibenden Kandidaten angeschrieben (Florian Gönnenwein, Rini Kodzadziku, Johannes Leuschner, Leon Rädisch, Felix Schwarz, Arda Sener informell). Lara Lünnemann fällt weg (Mutterschutz). Anna Lüttgen wartet auf Christine-Vermittlung (Christine aktuell krank). Rob Norris, Francis Davis, Florian Meyer noch offen (englisch, im nächsten Christine-Call durchsprechen).
 
 ## Offene Aufgaben
 
-- [ ] Montag 20.04.: Interview-Anschreiben rausschicken (E-Mail-Adressen der Kandidaten besorgen) #hoch
+- [x] Montag 20.04.: Interview-Anschreiben rausschicken (6 von 11 raus, Rest blockiert oder englisch)
+- [ ] Antworten der 6 Angeschriebenen abwarten und Termine vereinbaren #hoch
+- [ ] Mit Christine im nächsten Call: Anna, Rob Norris, Francis Davis, Florian Meyer durchgehen
 - [ ] Interviewleitfaden finalisieren pro Cluster #hoch
 - [ ] Gliederung erstellen #hoch
 - [ ] Kapitel-Drafts (Theorie, Methodik, Ergebnisse, Diskussion) #hoch

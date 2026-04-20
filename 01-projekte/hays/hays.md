@@ -16,15 +16,15 @@ vertrauen: extrahiert
 
 ## Kontext
 
-Werkstudent-Rolle bei **HAYS AG Mid Office Global License Management**. Kernverantwortung: Lizenzmanagement-Prozess für CEMEA-Recruiter, end-to-end von Anfrage → DocuSign → Aktivierung → Reporting, umgesetzt mit **7 Power Automate Flows**. Plus Konzeptpapier für neue Lizenzmanagement-Lösung (Power-BI-Dashboard).
+Werkstudent-Rolle bei **HAYS AG Mid Office Global License Management**. Kernverantwortung: Lizenzmanagement-Prozess für CEMEA-Recruiter, end-to-end von Anfrage zu DocuSign zu Aktivierung zu Reporting, umgesetzt mit **7 Power Automate Flows**. Plus Konzeptpapier für neue Lizenzmanagement-Lösung (Power-BI-Dashboard).
 
-- **Vorgesetzte:** [[christine-kampmann]] (Primary Contact)
+- **Vorgesetzte:** [[christine-kampmann]] (Primary Contact, aktuell krank)
 - **Kollegin:** [[julia-renzikowski]]
 - **Interne Ansprechpartnerin:** Simea (Anfragen laufen über sie)
 - **Region:** CEMEA (Deutschland wird separat verwaltet)
 - **Verwaltete Produkte:** LinkedIn RPS, LinkedIn SalesNav, LinkedIn LTI, StepStone Talent Finder, Indeed Smart Sourcing, Xing Talent Manager
 - **Lizenzmengen:** ~800 DE, ~2.500 CEMEA
-- **Architektur:** Hub-and-Spoke (14 SPOC-Listen → 1 zentrale Admin-Liste → Excel-Masterslides als SSOT)
+- **Architektur:** Hub-and-Spoke (14 SPOC-Listen zu 1 zentrale Admin-Liste zu Excel-Masterslides als SSOT)
 - **Masterslide-Schema:** `tbl{Product}_{Country}` (z.B. `tblLinkedInRPS_DE`)
 
 **Technische Identifier:**
@@ -35,15 +35,24 @@ Werkstudent-Rolle bei **HAYS AG Mid Office Global License Management**. Kernvera
 
 **Sensible Daten:** HAYS-Events im Calendar = `visibility=private`.
 
+**Karrierepfade bei HAYS (drei Pfade):**
+- Sales: Recruiter, Sourcing-Mitarbeiter, Account Manager, Key Account Manager
+- Führungskraft: Teamleitung, Bereichsleitung, Abteilungsleitung, Niederlassungsleitung
+- Expert: Expert, Senior Expert (Spezialisierung in einem Fachfeld, z.B. Analytics, Legal, IT)
+
 ## Aktueller Stand
 
-Stand 2026-04-08 (letzte Notion-Aktualisierung): 7 Power Automate Flows live, Deniz ist Sole-Administrator. Konzeptpapier Lizenzmanagement-Lösung (Power-BI-Dashboard) in Arbeit. Power-BI-Implementation wird von externem Experten umgesetzt - Deniz liefert nur Konzept.
+Stand 2026-04-08 (letzte Notion-Aktualisierung): 7 Power Automate Flows live, Deniz ist Sole-Administrator. Konzeptpapier Lizenzmanagement-Lösung (Power-BI-Dashboard) in Arbeit. Power-BI-Implementation wird von externem Experten umgesetzt, Deniz liefert nur Konzept.
 
-Siehe [[bachelor-thesis]] - HAYS ist die empirische Quelle (7-9 Interviews).
+Siehe [[bachelor-thesis]], HAYS ist die empirische Quelle (7-9 Interviews).
 
 ## Offene Aufgaben
 
-- [ ] Call mit Justin Münch: Ticketsystem umziehen (heute 15:00-15:45)
+- [ ] Call mit Justin Münch heute 15:00-15:45 (Ticketsystem Umzug)
+- [ ] Wenn Christine zurück aus Krankenstand: Thesis-Themen mit ihr durchgehen:
+  - [[anna-luettgen]] anfragen über Christine (enge Beziehung)
+  - [[rob-norris]] und [[francis-davis]] durchsprechen (englische Kontakte, wenn möglich deutsche Alternative finden)
+  - [[florian-meyer]] (extern LinkedIn) durchsprechen, ob es eine deutsche Alternative gibt
 
 ## Abgeschlossene Meilensteine
 
@@ -64,12 +73,12 @@ Siehe [[bachelor-thesis]] - HAYS ist die empirische Quelle (7-9 Interviews).
 | LinkedIn LTI | Email direkt | Kein Problem |
 | StepStone | Email direkt | Andere Reporting-Logik (Unlock-Zählung, kein Rating) |
 | Indeed | Email direkt | Kein Problem |
-| Xing | Xing-Profil | HAYS-Email nicht auszuspielen - manuelle Zuordnung nötig |
+| Xing | Xing-Profil | HAYS-Email nicht auszuspielen, manuelle Zuordnung nötig |
 
 ## Arbeitshinweise
 
 - Kein direkter PC-Zugriff auf Arbeitslaptop von zuhause
-- Workflow: Datei per Mail → Upload → Claude analysiert → Download → zurück an HAYS
+- Workflow: Datei per Mail zu Upload zu Claude analysiert zu Download zu zurück an HAYS
 - HAYS-Events im Kalender immer `visibility: "private"`
 
 ## Detail-Docs
@@ -79,6 +88,6 @@ Siehe [[bachelor-thesis]] - HAYS ist die empirische Quelle (7-9 Interviews).
 
 ## Kontakte
 
-- [[christine-kampmann]] - Vorgesetzte
+- [[christine-kampmann]] - Vorgesetzte (aktuell krank)
 - [[julia-renzikowski]] - Kollegin
 - Simea - interne Ansprechpartnerin (nicht als eigener Kontakt)

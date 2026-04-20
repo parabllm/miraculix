@@ -7,30 +7,28 @@ verbindung: ["beruflich"]
 rolle: stakeholder
 staerke: lose
 projekte: ["[[bachelor-thesis]]"]
-email: ""
+email: "anna.lüttgen@hays.de"
 telefon: ""
 wie_kennengelernt: "Empfohlen von Christine Kampmann (17.03.2026) für Bachelor-Thesis Interview"
-notizen: "Thesis-Interview-Kandidatin. Cluster: Strategie / Director-Level. Rolle bei HAYS: Director/VP Recruiting. Erkenntnisinteresse: Strategische Bewertung warum HAYS bei KI noch nicht so weit ist, Roadmap. Interview-Status: offen."
+notizen: "Thesis-Interview-Kandidatin. Cluster: Strategie / Director-Level. Rolle bei HAYS: Director/VP Recruiting. Ist Christines direkte Vorgesetzte. Befreundet mit Christine, enger Draht. Ansatz: nicht kalt anschreiben, sondern Christine bitten Anna anzusprechen. Interview-Status: offen, wartet auf Christine-Vermittlung."
 erstellt: 2026-04-16
-vertrauen: extrahiert
-quelle: notion_migration
+zuletzt_aktualisiert: 2026-04-20
+vertrauen: bestaetigt
+quelle: voice_dump
 ---
 
 Interview-Kandidatin [[bachelor-thesis]]. Director/VP Recruiting. Strategie-Cluster.
 
-## Anfrage-Template
+Ist [[christine-kampmann]]s direkte Vorgesetzte. Befreundet mit Christine, sehr enger Draht. Ansatz: nicht direkt kalt anschreiben, sondern Christine bitten Anna vorab anzusprechen.
+
+## E-Mail-Entwurf (bereit für Versand nach Christine-Vermittlung)
 
 Hallo Anna,
 
-ich bin Deniz Özbek, Werkstudent im Global License Management bei HAYS in Mannheim. Ich schreibe gerade meine Bachelorarbeit darüber, wie große Personaldienstleister KI im Recruiting strategisch gestalten und was der EU AI Act dabei für Unternehmen wie HAYS bedeutet. Christine Kampmann hat mir empfohlen, mich an dich zu wenden.
+ich bin Deniz Özbek, Werkstudent im Global License Management bei HAYS in Mannheim, ich arbeite direkt unter Christine Kampmann. Ich schreibe gerade meine Bachelorarbeit darüber, wie Personaldienstleister wie HAYS mit dem EU AI Act im Recruiting umgehen, und Christine hat mir empfohlen, mich an dich zu wenden.
 
-Ich suche HAYS-interne Expertinnen und Experten für ein Gespräch von etwa einer Stunde per Teams. Keine Vorbereitung nötig, auf Wunsch natürlich anonym.
-
-Hättest du in den nächsten Wochen einen Termin für mich?
+Im Rahmen der Arbeit führe ich qualitative Gespräche mit internen Expertinnen und Experten bei HAYS. Wärst du grundsätzlich offen, dir dafür in den nächsten Wochen ein bisschen Zeit zu nehmen? Format und Termin ganz nach deiner Verfügbarkeit.
 
 Viele Grüße
 Deniz Özbek
-
-## Anfrage-Entwurf (humanisiert, 2026-04-17)
-
-Hallo Anna, ich bin Deniz, Werkstudent im Global License Management bei HAYS in Mannheim. Ich schreibe gerade meine Bachelorarbeit darüber, wie Personaldienstleister wie HAYS mit dem EU AI Act im Recruiting umgehen. Christine hat mir empfohlen, dich anzuschreiben. Ich suche interne Leute für ein Gespräch von etwa einer Stunde per Teams, keine Vorbereitung nötig, auf Wunsch anonym. Hast du in den nächsten Wochen einen Slot? Viele Grüße, Deniz
+Werkstudent Global License Management, HAYS AG

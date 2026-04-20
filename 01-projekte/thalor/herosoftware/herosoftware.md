@@ -53,8 +53,7 @@ Stand 2026-04-13 (letzter Log): **Production-Ready Refactor abgeschlossen** - al
 
 ## Offene Aufgaben
 
-- [ ] Cron auf Hetzner für die 4 Scripts einrichten (TK-4, High) #hoch
-- [ ] Dienstag 22.04. Call mit Martin (Developer, Skript-Übergabe) - Meeting Note: [[2026-04-22-martin-call]] #hoch
+- [ ] Dienstag 22.04. Call mit Martin (Developer, Skript-Übergabe + Cron-Setup) - Meeting Note: [[2026-04-22-martin-call]] #hoch
 - [ ] Abrechnung HeroSoftware (Robin) abschliessen (TK-7, High, seit 2026-04-14) #hoch
 - [ ] Prozess-Doku endkundenfertig für Robin/Calvin (Loom + schriftlich) (TK-6, Low - ans Ende) #niedrig
 
