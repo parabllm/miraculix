@@ -9,11 +9,11 @@ staerke: eng
 projekte: []
 email: ""
 telefon: ""
-wie_kennengelernt: "Uber Janik Elminger"
-notizen: "Freundesgruppe mit Janik Elminger und Robin Kronshagen."
+wie_kennengelernt: "Uber Jannik Ellminger"
+notizen: "Freundesgruppe mit Jannik Ellminger und Robin Kronshagen."
 erstellt: 2026-04-19
 vertrauen: bestaetigt
 quelle: voice_dump
 ---
 
-Freund. Gruppe mit [[janik-elminger]] und [[robin-kronshagen]].
+Freund. Gruppe mit [[jannik-ellminger]] und [[robin-kronshagen]].
