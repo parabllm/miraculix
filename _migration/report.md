@@ -39,7 +39,7 @@
   hays/                     Werkstudent-Job, 7 Power Automate Flows
   bachelor-thesis/          HdWM, KI-Compliance, Abgabe 2026-06-15 (KRITISCH)
   miraculix/                KI-Orga-Persönlichkeit + dieser Vault
-  persoenlich/              Health / Supplements / Career / Travel
+  persönlich/              Health / Supplements / Career / Travel
   terminbuchung-app/        Eigenes SaaS, PAUSIERT bis nach Thesis
 ```
 

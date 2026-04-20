@@ -43,8 +43,8 @@ Quelle: Metorik CSV-Export, Stand 2026-04-17. Alle Preise in EUR.
 | PT-141 | 7 | 10 Tage | sofort |
 | Tesamorelin | 35 | 18 Tage | diese Woche |
 | BAC-Water | 2 | k.A. | sofort |
-| Ipamorelin | 144 | 38 Tage | naechste Bestellung |
-| BPC-157 | 290 | 45 Tage | naechste Bestellung |
+| Ipamorelin | 144 | 38 Tage | nächste Bestellung |
+| BPC-157 | 290 | 45 Tage | nächste Bestellung |
 
 ## Custom-Only Produkte (nicht im Shop)
 
@@ -52,7 +52,7 @@ Produkte die nur über Manual Orders laufen, nicht im WooCommerce-Shop und nicht
 
 | Produkt | Supplier | Status |
 |---|---|---|
-| KPV Capsules | ZY Peptides | in naechste Bestellung eingeplant (2026-04-20) |
+| KPV Capsules | ZY Peptides | in nächste Bestellung eingeplant (2026-04-20) |
 | Tirzepatide | ZY Peptides | bestellen (Kalani, 2026-04-17) |
 | Retatrutide | - | unbekannt |
 
@@ -62,7 +62,7 @@ Produkte die nur über Manual Orders laufen, nicht im WooCommerce-Shop und nicht
 - Supplier: ZY Peptides (Telegram)
 - Lagerbestand: 0
 - Status (2026-04-20): ZY hat Verfuegbarkeit bestaetigt ("Yes, how many?"). Menge mit Kalani klaeren, dann ZY antworten.
-- Kunde ueber Christian: "available soon" kommuniziert
+- Kunde über Christian: "available soon" kommuniziert
 
 **Prozess Custom Orders allgemein:** siehe [[support-eskalation]]
 
@@ -95,7 +95,7 @@ Produkte die nur über Manual Orders laufen, nicht im WooCommerce-Shop und nicht
 
 - Preis: 39,99 EUR, COGS: 10,82 EUR, Marge: 71%
 - Lager: 405, Days of Stock: 71
-- Umsatz: 39.079 EUR (hoechster Umsatz)
+- Umsatz: 39.079 EUR (höchster Umsatz)
 
 ### Tesamorelin
 
@@ -108,7 +108,7 @@ Produkte die nur über Manual Orders laufen, nicht im WooCommerce-Shop und nicht
 - Preis: 89,99 EUR, COGS: k.A., Marge: 100% (kein COGS hinterlegt - pruefen)
 - Form: Kapseln
 - Lager: 7, Days of Stock: **7 - sofort nachbestellen**
-- Hoechster Einzelpreis im Sortiment
+- Höchster Einzelpreis im Sortiment
 
 ### PT-141
 

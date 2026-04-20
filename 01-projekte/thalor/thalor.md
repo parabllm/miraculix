@@ -29,7 +29,7 @@ Stand 2026-04-16:
 
 ## Sub-Projekte
 
-- [[herosoftware]] - Robin Kronshagen, CRM-Automation (groesster aktiver Client, bezahlt)
+- [[herosoftware]] - Robin Kronshagen, CRM-Automation (größter aktiver Client, bezahlt)
 - [[bellavie]] - Maddox Yakymenskyy, Website plus Fresha plus SEO
 - [[resolvia]] - David Schreiner, Stripe zu Attio Sync
 

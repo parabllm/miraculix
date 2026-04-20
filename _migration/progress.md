@@ -12,7 +12,7 @@
 
 ## 2026-04-16 - Phase C abgeschlossen
 - 7 Über-Projekte + 5 Sub-Projekte mit `_projekt.md` (später in Phase G zu `{slug}.md` umbenannt)
-- Commits: 4e5b620 (thalor), 1289eeb (coralate), 085eb44 (hays+thesis), 624f194 (miraculix+persoenlich+terminbuchung)
+- Commits: 4e5b620 (thalor), 1289eeb (coralate), 085eb44 (hays+thesis), 624f194 (miraculix+persönlich+terminbuchung)
 
 ## 2026-04-16 - Phase D abgeschlossen
 - 17 Notion-Logs destilliert und in richtige Projekt-Ordner migriert (Commit 219af28)

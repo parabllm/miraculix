@@ -24,7 +24,7 @@ Letztes Semester. Mitschriebe in Google Drive. Kontext und Zusammenfassungen hie
 
 - [[it-systeme]] — IT Systeme und IT Anwendungen in Unternehmen, Sandbrink
 - [[personalpsychologie]] — Vertiefung Personalpsychologie, Zimber
-- [[mitarbeiterfuehrung]] — Mitarbeiterführung, Stäudner
+- [[mitarbeiterführung]] — Mitarbeiterführung, Stäudner
 - [[innovationsmanagement]] — UF II: Innovationsmanagement und Entrepreneurship, Heinrich
 
 ## Abschluss

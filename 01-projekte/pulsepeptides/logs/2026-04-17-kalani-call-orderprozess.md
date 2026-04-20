@@ -97,9 +97,9 @@ _(nach Call eintragen)_
 
 ### 1. Christian 14:13 - Broken Vial Semax
 
-Order #9257 (Higgins): 1 broken vial of Semax angekommen. Christian fragt ob wir reshipping koennen. Kai angetagt.
+Order #9257 (Higgins): 1 broken vial of Semax angekommen. Christian fragt ob wir reshipping können. Kai angetagt.
 
-Fragen fuer Kalani:
+Fragen für Kalani:
 - Wer entscheidet Reship: ich oder Kai direkt?
 - Wie lauft Reship-Prozess ab?
 - Kostet uns das oder traegt Supplier?
@@ -110,7 +110,7 @@ NEW April Manual Order: 1063,99 EUR bezahlt am 16.04.2026, EXPRESS Versand.
 101 vials BPC-157 5mg.
 Shipping: Haris Kanavos, Viotyr S.A, Industrial Park Koropi, 19400 Athens, Greece.
 
-Fragen fuer Kalani:
+Fragen für Kalani:
 - Wer hat das autorisiert / war das schon bekannt?
 - Ist das ein regulaerer B2B-Kunde oder Sonderfall?
 - Manual Orders: gibt es mehr davon, wie laufen die ab?
@@ -123,9 +123,9 @@ Kai hat geantwortet: "Same question as always. Does Mr. Kanavos want it with or 
 
 Zeigt: Haris Kanavos ist ein wiederkehrender Custom-Order-Kunde. Kai kennt ihn schon.
 
-Zusaetzlicher Punkt fuer Kalani:
-- Custom Orders laufen aktuell durch denselben Kanal wie normale Orders. Koennte Shop-Prozesse stoeren.
-- Brauchen wir einen separaten Prozess fuer Custom/B2B-Orders?
+Zusaetzlicher Punkt für Kalani:
+- Custom Orders laufen aktuell durch denselben Kanal wie normale Orders. Könnte Shop-Prozesse stoeren.
+- Brauchen wir einen separaten Prozess für Custom/B2B-Orders?
 - Wer entscheidet Label ja/nein bei Custom Orders?
 - Gibt es mehr wiederkehrende B2B-Kunden wie Kanavos?
 
@@ -145,15 +145,15 @@ Offen:
 
 ### Broken Vial Semax - Geklaert
 
-Failed Shipments: kein Handlungsbedarf fuer Deniz. Prozess laeuft ohne COO-Eingriff.
+Failed Shipments: kein Handlungsbedarf für Deniz. Prozess laeuft ohne COO-Eingriff.
 
 ### Custom Order KPV Capsules (Christian tagged @Deniz)
 
 Kunde moechte KPV Capsules bestellen. Christian hat seit Samstag mehrfach bei Kalani angefragt, keine Antwort. Vor 1 Stunde direkt an Deniz weitergeleitet.
 
-Fragen fuer Kalani:
-- Koennen wir KPV Capsules als Custom Order anbieten?
-- Wie lauft Custom Order Entscheidungsprozess ab? Wer entscheidet was wir anbieten koennen?
+Fragen für Kalani:
+- Können wir KPV Capsules als Custom Order anbieten?
+- Wie lauft Custom Order Entscheidungsprozess ab? Wer entscheidet was wir anbieten können?
 - Kann Christian kuenftig Custom Orders selbst koordinieren oder braucht er immer Freigabe?
 - Ist das ein Produkt das wir regulaer ins Sortiment aufnehmen sollten?
 

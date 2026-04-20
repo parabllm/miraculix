@@ -19,7 +19,7 @@ Aus Notion (`Projects` DB, Stand 2026-04-09) sowie Claude-Projekten (Stand 2026-
 | `coralate` | coralate | produkt | aktiv | Jann Allenberger, Lars Blum | Notion PRJ-7 + Claude Project "Coralate" + viele Food-Scanner Docs |
 | `hays` | HAYS CEMEA | intern | aktiv | Christine Kampmann, Julia Renzikowski | Notion PRJ-2 + Doc "HAYS Kontext" |
 | `thesis` | Bachelor Thesis | studium | aktiv (Kritisch, Abgabe 15.06.2026) | Prof. Sandbrink + 10 HAYS-Interview-Kandidaten | Notion PRJ-3 |
-| `persoenlich` | Personal Life | persoenlich | aktiv | - | Notion PRJ-1 + Health/Supplement Chats |
+| `persönlich` | Personal Life | persönlich | aktiv | - | Notion PRJ-1 + Health/Supplement Chats |
 | `miraculix` | (nur Claude) | intern | aktiv | - | Claude "Miraculix" Projekt + Chats zu Second-Brain/Obsidian |
 | `terminbuchung-app` | Terminbuchungs-App | produkt | pausiert (bis nach Thesis) | - | Notion PRJ-9 |
 
@@ -42,7 +42,7 @@ Unter `hays/`:
 Unter `thesis/`:
 - `interviews` - 7-9 Experteninterviews in 2 Clustern (Operativ + Compliance/Legal)
 
-Keine separaten Sub-Projekte im `persoenlich`-Bucket - Docs direkt dort.
+Keine separaten Sub-Projekte im `persönlich`-Bucket - Docs direkt dort.
 
 ---
 
@@ -132,8 +132,8 @@ Alle `msgs > 0` aber `chars = 0` - vermutlich Chats die nur aus Audio/Images bes
 - "Vector DB" (2026-04-13, 375k chars) - Titel-Keyword-Match schwach, aber inhaltlich vermutlich Food-Scanner (pgvector) → in Phase D verifizieren
 - "💬 Recherchiere umfassend zum The…" (2026-03-29, 6.7k chars) - abgeschnittener Titel, vermutlich Research-Ein-Shot
 - "Unbenannt" (2026-04-07, 2.3k chars) - kurz, vermutlich Coralate
-- "SAP Bewerbung" (2026-03-23, 164k chars) - **persoenlich/career**, nicht Coralate wie Keyword vermutete
-- "LinkedIn Profil optimieren" (2026-03-27, x2) - persoenlich/career
+- "SAP Bewerbung" (2026-03-23, 164k chars) - **persönlich/career**, nicht Coralate wie Keyword vermutete
+- "LinkedIn Profil optimieren" (2026-03-27, x2) - persönlich/career
 - "Kalender" (2026-03-24, 120k chars) - vermutlich Miraculix/Orga, nicht Hero
 - "Website für Workflow-Automatisierung-Agentur" (2026-03-27, 63k chars) - **Thalor-Website**, nicht Hero
 - "Metorik Flow" (2026-03-19, 71k chars) - **Pulse** (WooCommerce/Metorik), nicht Personal

@@ -40,9 +40,9 @@ Christian meldet Kundenwunsch in #custom-order-requests wenn Produkt nicht im Sh
 
 **Prozess:**
 1. Christian postet in #custom-order-requests, taggt @senseikalani oder @Deniz
-2. Deniz fragt bei Supplier an (ZY bevorzugt fuer Custom/Non-Standard)
+2. Deniz fragt bei Supplier an (ZY bevorzugt für Custom/Non-Standard)
 3. Standard-Antwort an Christian waehrend Anfrage laeuft: "One of our suppliers has this, we requested it and I will get back to you on this matter tomorrow."
-4. Nach Supplier-Antwort: Menge mit Kalani klaeren, dann Order ausloesen
+4. Nach Supplier-Antwort: Menge mit Kalani klaeren, dann Order auslösen
 5. Christian informieren: kann "available soon" kommunizieren
 
 **Bekannte Custom-Produkte:** KPV Capsules, Tirzepatide, Retatrutide
@@ -72,7 +72,7 @@ Kanal: #affiliate-programm
 **Bekannte Affiliates:**
 - Valko_body: Instagram + TikTok, ~3k Follower, approved 2026-04-20
 
-**Naechste Schritte Affiliate-Onboarding:** noch zu klaeren (Konditionen, Tracking-Links, Kommunikation)
+**Nächste Schritte Affiliate-Onboarding:** noch zu klaeren (Konditionen, Tracking-Links, Kommunikation)
 
 ---
 

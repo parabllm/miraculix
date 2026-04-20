@@ -31,22 +31,22 @@ Seit 2026-04-17 intern offiziell COO. Transitionsphase ca. 3 Wochen. Umfang 5-10
 
 **Vergütung Phase 1:** Reisen, Essen, Tools. Fixe Vergütung folgt nach Transition.
 
-**Haftung:** Kalani ist Frontrunner fuer Compliance-Themen.
+**Haftung:** Kalani ist Frontrunner für Compliance-Themen.
 
 **Verantwortungsbereiche:**
 - Peptide bei Suppliern bestellen (Telegram)
 - Team koordinieren und Aufgaben verteilen
 - Rechnungen und Abrechnung mit Lieferanten
 - Qualitaet und Lab-Ergebnisse mit Janoshik
-- Eskalations-Endpunkt fuer [[christian-pulse]]
-- Workaround fuer Revolut-Banking finden
+- Eskalations-Endpunkt für [[christian-pulse]]
+- Workaround für Revolut-Banking finden
 
 **Kommunikation:**
 - Slack mit Team
 - WhatsApp mit Kalani
-- Discord fuer Calls
+- Discord für Calls
 
-**Onboarding:** taeglich Ruecksprache in Transitionsphase.
+**Onboarding:** täglich Ruecksprache in Transitionsphase.
 
 **Offene Punkte:**
 - Fixe Verguetung definieren (nach Transition)
@@ -73,16 +73,16 @@ Seit 2026-04-17 intern offiziell COO. Transitionsphase ca. 3 Wochen. Umfang 5-10
 
 ## Aktueller Stand
 
-Stand 2026-04-20: KPV Capsules fuer naechste Bestellung eingeplant (ZY Peptides hat Verfuegbarkeit bestaetigt). Christian wurde informiert ("available soon"). Affiliate Valko_body approved. US-Markt wird geprueft.
+Stand 2026-04-20: KPV Capsules für nächste Bestellung eingeplant (ZY Peptides hat Verfuegbarkeit bestaetigt). Christian wurde informiert ("available soon"). Affiliate Valko_body approved. US-Markt wird geprueft.
 
 ## Offene Aufgaben
 
 - [ ] Kalani fragen: wie viele KPV Bottles bei ZY bestellen? Dann ZY Reply senden mit Menge #hoch
 - [ ] Thymosin-Kunde Compensation-Nachricht an Christian in Slack schreiben #hoch
-- [ ] Affiliate Valko_body: naechste Schritte klaeren (Onboarding, Konditionen) #mittel
+- [ ] Affiliate Valko_body: nächste Schritte klaeren (Onboarding, Konditionen) #mittel
 - [ ] Call mit Kalani planen - Übergabe-Stand besprechen (Details: [[coo-aufgaben]]) #mittel
 - [ ] Metorik-Zugang einrichten
-- [ ] Alternativen Banking-Anbieter fuer Kartenzahlungen recherchieren
+- [ ] Alternativen Banking-Anbieter für Kartenzahlungen recherchieren
 - [ ] Knowledge Base iterativ befuellen
 
 ## Kontakte

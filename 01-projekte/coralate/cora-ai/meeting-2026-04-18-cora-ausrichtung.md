@@ -91,14 +91,14 @@ Ist das Feature-Set Konsens? Deniz' Skepsis gegenüber iMessage-Bridge muss gekl
 
 - **Positionierung:** Option B. Breiter Fitness-Coach mit maximalen Features. Vault-SaMD-Hardlimit aufgehoben. Disclaimer-Strategie und Rechtsberatung stattdessen.
 - **Sprach-Regelung festgezogen:** Empfehlungen auf Basis von Korrelations-Daten, nicht Gesundheitsdaten. Keine Zustandsdiagnosen ("du hast lange nicht trainiert"), stattdessen direkte Zahlen ("10% Gewicht runter"). Begründungen basieren auf Trainings-Historie, nicht auf Körperzustand.
-- **Action-Types:** Alle 19 bestehenden bleiben aktiv. Erweiterung um Workout-Aenderungen, Planungs-Actions. Soll-Liste noch zu definieren.
+- **Action-Types:** Alle 19 bestehenden bleiben aktiv. Erweiterung um Workout-Änderungen, Planungs-Actions. Soll-Liste noch zu definieren.
 - **Trigger (Erstentwurf):** workout_start, workout_end. Weitere werden nach Git-Analyse der App identifiziert (food_scan_confirm, daily_open, etc.).
 - **API-Contract Testing Phase:** Wird nach Git-Pull definiert. Jann gibt vor was Frontend-seitig sinnvoll ist, Deniz passt cora-engine an.
-- **Git-Analyse:** Geplant fuer naechste Session. Ziel: alle bestehenden Trigger-Punkte in der App identifizieren (inkl. Food Scanner, Workout-Flow, Social).
-- **Chat-Interface:** Wird testweise eingebaut. Scope noch offen, kein Full-RAG-Requirement fuer ersten Test.
+- **Git-Analyse:** Geplant für nächste Session. Ziel: alle bestehenden Trigger-Punkte in der App identifizieren (inkl. Food Scanner, Workout-Flow, Social).
+- **Chat-Interface:** Wird testweise eingebaut. Scope noch offen, kein Full-RAG-Requirement für ersten Test.
 - **Freundesfunktion:** Bleibt im Produkt. Kopplung mit Cora noch unklar.
 - **Feature-Set Richtung (nicht priorisiert):**
-  - Workouts aendern (Gewicht, Saetze, Reps)
+  - Workouts ändern (Gewicht, Saetze, Reps)
   - Workout-Empfehlungen aussprechen
   - Neue Uebungen einfuegen oder entfernen
   - Trainings-Sessions planen
@@ -106,27 +106,27 @@ Ist das Feature-Set Konsens? Deniz' Skepsis gegenüber iMessage-Bridge muss gekl
   - Chat-Interface (testweise)
 - **SaMD-Hardlimit als Team:** Kein hartes Limit mehr. Disclaimer-basierter Ansatz. Rechtsberatung wird beauftragt.
 
-## Naechste Schritte
+## Nächste Schritte
 
 - [ ] SaMD-Rechtsberatung beauftragen (Prioritaet hoch, blockiert Launch)
 - [ ] Launch-Scope priorisieren: was ist v1, was ist v1.1 (Deniz + Jann)
 - [ ] Chat-Interface Scope definieren bevor Jann anfaengt (welche Daten, welche Actions)
 - [ ] Action-Types Soll-Liste finalisieren (welche 19 bleiben, was kommt neu dazu)
-- [ ] Prompts reviewen: Coach-Sprache pruefen, Formulierungsregeln fuer neuen Scope festlegen
-- [ ] Lars: Knowledge-Chunks ausbauen, mehr Chunks fuer breiteren Scope benoetigt
+- [ ] Prompts reviewen: Coach-Sprache pruefen, Formulierungsregeln für neuen Scope festlegen
+- [ ] Lars: Knowledge-Chunks ausbauen, mehr Chunks für breiteren Scope benötigt
 - [ ] Jann: Frontend-Kontrakt klaeren, was sendet er bei pre/post_workout an cora-engine
 - [ ] GDPR-Check Freundesfunktion + Cora-Datenzugriff
-- [ ] **Sign-In Form und Onboarding-Daten konzipieren:** Welche Nutzerdaten werden beim Signup abgefragt, wie werden sie gespeichert, wie fliessen sie in Coras Korrelationen ein. Schluessel-Task fuer Datenqualitaet ab Tag 1.
+- [ ] **Sign-In Form und Onboarding-Daten konzipieren:** Welche Nutzerdaten werden beim Signup abgefragt, wie werden sie gespeichert, wie fliessen sie in Coras Korrelationen ein. Schluessel-Task für Datenqualitaet ab Tag 1.
 
-## Offene Punkte fuer nachgelagerte Klaerung
+## Offene Punkte für nachgelagerte Klaerung
 
 - [ ] **SaMD:** Welcher Disclaimer-Text ist rechtlich ausreichend? Braucht Anwalt.
-- [ ] **Launch-Priorisierung:** "So viel wie moeglich" ist kein Scope. Was kommt fuer v1 konkret raus, was nicht? Ohne das wird alles halb fertig.
+- [ ] **Launch-Priorisierung:** "So viel wie möglich" ist kein Scope. Was kommt für v1 konkret raus, was nicht? Ohne das wird alles halb fertig.
 - [ ] **Chat-Interface:** Wie tief geht der erste Test? Nur lesen, oder auch schreiben (Logging Writes)? Welche Datenkategorien sieht Cora im Chat?
 - [ ] **Trainings-Session planen:** Bedeutet das proaktives Buchen von Jann's Seite aus oder nur auf explizite Nutzer-Anfrage? Proaktives Buchen war in Jann's Proposal als SaMD-Grenze markiert.
 - [ ] **Freunde + Cora:** Darf Cora Freundes-Daten sehen? Anonymisiert oder roh? Braucht Consent beider User. GDPR Art. 6.
 - [ ] **Eval-Setup:** Wie pruefen wir ob neue Prompts besser sind als alte? Kein Eval-Set = kein sicheres Iterieren.
-- [ ] **Knowledge-Chunks Ziel-Anzahl:** Wie viele brauchen wir fuer Launch mit breitem Scope? Lars muss wissen worauf er hinarbeitet.
+- [ ] **Knowledge-Chunks Ziel-Anzahl:** Wie viele brauchen wir für Launch mit breitem Scope? Lars muss wissen worauf er hinarbeitet.
 - [ ] **Action-Confirmation:** Muss der User jede Cora-Aktion explizit bestaetigen oder gibt es Auto-Execute? Letzteres ist SaMD-Risiko.
 - [ ] **Sign-In Form und Onboarding:** Welche Nutzerdaten beim Signup, wie granular, wie in Cora-Korrelationen einfliessen. Siehe [[zukunftsausblick]] Abschnitt unten.
 
@@ -135,26 +135,26 @@ Ist das Feature-Set Konsens? Deniz' Skepsis gegenüber iMessage-Bridge muss gekl
 Richtung die im Meeting als Ziel beschrieben wurde. Nicht priorisiert, kein Zeitplan.
 
 **Cora als vollstaendiger Fitness-Coach.**
-Mittelfristig soll Cora Workouts aendern, empfehlen und planen koennen, Uebungen einfuegen und entfernen, Korrelationen zwischen Training, Ernaehrung und Koerper ziehen und Aussagen dazu treffen. Chat-Interface als primaere Interaktionsschicht langfristig.
+Mittelfristig soll Cora Workouts ändern, empfehlen und planen können, Uebungen einfuegen und entfernen, Korrelationen zwischen Training, Ernaehrung und Koerper ziehen und Aussagen dazu treffen. Chat-Interface als primaere Interaktionsschicht langfristig.
 
 **Onboarding als Datenbasis.**
-Coras Korrelationsqualitaet haengt direkt an den Nutzerdaten die beim Signup abgefragt werden. Ziel, Equipment, Trainingsalter, Split-Praeferenz, Ernaehrungseinschraenkungen sind der Seed fuer die ersten Empfehlungen. Je besser das Onboarding-Design, desto schneller relevante Outputs ab Tag 1. Offene Fragen: Wie viel Friction ist akzeptabel beim Signup? Progressive Disclosure (wenig am Anfang, mehr nachholen) oder alles auf einmal?
+Coras Korrelationsqualitaet haengt direkt an den Nutzerdaten die beim Signup abgefragt werden. Ziel, Equipment, Trainingsalter, Split-Praeferenz, Ernaehrungseinschraenkungen sind der Seed für die ersten Empfehlungen. Je besser das Onboarding-Design, desto schneller relevante Outputs ab Tag 1. Offene Fragen: Wie viel Friction ist akzeptabel beim Signup? Progressive Disclosure (wenig am Anfang, mehr nachholen) oder alles auf einmal?
 
 **Freundesfunktion.**
 Soziale Schicht ist im Produkt geplant. Kopplung mit Cora noch offen: Sieht Cora Freundes-Daten? Vergleiche? Gemeinsame Challenges? Muss mit GDPR-Consent kombiniert werden.
 
 **Wachsende Datenqualitaet.**
-Cora wird mit mehr Daten besser. Wenige Workouts = schwache Korrelationen. Das Produkt muss Nutzern frueh genug Mehrwert zeigen bevor die Datenbasis stark genug ist, sonst Churn. Ueberbrueckungsstrategie (z.B. populationsbasierte Defaults von Lars bis genug User-Daten da sind) sollte diskutiert werden.
+Cora wird mit mehr Daten besser. Wenige Workouts = schwache Korrelationen. Das Produkt muss Nutzern frueh genug Mehrwert zeigen bevor die Datenbasis stark genug ist, sonst Churn. Überbrueckungsstrategie (z.B. populationsbasierte Defaults von Lars bis genug User-Daten da sind) sollte diskutiert werden.
 
 ## Sparrings-Notiz (Deniz-interne Bewertung)
 
-Die Entscheidung fuer Option B ist nachvollziehbar fuer eine fruehe Test-Phase. Trotzdem drei Punkte die ich festhalten will:
+Die Entscheidung für Option B ist nachvollziehbar für eine fruehe Test-Phase. Trotzdem drei Punkte die ich festhalten will:
 
 **1. SaMD ist jetzt ein aktives Risiko, kein theoretisches.**
-"Workout empfehlen", "Training planen", "Uebungen einfuegen" sind personalisierte Fitness-Empfehlungen. EU MDR schaut auf die Funktion, nicht auf den Disclaimer. Ohne Rechtsberatung weiss keiner ob der Disclaimer-Ansatz traegt. Bevor irgendetwas davon oeffentlich geht, muss das gecheckt sein.
+"Workout empfehlen", "Training planen", "Uebungen einfuegen" sind personalisierte Fitness-Empfehlungen. EU MDR schaut auf die Funktion, nicht auf den Disclaimer. Ohne Rechtsberatung weiss keiner ob der Disclaimer-Ansatz traegt. Bevor irgendetwas davon öffentlich geht, muss das gecheckt sein.
 
 **2. Scope bleibt unscharf.**
-Alle Features aufzuzaehlen ohne Launch-Priorisierung fuehrt dazu dass Jann an zu vielen Fronten gleichzeitig baut. Empfehlung: Beim naechsten Call maximal 3 Features fuer v1 definieren, Rest explizit in v1.1 schieben.
+Alle Features aufzuzaehlen ohne Launch-Priorisierung fuehrt dazu dass Jann an zu vielen Fronten gleichzeitig baut. Empfehlung: Beim nächsten Call maximal 3 Features für v1 definieren, Rest explizit in v1.1 schieben.
 
 **3. Chat-Interface unterschaetzt.**
 "Testweise einbauen" klingt nach 2 Tagen. Ein Chat-Interface das auf Workout- und Ernaehrungs-Daten zugreift und Actions ausfuehrt ist architektonisch nicht trivial. Scope muss vor dem ersten Commit klar sein, sonst wird der Test-Build zur Last.
@@ -192,11 +192,11 @@ Zwei Ideen aus Sparrings-Chat, zur Erinnerung in die Meeting-Notiz gezogen damit
 
 Nutzer soll im Voraus planen können was er essen oder einnehmen wird. Use-Cases:
 
-- Meal-Prep am Sonntag fuer die Woche: 5 Mahlzeiten vorbereitet, koennen pro Tag abgehakt werden
+- Meal-Prep am Sonntag für die Woche: 5 Mahlzeiten vorbereitet, können pro Tag abgehakt werden
 - Saftkuren: 3 Tage Saft-Fasten, voreingetragen mit Plan
-- Supplements: taegliche Routine (Creatin morgens, Omega-3 abends)
+- Supplements: tägliche Routine (Creatin morgens, Omega-3 abends)
 
-Pattern: voreintragen, dann abhaken. Keine taegliche Neu-Eingabe noetig.
+Pattern: voreintragen, dann abhaken. Keine tägliche Neu-Eingabe noetig.
 
 Push-Notifications konfigurierbar pro Eintrag. Beispiel: "Creatin 08:00", "Supplement X mit Mahlzeit". Nutzer stellt selbst ein, ob und wann er erinnert werden will.
 
@@ -208,4 +208,4 @@ Separate Idee, detailliert abgelegt in [[2026-04-19-idee-injury-aware-workout-fl
 
 ### Status
 
-Beide Ideen nicht priorisiert, nicht fuer v1 eingeplant. Nur festgehalten damit sie beim Launch-Scope-Call wieder auftauchen.
+Beide Ideen nicht priorisiert, nicht für v1 eingeplant. Nur festgehalten damit sie beim Launch-Scope-Call wieder auftauchen.

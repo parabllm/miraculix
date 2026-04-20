@@ -42,7 +42,7 @@ _migration/           Migrations-Artefakte (Progress, Report)
 | HdWM | `01-projekte/hdwm/` | studium | aktiv - Sub: semester-6, bachelor-thesis |
 | Bachelor-Thesis | `01-projekte/bachelor-thesis/` | studium | aktiv - Abgabe 2026-06-15 KRITISCH |
 | Miraculix | `01-projekte/miraculix/` | intern | aktiv - dieser Vault + KI-Orga |
-| Persoenlich | `01-projekte/persoenlich/` | persoenlich | aktiv |
+| Persönlich | `01-projekte/persönlich/` | persönlich | aktiv |
 | Terminbuchung-App | `01-projekte/terminbuchung-app/` | produkt | pausiert bis nach Thesis |
 
 Tabelle wird manuell gepflegt wenn neue Über-Projekte entstehen. Deniz sagt dann explizit "neues Über-Projekt: X".

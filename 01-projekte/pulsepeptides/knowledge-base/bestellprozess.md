@@ -38,7 +38,7 @@ Notiz: Pulse verwendet ausschliesslich BPC-157 mit Arginin. Bei Bestellungen imm
 
 ## Custom Orders - Supplier-Anfrage
 
-Fuer Produkte die nicht im Standard-Sortiment sind (z.B. KPV Capsules):
+Für Produkte die nicht im Standard-Sortiment sind (z.B. KPV Capsules):
 - Anfrage direkt bei Supplier per Telegram
-- ZY Peptides ist der bevorzugte Supplier fuer Custom Orders / nicht-standard Produkte
-- Ablauf: Christian meldet Kundenwunsch, Deniz fragt bei ZY per Telegram an ob und zu welchem Preis moeglich
+- ZY Peptides ist der bevorzugte Supplier für Custom Orders / nicht-standard Produkte
+- Ablauf: Christian meldet Kundenwunsch, Deniz fragt bei ZY per Telegram an ob und zu welchem Preis möglich

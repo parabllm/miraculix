@@ -13,11 +13,11 @@ created_at: 2026-04-07
 notiz: "Beispiel-Chunk. Urspruenglich in DB mit Content-Begriff Schulterimpingement, nach Positionierungsentscheidung zu pruefen ob medizinisch zu nah. Aktuell auskommentierte Variante im Body."
 ---
 
-Ein Push-Pull-Verhaeltnis im Training liegt im Wochenschnitt bei mindestens 1:1, idealerweise leicht zugunsten von Pull (etwa 1:1.2). Push-dominantes Training ueber mehrere Wochen ist mit muskulaeren Dysbalancen im Schulterguertel und Haltungsabweichungen assoziiert.
+Ein Push-Pull-Verhaeltnis im Training liegt im Wochenschnitt bei mindestens 1:1, idealerweise leicht zugunsten von Pull (etwa 1:1.2). Push-dominantes Training über mehrere Wochen ist mit muskulaeren Dysbalancen im Schulterguertel und Haltungsabweichungen assoziiert.
 
-Wenn das Verhaeltnis ueber 30 Tage unter 0.5 liegt (weit mehr Pull als Push oder umgekehrt), ist eine Korrektur sinnvoll.
+Wenn das Verhaeltnis über 30 Tage unter 0.5 liegt (weit mehr Pull als Push oder umgekehrt), ist eine Korrektur sinnvoll.
 
-Korrektur-Pattern: 2 bis 3 Wochen die unterrepraesentierte Bewegungsebene priorisieren, dann zurueck zur Balance.
+Korrektur-Pattern: 2 bis 3 Wochen die unterrepraesentierte Bewegungsebene priorisieren, dann zurück zur Balance.
 
 Quelle: Lars, Trainings-Erfahrung. Vertrauen: abgeleitet.
 
