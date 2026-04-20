@@ -19,7 +19,42 @@ Kontinuierliches Log aller Prompt-Versionen der Vision Edge Function. Append-onl
 2. **Baguette** (IMG_6999) - Weißbrot-Scheiben im Korb, Restaurant
 3. **Crêpe mit Schoko** (IMG_7005) - Dessert, Street-Food
 
-## Aktuelle Version: v6 (Food Groups + Ambiguity + Grams)
+## Aktuelle Version: v7 (Scale Reasoning Protocol)
+
+**Stand 2026-04-19 spät.** Deployed als food-scanner v18. Auslöser: v6-Live-Tests haben gezeigt dass Gemini Default-Portionsgrößen zurückgibt (200g Pasta, 100g Thunfisch, 15g Öl in drei verschiedenen Nudel-Bildern identisch). Research-Erkenntnis: alle Food-Scanner-Apps kämpfen damit, 20-30% Fehlermarge ist Industry-Standard, die Probleme liegen bei Scale-Ambiguity und gelernten Typical-Serving-Sizes im LLM.
+
+**Kernänderung v7:** Portion Estimation Protocol mit sechs expliziten Reasoning-Steps. Zwingt Gemini vor der Grams-Ausgabe durch Chain-of-Thought: Container klassifizieren, bidirektional gegen Items checken, wenn möglich zählen, Distanz korrigieren, Konfidenz bewerten, Reasoning verbalisieren.
+
+**Neue Output-Felder:**
+- Top-Level `container_type` (Enum aus 7 Werten)
+- Top-Level `scale_reasoning` (ein Satz)
+- Pro Ingredient: `grams_confidence` (low/medium/high), `count` (number oder null für unzählbare Items), `scale_anchor_used` (welcher Maßstab wurde genutzt)
+
+**Kern-Prinzipien:**
+- Explizites Anti-Default: "Do NOT default to typical serving sizes. Estimate from this specific image only"
+- Bidirektional: Items zu Container UND Container zu Items, müssen konsistent sein
+- Count-based estimation für zählbare Items mit inline per-piece-weights (penne 1g, egg 50g, cherry tomato 15g, etc.)
+- Distanz-Korrektur: Ratios statt absoluter Pixel-Werte
+- Confidence als Self-Assessment, "low" wenn keine usable Anchors
+
+**Persistenz:**
+- `scan_meta` JSONB-Spalte neu in food_scan_log (Migration `food_scan_log_add_scan_meta`). Speichert dish-level `container_type`, `scale_reasoning`, `prompt_version`.
+- Ingredient-level Felder (grams_confidence, count, scale_anchor_used) landen wie gehabt in ingredients JSONB.
+- Backward-compatible: alte Einträge haben leere scan_meta, brechen nicht.
+
+**Token-Count:** grob 650-700 Input-Tokens. Deutlich über ursprünglichem Budget (250-400), aber explizit OK gegeben weil Grams-Accuracy prioritär. Cost-Impact: bei Gemini 2.5 Flash Lite etwa 0.02 Cent mehr pro Call. Output-Tokens steigen um ca. 30-50 durch scale_reasoning.
+
+**Was wir mit scale_reasoning machen:**
+1. Debugging: jeder Scan zeigt im SSE-Event und in DB wie Gemini gedänkt hat. Problem-Scans werden analysierbar.
+2. Analyse-SQL: Pattern-Mining über `scan_meta->>'scale_reasoning'` um zu sehen welche Anchor-Typen häufig sind und korrelieren mit Grams-Genauigkeit.
+3. v8-Tuning: wenn bestimmte Reasoning-Patterns zu Fehlern führen (z.B. "fork als Anchor bei kein-Fork-im-Bild"), können wir das gezielt im Prompt adressieren.
+4. User-Correction-Loop (später): Kombination aus scale_reasoning + user_corrections zeigt warum Gemini falsch lag, nicht nur dass.
+
+**Architektur-Hinweis:** Frontend-Contract DOC-62 bleibt unberührt. Die neuen Felder sind alle additiv. Frontend kann sie ignorieren oder später nutzen.
+
+**Offene Frage für den Live-Test:** Werden sich grams-Werte zwischen unterschiedlichen Portionsgrößen jetzt tatsächlich unterscheiden? Bei den drei v6-Nudel-Scans waren Pasta und Tuna in jedem Scan identisch (200g/100g). Wenn v7 verschiedene Werte erzeugt, funktioniert das Protocol.
+
+## Aktuelle Version: v6 (Food Groups + Ambiguity + Grams) — ARCHIVIERT
 
 **Stand 2026-04-19 Abend.** Deployed als food-scanner v16. Drei Kernänderungen gegenüber dem v15 Production-Prompt (80 Tokens): `food_group` als Pflichtfeld mit 19-Werte-Enum eingeführt, Ambiguity Rule mit expliziten Default-Formen für häufige Ambiguitäten (egg, flour, rice, milk, sugar), Grams Estimation mit Hand/Utensil/Whole-Item-Ankern.
 
@@ -103,6 +138,47 @@ Erste strukturierte Evaluation mit 5 erfolgreichen Einträgen aus `food_scan_log
 **wheat flour → whole-grain matched statt white.** Spätzle wird mit Weißmehl gemacht. Prompt sagt nur "wheat flour", keine Weiß/Vollkorn-Unterscheidung. Impact 20-30% abweichende Nutrient-Werte.
 
 **banana 300g statt 120g geschätzt.** 276 kcal für eine Banane. Prompt gibt keine Referenzgrößen für häufige Items.
+
+### v7 - Scale Reasoning Protocol (2026-04-19 spät, deployed als food-scanner v18)
+
+Auslöser: v6-Analyse mit drei verschiedenen Nudel-Fotos (verschiedene Behältergrößen, gleicher User) zeigte dass Gemini für penne pasta konstant 200g, für tuna 100g, für olive oil 15g zurückgibt - unabhängig vom tatsächlichen Inhalt. Das sind Default-Serving-Sizes aus Training-Data, nicht Schätzungen aus dem Bild.
+
+**Research-Grundlage:**
+- Cal AI hat 20-30% Fehlermarge, bei komplexen Gerichten bis 50%
+- Akademische Studie (ChatGPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro) zeigt systematische Unterschätzung großer Portionen, hohe Variabilität
+- State-of-the-Art: 3D Reconstruction plus Reference-Objects erreicht 17% Fehler, aufwendig
+- Prompt-Level: "estimate based on size relative to other objects in the image, not solely on typical serving sizes" wirkt messbar besser
+
+**Sechs-Stufen-Protokoll im Prompt:**
+1. Classify container (7-Werte-Enum)
+2. Bidirectional scale check: Items-zu-Container und Container-zu-Items müssen konsistent sein
+3. Count if possible: für zählbare Items (Pasta-Stücke, Nuggets, Tomaten, Eier) die Anzahl ausgeben plus per-piece-weight als Umrechnungshilfe
+4. Distance correction: Close-up photos machen items größer in Pixel, nicht physisch
+5. Emit grams + confidence + scale_anchor
+6. Emit scale_reasoning als ein-Satz-Zusammenfassung
+
+**Schema-Änderungen:**
+- Top-Level: `container_type`, `scale_reasoning` (beide Pflicht)
+- Pro Ingredient additiv: `grams_confidence`, `count`, `scale_anchor_used` (alle Pflicht)
+- Enum `container_type`: large_plate, small_plate, deep_bowl, shallow_bowl, small_bowl, cup_mug, unknown
+
+**Infrastruktur:**
+- Migration `food_scan_log_add_scan_meta`: neue JSONB-Spalte `scan_meta` in food_scan_log
+- Edge Function v18: JSONParser um `$.container_type` und `$.scale_reasoning` erweitert, zusätzliche SSE-Events `container` und `scale_reasoning` streamen während Vision-Parse
+- `PROMPT_VERSION = 'v7'` als Konstante aus prompts.ts, version string landet im SSE event und in scan_meta.prompt_version
+
+**Was wir im Log erwarten zu sehen:**
+- `scan_meta.container_type` sollte sich zwischen großer Schüssel und kleiner Schüssel unterscheiden
+- `scan_meta.scale_reasoning` sollte einen echten Satz enthalten, nicht generisch
+- `ingredients[].grams_confidence` sollte variieren (nicht alles "high")
+- `ingredients[].count` sollte für zählbare Items gesetzt sein, für Sauce null
+- `ingredients[].grams` sollte sich bei verschiedenen Portionen unterscheiden (der Haupt-Erfolgstest gegen v6)
+
+**Risiken:**
+- Token-Budget überzogen (650-700 statt 250-400). Cost-Impact klein, aber der Prompt wird unübersichtlich. Wenn v7 den Test besteht, Prompt-Komprimierung als v8 geplant.
+- Count-based estimation versagt bei Pasta-Bergen (verdeckte Stücke nicht zählbar). Deshalb `when possible` formuliert.
+- Gemini könnte Anchors erfinden ("fork next to plate" wenn keine Gabel im Bild). `scale_reasoning` macht das sichtbar im Log.
+- Prompt-Engineering reicht möglicherweise nicht. User-Correction-Loop ist der langfristige Hebel (Phase B in Roadmap).
 
 ### v6 - Food Groups + Ambiguity + Grams (2026-04-19 Abend, deployed als food-scanner v16)
 

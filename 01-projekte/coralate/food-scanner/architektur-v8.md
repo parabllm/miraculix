@@ -11,9 +11,11 @@ vertrauen: extrahiert
 erstellt: 2026-04-16
 ---
 
-Kompletter Food-Scanner-Flow, Stand 2026-04-19 Abend, Pipeline End-to-End validiert, Production-Ready für Frontend-Integration durch Jann. Dies ist die einzige kanonische Quelle - ersetzt alle vorherigen Architektur-Docs.
+Kompletter Food-Scanner-Flow, Stand 2026-04-19 spät, Pipeline End-to-End validiert, Production-Ready für Frontend-Integration durch Jann. Dies ist die einzige kanonische Quelle - ersetzt alle vorherigen Architektur-Docs.
 
-Update 2026-04-19: Vision-Prompt v6 deployed mit `food_group` Pflichtfeld, Ambiguity Rule, Grams-Anker. `match_nutrition` RPC erweitert um optionalen `food_group_filter`. Pre-Filter-Matching im Food-Scanner aktiv mit silent Fallback auf unfiltered Match bei leerem Ergebnis.
+Update 2026-04-19 spät: Vision-Prompt v7 deployed (food-scanner v18) mit Scale Reasoning Protocol. Neue Top-Level-Felder `container_type` und `scale_reasoning`, neue Ingredient-Felder `grams_confidence`, `count`, `scale_anchor_used`. Neue DB-Spalte `scan_meta` JSONB in food_scan_log für dish-level Meta-Daten. Frontend-Contract DOC-62 unberührt.
+
+Update 2026-04-19 Abend: Vision-Prompt v6 deployed mit `food_group` Pflichtfeld, Ambiguity Rule, Grams-Anker. `match_nutrition` RPC erweitert um optionalen `food_group_filter`. Pre-Filter-Matching im Food-Scanner aktiv mit silent Fallback auf unfiltered Match bei leerem Ergebnis.
 
 ## Executive Summary
 
@@ -36,7 +38,7 @@ User scannt Essen via Foto oder Barcode. System erkennt Gericht und Zutaten, mat
 - **Image Resize:** expo-image-manipulator (App) / sharp (Test-Skript), 800px JPEG q=0.85
 - **Storage:** Supabase Storage Bucket `food-scans`, privat, 5 MB Limit
 - **Auth:** Supabase Auth (ES256 asymmetric)
-- **Backend:** Supabase Edge Functions (Deno) → `food-scanner` (v17), `food-scan-confirm` (v6)
+- **Backend:** Supabase Edge Functions (Deno) → `food-scanner` (v18), `food-scan-confirm` (v6)
 - **Vision LLM:** Gemini 2.5 Flash Lite
 - **Embeddings:** OpenAI text-embedding-3-small (1536-dim)
 - **Vector Index:** pgvector HNSW mit Cosine Similarity
@@ -146,7 +148,7 @@ Identische Sicherheit zu `verify_jwt=true`, nur an anderer Stelle validiert. `au
 - **Anon-Key (Publishable):** `sb_publishable_Lp2zW-Np-SQksog8D5yz2A_yG5E48EW` (NICHT Legacy HS256)
 - **JWT:** nach Login via `/auth/v1/token`, ES256-signiert, im `Authorization: Bearer <jwt>` Header
 
-## Edge Function `food-scanner` (v17)
+## Edge Function `food-scanner` (v18)
 
 - **Slug:** `food-scanner`, `verify_jwt: false`
 - **Endpoint:** `POST https://vviutyisqtimicpfqbmi.supabase.co/functions/v1/food-scanner`
@@ -155,11 +157,13 @@ Identische Sicherheit zu `verify_jwt=true`, nur an anderer Stelle validiert. `au
 
 - `start` → `{ scan_id, ts, model, version, cached? }` - sofort nach JWT + Cache-Check
 - `dish` → `{ dish_name, ts }` - sobald Vision Gerichtsnamen extrahiert
+- `container` → `{ container_type, ts }` - seit v18 (Prompt v7), sobald Vision den Container klassifiziert hat
+- `scale_reasoning` → `{ scale_reasoning, ts }` - seit v18 (Prompt v7), sobald Vision das Scale-Reasoning ausgegeben hat
 - `ingredient` → `{ index, ingredient, ts }` - pro erkannte Zutat einzeln
 - `vision_done` → `{ ingredient_count, ts }`
 - `embed_done` → `{ ts }`
 - `match_done` → `{ ts, fallback_count }` - `fallback_count` zählt Ingredients bei denen der food_group Pre-Filter 0 Matches lieferte und auf unfiltered Retrieval zurückgefallen ist
-- `final` → `{ scan_id, dish_name, ingredients[], totals, tier_used, model, version, latency_ms, cached }`
+- `final` → `{ scan_id, dish_name, ingredients[], totals, tier_used, model, version, scan_meta, latency_ms, cached }` - scan_meta seit v18
 - `error` → `{ scan_id, message, ts }`
 
 Bei Cache-HIT nur `start` und `final` mit `cached: true`.
@@ -180,7 +184,29 @@ Bei Cache-HIT nur `start` und `final` mit `cached: true`.
 
 **Warum `thinkingBudget: 0`:** Gemini 2.5 Flash Lite hat Thinking-Mode der Output-Tokens silent verbraucht. Ohne diesen Parameter werden 50-80% der Tokens für Thinking benutzt, JSON wird abgeschnitten, Parser-Errors.
 
-### Vision-Prompt v6 (gekürzt, Stand 2026-04-19)
+### Vision-Prompt v7 (gekürzt, Stand 2026-04-19 spät)
+
+Auslöser: v6-Scans von zwei verschiedenen Nudel-Portionen ergaben in beiden Fällen identische Gramm-Werte (Pasta 200g, Tuna 100g, Öl 15g). Gemini gibt Training-Defaults statt Bild-Schätzungen. v7 erzwingt Chain-of-Thought über Portion-Größe.
+
+- Analyze the PRIMARY PLATE only
+- Return STRICT JSON mit `dish_name`, `container_type`, `scale_reasoning`, `ingredients[]`
+- Ingredient-Shape: `name`, `food_group`, `grams`, `grams_confidence`, `count`, `scale_anchor_used`, `preparation`, `visibility`
+- Naming: base food as in nutrition database, concrete not category, decompose if nutritionally relevant, skip garnishes under 5g
+- Food_Group: Pflichtfeld, 19-Werte-Enum aligned mit `nutrition_db.food_group_normalized`
+- Ambiguity Rule: most common everyday form bei mehrdeutigen Foods
+- Portion Estimation Protocol (sechs Steps):
+  1. Classify container in 7-Werte-Enum (large_plate, small_plate, deep_bowl, shallow_bowl, small_bowl, cup_mug, unknown)
+  2. Bidirectional scale check: Items-zu-Container UND Container-zu-Items konsistent
+  3. Count if possible für zählbare Items mit inline per-piece-weights
+  4. Distance correction über Ratios statt Pixel
+  5. Emit grams + grams_confidence (low/medium/high) + scale_anchor_used
+  6. Emit scale_reasoning als top-level Ein-Satz-Zusammenfassung
+- Inferred Ingredients: invisible items mit Ambiguity Rule und food_group. grams_confidence typisch "medium", scale_anchor_used = "inferred_from_dish", count null
+- Output: 3-13 ingredients max, kein Prosa außerhalb JSON
+
+Volle Prompt-Historie und Versions-Rationale in [[prompt-log]].
+
+### Vision-Prompt v6 (ARCHIVIERT, gekürzt)
 
 - Analyze the PRIMARY PLATE only
 - Return STRICT JSON mit `dish_name` und `ingredients[]`
@@ -473,7 +499,7 @@ CREATE TABLE public.food_scan_log (
 - `pending_confirmation` → Vision fertig, wartet auf User
   - User-Confirm → `confirmed` (Endstatus, zählt in Daily Macros)
 
-### EnrichedIngredient JSON-Shape (Stand 2026-04-19)
+### EnrichedIngredient JSON-Shape (Stand 2026-04-19 spät)
 
 ```ts
 interface EnrichedIngredient {
@@ -481,11 +507,14 @@ interface EnrichedIngredient {
   grams: number;
   preparation?: string;             // "sliced"
   visibility: 'visible' | 'inferred';
-  food_group?: string;              // "fruits" (neu seit v17, aus Vision-Prompt)
+  food_group?: string;              // "fruits" (seit v17, aus Vision-Prompt)
+  grams_confidence?: 'low' | 'medium' | 'high';  // seit v18 (Prompt v7)
+  count?: number | null;            // seit v18, Anzahl zählbarer Items oder null
+  scale_anchor_used?: string;       // seit v18, welcher Maßstab vom Vision genutzt
   matches: NutritionMatch[];        // Top-3 Kandidaten
   matched_source: string | null;    // "USDA_SR/173573"
-  filter_used?: string | null;      // welcher food_group_filter beim RPC-Call verwendet wurde
-  fallback_triggered?: boolean;     // true wenn primärer Filter 0 Matches lieferte und auf unfiltered zurückgefallen
+  filter_used?: string | null;      // welcher food_group_filter beim RPC-Call verwendet wurde (seit v17)
+  fallback_triggered?: boolean;     // true wenn primärer Filter 0 Matches lieferte (seit v17)
   per_ingredient_nutrients: {       // skaliert auf grams
     enerc_kcal, procnt_g, fat_g, choavl_g, fibtg_g,
     na_mg, k_mg, ca_mg, fe_mg, mg_mg, zn_mg,
@@ -495,16 +524,31 @@ interface EnrichedIngredient {
 }
 ```
 
-`food_group`, `filter_used`, `fallback_triggered` sind additive Felder und brechen den Frontend-Contract DOC-62 nicht. Frontend kann sie aktuell ignorieren.
+`food_group`, `grams_confidence`, `count`, `scale_anchor_used`, `filter_used`, `fallback_triggered` sind additive Felder und brechen den Frontend-Contract DOC-62 nicht. Frontend kann sie aktuell ignorieren.
+
+### ScanMeta JSON-Shape (Stand 2026-04-19 spät)
+
+Dish-level Meta-Daten aus dem Vision-Output, persistiert in `food_scan_log.scan_meta` JSONB-Spalte:
+
+```ts
+interface ScanMeta {
+  container_type?: string;          // "large_plate" | "deep_bowl" | ... | "unknown"
+  scale_reasoning?: string;         // Ein Satz über die Scale-Inferenz des gesamten Dishes
+  prompt_version?: string;          // "v7" etc.
+}
+```
+
+ScanMeta ist additiv und bricht nichts. Frontend kann es ignorieren. Genutzt für Debug-SQL-Queries und späteres Pattern-Mining (welche Scale-Anchor-Typen korrelieren mit hoher Grams-Genauigkeit nach User-Correction).
 
 ## Deployment Reference
 
-### Aktuelle Versionen (2026-04-19 Abend)
+### Aktuelle Versionen (2026-04-19 spät)
 
-- `food-scanner` Edge Function: **v17** (Vision-Prompt v6 mit food_group Pflichtfeld, RPC-Integration mit Pre-Filter + Fallback, SSE event version string 'v17')
+- `food-scanner` Edge Function: **v18** (Vision-Prompt v7 mit Scale Reasoning Protocol, Parser für container_type und scale_reasoning, scan_meta Persistenz, SSE event version string 'v7')
 - `food-scan-confirm` Edge Function: **v6**
 - `food-scanner-gemini` Edge Function: **deprecated (410 Gone)** seit 2026-04-13
 - `nutrition_db`: 23.305 Einträge mit HNSW Embedding Index, food_group_normalized 100% gefüllt, provenance 100% gefüllt
+- `food_scan_log`: erweitert um `scan_meta` JSONB-Spalte (Migration `food_scan_log_add_scan_meta`)
 - `match_nutrition` RPC: erweitert um `food_group_filter text DEFAULT NULL`, Borrow-Script-kompatibel
 - Storage Bucket `food-scans`: privat, 5 MB Limit, JPEG/PNG
 

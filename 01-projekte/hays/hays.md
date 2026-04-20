@@ -43,7 +43,7 @@ Siehe [[bachelor-thesis]] - HAYS ist die empirische Quelle (7-9 Interviews).
 
 ## Offene Aufgaben
 
-_(werden aus Claude-Logs destilliert in Phase D - aktuell keine expliziten HAYS-Tasks in Notion-Tasks-DB)_
+- [ ] Call mit Justin Münch: Ticketsystem umziehen (heute 15:00-15:45)
 
 ## Abgeschlossene Meilensteine
 

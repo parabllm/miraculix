@@ -182,3 +182,30 @@ Basis: vergangene Trainingsdaten plus initiale Onboarding-Daten. Sign-In Form da
 - Definition nach Git-Pull
 - [[jann-allenberger]] gibt Frontend-Bedarf vor, Deniz passt cora-engine an
 - Git-Stand in nächster Session ziehen, alle Trigger-Punkte inkl. Food Scanner Flow identifizieren
+
+
+## Nachtrag (2026-04-19 Abend)
+
+Zwei Ideen aus Sparrings-Chat, zur Erinnerung in die Meeting-Notiz gezogen damit sie nicht vergessen werden.
+
+### Meal-Prep, Saftkuren, Supplements vorher eintragen
+
+Nutzer soll im Voraus planen können was er essen oder einnehmen wird. Use-Cases:
+
+- Meal-Prep am Sonntag fuer die Woche: 5 Mahlzeiten vorbereitet, koennen pro Tag abgehakt werden
+- Saftkuren: 3 Tage Saft-Fasten, voreingetragen mit Plan
+- Supplements: taegliche Routine (Creatin morgens, Omega-3 abends)
+
+Pattern: voreintragen, dann abhaken. Keine taegliche Neu-Eingabe noetig.
+
+Push-Notifications konfigurierbar pro Eintrag. Beispiel: "Creatin 08:00", "Supplement X mit Mahlzeit". Nutzer stellt selbst ein, ob und wann er erinnert werden will.
+
+Das ist ein eigener Feature-Block, kein Food-Scanner-Thema. Gehoert in den Logging-Layer von Cora, nicht in die Scan-Pipeline.
+
+### Injury-aware Workout-Flow
+
+Separate Idee, detailliert abgelegt in [[2026-04-19-idee-injury-aware-workout-flow]]. Kurz: Nutzer traegt Verletzung ein, bei Workout-Start matcht deterministischer Check gegen Uebungs-Belastungs-Tags, Pop-up fragt Schweregrad 1-5, Cora reduziert Gewicht oder entfernt Uebung entsprechend. Rechtliche Pruefung zwingend vor Umsetzung.
+
+### Status
+
+Beide Ideen nicht priorisiert, nicht fuer v1 eingeplant. Nur festgehalten damit sie beim Launch-Scope-Call wieder auftauchen.

@@ -4,7 +4,7 @@ projekt: "[[pulsepeptides]]"
 thema: produkte
 status: aktiv
 erstellt: 2026-04-17
-zuletzt_aktualisiert: 2026-04-17
+zuletzt_aktualisiert: 2026-04-20
 vertrauen: extrahiert
 quelle: metorik_export
 ---
@@ -35,118 +35,6 @@ Quelle: Metorik CSV-Export, Stand 2026-04-17. Alle Preise in EUR.
 | DSIP | 29,99 | 5,41 | 81% | 21 | 3.322 | 21 | 33 Tage |
 | GHRP-2 | 24,99 | 3,60 | 85% | 50 | 1.218 | 73 | 270 Tage |
 
-## Produkt-Details
-
-### BAC-Water
-
-- Preis: 15,99 EUR, COGS: 2,00 EUR
-- Typ: Hilfsmittel (Bacteriostatic Water, kein Peptid)
-- Verkauft: 1.214 (meistverkauftes Produkt)
-- Lager: 2 — faktisch ausverkauft, kein Days-of-Stock-Wert
-- Kategorie: PulsePeptides
-
-### BPC-157
-
-- Preis: 34,99 EUR, COGS: 4,95 EUR, Marge: 85%
-- Form: Lyophilized, 5mg
-- Sequenz: Gly-Glu-Pro-Pro-Pro-Gly-Lys-Pro-Ala-Asp-Asp-Ala-Gly-Leu-Val
-- Molecular Formula: C62H98N16O22, MW: 1419.5 g/mol
-- CAS: 137525-51-0, PubChem: 9941957
-- Lager: 290, Days of Stock: 45
-- Umsatz: 38.890 EUR (zweithoechster)
-
-### GHK-CU
-
-- Preis: 39,99 EUR, COGS: 10,82 EUR, Marge: 71%
-- Form: Lyophilized oder Raw Powder, 50mg
-- Sequenz: Gly-His-Lys
-- Molecular Formula: C14H24CuN6O4, MW: 403.92 g/mol
-- CAS: 89030-95-5 (Cu complex), PubChem: 54608178
-- Lager: 405, Days of Stock: 71
-- Umsatz: 39.079 EUR (hoechster Umsatz)
-
-### Ipamorelin
-
-- Preis: 24,99 EUR, COGS: 5,40 EUR, Marge: 77%
-- Form: Raw Powder oder Lyophilized
-- Sequenz: Aib-His-D-2Nal-D-Phe-Lys
-- Molecular Formula: C38H49N9O5, MW: 711.9 g/mol
-- CAS: 170851-70-4, PubChem: 9831659
-- Lager: 144, Days of Stock: 38
-
-### TB-500 (TB4)
-
-- Preis: 39,99 EUR, COGS: 10,82 EUR, Marge: 71%
-- Form: Lyophilized oder Raw Powder, 5mg
-- Sequenz: Ac-Ser-Asp-Lys-Pro-Asp-Met-Ala-Glu-Ile-Glu-Lys-Phe-Asp-Lys-Ser-Lys-Leu-Lys-Lys-Thr-Glu-Thr-Gln-Glu-Lys-Asn-Pro-Leu-Pro-Ser-Lys-Glu-Thr-Ile-Glu-Gln-Glu-Lys-Gln-Ala-Gly-Glu-Ser-OH
-- Molecular Formula: C212H350N56O78S, MW: 4963 g/mol
-- CAS: 77591-33-4, PubChem: 16132341
-- Lager: 443, Days of Stock: 133
-
-### MOTS-c
-
-- Preis: 39,99 EUR, COGS: 9,92 EUR, Marge: 73%
-- Lager: 520, Days of Stock: 165
-
-### Epithalon
-
-- Preis: 24,99 EUR, COGS: 5,85 EUR, Marge: 74%
-- Lager: 140, Days of Stock: 70
-
-### Tesamorelin
-
-- Preis: 54,99 EUR, COGS: 18,05 EUR, Marge: 64%
-- Lager: 35, Days of Stock: **18 — bald nachbestellen**
-- Teuerster Einkauf (COGS), niedrigste Marge aller Produkte
-
-### MOD-GRF
-
-- Preis: 39,99 EUR, COGS: 11,75 EUR, Marge: 69%
-- Lager: 215, Days of Stock: 130
-
-### TB-500 (17-23)
-
-- Preis: 34,99 EUR, COGS: 6,76 EUR, Marge: 79%
-- Lager: 359, Days of Stock: 224
-
-### Semax
-
-- Preis: 29,99 EUR, COGS: 9,00 EUR, Marge: 68%
-- Lager: 172, Days of Stock: 131
-
-### BPC-157 Capsules
-
-- Preis: 89,99 EUR, COGS: k.A., Marge: 100% (kein COGS hinterlegt)
-- Form: Kapseln (nicht Lyophilized)
-- Lager: 7, Days of Stock: **7 — sofort nachbestellen**
-- Hoechster Einzelpreis im Sortiment
-
-### Selank
-
-- Preis: 29,99 EUR, COGS: 9,00 EUR, Marge: 69%
-- Lager: 152, Days of Stock: 154
-
-### PT-141
-
-- Preis: 39,99 EUR, COGS: 9,00 EUR, Marge: 77%
-- Lager: 7, Days of Stock: **10 — sofort nachbestellen**
-
-### Thymosin Alpha-1
-
-- Preis: 39,99 EUR, COGS: 15,33 EUR, Marge: 58%
-- Lager: 170, Days of Stock: 236
-- Niedrigste Marge nach Tesamorelin
-
-### DSIP
-
-- Preis: 29,99 EUR, COGS: 5,41 EUR, Marge: 81%
-- Lager: 21, Days of Stock: 33
-
-### GHRP-2
-
-- Preis: 24,99 EUR, COGS: 3,60 EUR, Marge: 85%
-- Lager: 73, Days of Stock: 270
-
 ## Kritischer Lagerstand (sofort handeln)
 
 | Produkt | Lager | Days of Stock | Prioritaet |
@@ -158,45 +46,87 @@ Quelle: Metorik CSV-Export, Stand 2026-04-17. Alle Preise in EUR.
 | Ipamorelin | 144 | 38 Tage | naechste Bestellung |
 | BPC-157 | 290 | 45 Tage | naechste Bestellung |
 
-## Sales Performance (Ranking nach Umsatz)
+## Custom-Only Produkte (nicht im Shop)
 
-1. GHK-CU: 39.079 EUR
-2. BPC-157: 38.890 EUR
-3. BPC-157 Capsules: 18.466 EUR
-4. BAC-Water: 18.456 EUR
-5. Tesamorelin: 18.302 EUR
-6. TB-500 (TB4): 22.673 EUR
-7. MOTS-c: 21.396 EUR
+Produkte die nur über Manual Orders laufen, nicht im WooCommerce-Shop und nicht im Metorik-Export:
 
-## Margen-Ausreisser
+| Produkt | Supplier | Status |
+|---|---|---|
+| KPV Capsules | ZY Peptides | in naechste Bestellung eingeplant (2026-04-20) |
+| Tirzepatide | ZY Peptides | bestellen (Kalani, 2026-04-17) |
+| Retatrutide | - | unbekannt |
 
-- Beste Marge: BPC-157 Capsules 100% (kein COGS hinterlegt, muss gecheckt werden)
-- BAC-Water: 87%, GHRP-2: 85%, BPC-157: 85%
-- Schlechteste Marge: Thymosin Alpha-1 58%, Tesamorelin 64%
+### KPV Capsules
 
+- Nicht im Standard-Shop
+- Supplier: ZY Peptides (Telegram)
+- Lagerbestand: 0
+- Status (2026-04-20): ZY hat Verfuegbarkeit bestaetigt ("Yes, how many?"). Menge mit Kalani klaeren, dann ZY antworten.
+- Kunde ueber Christian: "available soon" kommuniziert
+
+**Prozess Custom Orders allgemein:** siehe [[support-eskalation]]
 
 ## Produkt-Spezifikationen (kritisch)
 
 ### BPC-157
 
-- Verkaufsform: Arg-BPC-157 (Arginin-Salz)
+- Verkaufsform: **Arg-BPC-157** (Arginin-Salz)
 - NIEMALS TFA-Salz (Trifluoracetat) - giftig
 - NICHT Standard-BPC-157 Acetat
 - Bei jeder Bestellung: explizit "Arg-BPC-157" und TFA-frei bestaetigen lassen
+- Merksatz: Immer Arg, niemals TFA.
 
+## Produkt-Details
 
-## Custom-Only Produkte (nicht im Shop)
+### BAC-Water
 
-Produkte die nur über Manual Orders laufen, nicht im WooCommerce-Shop und nicht im Metorik-Export:
+- Preis: 15,99 EUR, COGS: 2,00 EUR
+- Typ: Hilfsmittel (Bacteriostatic Water, kein Peptid)
+- Verkauft: 1.214 (meistverkauftes Produkt)
+- Lager: 2 - faktisch ausverkauft
 
-- Tirzepatide
-- Retatrutide
-- KPV (und ggf. weitere)
+### BPC-157
 
-**Prozess:**
-1. Christian meldet Kundenwunsch in #custom-order-requests
-2. COO fragt beim Supplier an (ZY bevorzugt) ob Produkt verfügbar
-3. Bei Verfügbarkeit: Preis klären, Kalani informieren, Order auslösen
-4. Antwort an Christian: "One of our suppliers has this, we requested it and I will get back to you on this matter tomorrow."
+- Preis: 34,99 EUR, COGS: 4,95 EUR, Marge: 85%
+- Form: Lyophilized, 5mg, Arg-BPC-157
+- Lager: 290, Days of Stock: 45
 
-**Wichtig:** Diese Produkte gehen nicht durch den normalen Shop-Flow. Kai wird in #custom-order-requests direkt getaggt für den Versand.
+### GHK-CU
+
+- Preis: 39,99 EUR, COGS: 10,82 EUR, Marge: 71%
+- Lager: 405, Days of Stock: 71
+- Umsatz: 39.079 EUR (hoechster Umsatz)
+
+### Tesamorelin
+
+- Preis: 54,99 EUR, COGS: 18,05 EUR, Marge: 64%
+- Lager: 35, Days of Stock: **18 - bald nachbestellen**
+- Teuerster Einkauf (COGS), niedrigste Marge aller Produkte
+
+### BPC-157 Capsules
+
+- Preis: 89,99 EUR, COGS: k.A., Marge: 100% (kein COGS hinterlegt - pruefen)
+- Form: Kapseln
+- Lager: 7, Days of Stock: **7 - sofort nachbestellen**
+- Hoechster Einzelpreis im Sortiment
+
+### PT-141
+
+- Preis: 39,99 EUR, COGS: 9,00 EUR, Marge: 77%
+- Lager: 7, Days of Stock: **10 - sofort nachbestellen**
+
+### Thymosin Alpha-1
+
+- Preis: 39,99 EUR, COGS: 15,33 EUR, Marge: 58%
+- Lager: 170, Days of Stock: 236
+- Niedrigste Marge nach Tesamorelin
+
+## Sales Performance (Ranking nach Umsatz)
+
+1. GHK-CU: 39.079 EUR
+2. BPC-157: 38.890 EUR
+3. TB-500 (TB4): 22.673 EUR
+4. MOTS-c: 21.396 EUR
+5. BPC-157 Capsules: 18.466 EUR
+6. BAC-Water: 18.456 EUR
+7. Tesamorelin: 18.302 EUR

@@ -73,12 +73,13 @@ Seit 2026-04-17 intern offiziell COO. Transitionsphase ca. 3 Wochen. Umfang 5-10
 
 ## Aktueller Stand
 
-Stand 2026-04-17: COO-Rolle gestartet. Erste Bestellung ausgeloest (100 Kits Arg-BPC-157 bei Lab Peptides, 2.800 USD).
+Stand 2026-04-20: KPV Capsules fuer naechste Bestellung eingeplant (ZY Peptides hat Verfuegbarkeit bestaetigt). Christian wurde informiert ("available soon"). Affiliate Valko_body approved. US-Markt wird geprueft.
 
 ## Offene Aufgaben
 
-- [ ] Montag: Kalani fragen wie viele KPV-Bottles bestellen (ZY Peptides hat geantwortet: "Yes, how many?"), dann Reply senden #hoch
-- [ ] Montag: Thymosin-Kunde Compensation-Nachricht an Christian in Slack schreiben #hoch
+- [ ] Kalani fragen: wie viele KPV Bottles bei ZY bestellen? Dann ZY Reply senden mit Menge #hoch
+- [ ] Thymosin-Kunde Compensation-Nachricht an Christian in Slack schreiben #hoch
+- [ ] Affiliate Valko_body: naechste Schritte klaeren (Onboarding, Konditionen) #mittel
 - [ ] Call mit Kalani planen - Übergabe-Stand besprechen (Details: [[coo-aufgaben]]) #mittel
 - [ ] Metorik-Zugang einrichten
 - [ ] Alternativen Banking-Anbieter fuer Kartenzahlungen recherchieren
