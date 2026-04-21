@@ -75,6 +75,7 @@ Stand 2026-04-20:
 
 ## Offene Aufgaben
 
+- [ ] Auto organisieren fuer Kalani-Lager-Besuch Eppelheim am Mittwoch 22.04. abends (bei wem fragen, Abholzeit klaeren) #hoch
 - [ ] Spanien 02.-12.08. planen: diese Woche finalisieren, Mitte nächster Woche Flüge buchen #hoch
 - [ ] Schwitzer-Urlaub: Mai absagen und auf Semesterferien verschieben (mit Eris, Mikail, Maddox klären) #mittel
 - [ ] Strategie post-Studium durchdenken: Master-Recherche (Zulassung, Stadt, Voraussetzungen, Fachrichtung) #mittel

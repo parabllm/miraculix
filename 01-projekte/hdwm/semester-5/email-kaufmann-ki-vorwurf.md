@@ -5,7 +5,8 @@ art: notiz
 ueber_projekt: "[[international-sales]]"
 bereich: studium
 erstellt: 2026-04-17
-notizen: "Sonderfall: Email-Korrespondenz mit Prof. Dr. Kaufmann zu 63% Turnitin KI-Erkennung. Klärungsgespräch nächste Woche ausstehend. Widerspruch zwischen Eidesstattlicher Erklärung und Email-Aussage muss geklärt werden."
+status: aufgeloest
+notizen: "Email-Korrespondenz mit Prof. Dr. Kaufmann zu 63% Turnitin KI-Erkennung. Klaerungsgespraech am 21.04.2026 gefuehrt, Vorwurf entkraeftet. Siehe Meeting-Note [[meeting-kaufmann-2026-04-21]]."
 quelle: extrahiert_aus_screenshot
 vertrauen: extrahiert
 ---
@@ -100,9 +101,11 @@ Internet: www.hdwm.de
 ## Nächste Schritte
 
 - [x] Termin vereinbart: Di 21.04.2026, 09:00 Uhr, Raum 308, HdWM Hauptgebäude
-- [ ] Schriftliche Aufstellung der KI-Nutzung vorbereiten (für Mitbringen am 21.04.)
-- [ ] Vor dem Gespräch: konsistente Darstellung erarbeiten → [[meeting-kaufmann-2026-04-21]]
+- [x] Schriftliche Aufstellung der KI-Nutzung vorbereitet (als ergaenzter Punkt 6 in Declaration, statt separater Aufstellung)
+- [x] Klaerungsgespraech am 21.04.2026 gefuehrt. Vorwurf entkraeftet.
+- [ ] Korrigierte PDF per Mail nachreichen
 
 **Kontext-Files:**
-- [[international-sales-seminararbeit]] — vollständige Arbeit inkl. Eidesstattlicher Erklärung
+- [[meeting-kaufmann-2026-04-21]] — Gespraechsverlauf und Ergebnis
+- [[international-sales-seminararbeit]] — vollständige Arbeit inkl. Declaration
 - [[international-sales-turnitin-bericht]] — Turnitin-Bericht Details

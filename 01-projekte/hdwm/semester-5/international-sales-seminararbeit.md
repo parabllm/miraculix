@@ -175,7 +175,7 @@ While these concepts offer a good solution for the Siemens case they also show a
 
 ---
 
-## Eidesstattliche Erklärung (Originaltext)
+## Eidesstattliche Erklärung (Originaltext Abgabe 18.02.2026)
 
 > I hereby certify that:
 > (1) I have personally authored the content of this seminar paper and that all printed, electronic, or personal sources have been acknowledged and listed in the bibliography.
@@ -186,5 +186,12 @@ While these concepts offer a good solution for the Siemens case they also show a
 >
 > Mannheim, 18 February 2026 — Deniz-Leon Özbek
 
-> [!warning] Widerspruch zur Email vom 17.04.2026
-> In der Email an Prof. Kaufmann wurde angegeben: "I used Claude for research support and NotebookLM for summarizing sources. Some ideas were AI assisted." — Das widerspricht Punkt (5) dieser Erklärung. Muss vor dem Gespräch geklärt werden. Siehe [[email-kaufmann-ki-vorwurf]].
+## Korrigierte Declaration (nachgereicht 21.04.2026)
+
+Nach Klaerungsgespraech mit Prof. Kaufmann am 21.04.2026 wurde Punkt 6 ergaenzt:
+
+> (6) In addition to point (5), I used Anthropic's Claude and Google's NotebookLM as research and comprehension support, for example to clarify concepts from the cited sources and to work more efficiently with my own uploaded literature.
+
+Punkt 5 unveraendert uebernommen ("solely" beibehalten, Punkt 6 als Ergaenzung gekennzeichnet).
+
+Siehe [[meeting-kaufmann-2026-04-21]] fuer Gespraechsverlauf.

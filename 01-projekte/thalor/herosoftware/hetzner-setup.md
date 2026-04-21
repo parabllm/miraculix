@@ -2,16 +2,19 @@
 typ: aufgabe
 name: "HeroSoftware Hetzner Server Setup"
 projekt: "[[herosoftware]]"
-status: in_arbeit
+status: abgeloest
 benoetigte_kapazitaet: mittel
 kontext: ["desktop"]
 kontakte: []
 quelle: notion_migration
 vertrauen: extrahiert
 erstellt: 2026-04-16
+aktualisiert: 2026-04-21
 ---
 
-Hetzner VPS Helsinki Ubuntu 24.04. `n8n.thalor.de` via Docker + Nginx + Let's Encrypt. `/opt/hero/` Skripte. `/var/log/hero/` Logs. Crons sind NICHT eingerichtet - Deployment ist offene Task.
+> **Migration-Hinweis (2026-04-21):** HeroSoft-Scripts ziehen vom Thalor-Hetzner auf ein eigenes DigitalOcean-Droplet (Blick Solutions DO-Space) um. Neue Infrastructure siehe [[digitalocean-droplet]]. Dieses Dokument beschreibt die alte Loesung, die nach Cutover obsolet wird. Die alten Scripts in `/opt/crm-sync/` mit hardcoded API-Keys werden abgeschaltet sobald DO-Deployment stabil laeuft. Der Thalor-Hetzner bleibt als Deniz' privates n8n (`n8n.thalor.de`) und fuer Thalor-Websites weiter in Betrieb, verliert aber seine HeroSoftware-Rolle.
+
+Hetzner VPS Helsinki Ubuntu 24.04. `n8n.thalor.de` via Docker + Nginx + Let's Encrypt. `/opt/crm-sync/` Skripte (alte HeroSoft-Version, wird abgeloest). Crons laufen auf alten Skripten.
 
 ## Architektur
 

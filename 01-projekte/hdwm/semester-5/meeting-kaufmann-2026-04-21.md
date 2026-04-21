@@ -173,14 +173,23 @@ Zu statisch für schnelle große Chancen. Wenn die Fossil-Division €300 Mio. o
 
 ---
 
-## Gesprächsverlauf (am 22.04. live ausfüllen)
+## Gesprächsverlauf
 
-_(Notizen während des Gesprächs)_
+Anfangs skeptische Haltung beim Prof. Schnell die Eigenleistung transparent gemacht, indem der komplette Arbeitsprozess erklaert wurde: Research mit Gemini und Perplexity zur Verifizierung, NotebookLM zum Quellen-Organisieren und Kontext-Finden, Schreiben teils mit Gemini-Unterstuetzung teils komplett in Eigenleistung. Durch die Detailtiefe der Prozessbeschreibung Kompetenz vermittelt.
 
----
+Gespraech kippte von Verdachtsklaerung zu fachlichem Austausch. Im Kern wurde das Thema KI-Nutzung in Seminararbeiten an der HdWM diskutiert, nicht mehr der einzelne Fall.
 
-## Ergebnis & Nächste Schritte
+## Ergebnis
 
-_(nach dem Gespräch ausfüllen)_
+- Vorwurf entkraeftet
+- Prof hat korrigierte Version mit ergaenztem Punkt 6 in der Declaration of Authorship akzeptiert
+- Vereinbarung: Nachreichen der korrigierten PDF per Mail
+- Smalltalk am Rand ueber moegliche Workshop-Teilnahme zu neuen Pruefungskonzepten mit KI. Nicht konkret, nicht weiterverfolgen.
 
-- [ ]
+## Naechste Schritte
+
+- [x] Schriftliche KI-Nutzungs-Aufstellung vorbereiten (im Gespraech durch ergaenzten Punkt 6 in Declaration geloest)
+- [x] Konsistente Darstellung vor Gespraech erarbeiten
+- [x] Gespraech gefuehrt
+- [ ] Korrigierte PDF per Mail an Prof. Kaufmann schicken #hoch
+

@@ -7,11 +7,11 @@ bereich: client_work
 umfang: offen
 status: aktiv
 kapazitaets_last: hoch
-kontakte: ["[[robin-kronshagen]]"]
-tech_stack: ["n8n", "attio", "clay", "lgm", "mantle", "hetzner", "node"]
+kontakte: ["[[robin-kronshagen]]", "[[calvin-blick]]", "[[martin-herd]]"]
+tech_stack: ["n8n", "attio", "clay", "lgm", "mantle", "digitalocean", "node"]
 notion_url: ""
 erstellt: 2026-04-16
-notizen: "Größter aktiver Thalor-Client. Mantle→Attio→Clay→LGM Pipeline. 1 n8n Cloud Workflow (WF1) + 4 Hetzner-Scripts."
+notizen: "Größter aktiver Thalor-Client. Mantle→Attio→Clay→LGM Pipeline. 1 n8n Cloud Workflow (WF1) + 4 Node-Scripts. Infrastructure migriert vom Thalor-Hetzner auf eigenes DigitalOcean-Droplet in Blick Solutions' DO-Space (Entscheidung Martin-Call 2026-04-21)."
 quelle: notion_migration
 vertrauen: extrahiert
 ---
@@ -25,7 +25,7 @@ Client-Projekt von Robin Kronshagen (Founder HeroSoftware GmbH). Vollständiges 
 **Architektur gelocked** (siehe [[thalor]] für projektübergreifende Prinzipien):
 - Attio = SSOT, alle Systeme schreiben rein/lesen raus
 - Clay nur "Outbound Ready" Leads
-- Batch-Jobs als Hetzner-Scripts (kein 60s-Timeout)
+- Batch-Jobs als Node.js-Scripts auf Linux-Server (kein n8n 60s-Timeout)
 - n8n Cloud nur für Echtzeit-Webhooks (WF1)
 - Attio-Liste = LGM-Sequence (Robin sortiert manuell in Listen, Scripts routen)
 - Duplikat-Schutz: `sequence_status` ≠ "Not Started"/"Not Activated" → nie doppelt pushen
@@ -33,29 +33,48 @@ Client-Projekt von Robin Kronshagen (Founder HeroSoftware GmbH). Vollständiges 
 
 **Technische Identifier:**
 - n8n Cloud: `herosoftware.app.n8n.cloud`
-- Hetzner-Server: Ubuntu 24.04 Helsinki, self-hosted n8n auf `n8n.thalor.de`, Scripts unter `/opt/hero/`
-- Attio-Workspace-Members: Calvin Blick `5a60de25-...`, Robin `e9930d23-005e-4318-b26c-c49487b39b51`
+- **Aktuelle Infrastructure (Migration 2026-04-21):** DigitalOcean-Droplet `68.183.222.21` (Hostname `hero-software-sync-automation`), Ubuntu 24.04, Scripts-Pfad `/opt/crm-sync/`. Details siehe [[digitalocean-droplet]]
+- **Alte Infrastructure (wird abgeschaltet):** Thalor-Hetzner `204.168.188.228`, `/opt/crm-sync/` (alte Script-Version mit hardcoded Keys)
+- Attio-Workspace-Members: Calvin Blick `5a60de25-f010-4f60-81bf-8e0a03930db1`, Robin Kronshagen `e9930d23-005e-4318-b26c-c49487b39b51`
 - Mantle App-IDs: AddressHero `8321775d-...`, DiscountHero `c8cd397c-...`, PaymentHero `e65dd559-...`
+- GitHub-Repo: `HeroSoftware-GmbH/hero-software-sync` (PRIVATE, Owner HeroSoftware-GmbH-Org, Martin Herd hat angelegt)
 
 ## Aktueller Stand
 
-Stand 2026-04-13 (letzter Log): **Production-Ready Refactor abgeschlossen** - alle 4 Scripts gebaut, daily-sync + LGM-Auth-Checks validiert. Repo auf GitHub privat gesichert. Phase 2 komplett validiert.
+Stand 2026-04-21 nach Martin-Call ([[2026-04-21-martin-call]]): **Infrastructure-Migration entschieden.** Eigenes DigitalOcean-Droplet statt Thalor-Hetzner. Droplet ist aufgesetzt, SSH-Zugang steht, Deployment steht an.
 
 **Komponenten live:**
-- **WF1 (n8n Cloud, 17 Nodes)** - Mantle→Attio Echtzeit-Webhook, Activity Notes in Node 17 integriert
-- **`daily-sync.mjs`** - täglich 06:00, MRR/Plans-Update aller Attio-Companies
-- **`lgm-push.mjs`** - Dienstag 07:00, pusht aus 4 Attio-Listen in 8 LGM-Audiences (DE+EN)
-- **`lgm-status-sync.mjs`** - täglich 12:00, LGM-Status zurück nach Attio
-- **`wf1-backup.mjs`** - jeden zweiten Sonntag 01:00, WF1-Logik gegen alle Mantle-Customers (Disaster Recovery + Backfill)
+- **WF1 (n8n Cloud, 17 Nodes)** Mantle→Attio Echtzeit-Webhook, Activity Notes in Node 17 integriert
 - **Clay:** 2 Templates live (Executive Leadership + Churns), pro Attio-Liste eigenes Template
+- **Alte Sync-Scripts auf Thalor-Hetzner `/opt/crm-sync/`** laufen weiter bis Cutover (alte Version mit hardcoded API-Keys)
 
-**Scripts laufen aktuell noch lokal bei Deniz**, nicht auf dem Hetzner-Server - Cron-Setup ist offene Task.
+**Scripts im neuen Repo `HeroSoftware-GmbH/hero-software-sync` (production-ready):**
+- `daily-sync.mjs` taeglich 03:00 UTC, Mantle→Attio MRR/Plans-Update
+- `lgm-push.mjs` Dienstag 06:00 UTC, Attio-Listen → 8 LGM-Audiences
+- `lgm-status-sync.mjs` taeglich 12:00 UTC, LGM-Status zurueck nach Attio
+- `mantle-reconcile.mjs` (ex `wf1-backup`) Sonntag 01:00 UTC, Recovery + Backfill
+
+**Deployment-Status:** Scripts laufen noch lokal bei Deniz. Droplet-Deployment steht als naechster Schritt an. Details Droplet siehe [[digitalocean-droplet]].
 
 ## Offene Aufgaben
 
-- [ ] Dienstag 22.04. Call mit Martin (Developer, Skript-Übergabe + Cron-Setup) - Meeting Note: [[2026-04-22-martin-call]] #hoch
-- [ ] Abrechnung HeroSoftware (Robin) abschliessen (TK-7, High, seit 2026-04-14) #hoch
-- [ ] Prozess-Doku endkundenfertig für Robin/Calvin (Loom + schriftlich) (TK-6, Low - ans Ende) #niedrig
+**Droplet-Setup und Deployment:**
+- [ ] Swap-File 1 GB auf Droplet einrichten vor dem ersten `mantle-reconcile` Lauf #hoch
+- [ ] Zeitzone auf Droplet entscheiden (Berlin setzen oder Cron-Zeiten in UTC umrechnen) #hoch
+- [ ] Scripts nach `/opt/crm-sync/` deployen, `.env` befuellen, `--check` plus `--dry` pro Script #hoch
+- [ ] Crontab einrichten plus Notify-Test #hoch
+- [ ] Optional: dedizierten `crm-sync` System-User anlegen (empfohlen laut DEPLOYMENT.md)
+- [ ] Cutover vom Thalor-Hetzner: alte Crons in `/opt/crm-sync/` auf `204.168.188.228` deaktivieren sobald DO stabil laeuft #hoch
+
+**Doku-Lieferung an Martin (aus Call 21.04.):**
+- [ ] Saubere Endkunden-Dokumentation schreiben die das HeroSoft-Team versteht #hoch
+- [ ] Loom-Video aufnehmen: Architektur plus Deployment plus Betrieb #hoch
+- [ ] Testing-Phase begleiten bis Scripts auf dem Droplet stabil laufen #hoch
+
+**Business:**
+- [ ] Abrechnung HeroSoftware (Robin) abschliessen (TK-7, seit 2026-04-14) #hoch
+- [ ] Code-Ownership langfristig klaeren (Deniz Retainer oder andere Loesung, separat mit Robin und Calvin) #mittel
+- [ ] Altes Repo `parabllm/hero-software-sync` archivieren oder loeschen (ist jetzt obsolet) #niedrig
 
 ## Abgeschlossene Meilensteine
 
@@ -64,6 +83,7 @@ Stand 2026-04-13 (letzter Log): **Production-Ready Refactor abgeschlossen** - al
 - ~~Production-Ready Refactor alle 4 Scripts~~ 2026-04-13
 - ~~Phase 2 validiert, Repo privat gesichert~~ 2026-04-13
 - ~~Abrechnung BellaVie/Maddox 400 EUR~~ 2026-04-19
+- ~~Martin-Call 2026-04-21: Rollen geklaert, Infrastructure-Entscheidung (eigenes DO-Droplet), neues Repo `HeroSoftware-GmbH/hero-software-sync` uebernommen~~ 2026-04-21
 
 ## Out of Scope
 
@@ -74,5 +94,14 @@ Stand 2026-04-13 (letzter Log): **Production-Ready Refactor abgeschlossen** - al
 
 ## Kontakte
 
-- [[robin-kronshagen]] - Founder, Entscheider
-- Calvin Blick - Co-Worker im Attio-Workspace (nicht als eigener Kontakt angelegt)
+- [[robin-kronshagen]] - Founder, operativ im Projekt, sortiert Attio-Listen und LGM-Sequences
+- [[calvin-blick]] - Robin's Chef bei HeroSoftware, Deniz' übergeordneter Ansprechpartner, eigene Firma Blick Solutions
+- [[martin-herd]] - Developer, Hauptjob bei DigitalOcean, nebenher bei Blick Solutions angestellt. Stellt die Infrastructure (DO-Droplet) fuer die CRM-Sync-Scripts
+
+## Rollen und Abhängigkeiten
+
+- **Entscheider-Hierarchie:** Calvin > Robin. Calvin bestimmt strategisch, Robin führt operativ aus.
+- **Developer-Ressource:** Martin Herd kommt über Calvins Firma Blick Solutions, nicht als HeroSoftware-Angestellter. Stellt die DigitalOcean-Infrastructure fuer die Sync-Scripts, ist NICHT laufender Code-Owner.
+- **Deniz' Rolle:** Freelancer, kein Developer. Hat die Pipeline mit Claude als Co-Pilot gebaut. Liefert einmaliges Deployment auf dem neuen Droplet plus saubere Doku und Loom-Video. Laufende Code-Maintenance ist offene Frage zwischen Deniz, Robin und Calvin.
+- **Infrastructure-Ownership:** Blick Solutions via DigitalOcean-Space, eigenes Projekt fuer HeroSoft-Sync.
+- **Code-Ownership (Repo):** HeroSoftware GmbH via `HeroSoftware-GmbH/hero-software-sync` Org-Repo. Deniz hat Push-Access als Collaborator.

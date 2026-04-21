@@ -68,6 +68,6 @@ Bei 63% von 3.095 Wörtern sind das ca. **1.950 Wörter** die Turnitin als KI-ge
 
 - Eingereicht: 18.02.2026 (Seminararbeit), Turnitin-Check: 19.02.2026
 - Prof. Kaufmann hat den Bericht am 17.04.2026 per Email angesprochen
-- Klärungsgespräch nächste Woche vereinbart
-- Widerspruch zwischen Eidesstattlicher Erklärung und Email an Prof. → siehe [[email-kaufmann-ki-vorwurf]]
+- Klaerungsgespraech am 21.04.2026 gefuehrt. Vorwurf entkraeftet. Siehe [[meeting-kaufmann-2026-04-21]].
+- Email-Austausch dokumentiert in [[email-kaufmann-ki-vorwurf]]
 - Vollständige Seminararbeit → siehe [[international-sales-seminararbeit]]
