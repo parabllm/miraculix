@@ -6,7 +6,7 @@ gruppen: ["freelance", "freunde", "hdwm-crew", "schwitzer-crew"]
 verbindung: ["beruflich", "privat", "studium"]
 rolle: entscheider
 staerke: eng
-projekte: ["[[bellavie]]"]
+projekte: ["[[bellavie]]", "[[heiraten-daenemark]]"]
 email: "maddoxyakymenskyy@gmail.com"
 telefon: ""
 wie_kennengelernt: "Enger Uni-Kontakt an der HdWM, später Kunde über BellaVie"

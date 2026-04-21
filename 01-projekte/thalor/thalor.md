@@ -32,6 +32,7 @@ Stand 2026-04-16:
 - [[herosoftware]] - Robin Kronshagen, CRM-Automation (größter aktiver Client, bezahlt)
 - [[bellavie]] - Maddox Yakymenskyy, Website plus Fresha plus SEO
 - [[resolvia]] - David Schreiner, Stripe zu Attio Sync
+- [[heiraten-daenemark]] - Maddox Yakymenskyy, Heiratsagentur Familie Yakymenskyy (Kontext, kein Auftrag)
 
 Hinweis: PulsePeptides ist kein Thalor-Client mehr. Deniz ist dort COO. Siehe [[pulsepeptides]] als eigenes Uber-Projekt.
 
