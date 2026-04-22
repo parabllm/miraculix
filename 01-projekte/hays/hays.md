@@ -48,7 +48,7 @@ Siehe [[bachelor-thesis]], HAYS ist die empirische Quelle (7-9 Interviews).
 
 ## Offene Aufgaben
 
-- [ ] Call mit Justin Münch heute 15:00-15:45 (Ticketsystem Umzug)
+- [x] Call mit Justin Münch (Ticketsystem Umzug) - geklärt 2026-04-22
 - [ ] Wenn Christine zurück aus Krankenstand: Thesis-Themen mit ihr durchgehen:
   - [[anna-luettgen]] anfragen über Christine (enge Beziehung)
   - [[rob-norris]] und [[francis-davis]] durchsprechen (englische Kontakte, wenn möglich deutsche Alternative finden)
@@ -58,36 +58,3 @@ Siehe [[bachelor-thesis]], HAYS ist die empirische Quelle (7-9 Interviews).
 
 - ~~7 Power Automate Flows live~~
 - ~~Konzeptpapier Lizenzmanagement-Lösung entworfen~~
-
-## Out of Scope
-
-- Direkte HR-Themen (Vertrag, Personalakte)
-- Power-BI-Implementation (externer Experte, nicht Deniz)
-
-## Report-Identifier pro Produkt
-
-| Produkt | Identifier | Besonderheit |
-|---|---|---|
-| LinkedIn RPS | Email im `Beschreibung`-Feld | Manueller CSV-Upload-Workaround vor Monatsende |
-| LinkedIn SalesNav | Email direkt | Sauberster Report |
-| LinkedIn LTI | Email direkt | Kein Problem |
-| StepStone | Email direkt | Andere Reporting-Logik (Unlock-Zählung, kein Rating) |
-| Indeed | Email direkt | Kein Problem |
-| Xing | Xing-Profil | HAYS-Email nicht auszuspielen, manuelle Zuordnung nötig |
-
-## Arbeitshinweise
-
-- Kein direkter PC-Zugriff auf Arbeitslaptop von zuhause
-- Workflow: Datei per Mail zu Upload zu Claude analysiert zu Download zu zurück an HAYS
-- HAYS-Events im Kalender immer `visibility: "private"`
-
-## Detail-Docs
-
-- [[power-automate-flows]] - Vollständige Doku der 7 Flows (Node-Trees, Expressions, Edge Cases)
-- [[lizenzmanagement-konzept]] - Konzeptpapier Power-BI-Dashboard für Christine
-
-## Kontakte
-
-- [[christine-kampmann]] - Vorgesetzte (aktuell krank)
-- [[julia-renzikowski]] - Kollegin
-- Simea - interne Ansprechpartnerin (nicht als eigener Kontakt)

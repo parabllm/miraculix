@@ -8,7 +8,7 @@ status: aktiv
 lieferdatum: 2026-06-15
 kapazitaets_last: hoch
 hauptkontakt: "[[christoph-sandbrink]]"
-tech_stack: ["zotero"]
+tech_stack: ["zotero", "sci-hub"]
 erstellt: 2026-04-16
 notizen: "HdWM Mannheim. Abgabe 15.06.2026 (HARTE Deadline). Qualitative empirische Studie zu KI-Compliance im Recruiting unter EU AI Act. Mayring-Methodik."
 quelle: notion_migration
@@ -29,7 +29,7 @@ vertrauen: extrahiert
 - **Methodik Erhebung:** Qualitative leitfadengestützte Experteninterviews
 - **Methodik Auswertung:** Qualitative Inhaltsanalyse nach Mayring
 - **Stichprobe:** 7-9 HAYS-interne Experten in zwei Clustern
-- **Tools:** Zotero für Referenzmanagement
+- **Tools:** Zotero für Referenzmanagement, Sci-Hub für Quellen- und Literatursuche (Empfehlung Marc, 2026-04-22)
 
 **Interview-Cluster (aus Christine's Empfehlungen 17.03.2026):**
 - **Strategie / Director-Level:** Anna Lüttgen, Christine Kampmann
