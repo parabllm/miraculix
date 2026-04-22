@@ -4,7 +4,7 @@ name: "Claude-Support Bachelorarbeit"
 projekt: "[[bachelor-thesis]]"
 status: aktiv
 erstellt: 2026-04-20
-zuletzt_aktualisiert: 2026-04-20
+zuletzt_aktualisiert: 2026-04-22
 quelle: chat_session
 vertrauen: bestaetigt
 ---
@@ -25,8 +25,9 @@ Systematisch dokumentieren:
 ## Verknüpfte Files
 
 - [[bachelor-thesis]] - Projekt-File mit Thema, Methodik, Kandidaten
+- [[bachelorarbeit-research-vault]] - Framework-Spec für separaten Research-Vault (Bauanleitung für Claude Code)
 - [[mitarbeiteranfragen]] - Interview-Tracking
-- [[2026-04-21-maddox-cafe-session]] - morgige Framework-Session
+- [[2026-04-21-maddox-cafe-session]] - Framework-Session
 - [[2026-04-23-sandbrink-betreuung]] - Betreuungsgespräch Donnerstag
 - [[email-kaufmann-ki-vorwurf]] - Hintergrund KI-Dokumentation
 - `_claude/skills/schreibstil.md` - Vault-Schreibstil (könnte für Thesis-Schreibstil relevant sein)
@@ -184,34 +185,15 @@ Zwei Prompts die sich gegenseitig abdecken:
    - Beim Schreiben: "Für Einleitung zum Thema KI-Hochrisiko, welche Zitate habe ich?" Query über Tags
    - Vermeidet den alten Schmerz: 40 Quellen, manuell mit Strg+F durchsuchen
 
-5. **Vault-Struktur für Thesis (ENTSCHIEDEN 20.04.2026)**
-   - Kein zweiter Vault. Second Brain soll als Gesamtsystem wachsen.
-   - Innerhalb `01-projekte/bachelor-thesis/` wird ein Unterordner `bachelor-thesis-assistant/` angelegt. Darunter laufen Quellen-Files, Zitate-Pool, Kapitel-Drafts.
-   - Fallback-Option (dokumentiert): Falls der Ordner irgendwann zu unübersichtlich wird, lässt er sich jederzeit als eigenständiges Projekt herauslösen (Git-Mv, Skill-Update, Claude-Project-Wechsel).
-   - Struktur:
-     ```
-     01-projekte/bachelor-thesis/
-       bachelor-thesis.md (Projekt-File, bleibt)
-       mitarbeiteranfragen.md (bleibt)
-       claude-support-bachelorarbeit.md (diese File, bleibt)
-       logs/ (bleibt, alle Meeting-Notes und Session-Logs)
-       bachelor-thesis-assistant/
-         quellen/
-           {autor-jahr-kurztitel}.md (pro Quelle eine File mit Metadaten, Zitaten, Tags)
-         zitate-pool.md (konsolidierte Zitat-Liste, queryable)
-         kapitel/
-           01-einleitung.md
-           02-theorie.md
-           03-methodik.md
-           04-ergebnisse.md
-           05-diskussion.md
-           06-fazit.md
-     ```
-   - Paralleles Claude Project "Bachelorarbeit" (nicht Obsidian-Vault) für aktives Schreiben:
-     - Project Knowledge: Verweis auf `bachelor-thesis-assistant/`
-     - PDF-Uploads aller Quellen für Zitat-Extraktion ohne Halluzination
-     - Artifacts für Kapitel-Draft-Iterationen
-     - Eigene Skills für Zitat-Extraktion, Kapitel-Writing, Argumentations-Prüfung
+5. **Vault-Struktur für Thesis (ENTSCHIEDEN 22.04.2026, ersetzt Entscheidung vom 20.04.)**
+   - Separater Research-Vault unter `C:\Users\deniz\Documents\bachelor-thesis-vault\`. Nicht mehr als Unterordner im Miraculix-Vault.
+   - Begründung: Forensische Trennung für potenzielle Turnitin-Audit, eigener Git-Audit-Trail, eigener Claude-Code-Kontext, Reset-Fähigkeit ohne Miraculix zu beeinflussen.
+   - Miraculix bleibt SSOT für Projekt-Management (Tasks, Kontakte, Termine, Logs). Der separate Vault ist reiner Research-Arbeitsplatz.
+   - Quellen-Integritäts-Layer mit Force-Quote, Fuzzy-Validator, Metadaten-Konsens-Check (Crossref, OpenAlex, DNB, Google Books).
+   - Zotero bleibt Metadaten-Master, Vault verlinkt via BetterBibTeX Citation Keys.
+   - Vollständige Bauanleitung: [[bachelorarbeit-research-vault]] (Framework-Spec, ca. 900 Zeilen, Teile A bis O).
+   - Deployment durch Claude Code in 9 Stufen (siehe Teil L der Spec).
+   - Paralleles Claude Project "Thesis Assistant" für aktive Arbeit mit Claude Code am separaten Vault.
 
 6. **Quellen-Dump-Workflow**
    - Deniz findet eine Quelle (Paper, Buch, Report)
@@ -425,7 +407,7 @@ WARNUNG: Output referenziert Claude 3.5 Sonnet als aktuelles Modell. Zum Zeitpun
 - Project Knowledge: persistente Dokumente (PDFs, Drafts, Codebooks)
 - Custom Instructions pro Projekt
 - Artifacts: interaktive Komponenten, direkter Export als .docx, .pptx, .xlsx
-- Konsequenz für dich: Projekt "Bachelorarbeit" mit PDF-Uploads aller Quellen plus bachelor-thesis-assistant Ordner als Project Knowledge
+- Konsequenz für dich: Projekt "Thesis Assistant" mit Claude Code am separaten Research-Vault (nicht mehr Project Knowledge im Miraculix-Vault)
 
 **Prompt-Engineering Best Practices:**
 
@@ -490,7 +472,7 @@ WARNUNG: Output referenziert Claude 3.5 Sonnet als aktuelles Modell. Zum Zeitpun
 3. **Primäre Literaturquellen sind klar:** Rechtsakte (VO 2024/1689), Mayring, deutschsprachige Kommentierungen DSGVO/BetrVG/AGG, internationale AI-Governance-Literatur. Whitepaper nur ergänzend.
 
 4. **Tooling-Stack für Thesis-Arbeit:**
-   - Claude Project "Bachelorarbeit" mit 200k Kontext, PDF-Uploads, Project Knowledge = bachelor-thesis-assistant Ordner
+   - Separater Research-Vault unter `C:\Users\deniz\Documents\bachelor-thesis-vault\` mit Claude Code als Backbone (siehe [[bachelorarbeit-research-vault]])
    - Whisper Large-v3 German Turbo lokal für Interview-Transkription (DSGVO-Pflicht bei HAYS-Daten)
    - XML-Strukturierung bei Multi-Dokument-Prompts
    - Zentaur-Modus statt Cyborg: Mensch = Souveränität, KI = Teilaufgaben
@@ -543,13 +525,13 @@ Wo beide Quellen unabhängig zum selben Schluss kommen:
 
 Diese Pfeiler sind aus den Konvergenzen abgeleitet und werden im Framework-Spec verbindlich festgelegt:
 
-- Speicher: Markdown plus Git im Obsidian-Vault unter `01-projekte/bachelor-thesis/bachelor-thesis-assistant/`
+- Speicher: Markdown plus Git im separaten Research-Vault unter `C:\Users\deniz\Documents\bachelor-thesis-vault\` (siehe [[bachelorarbeit-research-vault]] Framework-Spec)
 - Eine Markdown-File pro Quelle mit YAML-Frontmatter plus strukturierten Abschnitten (Summary, Key Takeaways, direkte Zitate, paraphrasierbare Passagen, Hintergrund-Abschnitte)
 - Zentraler Zitate-Pool als Dataview-Query über alle Quellen-Files, nicht als physische Master-File
 - Codebook als versionierte Datei in `00-meta/`, Änderungen via Git-Historie, Refactoring bei Schema-Änderung durch LLM-Batch-Skript über den Bestand
 - Mehrere kleine Claude-Skills pro Verarbeitungsschritt statt einem Mega-Skill
 - Gate nach jeder Extraktion: LLM schlägt vor, Mensch bestätigt, erst dann Aufnahme in Pool
-- Tool-Stack minimal halten: Claude Desktop plus MCP, Obsidian, Zotero. NotebookLM nur als Verification-Layer bei kritischen Zitaten.
+- Tool-Stack minimal halten: Claude Code plus Filesystem, Obsidian, Zotero. NotebookLM nur als Verification-Layer bei kritischen Zitaten.
 
 ### Tool-Landschaft (nach Reliability-Grad)
 
@@ -579,6 +561,7 @@ Was in der Praxis kippt und wie man gegensteuert:
 - Speicherformat der Ground Truth (Markdown plus Git)
 - OCR-Qualität der Ingestion (hohe Anforderung, Docling oder VLM-basiert wenn PDF-Qualität schlecht)
 - Nachvollziehbarkeits-Architektur (Lineage von Aussage zu Quelle und Seite)
+- Separater Research-Vault (entschieden 22.04.2026)
 
 **Reversibel (können im Verlauf emergieren):**
 - Feingranularität des Kategorien-Schemas (Start mit wenigen Makro-Kategorien, induktive Verfeinerung)
@@ -597,15 +580,15 @@ Diese Fragen beantwortet Deniz, bevor der Spec gebaut wird:
 
 ### Nicht behandelt (explizit ausgelagert)
 
-- Konkreter Vault-Pfad-Entwurf mit Unterordnern und Naming (in Framework-Spec)
-- Skill-Implementierungen mit konkreten Prompts und Markdown-Templates (in Framework-Spec)
-- Pilot-Test-Plan mit einer echten PDF (nach Framework-Spec)
+- Konkreter Vault-Pfad-Entwurf mit Unterordnern und Naming: jetzt in [[bachelorarbeit-research-vault]] Framework-Spec
+- Skill-Implementierungen mit konkreten Prompts und Markdown-Templates: in Framework-Spec
+- Pilot-Test-Plan mit einer echten PDF: nach Framework-Spec
 - Zotero-APA-7-Umstellung (bleibt Sofort-Task, unabhängig vom Workflow)
 - Phase-3-Research-Prompts (kommen nach Beantwortung der offenen Fragen)
 
 ### Abgeleitete Tasks
 
-- [ ] Claude Project "Bachelorarbeit" anlegen nach Struktur-Entscheidung
+- [ ] Separaten Research-Vault unter `C:\Users\deniz\Documents\bachelor-thesis-vault\` via Claude Code deployen (siehe [[bachelorarbeit-research-vault]] Teil L)
 - [ ] Mayring 13. Auflage beschaffen und in Zotero
 - [ ] AI Usage Card Template anlegen, ab heute pflegen
 - [ ] Eigenständigkeitserklärung-Draft mit KI-Opt-in vorbereiten
