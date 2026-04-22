@@ -36,6 +36,10 @@ Mitglieder: Deniz, [[lars-blum]], [[maddox-yakymenskyy]], [[tim-stetter]], [[jan
 
 Padel-Runde und private Gruppe. Mitglieder: Deniz, [[maddox-yakymenskyy]], [[eris-osmani-wiedmeier]], [[mikail-ismailov]], [[jannik-ellminger]].
 
+## Familie
+
+Eigenes Sub-Projekt: [[familie]]. Mitglieder: [[sinan-oezbek]] (Bruder, 15, 9e Bach-Gymnasium Mannheim).
+
 ## Aktueller Stand
 
 Stand 2026-04-16:
@@ -99,4 +103,6 @@ Stand 2026-04-20:
 
 ## Kontakte
 
-_(keine direkt, Freunde siehe Freundeskreise oben)_
+- [[sinan-oezbek]] (Bruder, siehe Sub-Projekt [[familie]])
+
+Freunde siehe Freundeskreise oben.
