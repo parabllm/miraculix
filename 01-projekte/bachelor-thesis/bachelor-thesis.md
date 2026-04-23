@@ -10,10 +10,10 @@ kapazitaets_last: hoch
 hauptkontakt: "[[christoph-sandbrink]]"
 tech_stack: ["zotero", "sci-hub", "claude-code", "obsidian"]
 erstellt: 2026-04-16
-zuletzt_aktualisiert: 2026-04-22
-notizen: "HdWM Mannheim. Abgabe 15.06.2026 (HARTE Deadline). Qualitative empirische Studie zu KI-Compliance im Recruiting unter EU AI Act. Mayring-Methodik."
+zuletzt_aktualisiert: 2026-04-23
+notizen: "HdWM Mannheim. Abgabe 15.06.2026 (HARTE Deadline). Qualitative empirische Studie zu KI-Compliance im Recruiting unter EU AI Act. Mayring-Methodik. Scope nach Sandbrink-Gespräch 23.04.2026 finalisiert."
 quelle: notion_migration
-vertrauen: extrahiert
+vertrauen: bestaetigt
 ---
 
 ## Kontext
@@ -54,18 +54,38 @@ Miraculix bleibt SSOT für Projekt-Management (Tasks, Kontakte, Termine, Logs, M
 
 ## Aktueller Stand
 
-Stand 2026-04-20: 6 von 11 verbleibenden Kandidaten angeschrieben (Florian Gönnenwein, Rini Kodzadziku, Johannes Leuschner, Leon Rädisch, Felix Schwarz, Arda Sener informell). Lara Lünnemann fällt weg (Mutterschutz). Anna Lüttgen wartet auf Christine-Vermittlung (Christine aktuell krank). Rob Norris, Francis Davis, Florian Meyer noch offen (englisch, im nächsten Christine-Call durchsprechen).
+Stand 2026-04-23 nach Sandbrink-Betreuungsgespräch ([[2026-04-23-sandbrink-betreuung]]):
 
-Stand 2026-04-22: Research-Vault-Framework-Spec fertig ([[bachelorarbeit-research-vault]], 900 Zeilen, Teile A bis O). Erste zwei Quellen im separaten Vault (Rukadikar 2025, Seppaelae). Claude Code arbeitet aktuell an Naming-Refactor (pdf_page vs cite_page), Zotero-Sync-Bug-Fix und BetterBibTeX Citation Key Integration.
+**Finalisiert:**
+- Scope-Klartext ([[scope-klartext]]) inhaltlich bestätigt durch Sandbrink
+- Fünf Unterthesen T1 bis T5 stehen
+- Sechs Analyse-Kategorien K1 bis K6 stehen
+- Briefing-PDF für Präsentation erstellt ([[briefing-sandbrink-2026-04-23]])
+- Wortverteilung korrigiert: Kapitel 2 auf 25 Prozent, Kapitel 3 auf 15 Prozent, Kapitel 5 auf 15 bis 20 Prozent
+
+**Sandbrink-Korrektur:**
+Großteil der Literatur gehört in Kapitel 2, nicht verteilt über die Arbeit. Kapitel 5 und 6 greifen nur ergänzend auf Literatur zurück.
+
+**Aktuell offen:**
+- Pipeline-Sondierung im Bachelor-Thesis-Research-Vault via Claude Code (Prompt liegt vor)
+- Nach Pipeline-Sondierung: scope.md und gliederung.md im Research-Vault pipeline-konform befüllen
+- Separater Mayring-Vault für Interview-Auswertung konzipieren ([[mayring-vault-konzeption]])
+
+Stand 2026-04-22: Research-Vault-Framework-Spec fertig ([[bachelorarbeit-research-vault]], 900 Zeilen, Teile A bis O). Erste zwei Quellen im separaten Vault (Rukadikar 2025, Seppaelae).
 
 ## Offene Aufgaben
 
 - [x] Montag 20.04.: Interview-Anschreiben rausschicken (6 von 11 raus, Rest blockiert oder englisch)
+- [x] Scope finalisieren und mit Sandbrink abstimmen (23.04.2026 erledigt, siehe [[scope-klartext]])
+- [x] Briefing-PDF für Sandbrink erstellen (23.04.2026)
+- [ ] Pipeline-Sondierung via Claude Code im Bachelor-Thesis-Research-Vault #hoch
 - [ ] Antworten der 6 Angeschriebenen abwarten und Termine vereinbaren #hoch
 - [ ] Mit Christine im nächsten Call: Anna, Rob Norris, Francis Davis, Florian Meyer durchgehen
-- [ ] Separaten Research-Vault via Claude Code vollständig deployen (Stufen 1-9 aus Framework-Spec) #hoch
+- [ ] Zweiter externer Experte identifizieren (parallel zu Florian Meyer LinkedIn) #mittel
+- [ ] Nach Pipeline-Sondierung: scope.md und gliederung.md im Research-Vault befüllen #hoch
+- [ ] Kategorien-Vollspezifikation (Definition, Ankerbeispiele, Kodierregeln je Kategorie) vor Pipeline-Aktivierung #hoch
+- [ ] Mayring-Vault konzipieren ([[mayring-vault-konzeption]]) #mittel
 - [ ] Interviewleitfaden finalisieren pro Cluster #hoch
-- [ ] Gliederung erstellen #hoch
 - [ ] Kapitel-Drafts (Theorie, Methodik, Ergebnisse, Diskussion) #hoch
 - [ ] Abgabe 15.06.2026 #hoch
 
