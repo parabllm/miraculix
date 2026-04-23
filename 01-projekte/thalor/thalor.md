@@ -9,6 +9,7 @@ kapazitaets_last: hoch
 hauptkontakt: ""
 tech_stack: ["n8n", "attio", "clay", "lgm", "stripe", "supabase", "framer", "hetzner", "node"]
 erstellt: 2026-04-16
+aktualisiert: 2026-04-22
 notizen: "Eigene Freelance-Agency-Brand (Freiberufler, §19 UStG). Umbrella über alle Client-Projekte. Attio = SSOT über alle Clients hinweg."
 quelle: notion_migration
 vertrauen: extrahiert
@@ -33,6 +34,7 @@ Stand 2026-04-16:
 - [[bellavie]] - Maddox Yakymenskyy, Website plus Fresha plus SEO
 - [[resolvia]] - David Schreiner, Stripe zu Attio Sync
 - [[heiraten-daenemark]] - Maddox Yakymenskyy, Heiratsagentur Familie Yakymenskyy (Kontext, kein Auftrag)
+- [[pflegedienst-triebskorn]] - Eris Osmani-Wiedmeier, Website-MVP für Familienunternehmen Wiedmeier (Scouting, neu 2026-04-22)
 
 Hinweis: PulsePeptides ist kein Thalor-Client mehr. Deniz ist dort COO. Siehe [[pulsepeptides]] als eigenes Uber-Projekt.
 

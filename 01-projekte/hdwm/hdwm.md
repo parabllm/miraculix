@@ -10,6 +10,7 @@ kapazitaets_last: mittel
 hauptkontakt: "[[christoph-sandbrink]]"
 tech_stack: []
 erstellt: 2026-04-17
+aktualisiert: 2026-04-22
 notizen: "Bachelor Business Management an der HdWM Mannheim. Letztes Semester: 6. Semester SoSe 2026."
 quelle: chat_session
 vertrauen: extrahiert
@@ -27,9 +28,25 @@ Bachelor Business Management, HdWM Mannheim.
 
 ## Semester-Übersicht
 
-- [[semester-5]] — WiSe 2025/26, abgeschlossen
-- [[semester-6]] — SoSe 2026, letztes Semester
+- [[semester-5]] - WiSe 2025/26, abgeschlossen
+- [[semester-6]] - SoSe 2026, letztes Semester
 
 ## Abschluss
 
-- [[bachelor-thesis]] — Abgabe 15.06.2026
+- [[bachelor-thesis]] - Abgabe 15.06.2026
+
+## HdWM-Crew
+
+Studienkollegen, mit denen Deniz auch privat verbunden ist:
+
+- [[maddox-yakymenskyy]] - auch Schwitzer-Crew, BellaVie + Heiraten Dänemark Geschäftsbeziehung
+- [[lars-blum]] - Co-Founder coralate
+- [[tim-stetter]] - Spanien-Crew, Familie hat Haus in Empuriabrava
+- [[marc-eckel]] - Spanien-Crew
+- [[luca-schmitt]] - Spanien-Crew
+- [[eris-osmani-wiedmeier]] - auch Schwitzer-Crew, Familie betreibt [[pflegedienst-triebskorn]]
+- [[mikail-ismailov]] - auch Schwitzer-Crew
+
+**Spanien-Crew** (Empuriabrava, Familie Stetter Haus, erste 2 Augustwochen): Lars, Maddox, Tim, Marc, Luca, Deniz. Jannik Ellminger gehört NICHT zur HdWM-Crew, wurde über Tim in Spanien kennengelernt.
+
+**Schwitzer-Crew** (Padel, privat): Maddox, Eris, Mikail, Deniz.
