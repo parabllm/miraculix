@@ -5,8 +5,9 @@ projekt: "[[bachelor-thesis]]"
 teilnehmer: ["[[christoph-sandbrink]]", "Deniz"]
 thema: "Bachelor-Betreuungsgespräch"
 status: vorbereitung
-uhrzeit: "12:00-12:30"
+uhrzeit: "12:30-13:00"
 erstellt: 2026-04-20
+aktualisiert: 2026-04-23
 quelle: voice_dump
 vertrauen: bestaetigt
 ---
@@ -28,17 +29,21 @@ Ort: offen, vor Call klären ob HdWM vor Ort oder per Teams.
 ## Agenda
 
 - Status Interview-Anfragen und nächste Schritte (Anna, Rob, Francis, Florian Meyer)
-- Gliederung besprechen
+- Scope der Arbeit (Klartext-Beschreibung) durchgehen, siehe [[scope]]
+- Gliederung besprechen, siehe [[gliederung]]
 - Methodik-Teil bestätigen (Mayring)
 - Zeitplan bis 15.06.2026 abstimmen
+- Interviewleitfaden gemeinsam durchgehen (Aufbau, Cluster-Differenzierung)
+- M365 Copilot Premium für Teams-Transkription der Interviews thematisieren
 - Offene Fragen zum Framework
 
 ## Vorbereitung
 
 - [ ] Mit Sandbrink klären: vor Ort oder per Teams
-- [ ] Gliederung fertig bis Mittwoch abend
-- [ ] Zeitplan fertig bis Mittwoch abend
-- [ ] Status-Übersicht Interview-Anfragen mitbringen
+- [ ] Scope-Dokument (Klartext) bis 12:30 fertig
+- [ ] Gliederung bis 12:30 fertig
+- [ ] Status-Übersicht Interview-Anfragen mitbringen (HAYS-Mails durchgegangen)
+- [ ] Interviewleitfaden-Stand mitbringen
 
 ## Besprochenes
 

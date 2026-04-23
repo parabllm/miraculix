@@ -7,7 +7,7 @@ ort: "Lager Eppelheim"
 thema: "Lager-Besuch + COO Weekly: Supplier-Deal, Pakete, Affiliate, US Shipments, Compensation"
 status: offen
 erstellt: 2026-04-22
-aktualisiert: 2026-04-22
+aktualisiert: 2026-04-23
 quelle: meeting
 vertrauen: offen
 ---
@@ -16,7 +16,7 @@ vertrauen: offen
 
 **Teilnehmer:** Kalani Ginepri, Kai (Lager), Deniz
 **Ort:** Lager Eppelheim
-**Zeit:** 18:00-22:00
+**Zeit:** 13:30-16:00 (von ursprünglich 18:00-22:00 vorverlegt)
 
 ## Agenda
 
