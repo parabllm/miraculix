@@ -4,9 +4,9 @@ projekt: "[[pulsepeptides]]"
 thema: support-eskalation
 status: aktiv
 erstellt: 2026-04-17
-zuletzt_aktualisiert: 2026-04-23
+zuletzt_aktualisiert: 2026-04-24
 vertrauen: bestaetigt
-quelle: slack_logs + kalani_call_2026-04-23
+quelle: slack_logs + kalani_call_2026-04-23 + kalani_call_2026-04-24
 ---
 
 # Support-Eskalation Christian an Deniz
@@ -103,6 +103,11 @@ Kanal: #affiliate-programm
 - **Christian kann darunter rejecten, darüber accepten** ohne Deniz-Freigabe
 - Nischen-Fit (Fitness/Body) bleibt weiterhin Kriterium
 
+**Keine Test-Kits/Test-Batches an Affiliates (bestätigt im Call Kalani 2026-04-24):**
+- Pulse gibt grundsätzlich keine kostenlosen Produktproben an Affiliates raus
+- Begründung: schlechte Erfahrung gemacht, nicht alle Affiliates sind ehrlich in ihrem Feedback bzw. mit dem Umgang der Produkte
+- Kommunikation nach außen: freundlich ablehnen, Erfahrungsgrund anführen ohne Namen zu nennen
+
 **Deniz macht in der nächsten Zeit einen Affiliate-Review:** bestehende Affiliates durchgehen und neues Framework aufbauen (siehe [[coo-aufgaben]], Affiliate-Regelung mit No-Human-Use-Klausel).
 
 **Bekannte Affiliates:**
@@ -139,9 +144,12 @@ Christian kann das eigenständig an Kunden kommunizieren.
 
 ### Lab-Test-Anfragen (Transitionsbezug PulsePeptides → Axonpeptides)
 
-**Offener Fall:** Kunde fragt nach Lab-Test für Reta, Test wurde unter PulsePeptides-Namen durchgeführt. Wie wird das während Transition zu Axonpeptides behandelt?
+**Regelung (bestätigt im Call Kalani 2026-04-24):**
+- Bestehende Axon-COAs können für Verkäufe unter Axonpeptides genutzt werden, auch wenn der ursprüngliche Lab-Test noch unter PulsePeptides-Namen lief (z.B. Reta)
+- In Zukunft werden eigene COAs unter Axonpeptides-Namen erstellt und gepflegt
+- Christian kann das Axon-Zertifikat für transitionsbezogene Lab-Test-Anfragen direkt rausgeben
 
-**Stand 2026-04-23:** Nicht im Call besprochen, muss beim nächsten Sync mit Kalani nachgeholt werden.
+**Aktueller Fall Reta:** Axon-COA verwenden.
 
 ---
 
