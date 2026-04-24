@@ -10,7 +10,7 @@ quelle: voice_dump
 vertrauen: extrahiert
 ---
 
-# 2026-04-17 Call Kalani — Orderprozess + Methodik
+# 2026-04-17 Call Kalani - Orderprozess + Methodik
 
 ## Kontext
 
@@ -101,8 +101,8 @@ Order #9257 (Higgins): 1 broken vial of Semax angekommen. Christian fragt ob wir
 
 Fragen für Kalani:
 - Wer entscheidet Reship: ich oder Kai direkt?
-- Wie lauft Reship-Prozess ab?
-- Kostet uns das oder traegt Supplier?
+- Wie läuft Reship-Prozess ab?
+- Kostet uns das oder trägt Supplier?
 
 ### 2. Christian 13:37 - Manual Order BPC-157
 
@@ -112,9 +112,9 @@ Shipping: Haris Kanavos, Viotyr S.A, Industrial Park Koropi, 19400 Athens, Greec
 
 Fragen für Kalani:
 - Wer hat das autorisiert / war das schon bekannt?
-- Ist das ein regulaerer B2B-Kunde oder Sonderfall?
+- Ist das ein regulärer B2B-Kunde oder Sonderfall?
 - Manual Orders: gibt es mehr davon, wie laufen die ab?
-- EXPRESS Versand: wer traegt die Mehrkosten?
+- EXPRESS Versand: wer trägt die Mehrkosten?
 
 
 ### Update Manual Order BPC-157 (Kai Antwort)
@@ -123,7 +123,7 @@ Kai hat geantwortet: "Same question as always. Does Mr. Kanavos want it with or 
 
 Zeigt: Haris Kanavos ist ein wiederkehrender Custom-Order-Kunde. Kai kennt ihn schon.
 
-Zusaetzlicher Punkt für Kalani:
+Zusätzlicher Punkt für Kalani:
 - Custom Orders laufen aktuell durch denselben Kanal wie normale Orders. Könnte Shop-Prozesse stoeren.
 - Brauchen wir einen separaten Prozess für Custom/B2B-Orders?
 - Wer entscheidet Label ja/nein bei Custom Orders?
@@ -140,25 +140,25 @@ Zusaetzlicher Punkt für Kalani:
 Offen:
 - Krypto-Zahlung organisieren (2.800 USD)
 - Bestellnachricht an Lab Peptides aufsetzen
-- Lieferadresse klaeren (Kai/Lager Appelheim oder direkt Tschechien?)
+- Lieferadresse klären (Kai/Lager Appelheim oder direkt Tschechien?)
 
 
-### Broken Vial Semax - Geklaert
+### Broken Vial Semax - Geklärt
 
-Failed Shipments: kein Handlungsbedarf für Deniz. Prozess laeuft ohne COO-Eingriff.
+Failed Shipments: kein Handlungsbedarf für Deniz. Prozess läuft ohne COO-Eingriff.
 
 ### Custom Order KPV Capsules (Christian tagged @Deniz)
 
-Kunde moechte KPV Capsules bestellen. Christian hat seit Samstag mehrfach bei Kalani angefragt, keine Antwort. Vor 1 Stunde direkt an Deniz weitergeleitet.
+Kunde möchte KPV Capsules bestellen. Christian hat seit Samstag mehrfach bei Kalani angefragt, keine Antwort. Vor 1 Stunde direkt an Deniz weitergeleitet.
 
 Fragen für Kalani:
 - Können wir KPV Capsules als Custom Order anbieten?
-- Wie lauft Custom Order Entscheidungsprozess ab? Wer entscheidet was wir anbieten können?
-- Kann Christian kuenftig Custom Orders selbst koordinieren oder braucht er immer Freigabe?
-- Ist das ein Produkt das wir regulaer ins Sortiment aufnehmen sollten?
+- Wie läuft Custom Order Entscheidungsprozess ab? Wer entscheidet was wir anbieten können?
+- Kann Christian künftig Custom Orders selbst koordinieren oder braucht er immer Freigabe?
+- Ist das ein Produkt das wir regulär ins Sortiment aufnehmen sollten?
 
 
-### BPC-157 Bestellung ausgeloest (15:28)
+### BPC-157 Bestellung ausgelöst (15:28)
 
 - 100 Kits Arg-BPC-157, pink caps bei Lab Peptides per Telegram bestellt
 - Das ist die 2.800 USD Order die Kalani besprochen hatte

@@ -19,7 +19,7 @@ Quelle: Onboarding-Calls mit Kalani 2026-04-16 und 2026-04-17. Wird iterativ erg
 
 Drei separate Entitäten mit unterschiedlichen Funktionen:
 
-### 1. Pulse Peptides Limited — Zypern
+### 1. Pulse Peptides Limited - Zypern
 
 - **Funktion:** operative Firma, über die bestellt und das Geschäft geführt wird
 - **Registrierung:** Zypern
@@ -27,7 +27,7 @@ Drei separate Entitäten mit unterschiedlichen Funktionen:
 - **UBO (Ultimate Beneficial Owner):** formell andere Person eingetragen (Details offen)
 - **Steuern:** offen (Zypern-Regelung zu klären)
 
-### 2. Pulse Organization Limited — Revolut Business
+### 2. Pulse Organization Limited - Revolut Business
 
 - **Funktion:** Annahme von Kartenzahlungen der Kunden
 - **Konto:** Revolut Business
@@ -37,7 +37,7 @@ Drei separate Entitäten mit unterschiedlichen Funktionen:
 - **Compliance-Workaround:** Revolut Business akzeptiert keine Zahlungen für Peptid-Shops. Zahlungen laufen über pulseprana.com (Consulting Service).
 - **Pain-Point:** Revolut findet das irgendwann raus. Alternativer Banking-Anbieter muss gefunden werden.
 
-### 3. Pulse Enterprise Limited — Hongkong / Air Wallet
+### 3. Pulse Enterprise Limited - Hongkong / Air Wallet
 
 - **Funktion:** Lagerung und Empfang von Geld (kein operatives Geschäft)
 - **Konto:** Air Wallet, Hongkong

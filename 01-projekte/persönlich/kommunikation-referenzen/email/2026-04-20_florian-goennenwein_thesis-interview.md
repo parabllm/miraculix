@@ -25,7 +25,7 @@ vertrauen: bestaetigt
 
 ## Thread
 
-### 2026-04-20, 12:32 — Deniz an Florian (outbound)
+### 2026-04-20, 12:32 - Deniz an Florian (outbound)
 
 **Betreff:** Experteninterview für meine Bachelorarbeit, KI-Compliance im Recruiting
 
@@ -38,7 +38,7 @@ vertrauen: bestaetigt
 > Mit freundlichen Grüßen,
 > Deniz Özbek
 
-### 2026-04-23, 14:51 — Florian an Deniz (inbound)
+### 2026-04-23, 14:51 - Florian an Deniz (inbound)
 
 **Betreff:** AW: Experteninterview für meine Bachelorarbeit, KI-Compliance im Recruiting
 
@@ -58,7 +58,7 @@ vertrauen: bestaetigt
 > Senior Legal Expert Data Protection & AI
 > Local Data Protection Officer GSCDK
 
-### 2026-04-24, 11:52 — Deniz an Florian (outbound)
+### 2026-04-24, 11:52 - Deniz an Florian (outbound)
 
 **Betreff:** AW: Experteninterview für meine Bachelorarbeit, KI-Compliance im Recruiting
 

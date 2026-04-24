@@ -24,21 +24,21 @@ vertrauen: bestaetigt
 
 ## Thread
 
-### 2026-04-20, 11:11 — Christian, taggt Deniz
+### 2026-04-20, 11:11 - Christian, taggt Deniz
 
 > @Deniz So, got a confusing situation during this transition to sell reta from PulsePeptides to Axonpeptides. they are asking for lab test for Reta, and the test is conducted under PulsePeptides' name. So how could we provide a lab test in this situation?
 
-### 2026-04-21, 14:10 — Christian, Reminder
+### 2026-04-21, 14:10 - Christian, Reminder
 
 > reminder @Deniz
 
 (Deniz hat mit ✅ reagiert, aber nicht geantwortet)
 
-### 2026-04-24, 06:45 — Christian, erneuter Ping
+### 2026-04-24, 06:45 - Christian, erneuter Ping
 
 > thoughts on this yet? @Deniz
 
-### 2026-04-24 — Deniz (Antwort, nach Kalani-Call)
+### 2026-04-24 - Deniz (Antwort, nach Kalani-Call)
 
 > Sorry for the delayed response, on the Reta lab test: you can use the Axon COA and send it over, that's fine for the transition period. Going forward we'll have dedicated Axon COAs for new batches. Thanks!
 

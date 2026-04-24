@@ -25,21 +25,21 @@ vertrauen: bestaetigt
 
 ## Thread
 
-### 2026-04-20, 10:59 — Christian, taggt Deniz
+### 2026-04-20, 10:59 - Christian, taggt Deniz
 
 > a customer asked for Prostamax peptide. Is that something that we can get as custom order? @Deniz
 
-### 2026-04-22 und 2026-04-23 — Christian, zwei Reminder
+### 2026-04-22 und 2026-04-23 - Christian, zwei Reminder
 
 > reminder @Deniz
 
 > reminder to see if we can get this a custom order @Deniz
 
-### 2026-04-23, 15:21 — Deniz (Kurzantwort)
+### 2026-04-23, 15:21 - Deniz (Kurzantwort)
 
 > Hey, syncing with Kalani today, will get back to you right after.
 
-### 2026-04-23, 16:06 — Deniz (substantielle Antwort)
+### 2026-04-23, 16:06 - Deniz (substantielle Antwort)
 
 > I've reached out to one of our suppliers to confirm availability and pricing on Prostamax. While we wait for their reply, can you ask the customer how many vials they're looking to order? Thanks!
 

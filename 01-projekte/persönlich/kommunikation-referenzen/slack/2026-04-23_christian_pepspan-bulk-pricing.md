@@ -25,17 +25,17 @@ vertrauen: bestaetigt
 
 ## Thread
 
-### 2026-04-23, 14:43 — Christian, taggt Deniz
+### 2026-04-23, 14:43 - Christian, taggt Deniz
 
 > Collaboration request. Can I share with them our bulk pricing? @Deniz
 
 (Attachment: Anfrage von Pepspan Ltd, B2B-Anfrage)
 
-### 2026-04-23, 14:51 — Deniz
+### 2026-04-23, 14:51 - Deniz
 
 > I will review this an will get back to you shortly. Thanks
 
-### 2026-04-23, 15:59 — Deniz
+### 2026-04-23, 15:59 - Deniz
 
 > Hey @Christian can you send me our current bulk pricing list? I'd like to review it before we send anything out. Thanks!
 

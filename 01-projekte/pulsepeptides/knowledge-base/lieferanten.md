@@ -49,10 +49,10 @@ quelle: voice_dump + pdf_pricelist
 - BPC-157: immer mit Arginin gebunden bestellen. Standard-BPC-157 ohne Arginin wird nicht verwendet.
 
 
-## Supplier-Zustaendigkeit
+## Supplier-Zuständigkeit
 
 - **Lab Peptides:** Standard-Bestellungen, Arg-BPC-157 (bevorzugt), GLP-1-Klasse, Khavinson-Peptide (inkl. Prostamax direkt im Sortiment, siehe [[prostamax]])
-- **ZY Peptides:** historisch Custom Orders und nicht-standard Produkte (z.B. KPV Capsules) — wird teilweise abgeloest durch Testing-Badge-Supplier
+- **ZY Peptides:** historisch Custom Orders und nicht-standard Produkte (z.B. KPV Capsules) - wird teilweise abgelöst durch Testing-Badge-Supplier
 - **Testing-Badge-Supplier (neu):** KPV, BPC-157, 5-Amino-1 Kapseln (Quality Control noch offen, siehe Meeting [[2026-04-23-kalani-coo-call]])
 
 
@@ -74,13 +74,13 @@ Beispiel-Struktur einer Bestellnachricht:
 
 ## Kritische Produktspezifikation BPC-157
 
-WICHTIG: Pulse verkauft ausschliesslich **Arg-BPC-157** (Arginin-Salz), NICHT Standard-BPC-157 Acetat und NIEMALS TFA-Salz.
+WICHTIG: Pulse verkauft ausschließlich **Arg-BPC-157** (Arginin-Salz), NICHT Standard-BPC-157 Acetat und NIEMALS TFA-Salz.
 
-Begruendung:
+Begründung:
 - Standard BPC-157 wird als Acetat-Salz verkauft
 - TFA-Salze (Trifluoracetat) sind giftig, absolut verboten
 - Arginin-gebundenes BPC-157 ist sicherer, Research zeigt bessere Ergebnisse
-- Bei jeder Bestellung explizit "Arg-BPC-157" angeben und TFA-frei bestaetigen lassen
+- Bei jeder Bestellung explizit "Arg-BPC-157" angeben und TFA-frei bestätigen lassen
 
 Merksatz: Immer Arg, niemals TFA.
 
@@ -94,7 +94,7 @@ Merksatz: Immer Arg, niemals TFA.
 - Pinned Message in Gruppe: UPS Tracking 1ZH870646805055463
 
 Kontext aus Telegram-Chat:
-- Lab Peptides Kontakt heisst "Lily"
+- Lab Peptides Kontakt heißt "Lily"
 - Kalani (sensei) hat Deniz eingeführt
 - Lab Peptides fragt nach Bulk Shipments nach Bali und Shipping Time
 - Freundlicher Erstkontakt, gute Basis

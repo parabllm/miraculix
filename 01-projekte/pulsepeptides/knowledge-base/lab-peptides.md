@@ -19,7 +19,7 @@ vertrauen: bestaetigt
 
 # Lab Peptides
 
-Hauptlieferant fuer Standard-Bestellungen. Schnelle Produktion. Kontakt: Lily.
+Hauptlieferant für Standard-Bestellungen. Schnelle Produktion. Kontakt: Lily.
 
 ## Kontakt
 
@@ -29,14 +29,14 @@ Hauptlieferant fuer Standard-Bestellungen. Schnelle Produktion. Kontakt: Lily.
 | WhatsApp / Telegram | +853 6351 4495 |
 | Bestellkanal Pulse | Telegram-Gruppe "LabPeptides x PulseP..." |
 
-## Geschaeftsbedingungen
+## Geschäftsbedingungen
 
 **China-Direktversand:**
 - Custom/Blend Peptides Preis = Summe der Einzelkomponenten zum USA-Preis, MOQ 5 Kits
 - Kein Free Shipping, kein Freebies
-- Stueckpreis abhaengig von Bestellmenge des Einzelprodukts (nicht Gesamtbestellung), nicht verhandelbar
+- Stückpreis abhängig von Bestellmenge des Einzelprodukts (nicht Gesamtbestellung), nicht verhandelbar
 - Payment: Bank Transfer (lokal/international), Bitcoin, Alipay, Zelle (nur US)
-- Lead Time: 1 bis 3 Werktage nach Payment-Bestaetigung
+- Lead Time: 1 bis 3 Werktage nach Payment-Bestätigung
 - Shipping Time: 3 bis 15 Werktage (US-Kunden meist 7 Tage)
 - Versand: Fedex / EU Special Line / DHL / HK EMS
 
@@ -46,13 +46,13 @@ Hauptlieferant fuer Standard-Bestellungen. Schnelle Produktion. Kontakt: Lily.
 - MOQ: NJ = 1 Kit/Item, CA-M = 10 Kits/Item
 - Free Shipping ab 5.000 USD
 - Payment: USA Bank Transfer (lokal/international), Bitcoin, Zelle (nur US)
-- Freebies bei grossen Bestellungen verfuegbar
+- Freebies bei großen Bestellungen verfügbar
 
 ## Bestell-Konventionen Pulse
 
-- **BPC-157:** ausschliesslich Arg-BPC-157 (Arginin-Salz, pink caps), niemals Standard-Acetat, niemals TFA
+- **BPC-157:** ausschließlich Arg-BPC-157 (Arginin-Salz, pink caps), niemals Standard-Acetat, niemals TFA
 - Ton: locker, nicht formell, strukturiert
-- Bei jeder BPC-157-Bestellung explizit "Arg-BPC-157" angeben und TFA-frei bestaetigen lassen
+- Bei jeder BPC-157-Bestellung explizit "Arg-BPC-157" angeben und TFA-frei bestätigen lassen
 
 Beispiel-Template:
 
@@ -81,7 +81,7 @@ Beispiel-Template:
 3. **China-Direkt 100 bis 2000 Vials / bis 200 Kits** (USD)
 4. **China-Direkt 2001+ Vials / 201+ Kits** (USD)
 
-Wenn nur ein Preis steht: gilt fuer alle Mengen gleich.
+Wenn nur ein Preis steht: gilt für alle Mengen gleich.
 
 ---
 

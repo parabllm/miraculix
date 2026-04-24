@@ -20,7 +20,7 @@ Werkstudent-Rolle bei **HAYS AG Mid Office Global License Management**. Kernvera
 
 - **Vorgesetzte:** [[christine-kampmann]] (Primary Contact, aktuell krank)
 - **Kollegin:** [[julia-renzikowski]]
-- **Interne Ansprechpartnerin:** Simea (Anfragen laufen über sie)
+- **Interne Ansprechpartnerin:** CEMEA (Anfragen laufen über die Region)
 - **Region:** CEMEA (Deutschland wird separat verwaltet)
 - **Verwaltete Produkte:** LinkedIn RPS, LinkedIn SalesNav, LinkedIn LTI, StepStone Talent Finder, Indeed Smart Sourcing, Xing Talent Manager
 - **Lizenzmengen:** ~800 DE, ~2.500 CEMEA

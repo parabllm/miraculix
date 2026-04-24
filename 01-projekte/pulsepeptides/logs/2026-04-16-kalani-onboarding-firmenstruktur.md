@@ -15,7 +15,7 @@ quelle: voice_dump
 vertrauen: extrahiert
 ---
 
-# 2026-04-16 Onboarding Call Kalani — Firmenstruktur
+# 2026-04-16 Onboarding Call Kalani - Firmenstruktur
 
 ## Tech-Stack und Infrastruktur
 
@@ -48,8 +48,8 @@ vertrauen: extrahiert
 - Supplier 2: ZY Peptides
 - Bestellung: direkt über Telegram-Chat mit Supplier
 - Preislisten liegen bei den Suppliern
-- Zahlung: ausschliesslich Krypto
-- Problem: Krypto-Kauf legal nur bis 12.000 EUR auf einen Namen. Kapazität für grosse Orders nicht ausreichend. Lösung offen.
+- Zahlung: ausschließlich Krypto
+- Problem: Krypto-Kauf legal nur bis 12.000 EUR auf einen Namen. Kapazität für große Orders nicht ausreichend. Lösung offen.
 
 ## Lieferkette
 
