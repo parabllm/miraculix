@@ -13,7 +13,7 @@ wie_kennengelernt: "Freund"
 notizen: "Alter Freund. Teil der Schwitzer-Crew (mit Maddox, Eris Osmani-Wiedmeier, Mikail Ismailov, Deniz). Über Jannik hat Deniz David Beck kennengelernt. Zusätzlich Gruppe mit David Beck und Robin Kronshagen."
 erstellt: 2026-04-19
 zuletzt_aktualisiert: 2026-04-20
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quelle: voice_dump
 ---
 

@@ -13,7 +13,7 @@ wie_kennengelernt: "Gymnasium, alter Freund. Auch bei HAYS."
 notizen: "Thesis-Interview-Kandidat. Cluster: Sales/Delivery. Rolle bei HAYS: Recruiting Manager/Team Lead. Alter Freund aus dem Gymnasium. Informell angefragt 20.04.2026."
 erstellt: 2026-04-16
 zuletzt_aktualisiert: 2026-04-20
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quelle: voice_dump
 ---
 

@@ -13,7 +13,7 @@ wie_kennengelernt: "HdWM Mannheim, Studium"
 notizen: "HdWM-Studienkollege. Spanien-Crew (Empuriabrava, Familie Stetter Haus, erste 2 Augustwochen)."
 erstellt: 2026-04-20
 aktualisiert: 2026-04-22
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quelle: voice_dump
 ---
 

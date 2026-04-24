@@ -4,7 +4,7 @@ name: "Attio als Single Source of Truth für Client-CRMs"
 aliase: ["Attio SSOT", "CRM SSOT Pattern"]
 domain: ["attio", "architektur", "crm-integration"]
 kategorie: entscheidung
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quellen:
   - "[[01-projekte/thalor/_projekt]]"
   - "[[01-projekte/thalor/herosoftware/_projekt]]"

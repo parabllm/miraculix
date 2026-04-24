@@ -13,7 +13,7 @@ wie_kennengelernt: "Empfohlen von Christine Kampmann (17.03.2026) für Bachelor-
 notizen: "Thesis-Interview-Kandidat. Cluster: KI-Arbeitsgruppe/Innovation. Rolle bei HAYS: Head of Future Business, Innovation Hub. Technischer Fokus. Standort: Mannheim (gleicher Standort wie Deniz). Interview-Status: offen."
 erstellt: 2026-04-16
 zuletzt_aktualisiert: 2026-04-20
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quelle: voice_dump
 ---
 

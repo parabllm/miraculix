@@ -14,7 +14,7 @@ wie_kennengelernt: "Empfohlen von Christine Kampmann (17.03.2026) für Bachelor-
 notizen: "Thesis-Interview-Kandidat Compliance-Cluster. Anfrage 20.04.2026, Absage 23.04.2026 aufgrund Personalkapazitäten. Nicht für aktuelle Thesis verfügbar, Kontakt aber wertschätzend beendet."
 erstellt: 2026-04-16
 zuletzt_aktualisiert: 2026-04-24
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quelle: voice_dump + email_thread_2026-04-20
 ---
 

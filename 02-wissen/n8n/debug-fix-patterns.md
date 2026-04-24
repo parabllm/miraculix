@@ -4,7 +4,7 @@ name: "n8n Debug & Fix Patterns (HeroSoftware)"
 aliase: ["n8n Bugs", "n8n Fixes", "Mantle-Attio Bugs"]
 domain: ["n8n", "attio", "mantle", "lgm"]
 kategorie: debug_fix
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quellen:
   - "[[wf1-mantle-attio]]"
   - "[[lgm-push]]"

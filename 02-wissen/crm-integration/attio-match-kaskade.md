@@ -4,7 +4,7 @@ name: "Attio Match-Kaskade (Domain → Email → Name → Create)"
 aliase: ["Attio Matching", "Domain Match Cascade", "Match Chain"]
 domain: ["attio", "crm-integration"]
 kategorie: pattern
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quellen:
   - "[[01-projekte/thalor/herosoftware/logs/2026-03-27-wf1-domain-match-create-fehler-fix]]"
   - "[[01-projekte/thalor/resolvia/logs/2026-03-31-resolvia-ai-projekt-planung]]"

@@ -13,7 +13,7 @@ wie_kennengelernt: "HdWM Mannheim, Studienkollege. Privat über Schwitzer-Crew."
 notizen: "Studienkollege HdWM. Schwitzer-Crew (mit Maddox, Eris Osmani-Wiedmeier, Jannik Ellminger, Deniz). Urlaubsplanung Mitte Mai wird auf Semesterferien verschoben."
 erstellt: 2026-04-20
 aktualisiert: 2026-04-22
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quelle: voice_dump
 ---
 

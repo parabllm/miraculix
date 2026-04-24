@@ -4,7 +4,7 @@ name: "n8n Webhook für Echtzeit, Hetzner-Cron für Batch"
 aliase: ["n8n Cloud Timeout", "Hetzner Cron Pattern", "Batch-vs-Realtime Split"]
 domain: ["n8n", "hetzner", "architektur"]
 kategorie: pattern
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quellen:
   - "[[01-projekte/thalor/herosoftware/logs/2026-03-25-hetzner-setup-daily-sync]]"
   - "[[01-projekte/thalor/herosoftware/logs/2026-04-13-production-ready-refactor-4-scripts]]"

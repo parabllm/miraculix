@@ -12,7 +12,7 @@ telefon: ""
 wie_kennengelernt: "Call am 21.04.2026 im Rahmen der Skript-Übergabe HeroSoftware"
 notizen: "Developer bei Blick Solutions (Calvin Blicks Firma). Hauptjob DigitalOcean. Übernimmt die HeroSoft-Infrastructure für die CRM-Sync-Scripts. GitHub: martin2810. Hat das neue Repo HeroSoftware-GmbH/hero-software-sync angelegt und Deniz Push-Access gegeben."
 erstellt: 2026-04-21
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quelle: martin_call_2026-04-21
 ---
 

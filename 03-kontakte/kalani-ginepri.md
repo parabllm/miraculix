@@ -12,7 +12,7 @@ telefon: ""
 wie_kennengelernt: "Auftraggeber PulsePeptides (Thalor). Seit 2026-04-17 CEO in COO-Onboarding mit Deniz."
 notizen: "CEO und Gründer Pulse Peptides. Nicht steuerpflichtig angemeldet. Inhaber Pulse Organization Limited und Pulse Enterprise Limited. 100% Shareholder Pulse Peptides Limited Zypern. Accountant Sultan für Pulse Organization Limited. Kommuniziert via WhatsApp mit Deniz, Slack im Team, Discord für Calls."
 erstellt: 2026-04-16
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quelle: voice_dump
 ---
 

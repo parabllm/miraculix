@@ -4,7 +4,7 @@ name: "Continuity Doc Pattern - Chat-Übergabe bei Token-Limit"
 aliase: ["Handover Prompt", "Continuity Doc", "Chat Handover"]
 domain: ["claude", "workflow", "context-management"]
 kategorie: pattern
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quellen:
   - "[[01-projekte/coralate/logs/2026-04-07-cora-backend-build]]"
   - "[[01-projekte/coralate/food-scanner/logs/2026-04-13-pipeline-production-ready-doc62]]"

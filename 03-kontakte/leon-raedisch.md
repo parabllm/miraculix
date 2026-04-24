@@ -13,7 +13,7 @@ wie_kennengelernt: "Empfohlen von Christine Kampmann (17.03.2026) für Bachelor-
 notizen: "Thesis-Interview-Kandidat. Cluster: Sales/Delivery. Rolle bei HAYS: Senior Teamleiter, Delivery Center Sourcing, Standort Essen. Christine Kampmann sitzt ebenfalls in Essen und ist dort Niederlassungsleiterin, Verbindung zu Christine sehr eng. Interview-Status: angeschrieben 20.04.2026."
 erstellt: 2026-04-16
 zuletzt_aktualisiert: 2026-04-20
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quelle: voice_dump
 ---
 

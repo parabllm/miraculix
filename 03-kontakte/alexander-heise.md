@@ -12,7 +12,7 @@ telefon: ""
 wie_kennengelernt: "Über Florian Gönnenwein (2026-04-20)"
 notizen: "Geschäftsführer HAYS. Über Sabine Eufe (Bereichsleiterin Legal) in der Hierarchie."
 erstellt: 2026-04-20
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quelle: voice_dump
 ---
 

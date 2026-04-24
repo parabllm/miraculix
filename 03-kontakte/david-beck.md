@@ -12,7 +12,7 @@ telefon: ""
 wie_kennengelernt: "Uber Jannik Ellminger"
 notizen: "Freundesgruppe mit Jannik Ellminger und Robin Kronshagen."
 erstellt: 2026-04-19
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quelle: voice_dump
 ---
 
