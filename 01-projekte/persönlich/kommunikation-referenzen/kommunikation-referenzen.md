@@ -8,7 +8,7 @@ status: aktiv
 erstellt: 2026-04-24
 zuletzt_aktualisiert: 2026-04-24
 quelle: chat_session
-vertrauen: bestaetigt
+vertrauen: bestätigt
 notizen: "Zentrales Rohmaterial-Archiv für Kommunikations-Threads (E-Mail, Slack, WhatsApp, Teams). Dient als Pool für spätere Skill-Destillation."
 ---
 

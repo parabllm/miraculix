@@ -8,7 +8,7 @@ erstellt: 2026-04-21
 letzte_aenderung: 2026-04-21
 tech_stack: ["n8n", "gmx-imap", "gmx-smtp", "gemini-2.5-flash", "telegram-bot"]
 quelle: eigenbau_2026-04-21
-vertrauen: bestaetigt
+vertrauen: bestätigt
 ---
 
 # E-Mail-Assistent MVP

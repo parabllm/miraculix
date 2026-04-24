@@ -5,7 +5,7 @@ art: notiz
 ueber_projekt: "[[international-sales]]"
 bereich: studium
 erstellt: 2026-04-17
-status: aufgeloest
+status: aufgelöst
 notizen: "Email-Korrespondenz mit Prof. Dr. Kaufmann zu 63% Turnitin KI-Erkennung. Klärungsgespräch am 21.04.2026 geführt, Vorwurf entkräftet. Siehe Meeting-Note [[meeting-kaufmann-2026-04-21]]."
 quelle: extrahiert_aus_screenshot
 vertrauen: extrahiert
@@ -19,7 +19,7 @@ vertrauen: extrahiert
 
 ---
 
-## Email 1 — Prof. Dr. Kaufmann an Deniz
+## Email 1 - Prof. Dr. Kaufmann an Deniz
 
 **Von:** Prof. Dr. Hans Rüdiger Kaufmann
 **An:** Deniz-Leon Özbek
@@ -47,7 +47,7 @@ Internet: www.hdwm.de
 
 ---
 
-## Email 2 — Deniz an Prof. Dr. Kaufmann
+## Email 2 - Deniz an Prof. Dr. Kaufmann
 
 **Von:** Deniz-Leon Özbek
 **An:** Prof. Dr. Hans Rüdiger Kaufmann
@@ -63,7 +63,7 @@ Internet: www.hdwm.de
 > Deniz
 
 > [!warning] Tippfehler in gesendeter Email
-> "would je great" — sollte "would be great" heißen. Nicht korrigierbar da bereits gesendet.
+> "would je great" - sollte "would be great" heißen. Nicht korrigierbar da bereits gesendet.
 
 ---
 
@@ -79,7 +79,7 @@ Internet: www.hdwm.de
 
 ---
 
-## Email 3 — Prof. Dr. Kaufmann an Deniz (Antwort)
+## Email 3 - Prof. Dr. Kaufmann an Deniz (Antwort)
 
 **Von:** Prof. Dr. Hans Rüdiger Kaufmann
 **An:** Deniz-Leon Özbek
@@ -107,5 +107,5 @@ Internet: www.hdwm.de
 
 **Kontext-Files:**
 - [[meeting-kaufmann-2026-04-21]] - Gesprächsverlauf und Ergebnis
-- [[international-sales-seminararbeit]] — vollständige Arbeit inkl. Declaration
-- [[international-sales-turnitin-bericht]] — Turnitin-Bericht Details
+- [[international-sales-seminararbeit]] - vollständige Arbeit inkl. Declaration
+- [[international-sales-turnitin-bericht]] - Turnitin-Bericht Details

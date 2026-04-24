@@ -1,6 +1,6 @@
 ---
 typ: aufgabe
-name: "Knowledge-Chunks Guide fuer Lars"
+name: "Knowledge-Chunks Guide für Lars"
 projekt: "[[cora-ai]]"
 status: entwurf
 benoetigte_kapazitaet: mittel
@@ -9,16 +9,16 @@ kontakte: ["[[lars-blum]]"]
 erstellt: 2026-04-18
 quelle: extrahiert
 vertrauen: extrahiert
-notizen: "Entwurf. Finale use_cases haengen an der Cora-Positionierungsentscheidung (Meeting 2026-04-18). Siehe [[diskrepanzen]]."
+notizen: "Entwurf. Finale use_cases hängen an der Cora-Positionierungsentscheidung (Meeting 2026-04-18). Siehe [[diskrepanzen]]."
 ---
 
 Guide für Lars zum Schreiben und Verwalten von Cora's Knowledge-Chunks. Single Source of Truth ist Obsidian, die Supabase-Tabelle `knowledge_chunks` wird aus Obsidian gesynct.
 
 ## Warum Knowledge-Chunks
 
-Cora hat kein eingebautes Fitness-Wissen. Alles was sie über Training, Recovery oder Ernaehrung weiss, kommt aus Knowledge-Chunks die Lars schreibt. Pro Anfrage zieht der Context-Builder die passenden Chunks aus der DB, packt sie in den Prompt, dann antwortet Gemini.
+Cora hat kein eingebautes Fitness-Wissen. Alles was sie über Training, Recovery oder Ernährung weiß, kommt aus Knowledge-Chunks die Lars schreibt. Pro Anfrage zieht der Context-Builder die passenden Chunks aus der DB, packt sie in den Prompt, dann antwortet Gemini.
 
-Heisst: Was nicht als Chunk existiert, weiss Cora nicht. Was schlecht formuliert ist, wird von Cora falsch verwendet.
+Heißt: Was nicht als Chunk existiert, weiß Cora nicht. Was schlecht formuliert ist, wird von Cora falsch verwendet.
 
 ## Workflow
 
@@ -40,7 +40,7 @@ cora-ai/knowledge-chunks/
 ├── ...
 ```
 
-Filename = `id` Feld im Frontmatter. Beide muessen matchen.
+Filename = `id` Feld im Frontmatter. Beide müssen matchen.
 
 ## Frontmatter-Felder
 
@@ -97,9 +97,9 @@ Quelle: Schoenfeld et al. 2023, Volume-Hypertrophy Meta-Analysis
 
 Keine Quelle ist auch ok, dann markiert `vertrauen: abgeleitet` im Body. Cora weiss dass der Chunk dann vorsichtiger zu nutzen ist.
 
-## Use-Cases (vorlaeufig)
+## Use-Cases (vorläufig)
 
-Vorerst stehen die `use_cases` Werte nicht final fest. Sie haengen an der Cora-Positionierung die heute im Meeting geklaert wird.
+Vorerst stehen die `use_cases` Werte nicht final fest. Sie hängen an der Cora-Positionierung die heute im Meeting geklärt wird.
 
 Aktuelle Werte in der DB (wahrscheinlich zu ändern):
 
@@ -129,7 +129,7 @@ Cora pullt bei jedem Request nur Top-N Chunks nach priority, gefiltert nach `use
 Bevor ein Chunk `is_active: true` bekommt:
 
 1. Lars schreibt den Chunk
-2. Deniz liest drüber, checkt auf SaMD-Verstoesse (Diagnose-Sprache, absolute medizinische Aussagen)
+2. Deniz liest drüber, checkt auf SaMD-Verstöße (Diagnose-Sprache, absolute medizinische Aussagen)
 3. Eval: Testet den Chunk gegen 2 bis 3 typische Cora-Requests, schaut ob Output sauber ist
 4. Wenn ok, `is_active: true` setzen, Sync
 
@@ -142,8 +142,8 @@ Aktuell noch nicht automatisiert. Vorerst macht Deniz das manuell bei Bedarf. La
 ## Offene Punkte
 
 - Knowledge-Base-Groesse: Ziel 20 bis 30 Chunks für v1? Mehr? Muss mit Lars abgestimmt werden
-- Embedding: Die Tabelle hat keine Vector-Embeddings aktuell, Retrieval laeuft über `use_cases` und `priority`. Wenn Chunks zu viele werden, muessen wir pgvector dranhaengen (MVP-Grenze laut Architektur: etwa 50 Chunks).
-- Chunk-Versionierung bei Änderungen: aktuell wird alte Version überschrieben. Wenn wir History brauchen, muessen wir ein `knowledge_chunks_history` Table bauen.
+- Embedding: Die Tabelle hat keine Vector-Embeddings aktuell, Retrieval läuft über `use_cases` und `priority`. Wenn Chunks zu viele werden, müssen wir pgvector dranhängen (MVP-Grenze laut Architektur: etwa 50 Chunks).
+- Chunk-Versionierung bei Änderungen: aktuell wird alte Version überschrieben. Wenn wir History brauchen, müssen wir ein `knowledge_chunks_history` Table bauen.
 - Migration der 6 bestehenden DB-Chunks in Obsidian: muss einmal initial gemacht werden. Deniz exportiert.
 
 ## Links

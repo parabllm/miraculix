@@ -1,6 +1,6 @@
 ---
 name: miraculix-tages-start
-description: Triggered whenever Deniz says "tages-start", "was steht an", "guten morgen", "daily start", "wie siehts aus heute" or similar variations asking for a morning briefing. Use this skill to create a Daily Note in the Obsidian vault, gather all relevant data (Google Calendar events, open tasks from vault, last session log, inbox count), present a structured morning briefing to Deniz, and then ask for his capacity and focus projects for the day. This is Deniz's primary morning ritual — always use this skill when he asks what's on for the day.
+description: Triggered whenever Deniz says "tages-start", "was steht an", "guten morgen", "daily start", "wie siehts aus heute" or similar variations asking for a morning briefing. Use this skill to create a Daily Note in the Obsidian vault, gather all relevant data (Google Calendar events, open tasks from vault, last session log, inbox count), present a structured morning briefing to Deniz, and then ask for his capacity and focus projects for the day. This is Deniz's primary morning ritual - always use this skill when he asks what's on for the day.
 ---
 
 # Tages-Start
@@ -9,7 +9,7 @@ Morning Briefing für Deniz. Erstellt Daily Note, sammelt Daten, fragt Kapazitä
 
 ---
 
-## Schritt 1 — Daily Note erstellen
+## Schritt 1 - Daily Note erstellen
 
 Prüfe ob `04-tagebuch/{jahr}/{monat}/{datum}.md` existiert.
 
@@ -38,7 +38,7 @@ fokus_projekte: []
 
 ---
 
-## Schritt 2 — Daten sammeln
+## Schritt 2 - Daten sammeln
 
 **Parallel:**
 - Google Calendar (falls MCP verfügbar): Events für heute
@@ -49,7 +49,7 @@ fokus_projekte: []
 
 ---
 
-## Schritt 3 — Präsentieren
+## Schritt 3 - Präsentieren
 
 Scanbares Format, nicht über-strukturieren:
 
@@ -72,7 +72,7 @@ Heute ist [Wochentag], [Datum].
 
 ---
 
-## Schritt 4 — Fragen
+## Schritt 4 - Fragen
 
 Zwei separate Kapazitäts-Fragen, nacheinander:
 
@@ -97,7 +97,7 @@ Zwei separate Kapazitäts-Fragen, nacheinander:
 
 ---
 
-## Schritt 5 — Verarbeiten
+## Schritt 5 - Verarbeiten
 
 Nach Antworten:
 - Beide Kapazitäts-Werte plus Notiz in Daily Note Frontmatter schreiben

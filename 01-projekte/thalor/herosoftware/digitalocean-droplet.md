@@ -6,15 +6,15 @@ status: aufsetzen
 erstellt: 2026-04-21
 aktualisiert: 2026-04-21
 quelle: martin_call_2026-04-21_plus_ssh_sondierung
-vertrauen: bestaetigt
+vertrauen: bestätigt
 kontakte: ["[[martin-herd]]", "[[calvin-blick]]"]
 ---
 
-DigitalOcean-Droplet für die HeroSoftware CRM-Sync-Scripts. Ersetzt den Thalor-Hetzner (`204.168.188.228`, `/opt/crm-sync/`) fuer alle HeroSoft-Syncs. Cutover vom alten Server steht aus, zuerst muss das Droplet sauber laufen.
+DigitalOcean-Droplet für die HeroSoftware CRM-Sync-Scripts. Ersetzt den Thalor-Hetzner (`204.168.188.228`, `/opt/crm-sync/`) für alle HeroSoft-Syncs. Cutover vom alten Server steht aus, zuerst muss das Droplet sauber laufen.
 
 ## Ownership und Zugang
 
-- **Infrastructure-Owner:** [[calvin-blick]] via DigitalOcean-Space Blick Solutions. Eigenes Projekt fuer HeroSoftware-Sync angelegt.
+- **Infrastructure-Owner:** [[calvin-blick]] via DigitalOcean-Space Blick Solutions. Eigenes Projekt für HeroSoftware-Sync angelegt.
 - **Operations:** [[martin-herd]], Developer bei Blick Solutions
 - **Deployment und Scripts:** Deniz (einmaliges Setup, danach bei Bedarf als Freelancer erreichbar)
 - **SSH-Zugang aktuell:** Deniz als `root` mit ed25519 Key (`C:\Users\deniz\.ssh\id_ed25519`)

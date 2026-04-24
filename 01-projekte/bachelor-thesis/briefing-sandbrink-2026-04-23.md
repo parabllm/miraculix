@@ -4,7 +4,7 @@ name: "PDF Briefing 23.04.2026"
 projekt: "[[bachelor-thesis]]"
 erstellt: 2026-04-23
 quelle: chat_session
-vertrauen: bestaetigt
+vertrauen: bestätigt
 ---
 
 # Bachelor-Thesis Briefing Sandbrink 23.04.2026

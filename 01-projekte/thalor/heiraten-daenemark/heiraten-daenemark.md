@@ -11,7 +11,7 @@ kontakte: ["[[maddox-yakymenskyy]]"]
 tech_stack: ["n8n", "gmx-imap", "gmx-smtp", "anthropic-claude", "telegram"]
 erstellt: 2026-04-21
 notizen: "Zweites Familienunternehmen der Yakymenskyys parallel zu BellaVie. Heiratsagentur für internationale Paare, die in Dänemark heiraten wollen. Maddox ist hier wie bei BellaVie im Management. Aktuell kein Thalor-Auftrag, nur Kontext für spätere Zusammenarbeit."
-quelle: gespraech_maddox_2026-04-21
+quelle: gespräch_maddox_2026-04-21
 vertrauen: extrahiert
 ---
 
@@ -89,7 +89,7 @@ Technik hypothetisch: Next.js Frontend, Supabase als Backend und Kundendatenbank
 
 **Status:** reiner Brainstorm. Kein Auftrag, kein commit, keine Eltern-Abstimmung. Erst weiterverfolgen wenn Maddox konkret mit Auftragsinteresse kommt. _vertrauen: angenommen, quelle: maddox-session_2026-04-21_
 
-**Kritischer Punkt:** Rechnungsprozess bei Heiraten in Dänemark ist ungeklärt. Möglich dass er über Steuerberater oder anders läuft. Muss vor jeder Architektur-Entscheidung geklaert werden. Bis dahin ist Lexware-Integration nur Platzhalter.
+**Kritischer Punkt:** Rechnungsprozess bei Heiraten in Dänemark ist ungeklärt. Möglich dass er über Steuerberater oder anders läuft. Muss vor jeder Architektur-Entscheidung geklärt werden. Bis dahin ist Lexware-Integration nur Platzhalter.
 
 ---
 

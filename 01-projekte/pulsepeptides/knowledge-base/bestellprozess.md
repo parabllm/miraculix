@@ -33,7 +33,7 @@ Platzhalter. Wird gefüllt nach Onboarding-Calls mit Kalani.
 - Zahlung: Krypto
 - Status: offen, Call 14:15 mit Kalani
 
-Notiz: Pulse verwendet ausschliesslich BPC-157 mit Arginin. Bei Bestellungen immer darauf achten.
+Notiz: Pulse verwendet ausschließlich BPC-157 mit Arginin. Bei Bestellungen immer darauf achten.
 
 
 ## Custom Orders - Supplier-Anfrage

@@ -10,7 +10,7 @@ supplier: "[[lab-peptides]]"
 erstellt: 2026-04-23
 zuletzt_aktualisiert: 2026-04-23
 quelle: kalani-call + lab-peptides-pricelist
-vertrauen: bestaetigt
+vertrauen: bestätigt
 ---
 
 # Custom Order: Prostamax

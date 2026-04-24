@@ -1,6 +1,6 @@
 ---
 typ: aufgabe
-name: "Claude-Code-Sondier-Prompt fuer Mayring-Vault-Framework"
+name: "Claude-Code-Sondier-Prompt für Mayring-Vault-Framework"
 projekt: "[[bachelor-thesis]]"
 status: bereit
 benoetigte_kapazitaet: mittel
@@ -8,20 +8,20 @@ kontext: ["desktop"]
 faellig: 2026-04-23
 kontakte: ["[[christoph-sandbrink]]"]
 quelle: chat_session
-vertrauen: bestaetigt
+vertrauen: bestätigt
 erstellt: 2026-04-23
 zuletzt_aktualisiert: 2026-04-23
 ---
 
 # Claude-Code-Sondier-Prompt: Mayring-Vault-Framework
 
-Dieser Prompt wird an Claude Code im Bachelor-Thesis-Ordner uebergeben. Claude Code soll die bestehenden Assets sondieren und eine strukturierte Gap-Analyse plus offene Fragen fuer die nachfolgende Multi-LLM-Research-Runde (Claude, Perplexity, Gemini) produzieren. Kein Bau, nur Analyse.
+Dieser Prompt wird an Claude Code im Bachelor-Thesis-Ordner übergeben. Claude Code soll die bestehenden Assets sondieren und eine strukturierte Gap-Analyse plus offene Fragen für die nachfolgende Multi-LLM-Research-Runde (Claude, Perplexity, Gemini) produzieren. Kein Bau, nur Analyse.
 
 ## Kontext
 
-Der Research-Vault (Literatur-Pipeline) ist vollstaendig spezifiziert in `bachelorarbeit-research-vault.md`. Die qualitative Inhaltsanalyse nach Mayring laeuft laut Sandbrink-Abstimmung 23.04.2026 in einem separaten Vault. Das Konzept dazu steht als Stub in `mayring-vault-konzeption.md`.
+Der Research-Vault (Literatur-Pipeline) ist vollständig spezifiziert in `bachelorarbeit-research-vault.md`. Die qualitative Inhaltsanalyse nach Mayring läuft laut Sandbrink-Abstimmung 23.04.2026 in einem separaten Vault. Das Konzept dazu steht als Stub in `mayring-vault-konzeption.md`.
 
-Fuer die Interview-Analyse fehlt die volle Spec. Diese wird gebaut, sobald die Sondierung plus die Research-Runde abgeschlossen sind. Der hier vorliegende Prompt ist der erste Schritt: existierende Assets verstehen, Luecken identifizieren, gezielte Research-Fragen formulieren.
+Für die Interview-Analyse fehlt die volle Spec. Diese wird gebaut, sobald die Sondierung plus die Research-Runde abgeschlossen sind. Der hier vorliegende Prompt ist der erste Schritt: existierende Assets verstehen, Lücken identifizieren, gezielte Research-Fragen formulieren.
 
 Drei Dimensionen sind besonders vertieft, weil sie Deniz' Kaufmann-Plagiatsvorwurf-Kontext direkt adressieren: Dimension A (Methodik-Fundament), Dimension E (Integritaet bei Paraphrasen), Dimension G (Declaration of Authorship).
 

@@ -8,7 +8,7 @@ kontext: ["desktop"]
 faellig: 2026-05-31
 kontakte: ["[[christoph-sandbrink]]"]
 quelle: chat_session
-vertrauen: bestaetigt
+vertrauen: bestätigt
 erstellt: 2026-04-23
 ---
 

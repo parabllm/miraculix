@@ -52,7 +52,7 @@ vertrauen: extrahiert
 > Das PDF zeigt die Farbmarkierungen visuell (rot = KI-erkannt), die aus der Textextraktion nicht übertragbar sind. Für die genauen markierten Passagen muss das Original-PDF geöffnet werden:
 > `00-eingang/unverarbeitet/2026-02-18_Deniz_Özbek_International_Sales_Term_Paper-2.pdf`
 
-Basierend auf dem Bericht sind **17 Textstellen** als KI-generiert markiert. Der Bericht umfasst alle 11 Seiten der Arbeit (Deckblatt, Abstract, Inhaltsverzeichnis, Kapitel 1–5, Literatur, Eidesstattliche Erklärung).
+Basierend auf dem Bericht sind **17 Textstellen** als KI-generiert markiert. Der Bericht umfasst alle 11 Seiten der Arbeit (Deckblatt, Abstract, Inhaltsverzeichnis, Kapitel 1-5, Literatur, Eidesstattliche Erklärung).
 
 Bei 63% von 3.095 Wörtern sind das ca. **1.950 Wörter** die Turnitin als KI-generiert einstuft.
 

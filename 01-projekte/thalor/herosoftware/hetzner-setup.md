@@ -2,7 +2,7 @@
 typ: aufgabe
 name: "HeroSoftware Hetzner Server Setup"
 projekt: "[[herosoftware]]"
-status: abgeloest
+status: abgelöst
 benoetigte_kapazitaet: mittel
 kontext: ["desktop"]
 kontakte: []

@@ -43,14 +43,14 @@ _(nach jeder Vorlesung ergänzen)_
 
 ---
 
-**Kapitel 1 – Einführung**
+**Kapitel 1 - Einführung**
 - 6 strategische Geschäftsziele von IS: operative Effizienz, neue Produkte/Geschäftsmodelle, Kunden-/Lieferantennähe, bessere Entscheidungsfindung, Wettbewerbsvorteile, Überlebenssicherung
 - IS (organisational eingebettet: Technik + Menschen + Prozesse) ≠ Anwendungssystem (reine Software + Infrastruktur)
 - E-Commerce = elektronischer Kauf/Verkauf; E-Business = alle Geschäftsprozesse inkl. interner Prozesse & Lieferanten
 
 ---
 
-**Kapitel 2 – Betriebliche Anwendungssysteme**
+**Kapitel 2 - Betriebliche Anwendungssysteme**
 - Klassifikation nach Managementebene: TPS (operativ) → MIS/DSS (Management) → ESS (strategisch)
 - Shift von Funktions- zu Prozessorientierung: Datensilos in Abteilungen überwunden durch Integration; Kettenreaktion bei Fehlern als Risiko
 - **ERP**: modulares Paket, zentrale Datenbank; Vorteile: einheitliche Organisation, wissensbasiertes Management, Effizienz; Herausforderungen: aufwendige Implementierung, hohe Kosten, späte ROI-Realisierung; Anbieter: SAP/Oracle/MS (Groß), Infor/Sage/IBM (Mittel), weclapp/myfactory (Cloud-KMU)
@@ -61,7 +61,7 @@ _(nach jeder Vorlesung ergänzen)_
 
 ---
 
-**Kapitel 3 – Elektronischer Handel**
+**Kapitel 3 - Elektronischer Handel**
 - Digitale Produkte: hohe First-Copy-Costs, niedrige Grenzkosten, Verschleißfreiheit, Immaterialität, Erfahrungsgut (Wert erst nach Nutzung erkennbar)
 - Digitale Mehrwerte: Überblick (Kommunikationswert) / Auswahl (Selektionswert) / Vermittlung (Matchingwert) / Abwicklung (Transaktionswert) / Kooperation (Abstimmungswert)
 - Digitale Wertschöpfungskette: Informationen sammeln → systematisieren → auswählen → kombinieren → verteilen → austauschen → bewerten → anbieten
@@ -75,7 +75,7 @@ _(nach jeder Vorlesung ergänzen)_
 
 ---
 
-**Kapitel 4 – E-Marketing**
+**Kapitel 4 - E-Marketing**
 - Definition (Kreutzer): Planung/Durchführung/Kontrolle aller Aktivitäten über mobile & stationäre Endgeräte mit Internetzugang; Trend: Digital / Social / Local / Mobile
 - Vorteile: globale Reichweite, Interaktivität, Zielgruppengenauigkeit, direkte Erfolgsmessung; Nachteile: 60+-Zielgruppe schwer erreichbar, schnelllebig
 - Erfolgsfaktoren (Oktogon): Empfängerorientierung, Erwartungsmanagement, Relevanz, Wertorientiertes Kundenmanagement, Ergebnisorientierung, Customer-Touchpoints, aufbau guter Gefühle, 4 Ks
@@ -85,7 +85,7 @@ _(nach jeder Vorlesung ergänzen)_
 
 ---
 
-**Kapitel 5 – CRM (vertieft)**
+**Kapitel 5 - CRM (vertieft)**
 - Definition (Runia 2010): ergänzender Marketingansatz mit Ziel Initiierung, Stabilisierung, Intensivierung & Reaktivierung von Kundenbeziehungen
 - Transaktionsmarketing (kurzfristig, Produkt, Akquisition) vs. Beziehungsmarketing (langfristig, Interaktion, Loyalität)
 - Komponenten: analytisches CRM (Data Warehouse, Data Mining, Scoring) / operatives CRM (Marketing & Sales Automation) / kommunikatives CRM (Customer Interaction Center, Multichannel) / kollaboratives CRM (Partnerintegration)

@@ -11,7 +11,7 @@ datum_start: 2026-04-20
 datum_ende: 2026-04-23
 erstellt: 2026-04-24
 zuletzt_aktualisiert: 2026-04-24
-vertrauen: bestaetigt
+vertrauen: bestätigt
 ---
 
 # Slack #custom-order-requests: Prostamax Custom Order

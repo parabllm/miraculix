@@ -10,7 +10,7 @@ uhrzeit: "12:00-12:30"
 erstellt: 2026-04-24
 aktualisiert: 2026-04-24
 quelle: meeting
-vertrauen: bestaetigt
+vertrauen: bestätigt
 notizen: "Kurz-Call wegen Kapazität 1 (Deniz) und um Lager-Visit zu verschieben. Christian hat zwei offene Slack-Pings die Kalani-Input brauchen."
 ---
 

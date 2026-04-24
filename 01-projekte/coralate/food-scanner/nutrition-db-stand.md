@@ -107,8 +107,8 @@ OFF in der CHECK-Constraint erlaubt aber aktuell keine Rows. Für Lazy-Load vorg
 
 ## Snapshots
 
-- `nutrition_db_food_group_backup` (23.305) — Rollback-Basis für Etappe 1, wird nach Etappe 3 abgeschlossen entfernt
-- `nutrition_db_borrowing_backup` (23.305) — Rollback-Basis für Etappe 3, enthält alle 20 Nutrient-Spalten + provenance
+- `nutrition_db_food_group_backup` (23.305) - Rollback-Basis für Etappe 1, wird nach Etappe 3 abgeschlossen entfernt
+- `nutrition_db_borrowing_backup` (23.305) - Rollback-Basis für Etappe 3, enthält alle 20 Nutrient-Spalten + provenance
 
 ## Aktive Indexes
 

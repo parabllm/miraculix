@@ -5,7 +5,7 @@ thema: support-eskalation
 status: aktiv
 erstellt: 2026-04-17
 zuletzt_aktualisiert: 2026-04-24
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quelle: slack_logs + kalani_call_2026-04-23 + kalani_call_2026-04-24
 ---
 

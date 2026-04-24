@@ -9,7 +9,7 @@ uhrzeit: "12:30-13:00"
 erstellt: 2026-04-20
 aktualisiert: 2026-04-23
 quelle: meeting
-vertrauen: bestaetigt
+vertrauen: bestätigt
 ---
 
 # Sandbrink Betreuungsgespräch - 23.04.2026

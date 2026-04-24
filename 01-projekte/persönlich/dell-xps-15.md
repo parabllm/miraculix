@@ -7,7 +7,7 @@ kategorie: hardware
 erstellt: 2026-04-23
 notizen: "Haupt-Arbeitslaptop. Tuning-Referenz nach Optimierungs-Session 2026-04-23."
 quelle: chat-session
-vertrauen: bestaetigt
+vertrauen: bestätigt
 ---
 
 ## Specs

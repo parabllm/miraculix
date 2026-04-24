@@ -7,7 +7,7 @@ thema: "COO Weekly - Affiliate, Custom Orders, US Shipments"
 status: abgeschlossen
 erstellt: 2026-04-20
 quelle: voice_dump
-vertrauen: bestaetigt
+vertrauen: bestätigt
 ---
 
 # Kalani Call - 20.04.2026

@@ -9,7 +9,7 @@ ort: Café Mannheim Stadt
 uhrzeit: "12:00-20:00"
 erstellt: 2026-04-20
 quelle: voice_dump
-vertrauen: bestaetigt
+vertrauen: bestätigt
 ---
 
 # Café-Session mit Maddox - 21.04.2026

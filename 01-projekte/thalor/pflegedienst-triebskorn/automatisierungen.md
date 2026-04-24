@@ -4,7 +4,7 @@ name: "Automatisierungen Pflegedienst Triebskorn"
 ueber_projekt: "[[pflegedienst-triebskorn]]"
 status: scouting
 erstellt: 2026-04-22
-quelle: gespraech_eris_2026-04-22
+quelle: gespräch_eris_2026-04-22
 vertrauen: angenommen
 ---
 

@@ -11,7 +11,7 @@ datum_start: 2026-04-23
 datum_ende: 2026-04-23
 erstellt: 2026-04-24
 zuletzt_aktualisiert: 2026-04-24
-vertrauen: bestaetigt
+vertrauen: bestätigt
 ---
 
 # Slack #affiliate-programm: Pepspan Bulk Pricing Anfrage

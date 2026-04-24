@@ -3,7 +3,7 @@ typ: log
 projekt: "[[herosoftware]]"
 datum: 2026-04-14
 art: fortschritt
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quelle: manuell
 werkzeuge: ["attio", "hetzner", "lgm", "mantle", "n8n", "github"]
 ---

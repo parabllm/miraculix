@@ -6,7 +6,7 @@ teilnehmer: ["[[maddox-yakymenskyy]]"]
 ist_transkript: false
 zusammenfassung: "Im Rahmen der Cafe-Session ist das Thema E-Mail-Bearbeitung bei Heiraten in Dänemark aufgekommen. Aktuell beantwortet Igor die Kundenmails über GMX, die Qualität leidet. Entscheidung: MVP für einen n8n-basierten E-Mail-Assistenten bauen mit Claude-Entwurf plus Telegram-Freigabe."
 offene_punkte: ["MVP E-Mail-Assistent umsetzen (Konzept liegt vor)"]
-quelle: gespraech_cafe_mannheim
+quelle: gespräch_cafe_mannheim
 vertrauen: extrahiert
 ---
 

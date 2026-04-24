@@ -3,7 +3,7 @@ typ: log
 projekt: "[[food-scanner]]"
 datum: 2026-04-11
 art: entscheidung
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quelle: manuell
 werkzeuge: ["supabase"]
 ---

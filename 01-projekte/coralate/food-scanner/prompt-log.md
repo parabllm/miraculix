@@ -54,7 +54,7 @@ Kontinuierliches Log aller Prompt-Versionen der Vision Edge Function. Append-onl
 
 **Offene Frage für den Live-Test:** Werden sich grams-Werte zwischen unterschiedlichen Portionsgrößen jetzt tatsächlich unterscheiden? Bei den drei v6-Nudel-Scans waren Pasta und Tuna in jedem Scan identisch (200g/100g). Wenn v7 verschiedene Werte erzeugt, funktioniert das Protocol.
 
-## Aktuelle Version: v6 (Food Groups + Ambiguity + Grams) — ARCHIVIERT
+## Aktuelle Version: v6 (Food Groups + Ambiguity + Grams) - ARCHIVIERT
 
 **Stand 2026-04-19 Abend.** Deployed als food-scanner v16. Drei Kernänderungen gegenüber dem v15 Production-Prompt (80 Tokens): `food_group` als Pflichtfeld mit 19-Werte-Enum eingeführt, Ambiguity Rule mit expliziten Default-Formen für häufige Ambiguitäten (egg, flour, rice, milk, sugar), Grams Estimation mit Hand/Utensil/Whole-Item-Ankern.
 

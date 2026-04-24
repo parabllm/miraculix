@@ -6,7 +6,7 @@ status: aktiv
 erstellt: 2026-04-20
 zuletzt_aktualisiert: 2026-04-22
 quelle: chat_session
-vertrauen: bestaetigt
+vertrauen: bestätigt
 ---
 
 # Claude-Support Bachelorarbeit
@@ -437,7 +437,7 @@ WARNUNG: Output referenziert Claude 3.5 Sonnet als aktuelles Modell. Zum Zeitpun
 - Cyborg: unstrukturiertes Durchtalken, Verschmelzung mit KI, keine klare Aufgabenteilung (schlecht)
 - Zentaur: strikte Aufgabenteilung, Mensch behält Souveränität, KI macht deterministische Teilaufgaben (gut, auch methodisch vertretbar)
 
-**Map-Reduce für grosse Datenmengen:**
+**Map-Reduce für große Datenmengen:**
 
 - Korpus in kleine Verarbeitungseinheiten zerlegen
 - KI analysiert parallel (Map)

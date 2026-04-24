@@ -59,7 +59,7 @@ Wird iterativ befüllt. Jede Aufgabe bekommt einen Status und einen Log-Verweis 
 ### Krypto-Pipeline
 
 - **Status:** offen
-- **Problem:** 12.000 EUR Limit pro Person/Jahr für Krypto-Kauf. Skaliert nicht für grosse Orders.
+- **Problem:** 12.000 EUR Limit pro Person/Jahr für Krypto-Kauf. Skaliert nicht für große Orders.
 - **Aufgabe:** legale Lösung finden für grössere Krypto-Volumen
 
 ### Label-Pipeline

@@ -4,11 +4,11 @@ datum: 2026-04-21
 projekt: "[[herosoftware]]"
 teilnehmer: ["[[martin-herd]]", "[[robin-kronshagen]]"]
 thema: "Skript-Übergabe HeroSoftware an Martin Herd (Blick Solutions)"
-status: durchgefuehrt
+status: durchgeführt
 erstellt: 2026-04-19
 aktualisiert: 2026-04-21
 quelle: chat_deniz_2026-04-21
-vertrauen: bestaetigt
+vertrauen: bestätigt
 ---
 
 # Call mit Martin Herd 21.04.2026, 11:00-11:30
@@ -69,7 +69,7 @@ Letzte Woche ist unklar geblieben wer was ist. Heute klar machen:
 Quote sinngemäß: "wir müssen gucken dass die Node.js App drüber läuft und das gucken und das gucken".
 
 - "Node.js App" = die 4 Cron-Scripts. Kein Backend-Service, kein Webserver, keine Endpoints. Self-contained `.mjs` Dateien, starten per Cron, laufen durch, beenden sich.
-- "drueber laufen lassen" = auf einer Infrastruktur betreiben. Aktuell Hetzner Helsinki `204.168.188.228`, `/opt/hero/`, Logs unter `/var/log/hero/`. Martin koennte das anderswo wollen (DigitalOcean Droplet).
+- "drüber laufen lassen" = auf einer Infrastruktur betreiben. Aktuell Hetzner Helsinki `204.168.188.228`, `/opt/hero/`, Logs unter `/var/log/hero/`. Martin könnte das anderswo wollen (DigitalOcean Droplet).
 - "das und das gucken" = unspezifisch. Runtime-Sorgen: Monitoring, Fehlerbenachrichtigung, Updates, Log-Rotation, Secret-Rotation.
 
 Das sind Operations-Fragen, keine Dev-Fragen. Martin erwartet wahrscheinlich etwas komplizierteres als es tatsächlich ist.
@@ -102,7 +102,7 @@ Das sind Operations-Fragen, keine Dev-Fragen. Martin erwartet wahrscheinlich etw
 **Software auf dem Server**
 - Node.js v20 LTS oder höher. Auf Thalor-Hetzner ist v22.22.2 drauf, läuft.
 - `npm` (kommt mit Node)
-- `git` fuer Repo-Updates via `git pull`
+- `git` für Repo-Updates via `git pull`
 - `cron` Standard auf jedem Linux
 
 **Netzwerk Outbound**
@@ -223,12 +223,12 @@ Auf `204.168.188.228` (Ubuntu 24.04, Node v22.22.2) laufen aktuell:
 - **"Was ist mit dem n8n Cloud Workflow (WF1)?"** Läuft separat auf `herosoftware.app.n8n.cloud`. Nicht Teil dieser Übergabe. HeroSoft-Team hat dort bereits Access.
 - **"Läuft schon was in Produktion?"** Der alte `daily-sync` Cron vom 25.03. läuft täglich 04:00 auf Hetzner (alte Version). Die neuen 4 Scripts laufen aktuell lokal bei Deniz, noch nicht auf dem Server.
 
-### Rote Linien fuer Deniz
+### Rote Linien für Deniz
 
 - Nicht einwilligen Martin die Code-Maintenance aufzuhalsen. Das ist nicht sein Job.
 - Nicht einwilligen den Code ongoing selber zu maintainen ohne laufenden Retainer oder neuen Auftrag. Das muss separat mit Robin und Calvin besprochen werden.
 - OK: einmaliges sauberes Deployment uebernehmen (Option A oder B).
-- OK: in den naechsten 2-4 Wochen fuer Runtime-Fragen erreichbar sein.
+- OK: in den naechsten 2-4 Wochen für Runtime-Fragen erreichbar sein.
 - Nicht OK: Martin erwartet dass Deniz jede Woche schaut ob die Scripts laufen.
 
 ## Agenda
@@ -262,7 +262,7 @@ Martin hat Deniz explizit um eine saubere Endkunden-Dokumentation plus Loom-Vide
 ## Offene Punkte nach Call
 
 - Droplet ist aufgesetzt (Ubuntu 24.04, Node 24, 458 MB RAM, IP `68.183.222.21`), Deniz hat SSH-Zugang per Key. Details in [[digitalocean-droplet]].
-- RAM ist knapp fuer `mantle-reconcile` (peakt 200 bis 400 MB, aktuell nur 260 MB available). Muss Swap-File eingerichtet werden vor dem ersten Reconcile-Lauf.
+- RAM ist knapp für `mantle-reconcile` (peakt 200 bis 400 MB, aktuell nur 260 MB available). Muss Swap-File eingerichtet werden vor dem ersten Reconcile-Lauf.
 - Zeitzone des Droplets ist UTC, nicht Berlin. Cron-Zeiten entsprechend anpassen oder Timezone umstellen.
 - Deployment und `.env`-Befüllung steht an.
 - Cutover vom Thalor-Hetzner erst nach stabilem Lauf auf DO.

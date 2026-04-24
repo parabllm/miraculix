@@ -61,7 +61,7 @@ Produkte die nur über Manual Orders laufen, nicht im WooCommerce-Shop und nicht
 - Nicht im Standard-Shop
 - Supplier: ZY Peptides (Telegram)
 - Lagerbestand: 0
-- Status (2026-04-20): ZY hat Verfuegbarkeit bestaetigt ("Yes, how many?"). Menge mit Kalani klaeren, dann ZY antworten.
+- Status (2026-04-20): ZY hat Verfuegbarkeit bestaetigt ("Yes, how many?"). Menge mit Kalani klären, dann ZY antworten.
 - Kunde über Christian: "available soon" kommuniziert
 
 **Prozess Custom Orders allgemein:** siehe [[support-eskalation]]

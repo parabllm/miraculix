@@ -14,10 +14,10 @@ quelle: extrahiert
 vertrauen: extrahiert
 ---
 
-# Cora Scope Proposal — Jann (Roadmap, nicht aktiv)
+# Cora Scope Proposal - Jann (Roadmap, nicht aktiv)
 
 > [!info] Status
-> Von **Jann** vorgeschlagen, für Team-Review. **Deniz ist skeptisch** gegenüber der Chatbot-Ausrichtung — insbesondere dem iMessage/SMS-Bridge-Konzept. Hier gespeichert als Future-Scope-Referenz, nicht als aktive Entscheidung.
+> Von **Jann** vorgeschlagen, für Team-Review. **Deniz ist skeptisch** gegenüber der Chatbot-Ausrichtung - insbesondere dem iMessage/SMS-Bridge-Konzept. Hier gespeichert als Future-Scope-Referenz, nicht als aktive Entscheidung.
 >
 > Stand: 2026-04-17. Empfänger laut Original: Lars, Deniz.
 
@@ -25,7 +25,7 @@ vertrauen: extrahiert
 
 ## Leitprinzip (Janns Kern-Argument)
 
-> "Coralate is an app with a conversational interface to its own systems — not an AI assistant that happens to have an app attached."
+> "Coralate is an app with a conversational interface to its own systems - not an AI assistant that happens to have an app attached."
 
 Chat = leichte Schicht für schnelle Inputs. App = primärer Arbeitsbereich.
 Cora übernimmt: einzelne Logs, einfache Fragen, schnelle Terminänderungen.
@@ -35,37 +35,37 @@ Alles Komplexe (Workout-Programmierung, Zieländerungen, Datenexploration) → W
 
 ## Reactive: Was Cora auf Anfrage tut
 
-### 1a — Read-Operationen (bereits specced, keine Änderung)
+### 1a - Read-Operationen (bereits specced, keine Änderung)
 Cora erklärt dem User seine eigenen Daten, Korrelationsmethodik, Konfidenz-Levels.
 
-### 1b — Logging Writes *(NEU — für v1 vorgeschlagen)*
-Cora nimmt Text/Voice-Input und schreibt strukturierte Logs. User hat bereits entschieden — Cora ist nur schnellerer Input-Kanal.
+### 1b - Logging Writes *(NEU - für v1 vorgeschlagen)*
+Cora nimmt Text/Voice-Input und schreibt strukturierte Logs. User hat bereits entschieden - Cora ist nur schnellerer Input-Kanal.
 - Soft-Confirmation vor Commit bei nicht-trivialen Einträgen
 - One-tap Undo jederzeit
 - Ambiguous input → Rückfrage, nicht Vermutung
 
-### 1c — Scheduling Writes *(für v1.1 — nach Launch)*
+### 1c - Scheduling Writes *(für v1.1 - nach Launch)*
 Cora erstellt Workout-Einträge, Pausentage, Erinnerungen auf explizite Anweisung.
 **Kritische Regel:** Cora bucht nur was der User explizit sagt. Niemals: "Cora erkennt Muster → bucht Session proaktiv." Das wäre Coaching → SaMD-Territorium.
 
-### 1d — Hard Limit (permanent, kein v2, kein Premium-Tier)
+### 1d - Hard Limit (permanent, kein v2, kein Premium-Tier)
 **Kein Advisory-Content. Jemals.**
 Keine Ernährungsempfehlungen, kein Training-Advice, keine Recovery-Guidance, keine Supplementation.
 
 Redirect-Pattern statt Ablehnung:
 > User: "Was soll ich zum Frühstück essen?"
-> Cora: "Das kann ich nicht empfehlen — aber ich kann dir zeigen was du an deinen besten Morgen gegessen hast. Soll ich?"
+> Cora: "Das kann ich nicht empfehlen - aber ich kann dir zeigen was du an deinen besten Morgen gegessen hast. Soll ich?"
 
-### 1e — App-Redirect-Pattern *(für v1)*
+### 1e - App-Redirect-Pattern *(für v1)*
 Komplexe Tasks → Cora leitet warm in die App weiter mit Deep Link (kein "Nein", sondern "besser dort").
 
 ---
 
 ## Proactive: Was Cora von sich aus tut
 
-### 2a — iMessage/SMS Bridge "Cora-as-Contact" *(für v1.1 — hier Deniz skeptisch)*
+### 2a - iMessage/SMS Bridge "Cora-as-Contact" *(für v1.1 - hier Deniz skeptisch)*
 
-**Die Idee:** Cora bekommt eine eigene Telefonnummer (Twilio/Linq), User speichert sie als Kontakt. Cora schreibt *nur wenn Signal-Dichte es rechtfertigt* — kein Notification-Spam.
+**Die Idee:** Cora bekommt eine eigene Telefonnummer (Twilio/Linq), User speichert sie als Kontakt. Cora schreibt *nur wenn Signal-Dichte es rechtfertigt* - kein Notification-Spam.
 
 **Technisch:** Twilio-Webhook → Cora API → Response → Twilio-Delivery. Kein Apple Business Account nötig. Android = automatisch SMS-Fallback.
 
@@ -86,23 +86,23 @@ Komplexe Tasks → Cora leitet warm in die App weiter mit Deep Link (kein "Nein"
 - GDPR-Surface erweitert sich auf Messaging-Kanal
 - Latenz-Erwartungen brutal: Sekunden, nicht Minuten
 - Kein verified-business Badge in iMessage
-- Twilio-Kosten (~$1–5/Monat pro Nummer + $0.0075/SMS)
+- Twilio-Kosten (~$1-5/Monat pro Nummer + $0.0075/SMS)
 - Mehr Backend-Aufwand für Deniz in bereits engem Zeitplan
 
 > [!warning] Deniz' Einschätzung
 > Die Chatbot-/iMessage-Idee spricht Deniz nicht direkt an. Future-Scope, keine aktive Priorisierung.
 
-### 2b — Post-Workout / Post-Scan Reflections (bereits specced)
+### 2b - Post-Workout / Post-Scan Reflections (bereits specced)
 Keine Änderung.
 
-### 2c — New Correlation Events *(für v1)*
+### 2c - New Correlation Events *(für v1)*
 Wenn Korrelation Konfidenz-Schwelle überschreitet → Product Event (Push, In-App Badge, optional iMessage-Ping).
 
-### 2d — Weekly Brief *(für v1)*
+### 2d - Weekly Brief *(für v1)*
 1x/Woche (Sonntag oder Montag, User-Wahl): 3-Bullet Summary was korreliert hat, was nicht, was sich bildet.
-Mental Model: Spotify Release Radar — vorhersehbar, niedrige Frequenz.
+Mental Model: Spotify Release Radar - vorhersehbar, niedrige Frequenz.
 
-### 2e — Monthly Review *(v1.1/v2 — Spotify Wrapped-Mechanic)*
+### 2e - Monthly Review *(v1.1/v2 - Spotify Wrapped-Mechanic)*
 Selten, teilbar, überraschend → organisches Wachstum via Screenshot.
 
 ---
@@ -124,7 +124,7 @@ Selten, teilbar, überraschend → organisches Wachstum via Screenshot.
 |---|---|
 | Lars | Twilio-Nummer in DE/EU: Sender-ID-Registrierung, Kosten bei Scale, ein oder mehrere Nummern? |
 | **Deniz** | **Realistische Engine-Cadence: Tag der ersten Korrelation für Median-User? Ø Tage zwischen Korrelationen?** Diese Zahl ist die eigentliche Retention-Decke. |
-| Alle | Team-Commitment: Cora produziert niemals Advisory-Content — als Team-Entscheidung, nicht Design-Entscheidung. |
+| Alle | Team-Commitment: Cora produziert niemals Advisory-Content - als Team-Entscheidung, nicht Design-Entscheidung. |
 
 ---
 

@@ -17,7 +17,7 @@ erstellt: 2026-04-16
 aktualisiert: 2026-04-23
 notizen: "Peptide-E-Commerce. Deniz ist COO ab 2026-04-17. Kein Thalor-Client mehr, eigenes Uber-Projekt. Firmenstruktur siehe [[firmenstruktur]]."
 quelle: chat_session
-vertrauen: bestaetigt
+vertrauen: bestätigt
 ---
 
 ## Kontext

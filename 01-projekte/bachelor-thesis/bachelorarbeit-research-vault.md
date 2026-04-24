@@ -3,7 +3,7 @@ typ: framework-spec
 name: Bachelorarbeit Research Vault
 projekt: bachelor-thesis
 quelle: Konsolidierung aus Phase 1-3 Research mit Perplexity und Gemini (2026-04-20), Voice-Dumps Deniz, Anforderungen zu Zitat-Integritaet und Harvard-Zitierstil
-vertrauen: bestaetigt
+vertrauen: bestätigt
 erstellt: 2026-04-20
 status: ready-for-claude-code-deployment
 version: 1.0
@@ -11,13 +11,13 @@ version: 1.0
 
 # Bachelorarbeit Research Vault: Framework-Spezifikation
 
-Dieses Dokument ist die vollstaendige Bauanleitung fuer den Research-Vault. Claude Code bekommt diese Datei, liest sie komplett, und baut auf Basis dieser Spec den gesamten Vault auf. Nichts was hier steht ist Prosa, alles ist Bauanweisung.
+Dieses Dokument ist die vollständige Bauanleitung für den Research-Vault. Claude Code bekommt diese Datei, liest sie komplett, und baut auf Basis dieser Spec den gesamten Vault auf. Nichts was hier steht ist Prosa, alles ist Bauanweisung.
 
 ## Teil A: Projekt-Kontext
 
 ### A.1 Was gebaut wird
 
-Ein lokaler, Git-versionierter Obsidian-Vault mit Claude-Code-Integration als Research-Arbeitsumgebung fuer die Bachelorarbeit zu EU AI Act und Recruiting in deutschen Personaldienstleistern. Abgabe 15.06.2026 an der HdWM Mannheim.
+Ein lokaler, Git-versionierter Obsidian-Vault mit Claude-Code-Integration als Research-Arbeitsumgebung für die Bachelorarbeit zu EU AI Act und Recruiting in deutschen Personaldienstleistern. Abgabe 15.06.2026 an der HdWM Mannheim.
 
 ### A.2 Warum das System existiert
 
@@ -25,7 +25,7 @@ Zitat- und Quellen-Integritaet ist die oberste Prioritaet. Am Ende des Research-
 1. Eine saubere Zotero-Library ohne halluzinierte Quellen
 2. Pro Quelle eine Markdown-File mit verifizierten Zitaten und exakten Seitenangaben
 3. Ein abfragbarer Pool an Passagen kategorisiert nach Thema und Verwendungsart
-4. Vollstaendige Nachvollziehbarkeit: jede Aussage verlinkt zurueck zur verifizierten Quelle
+4. Vollstaendige Nachvollziehbarkeit: jede Aussage verlinkt zurück zur verifizierten Quelle
 
 ### A.3 Kern-Anforderungen (absteigend priorisiert)
 
@@ -43,13 +43,13 @@ PDFs mit Textebene, Scan-PDFs, Foto-Ordner pro Buch (Handy-Fotos aus Bibliothek 
 Lokal laufend, Dateisystem-Zugriff, orchestriert externe APIs ueber Skills und Python-Skripte. Umgeht Kontext-Limits der Web-UI.
 
 **A.3.4 Scope-Gesteuertheit**
-Alle Skills lesen `00_meta/scope.md` und richten ihre Klassifikation, Relevanz-Pruefung und Kategorisierung nach dieser Datei aus. Keine hartkodierten Kategorien.
+Alle Skills lesen `00_meta/scope.md` und richten ihre Klassifikation, Relevanz-Prüfung und Kategorisierung nach dieser Datei aus. Keine hartkodierten Kategorien.
 
 **A.3.5 Zotero als bibliographische Ground Truth**
 Zotero 8 mit BetterBibTeX-Plugin. Native Citation Keys. Elsevier Harvard with titles CSL-Style. Vault verlinkt auf Zotero via Citation Key.
 
 **A.3.6 Git-Versionierung**
-Gesamter Vault unter Git. Audit-Trail fuer potenzielle Turnitin-Rueckfragen. Rollback-Faehigkeit bei fehlerhaften KI-Operationen.
+Gesamter Vault unter Git. Audit-Trail für potenzielle Turnitin-Rueckfragen. Rollback-Faehigkeit bei fehlerhaften KI-Operationen.
 
 ### A.4 Architektur-Prinzipien
 
@@ -70,7 +70,7 @@ Diese fuenf Leitplanken gelten im gesamten System:
 - Kein Plagiats-Tool (das macht Turnitin am Ende)
 - Kein Auto-Writer (Nutzer schreibt Prosa, System liefert Bausteine)
 - Kein allgemeiner Notiz-App-Ersatz (das ist Miraculix)
-- Kein Ersatz fuer kritisches Denken (System strukturiert, Nutzer urteilt)
+- Kein Ersatz für kritisches Denken (System strukturiert, Nutzer urteilt)
 
 ## Teil B: Tech Stack
 
@@ -80,17 +80,17 @@ Diese fuenf Leitplanken gelten im gesamten System:
 - **Obsidian** (Desktop, aktuelle Version): Vault-UI, Markdown-Rendering
 - **Obsidian-Plugins (Pflicht)**: Dataview, Templater
 - **Obsidian-Plugins (optional, empfohlen)**: PDF++, ZotLit
-- **Git** (2.40+) plus **GitHub** oder **GitLab** fuer Remote-Backup
+- **Git** (2.40+) plus **GitHub** oder **GitLab** für Remote-Backup
 - **Zotero 8 Desktop** plus **BetterBibTeX-Plugin**
-- **Python 3.11+** (fuer Ingestion- und Verifikations-Skripte)
-- **Docker Desktop** (fuer GROBID-Container)
+- **Python 3.11+** (für Ingestion- und Verifikations-Skripte)
+- **Docker Desktop** (für GROBID-Container)
 - **Node.js 20+** (optional, falls bestimmte Tools es brauchen)
 
 ### B.2 Externe APIs die angebunden werden
 
 **Content-Verarbeitung (kostenpflichtig)**:
 - **Anthropic Claude API**: Text-PDFs, Passage-Extraktion, LLM-Aufgaben in Python-Skripten
-- **OpenAI API**: Vision fuer Buchfotos und Handschrift, Fallback bei komplexen Layouts
+- **OpenAI API**: Vision für Buchfotos und Handschrift, Fallback bei komplexen Layouts
 - **Mistral OCR API**: Scan-PDFs mit Tabellen, Batch-Processing (nur Fallback)
 
 **Metadaten-Verifikation (kostenlos, keine Keys)**:
@@ -147,7 +147,7 @@ Installation nach Vault-Aufbau: `pip install -r requirements.txt` im Vault-Root.
 
 ### B.4 GROBID-Setup
 
-GROBID laeuft als lokaler Docker-Container, spricht per HTTP an.
+GROBID läuft als lokaler Docker-Container, spricht per HTTP an.
 
 **Installation**:
 ```bash
@@ -179,7 +179,7 @@ client.process("processFulltextDocument", "_raw/pdfs/", "_cache/grobid_output/",
 
 **Wichtig**: GROBID-Container muss vor Ingestion-Operationen laufen. Wir bauen einen Check in die Skills ein: wenn GROBID nicht antwortet, Skill bricht sauber ab mit Hinweis "Docker Container starten".
 
-### B.5 API-Keys besorgen: Schritt-fuer-Schritt
+### B.5 API-Keys besorgen: Schritt-für-Schritt
 
 Jeden Key in eine `.env`-Datei im Vault-Root schreiben. Die `.env` ist in `.gitignore` gelistet und wird nie committed.
 
@@ -204,11 +204,11 @@ Jeden Key in eine `.env`-Datei im Vault-Root schreiben. Die `.env` ist in `.giti
 
 **B.5.3 Mistral API Key**
 1. Gehe auf https://console.mistral.ai
-2. Account erstellen (E-Mail plus Telefonnummer fuer Verifikation)
+2. Account erstellen (E-Mail plus Telefonnummer für Verifikation)
 3. Navigiere zu "API Keys" oder "Workspace"
 4. "Create new key", Name: "bachelorarbeit"
 5. Key kopieren
-6. In Billing: Kreditkarte hinterlegen, 10 USD Guthaben aufladen (reicht fuer ca 5000 Seiten OCR)
+6. In Billing: Kreditkarte hinterlegen, 10 USD Guthaben aufladen (reicht für ca 5000 Seiten OCR)
 7. In `.env`: `MISTRAL_API_KEY=...`
 
 **B.5.4 Google Books API Key**
@@ -260,7 +260,7 @@ Edit -> Settings -> Better BibTeX:
 3. Waehle "Elsevier (author-date/Harvard, with titles)"
 4. Klick installiert den Stil in Zotero
 
-**B.6.5 Collection fuer die Thesis anlegen**
+**B.6.5 Collection für die Thesis anlegen**
 In Zotero: Rechtsklick auf "My Library" -> "New Collection" -> Name: "Bachelorarbeit EU AI Act Recruiting"
 Notiere den Collection-Namen, kommt in `scope.md` als Pflichtfeld.
 
@@ -289,7 +289,7 @@ Settings -> Dataview:
 - Refresh Interval: 2500
 
 **B.7.5 Optional: PDF++ Plugin**
-Fuer bessere PDF-Anzeige direkt im Vault:
+Für bessere PDF-Anzeige direkt im Vault:
 Community plugins -> "PDF++" (von RyotaUshio) -> installieren
 
 ### B.8 Git-Setup
@@ -410,7 +410,7 @@ bachelor-thesis-vault/
 
 **`.scripts/`** Python-Skripte die von Skills aufgerufen werden. Jedes Skript hat eine klare Verantwortlichkeit. Nie von Hand aendern waehrend Skills laufen.
 
-**`config/`** Tool-Dispatcher, API-Konfiguration, GROBID-Config. `.env.example` ist Template fuer andere Nutzer, `.env` ist dein echter.
+**`config/`** Tool-Dispatcher, API-Konfiguration, GROBID-Config. `.env.example` ist Template für andere Nutzer, `.env` ist dein echter.
 
 **`00_meta/`** Projekt-uebergreifende Daten. `scope.md` ist die wichtigste Datei des gesamten Vaults.
 
@@ -449,7 +449,7 @@ _raw/books/mueller-2023-recruiting-ki/
 **Namens-Konvention des Ordners**: `<autor-nachname>-<jahr>-<kurztitel-slug>`. Also `mueller-2023-recruiting-ki`.
 
 **Pflicht-Inhalte**:
-- Mindestens ein Foto vom Cover ODER vom Impressum (fuer Metadaten-Extraktion)
+- Mindestens ein Foto vom Cover ODER vom Impressum (für Metadaten-Extraktion)
 - Mindestens eine Innenseite mit erkennbarer Seitenzahl
 
 **Nice-to-Have**:
@@ -563,7 +563,7 @@ Was passiert bei Failures
 3. Ersten Chunk an Claude API senden: extrahiere Metadaten (Autor, Jahr, Titel, Journal, DOI, ISBN falls Buch)
 4. Metadaten-Verifikation triggern via `verify-metadata`-Skill
 5. Wenn Metadaten OK: Quellen-File in `_pending/` anlegen mit Frontmatter plus Chunks referenziert
-6. User informieren: "Quelle X eingelesen, in _pending/. Jetzt `/extract-passages` fuer Passage-Extraktion"
+6. User informieren: "Quelle X eingelesen, in _pending/. Jetzt `/extract-passages` für Passage-Extraktion"
 
 ### E.3 Skill 2: ingest-scan-pdf (PDFs ohne Textebene)
 
@@ -585,10 +585,10 @@ Was passiert bei Failures
 **Zweck**: Kompletten Buchfoto-Ordner verarbeiten (Cover, Impressum, Innenseiten).
 
 **Ablauf**:
-1. Pre-Check: Ordner existiert, enthaelt mindestens ein Foto
+1. Pre-Check: Ordner existiert, enthält mindestens ein Foto
 2. File-Klassifikation: welches Bild ist Cover, welches Impressum, welche sind Innenseiten (per Dateiname oder per GPT-Vision Check)
 3. Metadaten-Extraktion aus Cover plus Impressum via OpenAI Vision (falls Handschrift oder schlechte Qualitaet) oder Claude Vision
-4. ISBN erkennen und an Google Books API senden fuer Metadaten-Konsens
+4. ISBN erkennen und an Google Books API senden für Metadaten-Konsens
 5. Innenseiten durch GPT-Vision oder Mistral OCR (je nach Qualitaet): Text plus erkannte Seitenzahlen extrahieren
 6. Seitenzahl-Validierung: stimmt die auf dem Foto sichtbare Seitenzahl mit dem Dateinamen (falls `seite-047.jpg`) ueberein?
 7. Optional `metadata-hint.txt` einlesen und Metadaten damit anreichern
@@ -606,7 +606,7 @@ Was passiert bei Failures
 2. Wayback-Machine-Snapshot anfordern (archive.org) und URL notieren
 3. HTML zu Markdown konvertieren (readability-lib oder markdownify)
 4. Metadaten: Titel aus `<title>`, Autor aus Byline, Datum aus Meta-Tags, URL, Access-Datum
-5. Keine DOI-Verifikation (Web-Artikel haben selten DOIs), daher `verification_strictness: medium` fuer diese Quellen
+5. Keine DOI-Verifikation (Web-Artikel haben selten DOIs), daher `verification_strictness: medium` für diese Quellen
 6. `access_status: ok`, `last_access_check: <heute>`, `archived_url: <wayback-link>` in Frontmatter
 
 ### E.6 Skill 5: extract-passages (HERZSTUECK, Force-Quote plus Fuzzy-Validation)
@@ -632,7 +632,7 @@ Was passiert bei Failures
 
 **Ablauf**:
 1. Source-File lesen, LLM-extrahierte Metadaten sammeln (Autor, Jahr, Titel, DOI, ISBN)
-2. Wenn DOI vorhanden: Crossref und DataCite parallel abfragen. DOI-Primary fuer Zeitschriftenartikel.
+2. Wenn DOI vorhanden: Crossref und DataCite parallel abfragen. DOI-Primary für Zeitschriftenartikel.
 3. Wenn ISBN vorhanden: Google Books API abfragen.
 4. Wenn kein DOI/ISBN aber Titel plus Autor plus Jahr: OpenAlex Titelsuche, DNB SRU bei deutschen Buechern.
 5. Konsens-Skript `.scripts/metadata/consensus_validator.py`: vergleicht LLM-Extraktion mit API-Antworten. Bei hoher Uebereinstimmung: API-Daten gewinnen (Ground Truth).
@@ -663,11 +663,11 @@ Was passiert bei Failures
 **Wichtig**: Die Fremd-Arbeit selbst wird NICHT zitiert, NICHT als Quelle aufgenommen, NICHT in `01_sources/` kopiert. Nur deren Referenzen.
 
 **Ablauf**:
-1. GROBID-Container-Check (laeuft er?)
+1. GROBID-Container-Check (läuft er?)
 2. `.scripts/ingestion/run_grobid.py` aufrufen: PDF an GROBID, Output ist strukturiertes XML/JSON mit allen parsed Referenzen
 3. Referenzen deduplizieren gegen bereits in Zotero vorhandene Quellen (via DOI oder Titel-Fuzzy-Match)
 4. Neue Referenzen in `00_meta/mining-log/<datum>-thesis-bibliography-<autor>.md` eintragen mit Status `candidate`
-5. Fuer jede neue Referenz Metadaten-Verifikation gegen Crossref/OpenAlex durchlaufen
+5. Für jede neue Referenz Metadaten-Verifikation gegen Crossref/OpenAlex durchlaufen
 6. User bekommt strukturierte Liste: "42 Referenzen gefunden, 12 schon im Pool, 30 neu. Neue priorisiert nach DOI-Verfuegbarkeit."
 7. Nach Review loescht User die temporaere Fremd-Thesis-PDF aus `_raw/`
 
@@ -706,7 +706,7 @@ Was passiert bei Failures
    - Alle Passagen entweder `citation_verified: true` oder explizit `REQUIRES_MANUAL_VERIFICATION`? Sonst Gate-Fail
    - Keine offenen `metadata_conflict`? Sonst Gate-Fail
    - Alle Pflicht-Frontmatter-Felder gesetzt? Sonst Gate-Fail
-2. Quality-Score berechnen: 100 Punkte Startguthaben, Abzuege fuer fehlende optionale Felder, unklare Klassifikationen, offene TODOs
+2. Quality-Score berechnen: 100 Punkte Startguthaben, Abzüge für fehlende optionale Felder, unklare Klassifikationen, offene TODOs
 3. Score-Gates: unter 80 bleibt Quelle in `_pending/` mit Fehlerliste. 80-89 verschoben nach `01_sources/` mit Flag `needs_polish`. 90+ sauber verschoben und committed.
 4. Bei erfolgreichem Commit: `git add 01_sources/<file> && git commit -m "Add source: <title>"`
 5. User bekommt Summary: "Quelle X in Pool aufgenommen, Score 92, 3 direkte Zitate, 5 Paraphrasen, 2 Hintergrund."
@@ -846,7 +846,7 @@ def validate_quote(quote_obj, chunk_text):
 
 Wenn `validate_quote` ein Zitat als invalid einstuft:
 
-1. Zitat plus Score plus Original-Chunk zurueck an Claude schicken
+1. Zitat plus Score plus Original-Chunk zurück an Claude schicken
 2. Prompt: "Das extrahierte Zitat ist nicht wortwoertlich im Chunk. Score: {score}. Extrahiere die Passage erneut, diesmal strikt woertlich aus dem Chunk."
 3. Bis zu MAX_RETRIES (3) Versuche
 4. Bei finalem Failure: Zitat wird in Source-File aufgenommen mit `citation_verified: false`, `REQUIRES_MANUAL_VERIFICATION: true`
@@ -892,11 +892,11 @@ Zitate mit `REQUIRES_MANUAL_VERIFICATION` werden im Dashboard `03_dashboards/cit
 3. Vergleich LLM-Extraktion vs. API-Ergebnis:
    - Titel-Fuzzy-Match: > 90% identisch
    - Jahr: exakte Gleichheit
-   - Autor (erster): Levenshtein-Distanz max 2 Zeichen (fuer Umlaut-Variationen und Tippfehler)
+   - Autor (erster): Levenshtein-Distanz max 2 Zeichen (für Umlaut-Variationen und Tippfehler)
 4. Scoring:
    - 3 von 3 Matches: `metadata_verified: true`, API-Daten ueberschreiben LLM-Daten
    - 2 von 3 Matches: `metadata_conflict: minor`, landet im Review-Dashboard mit auto-Vorschlag
-   - 1 oder 0 von 3 Matches: `metadata_conflict: major`, blockierend fuer Zotero-Sync
+   - 1 oder 0 von 3 Matches: `metadata_conflict: major`, blockierend für Zotero-Sync
    - 0 API-Treffer trotz plausibler LLM-DOI: `ghost_citation_suspect: true`, harte Blockade
 
 ### H.2 Was bei Ghost Citations passiert
@@ -908,21 +908,21 @@ Wenn ein LLM eine DOI erfindet, findet Crossref die DOI nicht. Dann:
 3. Wenn alle drei nicht finden: `ghost_citation_suspect: true`
 4. Source-File wird in `_pending/` als ghost-verdaechtig markiert
 5. Nutzer bekommt Alarm im Dashboard: "Quelle X hat DOI Y, aber keine Datenbank kennt sie. Vermutlich halluziniert. Manuell pruefen oder verwerfen."
-6. NIEMALS automatischer Sync in Zotero fuer ghost-verdaechtige Quellen
+6. NIEMALS automatischer Sync in Zotero für ghost-verdaechtige Quellen
 
 ### H.3 API-Priorisierung pro Quellen-Typ
 
-**Fuer Zeitschriftenartikel**: Crossref primaer, OpenAlex als Ergaenzung (Zitationsgraph, OA-Link), DataCite falls Preprint-DOI.
+**Für Zeitschriftenartikel**: Crossref primaer, OpenAlex als Ergänzung (Zitationsgraph, OA-Link), DataCite falls Preprint-DOI.
 
-**Fuer deutsche Buecher**: DNB SRU primaer (beste Coverage), Google Books als Ergaenzung (Cover, Klappentext), Crossref falls Buch-DOI vorhanden.
+**Für deutsche Buecher**: DNB SRU primaer (beste Coverage), Google Books als Ergänzung (Cover, Klappentext), Crossref falls Buch-DOI vorhanden.
 
-**Fuer englische Buecher**: Google Books primaer, OpenAlex als Ergaenzung.
+**Für englische Buecher**: Google Books primaer, OpenAlex als Ergänzung.
 
-**Fuer Preprints**: DataCite primaer, OpenAlex als Ergaenzung.
+**Für Preprints**: DataCite primaer, OpenAlex als Ergänzung.
 
-**Fuer Policy-Papers und graue Literatur**: OpenAlex (falls indexiert), sonst manuelle Metadaten mit hohem Prue f-Flag.
+**Für Policy-Papers und graue Literatur**: OpenAlex (falls indexiert), sonst manuelle Metadaten mit hohem Prüf-Flag.
 
-**Fuer Web-Artikel**: keine API-Verifikation moeglich. `verification_strictness: medium`, dafuer archivierte URL via Wayback-Machine als Integritaets-Nachweis.
+**Für Web-Artikel**: keine API-Verifikation moeglich. `verification_strictness: medium`, dafuer archivierte URL via Wayback-Machine als Integritaets-Nachweis.
 
 ### H.4 Retraction-Check
 
@@ -932,7 +932,7 @@ Nach erfolgreicher Metadaten-Verifikation (wenn DOI vorhanden):
 3. Dashboard-Eintrag "Retracted sources" zeigt alle betroffenen Quellen
 4. Bei Zitations-Versuch in `02_drafts/` wird Warning ausgegeben
 
-Zoteros eigene Retraction-Watch-Integration laeuft parallel. Doppelte Sicherung.
+Zoteros eigene Retraction-Watch-Integration läuft parallel. Doppelte Sicherung.
 
 ### H.5 Metadaten-Konflikt-Dashboard
 
@@ -960,7 +960,7 @@ Nutzer arbeitet diese Liste periodisch ab. Pro Konflikt: entweder LLM-Wert manue
 
 Fliessrichtung:
 - Verifizierte Metadaten → Zotero (Schreibrichtung)
-- Citation Key → zurueck in Vault-Source-File (Lese-Sync)
+- Citation Key → zurück in Vault-Source-File (Lese-Sync)
 - Bibliography → auto-exportiert nach `00_meta/bibliography.bib`
 
 Der Vault schreibt nicht direkt in die Zotero-Datenbank mit Ausnahme von neuen Items. Keine Updates an existierenden Items aus dem Vault. Bei Konflikt gewinnt Zotero als Ground Truth.
@@ -1027,14 +1027,14 @@ Zotero unterscheidet Item-Types. Mapping basierend auf `source_class` in Vault:
 
 ### I.5 BibLaTeX-Auto-Export
 
-BetterBibTeX laeuft als Hintergrund-Service. Konfigurierter Auto-Export nach `00_meta/bibliography.bib`:
+BetterBibTeX läuft als Hintergrund-Service. Konfigurierter Auto-Export nach `00_meta/bibliography.bib`:
 - Jede Aenderung in der Collection triggert Neu-Export (mit 5s Debounce)
 - Format: Better BibLaTeX (nicht Better BibTeX, BibLaTeX ist moderner)
 - Datei ist gitignored in `_cache/` wenn es sich um Temporaerversionen handelt, die Haupt-Datei im `00_meta/` ist committed
 
 ### I.6 Pandoc-Compilation der Thesis
 
-Fuer finale PDF-Generation:
+Für finale PDF-Generation:
 ```bash
 pandoc 02_drafts/*.md \
   --bibliography=00_meta/bibliography.bib \
@@ -1218,7 +1218,7 @@ const ghosts = dv.pages('"_pending"').where(p => p.ghost_citation_suspect === tr
 dv.paragraph(`${ghosts.length} verdaechtige Quellen. ACHTUNG: vor Uebernahme manuell pruefen!`);
 ```
 
-## Teil L: Deployment-Anleitung fuer Claude Code
+## Teil L: Deployment-Anleitung für Claude Code
 
 Diese Anleitung sagt Claude Code in welcher Reihenfolge der Vault aufgebaut wird und was wann getestet werden muss.
 
@@ -1226,7 +1226,7 @@ Diese Anleitung sagt Claude Code in welcher Reihenfolge der Vault aufgebaut wird
 
 1. Zielordner anlegen: `C:\Users\deniz\Documents\bachelor-thesis-vault\`
 2. Diese Framework-Datei in den Zielordner kopieren als `FRAMEWORK-SPEC.md`
-3. API-Keys gemaess Teil B.5 besorgen und in `.env`-Datei im Zielordner ablegen
+3. API-Keys gemäß Teil B.5 besorgen und in `.env`-Datei im Zielordner ablegen
 4. Python 3.11+ verfuegbar (pruefen mit `python --version`)
 5. Docker Desktop installiert und gestartet
 6. Git installiert
@@ -1238,7 +1238,7 @@ Diese Anleitung sagt Claude Code in welcher Reihenfolge der Vault aufgebaut wird
 **Stufe 1: Grundgeruest (Ordnerstruktur, Konfigurationsdateien)**
 - Ordnerstruktur aus Teil C.1 komplett anlegen
 - `.gitignore`-Datei schreiben (mit `.env`, `_cache/`, `_attachments/original-*` gelistet)
-- `.env.example` im config-Ordner mit Platzhaltern fuer alle APIs
+- `.env.example` im config-Ordner mit Platzhaltern für alle APIs
 - `requirements.txt` aus Teil B.3 schreiben
 - `README.md` schreiben mit Kurzanleitung
 - `config/tools.yaml` schreiben mit initialer Tool-Matrix
@@ -1247,7 +1247,7 @@ Diese Anleitung sagt Claude Code in welcher Reihenfolge der Vault aufgebaut wird
 - Git initialisieren, ersten Commit "Initial vault structure"
 
 **Stufe 2: Claude-Konfiguration**
-- `.claude/CLAUDE.md` schreiben gemaess Teil J
+- `.claude/CLAUDE.md` schreiben gemäß Teil J
 - `.claude/rules/source-ingestion.md`, `passage-extraction.md`, `citation-integrity.md`, `zotero-sync.md` als einzelne Rule-Files schreiben
 - Git-Commit "Add Claude configuration"
 
@@ -1257,18 +1257,18 @@ Diese Anleitung sagt Claude Code in welcher Reihenfolge der Vault aufgebaut wird
 - `.scripts/ingestion/run_mistral_ocr.py` schreiben
 - `.scripts/ingestion/run_openai_vision.py` schreiben
 - `.scripts/ingestion/run_grobid.py` schreiben
-- `.scripts/metadata/lookup_*.py` fuer Crossref, OpenAlex, DNB, Google Books
+- `.scripts/metadata/lookup_*.py` für Crossref, OpenAlex, DNB, Google Books
 - `.scripts/metadata/consensus_validator.py` schreiben
 - `.scripts/validation/fuzzy_quote_validator.py` schreiben (der kritischste!)
 - `.scripts/zotero/pyzotero_sync.py` schreiben
 - Git-Commit "Add Python scripts"
 
 **Stufe 4: Skills**
-Alle 11 Skill-Dateien in `.claude/skills/` gemaess Teil E schreiben. Jede mit vollstaendiger Spec, Pre-Checks, Ablauf, Gates, Fehler-Handling.
+Alle 11 Skill-Dateien in `.claude/skills/` gemäß Teil E schreiben. Jede mit vollständiger Spec, Pre-Checks, Ablauf, Gates, Fehler-Handling.
 - Git-Commit "Add skills"
 
 **Stufe 5: Templates und Meta-Files**
-- `00_meta/scope.md` als Geruest gemaess Teil D.2 schreiben (mit TBD-Platzhaltern)
+- `00_meta/scope.md` als Geruest gemäß Teil D.2 schreiben (mit TBD-Platzhaltern)
 - `00_meta/codebook.md` leer mit Hinweis "Wird mit scope.md zusammen gefuellt"
 - `00_meta/tag-vocabulary.md` Template
 - `00_meta/ai-usage-card.md` mit HdWM-konformem Template
@@ -1300,7 +1300,7 @@ Alle 11 Skill-Dateien in `.claude/skills/` gemaess Teil E schreiben. Jede mit vo
 - `/sync-zotero 01_sources/<testfile>.md` aufrufen
 - Beobachten: erscheint der Eintrag in der Zotero-Collection?
 
-**Stufe 9: Uebergabe an Nutzer**
+**Stufe 9: Übergabe an Nutzer**
 Nach erfolgreichem Smoke-Test: Claude Code informiert den Nutzer:
 - Summary was gebaut wurde
 - Hinweis auf offenen Todo: scope.md muss per Voice-Dump gefuellt werden
@@ -1329,7 +1329,7 @@ Bei Fehlern in einer Stufe:
 
 Haeufige Stolpersteine:
 - Python-Installation fehlt oder falsche Version → Nutzer muss Python 3.11+ installieren
-- Docker laeuft nicht → Docker Desktop starten
+- Docker läuft nicht → Docker Desktop starten
 - API-Keys fehlen oder falsch → `.env`-Datei pruefen
 - Zotero-Collection existiert nicht → Collection in Zotero manuell anlegen
 - BetterBibTeX nicht installiert oder Citation Key Format falsch → Zotero-Setup Teil B.6 nachholen
@@ -1342,7 +1342,7 @@ Nutzer ist dran:
 3. Skills testen
 4. Dashboards im Obsidian-UI beobachten
 
-Claude Code wechselt in Dialog-Modus: empfaengt Voice-Dumps oder Anweisungen, fuehrt Skills aus, meldet Ergebnisse zurueck.
+Claude Code wechselt in Dialog-Modus: empfaengt Voice-Dumps oder Anweisungen, fuehrt Skills aus, meldet Ergebnisse zurück.
 
 ## Teil M: Test-Plan
 
@@ -1389,7 +1389,7 @@ Als Stress-Test: eine Quelle mit absichtlich verfaelschten Metadaten einspielen:
 
 Erwartung: System erkennt den Konflikt, landet in metadata-conflicts-Dashboard, blockiert Zotero-Sync. Das zeigt dass der Integritaets-Layer funktioniert.
 
-## Teil N: Uebergabe-Prompt an Claude Code
+## Teil N: Übergabe-Prompt an Claude Code
 
 Der folgende Prompt wird in Claude Code im Vault-Ordner als erste Nachricht gegeben. Er weist Claude Code an, diese Framework-Datei zu lesen und den Vault stufenweise aufzubauen.
 
@@ -1446,7 +1446,7 @@ Falls du moechtest dass Claude Code ohne Freigabe-Pausen durchlaeuft: letzten Sa
 4. Commit: `Complete scope.md with research parameters`
 5. Erste echte Quellen in `_raw/` legen, Skills testen
 6. Gap-Check laufen lassen, Luecken in der Recherche identifizieren
-7. Gezielte Recherche mit Perplexity/Undermind fuer fehlende Kategorien
+7. Gezielte Recherche mit Perplexity/Undermind für fehlende Kategorien
 8. Iterativ weiterfuellen
 
 ### O.2 Wartungs-Aufgaben
@@ -1457,4 +1457,4 @@ Falls du moechtest dass Claude Code ohne Freigabe-Pausen durchlaeuft: letzten Sa
 
 ## Ende der Spec
 
-Diese Framework-Datei ist vollstaendig. Claude Code hat alles noetige um den Vault zu bauen.
+Diese Framework-Datei ist vollständig. Claude Code hat alles noetige um den Vault zu bauen.

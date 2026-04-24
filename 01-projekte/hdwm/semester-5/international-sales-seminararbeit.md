@@ -166,11 +166,11 @@ While these concepts offer a good solution for the Siemens case they also show a
 ## Literaturverzeichnis
 
 - Andersen, T., 2023. *Short Introduction to Strategic Management.*
-- Biemans, W., Malshe, A., Johnson, J.S., 2022. The sales-marketing interface: A systematic literature review and directions for future research. *Ind. Mark. Manag.* 102, 324–337. https://doi.org/10.1016/j.indmarman.2022.02.001
+- Biemans, W., Malshe, A., Johnson, J.S., 2022. The sales-marketing interface: A systematic literature review and directions for future research. *Ind. Mark. Manag.* 102, 324-337. https://doi.org/10.1016/j.indmarman.2022.02.001
 - Büchel, O., 2023. *Neue Wege im Key Account Management*, Springer Gabler. Wiesbaden, Germany.
 - Capone, R., 2023. *Key Account Management, kompakt.* Springer Gabler, Wiesbaden, Germany.
 - Kaschek, B., 2014. *True Value Selling.* Springer Gabler, Wiesbaden, Germany.
-- Sahlmueller, B., Van Quaquebeke, N., Giessner, S.R., Van Knippenberg, D., 2022. Dual Leadership in the Matrix: Effects of Leader-Member Exchange (LMX) and Dual-Leader Exchange (DLX) on Role Conflict and Dual Leadership Effectiveness. *J. Leadersh. Organ. Stud.* 29, 270–288. https://doi.org/10.1177/15480518221096547
+- Sahlmueller, B., Van Quaquebeke, N., Giessner, S.R., Van Knippenberg, D., 2022. Dual Leadership in the Matrix: Effects of Leader-Member Exchange (LMX) and Dual-Leader Exchange (DLX) on Role Conflict and Dual Leadership Effectiveness. *J. Leadersh. Organ. Stud.* 29, 270-288. https://doi.org/10.1177/15480518221096547
 - Steenburgh, T., Ahearne, M., Corsi, E., 2012. *Siemens AG: Key Account Management* (Business Case No. 9-512-110). Harvard Business School, Boston, USA.
 
 ---

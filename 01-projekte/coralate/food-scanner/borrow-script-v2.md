@@ -98,7 +98,7 @@ Werden im JSON-Output pro Ziel-Row dokumentiert:
 - `modifier_blocks_nutrient` (Target selbst hat Modifier für diesen Nutrient)
 - `llm_reject` (LLM sagt nicht borrowbar)
 - `llm_subset_too_small` (nach LLM-Filter unter min-neighbors)
-- `cv_too_high_after_llm` (nach LLM-Subset neu berechnetes CV über Threshold) — Bug-Fix 2026-04-19
+- `cv_too_high_after_llm` (nach LLM-Subset neu berechnetes CV über Threshold) - Bug-Fix 2026-04-19
 
 ## Output
 

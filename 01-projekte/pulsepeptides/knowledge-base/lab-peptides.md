@@ -14,7 +14,7 @@ zustaendig_fuer: ["Standard-Bestellungen", "Arg-BPC-157", "GLP-1-Klasse", "Khavi
 erstellt: 2026-04-23
 zuletzt_aktualisiert: 2026-04-23
 quelle: pdf_pricelist + voice_dump
-vertrauen: bestaetigt
+vertrauen: bestätigt
 ---
 
 # Lab Peptides

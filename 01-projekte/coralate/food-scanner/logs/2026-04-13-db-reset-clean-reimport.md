@@ -3,7 +3,7 @@ typ: log
 projekt: "[[food-scanner]]"
 datum: 2026-04-13
 art: fortschritt
-vertrauen: bestaetigt
+vertrauen: bestätigt
 quelle: chat_session
 werkzeuge: ["supabase"]
 ---
