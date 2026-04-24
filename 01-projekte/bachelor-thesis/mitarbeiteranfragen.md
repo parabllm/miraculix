@@ -6,11 +6,11 @@ status: offen
 benoetigte_kapazitaet: mittel
 kontext: ["desktop", "unterwegs"]
 faellig: 2026-05-15
-kontakte: ["[[christine-kampmann]]", "[[anna-luettgen]]", "[[florian-goennwein]]", "[[francis-davis]]", "[[rob-norris]]", "[[johannes-leuschner]]", "[[rini-kodzadziku]]", "[[florian-meyer]]", "[[arda-sener]]", "[[lara-luennemann]]", "[[leon-raedisch]]", "[[felix-schwarz]]"]
+kontakte: ["[[christine-kampmann]]", "[[anna-luettgen]]", "[[florian-goennenwein]]", "[[francis-davis]]", "[[rob-norris]]", "[[johannes-leuschner]]", "[[rini-kodzadziku]]", "[[florian-meyer]]", "[[arda-sener]]", "[[lara-luennemann]]", "[[leon-raedisch]]", "[[felix-schwarz]]"]
 quelle: chat_session
 vertrauen: extrahiert
 erstellt: 2026-04-17
-zuletzt_aktualisiert: 2026-04-20
+zuletzt_aktualisiert: 2026-04-24
 ---
 
 # Thesis Mitarbeiteranfragen
@@ -26,7 +26,7 @@ Verknüpft mit [[2026-04-17-call-christine-thesis]].
 |---|---|---|---|---|---|
 | [[christine-kampmann]] | Director, Mid Office License Mgmt | Strategie | ja | Freigabe erteilt (Call 17.04.) | |
 | [[anna-luettgen]] | Director/VP Recruiting | Strategie | nein | wartet auf Christine-Vermittlung (Christine aktuell krank) | |
-| [[florian-goennwein]] | Legal | Compliance | ja | angeschrieben 20.04. | |
+| [[florian-goennenwein]] | Legal | Compliance | ja | abgelehnt 23.04. (Personalkapazitäten), Thread: [[2026-04-20_florian-goennenwein_thesis-interview]] | - |
 | [[francis-davis]] | Legal Global | Compliance | nein | offen (englisch) | |
 | [[rob-norris]] | Legal Global / Datenschutz | Compliance | nein | offen | |
 | [[rini-kodzadziku]] | Bereichsleiter Delivery Center | KI-Arbeitsgruppe | ja | angeschrieben 20.04. | |

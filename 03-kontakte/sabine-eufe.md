@@ -16,4 +16,4 @@ vertrauen: bestaetigt
 quelle: voice_dump
 ---
 
-Bereichsleiterin Legal, HAYS. Vorgesetzte von [[florian-goennwein]]. Über ihr: [[alexander-heise]].
+Bereichsleiterin Legal, HAYS. Vorgesetzte von [[florian-goennenwein]]. Über ihr: [[alexander-heise]].

@@ -23,7 +23,7 @@ Interview-Plan, Cluster-Übersicht mit Kandidaten, Frageblocks. Leitfaden noch i
 | Director / VP Recruiting | 1 | Strategische Bewertung: Warum ist HAYS bei KI noch nicht so weit? Roadmap? | [[christine-kampmann]], [[anna-luettgen]] |
 | Digital / Innovation / IT | 1 | Technische Machbarkeit, Tool-Landschaft, Implementierungshürden | [[johannes-leuschner]] |
 | Mid Office / Operations | 1 | Schnittstelle Prozess ↔ Governance, praktische Compliance-Anforderungen | - |
-| Legal / Compliance | 1-2 | EU AI Act Readiness, regulatorische Risikobewertung, DSGVO-Schnittstelle | [[florian-goennwein]], [[francis-davis]], [[rob-norris]] |
+| Legal / Compliance | 1-2 | EU AI Act Readiness, regulatorische Risikobewertung, DSGVO-Schnittstelle | [[florian-goennenwein]], [[francis-davis]], [[rob-norris]] |
 | Datenschutzbeauftragter | 1 | DSGVO Art. 22, automatisierte Entscheidungen, Datenverarbeitungsgrundlagen | - |
 | KI-Arbeitsgruppe / Extern | - | KI-Implementierung aus interner Taskforce-Perspektive | [[rini-kodzadziku]], [[florian-meyer]] (LinkedIn) |
 

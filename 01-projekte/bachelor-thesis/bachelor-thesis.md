@@ -118,7 +118,7 @@ Stand 2026-04-22: Research-Vault-Framework-Spec fertig ([[bachelorarbeit-researc
 
 - [[christoph-sandbrink]] - Betreuer
 - [[christine-kampmann]] - Enablerin, selbst Interview-Kandidatin (Strategie-Cluster)
-- [[anna-luettgen]], [[florian-goennwein]], [[francis-davis]], [[rob-norris]], [[johannes-leuschner]], [[rini-kodzadziku]], [[florian-meyer]], [[arda-sener]], [[lara-luennemann]], [[leon-raedisch]], [[felix-schwarz]] - Interview-Kandidaten
+- [[anna-luettgen]], [[florian-goennenwein]], [[francis-davis]], [[rob-norris]], [[johannes-leuschner]], [[rini-kodzadziku]], [[florian-meyer]], [[arda-sener]], [[lara-luennemann]], [[leon-raedisch]], [[felix-schwarz]] - Interview-Kandidaten
 
 ## Interview-Tracking
 

@@ -35,17 +35,17 @@ _migration/           Migrations-Artefakte (Progress, Report)
 
 | Über-Projekt | Pfad | Bereich | Status |
 |---|---|---|---|
-| Thalor | `01-projekte/thalor/` | client_work | aktiv - Sub: herosoftware, bellavie, resolvia |
-| PulsePeptides | `01-projekte/pulsepeptides/` | operativ | aktiv - Deniz ist COO, eigenes Uber-Projekt |
+| Thalor | `01-projekte/thalor/` | client_work | aktiv - 4 Sub: herosoftware, bellavie, pulsepeptides, resolvia |
 | Coralate | `01-projekte/coralate/` | produkt | aktiv - Sub: food-scanner |
 | HAYS | `01-projekte/hays/` | intern | aktiv - Werkstudent CEMEA License Management |
-| HdWM | `01-projekte/hdwm/` | studium | aktiv - Sub: semester-6, bachelor-thesis |
 | Bachelor-Thesis | `01-projekte/bachelor-thesis/` | studium | aktiv - Abgabe 2026-06-15 KRITISCH |
 | Miraculix | `01-projekte/miraculix/` | intern | aktiv - dieser Vault + KI-Orga |
-| Persönlich | `01-projekte/persönlich/` | persönlich | aktiv |
+| Persönlich | `01-projekte/persönlich/` | persoenlich | aktiv - Sub: familie, zukunftsplaene, personal-development, kommunikation-referenzen |
 | Terminbuchung-App | `01-projekte/terminbuchung-app/` | produkt | pausiert bis nach Thesis |
 
 Tabelle wird manuell gepflegt wenn neue Über-Projekte entstehen. Deniz sagt dann explizit "neues Über-Projekt: X".
+
+**Umlaut-Hinweis Persönlich:** Der Ordner heißt `persönlich/` mit echtem Umlaut, nicht `persoenlich/`. Bei `str_replace`/`edit_block`-Operationen auf Files unter diesem Pfad können stille Fehler auftreten (Memory-Eintrag Deniz). Workaround bei Problemen: `write_file` mit `mode: append` oder vollständiges Rewrite.
 
 ---
 
@@ -77,6 +77,46 @@ Beispiel:
 
 ---
 
+## Sub-Projekt: Kommunikation-Referenzen
+
+**Pfad:** `01-projekte/persönlich/kommunikation-referenzen/`
+
+**Zweck:** Zentrales Rohmaterial-Archiv für archivierte Kommunikations-Threads (E-Mail, Slack, WhatsApp, Teams). Projekt-übergreifend. Dient als Pool für spätere Skill-Destillation.
+
+**Struktur:**
+```
+kommunikation-referenzen/
+├── kommunikation-referenzen.md     # Master-File mit Schema + Regeln
+├── email/
+├── slack/
+├── whatsapp/
+└── teams/
+```
+
+**Ablage-Regel (wichtig):** Threads werden NUR hier archiviert wenn Deniz es explizit sagt. Keine proaktive Archivierung. Wenn E-Mails im Eingang landen, nicht automatisch dorthin sortieren ohne Rücksprache.
+
+**Dateinamens-Konvention:** `YYYY-MM-DD_kontakt-slug_thema.md` (Datum = Thread-Start, kontakt-slug = Wikilink-Form).
+
+**Frontmatter-Schema für Thread-Files:**
+```yaml
+typ: kommunikation-thread
+kanal: email | slack | whatsapp | teams
+projekt: <projekt-tag>
+kontakte: ["[[kontakt-slug]]"]
+herkunft: gmail_export | slack_screenshot | whatsapp_export | etc.
+richtung: outbound | inbound | beidseitig
+status: aktiv | abgeschlossen | wartend
+thema: "Kurze Beschreibung"
+datum_start: YYYY-MM-DD
+datum_ende: YYYY-MM-DD
+```
+
+**HAYS-Vertraulichkeit:** Deniz behandelt HAYS-interne Threads gesondert, keine spezielle Kennzeichnung im Vault nötig. Darauf nicht mehr hinweisen.
+
+**Destillations-Ziel:** Bei 5+ Threads pro Kommunikationstyp kann ein Skill gebaut oder ein bestehender erweitert werden (z.B. `hays-email-kommunikation`, `pulse-slack-schreibstil`).
+
+---
+
 ## Grundprinzipien
 
 1. **Obsidian ist SSOT.** Google Calendar/Tasks sind operative Ansichten, nie Quelle.
@@ -101,6 +141,7 @@ Beispiel:
 | "abgleich X" | Projekt X mit neuen Inputs abgleichen |
 | "vault prüfen" | Konsistenz-Check |
 | "log" | Session-Erkenntnisse speichern |
+| "leg das in kommunikation-referenzen" | Thread im passenden Kanal-Unterordner ablegen |
 
 ## Schreibstil für Vault-Content
 
@@ -116,3 +157,4 @@ Gilt NICHT für Chat-Antworten an Deniz. Nur für Content der in `.md` Files lan
 - Mehrere Files gleichzeitig ändern ohne vorher Plan zu zeigen
 - Informationen zwischen Projekten kopieren - stattdessen Wikilinks
 - API-Keys im Klartext
+- Threads proaktiv nach `kommunikation-referenzen/` archivieren - nur auf expliziten Anstoß

@@ -29,6 +29,7 @@ Sammel-Bucket für persönliche Inhalte die in keinen projekt-spezifischen Bucke
 - [[familie]] - Familienmitglieder, Events, Unterstützungs-Themen
 - [[zukunftsplaene]] - Strategische Ausrichtung post-Studium
 - [[personal-development]] - Awareness-Liste: Verhalten, Haushalt, Financials
+- [[kommunikation-referenzen]] - Rohmaterial-Archiv für E-Mail-, Slack-, WhatsApp- und Teams-Threads (Pool für spätere Skill-Destillation)
 
 ## Freundeskreise
 
