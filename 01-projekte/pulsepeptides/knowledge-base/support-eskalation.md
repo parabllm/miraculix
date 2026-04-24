@@ -4,12 +4,14 @@ projekt: "[[pulsepeptides]]"
 thema: support-eskalation
 status: aktiv
 erstellt: 2026-04-17
-zuletzt_aktualisiert: 2026-04-20
+zuletzt_aktualisiert: 2026-04-23
 vertrauen: bestaetigt
-quelle: slack_logs
+quelle: slack_logs + kalani_call_2026-04-23
 ---
 
 # Support-Eskalation Christian an Deniz
+
+**Schreibstil für alle Slack-Antworten an Christian/Kai/Kalani:** verbindlich geregelt im Skill `pulse-slack-schreibstil` (Projekt-Skill, im Claude Project Knowledge). Kein @-Tag, kein Bindestrich nach "Hey", "Thanks!" als Closing, kompakt und professionell-umgangssprachlich.
 
 ## Autonomie Christian
 
@@ -17,62 +19,97 @@ Was Christian selbst beantwortet und entscheidet (kein Deniz noetig):
 - Standard-Kundenanfragen (Versand, Lieferzeit, Produktinfos)
 - Failed Shipments / defekte Vials - Kai und Christian regeln direkt, kein Deniz noetig
 - Compensation bei defekten Vials (extra Vials oder Coupon Code) - Christian entscheidet selbst
+- **Affiliate-Anfragen ab 2026-04-23:** Christian kann Affiliates eigenständig accepten oder rejecten basierend auf 1.000 Follower Mindestcap (siehe unten)
+- **Norway Express Shipping ab 2026-04-23:** Standardantwort UPS Express ab 49,15 EUR, keine separate Quote mehr nötig (siehe unten)
 
 ## Eskalations-Trigger (an Deniz)
 
 - Custom Orders (Produkte nicht im Shop)
-- Affiliate-Anfragen
+- Bulk-Pricing-Anfragen (B2B, Wholesale, Private-Label)
+- Lab-Test-Anfragen mit Transitionsbezug (PulsePeptides → Axonpeptides)
 - US-Shipment-Anfragen
 - Alles was Supplier-Kommunikation erfordert
 
 ## Antwortwege
 
-- Deniz antwortet direkt im Thread (@Christian) in Slack
-- Ton: casual, professionell, konkrete Empfehlung
+- Deniz antwortet direkt im Thread in Slack
+- Schreibstil: siehe Skill `pulse-slack-schreibstil`
 
 ---
 
 ## Eskalationstypen
 
-### Custom Orders
+### Custom Orders (SOP ab 2026-04-23)
 
 Christian meldet Kundenwunsch in #custom-order-requests wenn Produkt nicht im Shop.
 
-**Prozess:**
-1. Christian postet in #custom-order-requests, taggt @senseikalani oder @Deniz
-2. Deniz fragt bei Supplier an (ZY bevorzugt für Custom/Non-Standard)
-3. Standard-Antwort an Christian waehrend Anfrage laeuft: "One of our suppliers has this, we requested it and I will get back to you on this matter tomorrow."
-4. Nach Supplier-Antwort: Menge mit Kalani klaeren, dann Order auslösen
-5. Christian informieren: kann "available soon" kommunizieren
+**Prozess (aktualisiert 2026-04-23 nach Call mit Kalani):**
 
-**Bekannte Custom-Produkte:** KPV Capsules, Tirzepatide, Retatrutide
+1. Christian postet in #custom-order-requests
+2. **Deniz fragt zurück nach Identifier vom Kunden (in dieser Priorität):**
+   - **CAS-Nummer** (primär)
+   - **PubChem-CID** oder **PubMed-ID** (Fallback wenn CAS nicht existiert, z.B. bei Khavinson-Peptiden)
+   - **Sequenz** (immer sinnvoll mitzugeben)
+3. Mit Identifier: Prüfung ob Peptid im regulären Supplier-Sortiment (zuerst [[lab-peptides]] Preisliste checken, dann ZY, dann Testing-Badge-Supplier)
+4. Wenn nicht findbar: beim Supplier direkt anfragen
+5. Menge mit Kalani klären, dann Order auslösen
+6. Christian informieren mit Status
 
-**Offener Fall KPV Capsules (2026-04-20):**
-- ZY Peptides hat Verfuegbarkeit bestaetigt ("Yes, how many?")
-- Christian wurde informiert: "available soon" kommuniziert
-- Offen: Kalani fragen wie viele Bottles, dann ZY Reply mit Menge
+**Wichtig:** Viele vermeintliche "Custom" Orders sind in Wahrheit im Lab-Peptides-Sortiment (Beispiel Prostamax = Y63). Deshalb IMMER zuerst in [[lab-peptides]] nachschauen.
+
+**Bekannte Custom-/Standard-Produkte:**
+- KPV Capsules (wechselt aktuell auf Testing-Badge-Supplier)
+- Tirzepatide (Standard bei Lab Peptides, Code Q2)
+- Retatrutide (Standard bei Lab Peptides, Code Q36)
+- Prostamax (Standard bei Lab Peptides, Code Y63, nicht Custom)
+
+**Offene Cases:** siehe `custom-orders/` Ordner im Projekt.
 
 ---
 
-### Affiliate-Anfragen
+### Bulk-Pricing / B2B-Anfragen (neu 2026-04-23)
+
+**Trigger:** Anfragen von Firmen die als Distributor, Reseller oder Wholesale-Partner auftreten wollen. Beispiele: Pepspan Ltd, potentielle zukünftige B2B-Partner.
+
+**Linie Pulse (Stand Call Kalani 2026-04-23):**
+
+- **Tier-Pricing:** ab 300+ Vials pro SKU, darunter aktuell kein Bulk-Tier
+- **Private Label:** NICHT verfügbar beim Startvolumen
+- **Unlabeled Vials:** möglich, Cap-Color abhängig von internem Lagerbestand
+- **Lead Time:** 5 Tage ODER 21 Tage, je nach Peptid und Lagerbestand
+- **BPC-157 oral enteric-coated Capsules (500mcg/cap):** aktuell nicht verfügbar, neuer Batch in 30 Tagen
+- **COA:** ja, mit unserem Namen. Wenn B2B-Partner COA unter eigenem Namen will, muss selbst testen lassen
+- **Payment:** SEPA OK
+
+**Prozess:**
+1. Christian postet B2B-Anfrage in Slack, eskaliert an Deniz
+2. Deniz holt aktuelle Bulk-Pricing-Liste von Christian ein bevor irgendwas kommuniziert wird
+3. Deniz reviewt Liste und formuliert finale Antwort
+4. Deniz oder Christian schickt raus
+
+**Offener Fall Pepspan Ltd (Mikel Gastaminza):** siehe Meeting-Note [[2026-04-23-kalani-coo-call]], Block A. Bulk-Pricing-Liste von Christian anfordern vor Antwort.
+
+---
+
+### Affiliate-Anfragen (aktualisiert 2026-04-23)
 
 Kanal: #affiliate-programm
 
-**Prozess:**
-1. Christian postet Anfrage + Screenshot in #affiliate-programm, taggt @senseikalani
-2. Kalani reviewed (Antwort: "Everything looks good on my end." = Kalani OK)
-3. Christian fragt Deniz nach finaler Entscheidung
-4. Deniz approved oder lehnt ab
+**NEU ab 2026-04-23: Christian darf eigenständig entscheiden.**
 
-**Kriterien (noch zu definieren mit Kalani):**
-- Follower-Schwelle unklar, Valko_body mit ~3k approved
-- Nischen-Fit (Fitness/Body) ausreichend
-- Groessere Reichweite bevorzugt
+**Regelung (Stand Call Kalani 2026-04-23):**
+
+- **Mindest-Follower-Cap:** 1.000 Follower
+- **Christian kann darunter rejecten, darüber accepten** ohne Deniz-Freigabe
+- Nischen-Fit (Fitness/Body) bleibt weiterhin Kriterium
+
+**Deniz macht in der nächsten Zeit einen Affiliate-Review:** bestehende Affiliates durchgehen und neues Framework aufbauen (siehe [[coo-aufgaben]], Affiliate-Regelung mit No-Human-Use-Klausel).
 
 **Bekannte Affiliates:**
 - Valko_body: Instagram + TikTok, ~3k Follower, approved 2026-04-20
+- Alanzooo6: TikTok, Anfrage 2026-04-20, approved (vor Cap-Entscheidung), wird im Review revidiert
 
-**Nächste Schritte Affiliate-Onboarding:** noch zu klaeren (Konditionen, Tracking-Links, Kommunikation)
+**Zukünftiges Framework:** neue Affiliate-Terms mit expliziter No-Human-Use-Klausel und Research-Use-Only-Disclaimer-Pflicht in Affiliate-Posts. Details siehe [[coo-aufgaben]].
 
 ---
 
@@ -82,7 +119,29 @@ Kanal: #csupport-shipments
 
 **Stand 2026-04-20:** US-Markt wird geprueft, kein konkreter Versand-Plan. Standardantwort an Kunden: "We are looking into supplying more of the US market. Do you have any specific requests open?"
 
-Anfragen werden an Kalani weitergeleitet zur Entscheidung.
+Anfragen werden an Kalani weitergeleitet zur Entscheidung. Konkrete Schritte mit Kalani stehen aus, verschoben bis Kalani wieder fit ist (Lebensmittelvergiftung Stand 2026-04-23).
+
+---
+
+### Norway Express Shipping (SOP ab 2026-04-23)
+
+Kanal: #csupport-shipments
+
+**Standardantwort für Norwegen (bestätigt im Call Kalani 2026-04-23):**
+- UPS Express, ab 49,15 EUR, Lieferzeit 1-2 Tage
+- Funktioniert solange Adresse nicht "middle of nowhere"
+- Kai bestätigt Adresse im Zweifel
+- **Keine separate Quote mehr nötig**, das ist jetzt Standard (früher: manuelle Einzelquote weil Versand teurer als Website-Preis)
+
+Christian kann das eigenständig an Kunden kommunizieren.
+
+---
+
+### Lab-Test-Anfragen (Transitionsbezug PulsePeptides → Axonpeptides)
+
+**Offener Fall:** Kunde fragt nach Lab-Test für Reta, Test wurde unter PulsePeptides-Namen durchgeführt. Wie wird das während Transition zu Axonpeptides behandelt?
+
+**Stand 2026-04-23:** Nicht im Call besprochen, muss beim nächsten Sync mit Kalani nachgeholt werden.
 
 ---
 
@@ -98,13 +157,21 @@ Anfragen werden an Kalani weitergeleitet zur Entscheidung.
 
 **Grundhaltung:** Kunde nicht als Betrüger behandeln. Kann Produktionsfehler sein. Ziel: Kunde muss satisfied sein.
 
-**Stil-Vorlage (COO an Christian):**
+**Stil-Vorlage (COO an Christian):** siehe Skill `pulse-slack-schreibstil`, Beispiel 4.
 
-> "Hey @Christian - I just had a little look at some emails and this one caught my eye. If you haven't thought of it yourself already I think it would probably be good to offer him additional compensation considering the reshipment had subpar quality. Either additional vials of the same peptide or maybe a coupon code would sound fair to me for this case. Let me know what you think."
+> "Hey Christian, I just had a little look at some emails and this one caught my eye. If you haven't thought of it yourself already I think it would probably be good to offer him additional compensation considering the reshipment had subpar quality. Either additional vials of the same peptide or maybe a coupon code would sound fair to me for this case. Let me know what you think."
 
 Ton: casual, professionell, konkrete Empfehlung als Vorschlag ("I think it would be good", "Let me know what you think"), keine direkte Anweisung.
 
-**Offener Fall Thymosin-Kunde (noch nicht bearbeitet):**
-- Hat Replacement bekommen, Replacement auch defekt
-- Nur 2 von mehreren Vials gut, fehlende Stabilisierungskante oben
-- Compensation-Nachricht an Christian noch ausstehend
+---
+
+## Log Call Kalani 2026-04-23
+
+Folgende Regelungen/SOPs wurden im Call bestätigt oder neu definiert:
+- Custom-Order-SOP mit CAS/PubChem/Sequenz-Abfrage
+- Affiliate 1k Follower Cap, Christian autonom
+- Norway Express Shipping Standard-SOP
+- Bulk-Pricing-Linie für B2B-Anfragen
+- Compensation-Vorlage bleibt wie gehabt
+
+Details siehe Meeting-Note [[2026-04-23-kalani-coo-call]].

@@ -66,9 +66,16 @@ Stand 2026-04-23 nach Sandbrink-Betreuungsgespräch ([[2026-04-23-sandbrink-betr
 **Sandbrink-Korrektur:**
 Großteil der Literatur gehört in Kapitel 2, nicht verteilt über die Arbeit. Kapitel 5 und 6 greifen nur ergänzend auf Literatur zurück.
 
+**Pipeline aktiviert 2026-04-23:**
+- Reset des Research-Vaults durchgeführt (alle Test-Quellen entfernt)
+- `scope.md` v1.0 aktiv (K1-K6, Sättigungszahlen, Elsevier Harvard Zitierstil)
+- `codebook.md` v1.0 mit vollständigen Definitionen, Abgrenzungen, konstruierten Ankerbeispielen, Kodierregeln
+- `gliederung.md` mit 29 Abschnitten, Option A umgesetzt (Kapitel 5 leer, Kapitel 6 voll), Sonder-IDs `methodik`/`ergebnisse`/`diskussion` gesetzt
+- Alle drei Files im Research-Vault unter `00_meta/` pipeline-ready
+
 **Aktuell offen:**
-- Pipeline-Sondierung im Bachelor-Thesis-Research-Vault via Claude Code (Prompt liegt vor)
-- Nach Pipeline-Sondierung: scope.md und gliederung.md im Research-Vault pipeline-konform befüllen
+- Erste Quelle einladen (Empfehlung: EU AI Act Originaltext) und Pipeline-Test laufen lassen
+- Ankerbeispiele im Codebook nach 5 bis 10 realen Quellen durch belegte Formulierungen ersetzen
 - Separater Mayring-Vault für Interview-Auswertung konzipieren ([[mayring-vault-konzeption]])
 
 Stand 2026-04-22: Research-Vault-Framework-Spec fertig ([[bachelorarbeit-research-vault]], 900 Zeilen, Teile A bis O). Erste zwei Quellen im separaten Vault (Rukadikar 2025, Seppaelae).
@@ -78,12 +85,15 @@ Stand 2026-04-22: Research-Vault-Framework-Spec fertig ([[bachelorarbeit-researc
 - [x] Montag 20.04.: Interview-Anschreiben rausschicken (6 von 11 raus, Rest blockiert oder englisch)
 - [x] Scope finalisieren und mit Sandbrink abstimmen (23.04.2026 erledigt, siehe [[scope-klartext]])
 - [x] Briefing-PDF für Sandbrink erstellen (23.04.2026)
-- [ ] Pipeline-Sondierung via Claude Code im Bachelor-Thesis-Research-Vault #hoch
+- [x] Pipeline-Sondierung via Claude Code im Bachelor-Thesis-Research-Vault (23.04.2026)
+- [x] Reset des Research-Vaults (23.04.2026)
+- [x] `scope.md`, `codebook.md`, `gliederung.md` im Research-Vault pipeline-konform befüllt (23.04.2026)
+- [ ] Erste Quelle einladen (EU AI Act Originaltext) und Pipeline-Test #hoch
+- [ ] Claude-Code-Prüfauftrag: Zitierstil konsistent prüfen (Elsevier Harvard with titles überall in Prompts, Drafts, Dashboards)
 - [ ] Antworten der 6 Angeschriebenen abwarten und Termine vereinbaren #hoch
 - [ ] Mit Christine im nächsten Call: Anna, Rob Norris, Francis Davis, Florian Meyer durchgehen
 - [ ] Zweiter externer Experte identifizieren (parallel zu Florian Meyer LinkedIn) #mittel
-- [ ] Nach Pipeline-Sondierung: scope.md und gliederung.md im Research-Vault befüllen #hoch
-- [ ] Kategorien-Vollspezifikation (Definition, Ankerbeispiele, Kodierregeln je Kategorie) vor Pipeline-Aktivierung #hoch
+- [ ] Ankerbeispiele im Codebook nach 5-10 realen Quellen durch belegte Formulierungen ersetzen
 - [ ] Mayring-Vault konzipieren ([[mayring-vault-konzeption]]) #mittel
 - [ ] Interviewleitfaden finalisieren pro Cluster #hoch
 - [ ] Kapitel-Drafts (Theorie, Methodik, Ergebnisse, Diskussion) #hoch

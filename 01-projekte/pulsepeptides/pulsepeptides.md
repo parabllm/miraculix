@@ -14,6 +14,7 @@ kontakte: ["[[kalani-ginepri]]", "[[christian-pulse]]", "[[kai-pulse]]", "[[patr
 tech_stack: ["wordpress", "woocommerce", "elementor", "n8n", "slack", "google-sheets", "gmail", "browserless", "openai", "freshdesk", "metorik", "vercel", "telegram"]
 notion_url: ""
 erstellt: 2026-04-16
+aktualisiert: 2026-04-23
 notizen: "Peptide-E-Commerce. Deniz ist COO ab 2026-04-17. Kein Thalor-Client mehr, eigenes Uber-Projekt. Firmenstruktur siehe [[firmenstruktur]]."
 quelle: chat_session
 vertrauen: bestaetigt
@@ -65,30 +66,47 @@ Seit 2026-04-17 intern offiziell COO. Transitionsphase ca. 3 Wochen. Umfang 5-10
 - `produkte.md`
 - `bestellprozess.md`
 - `lieferanten.md`
+- `lab-peptides.md` (vollständige Preisliste, neu 2026-04-23)
 - `team-koordination.md`
 - `lab-workflow-janoshik.md`
 - `support-eskalation.md`
-- `coo-aufgaben.md`
 - `firmenstruktur.md`
+
+`coo-aufgaben.md`, `coo-automations.md`, `janoshik-ocr.md`, `pulsebot-workflows.md` im Haupt-Ordner.
+
+`custom-orders/` für einzelne Custom-Order-Cases.
 
 ## Aktueller Stand
 
-Stand 2026-04-20: KPV Sourcing wechselt von ZY zu neuem Supplier via Testing Badge. Gleicher Supplier soll zusätzlich BPC-157 und 5-Amino-1 Kapseln liefern (neuer Produktlaunch, Quality Control nötig). Pakete: 500 statt 1444 nachbestellen (Paketdesign kann sich ändern). Affiliate Valko_body approved. US-Markt wird geprüft. Kalani-Besuch in Deutschland ab Mittwoch 22.04.
+Stand 2026-04-23: COO Weekly Call mit Kalani durchgeführt (Details [[2026-04-23-kalani-coo-call]]). Lager-Besuch Eppelheim entfiel (Kalani krank, Lebensmittelvergiftung). Mehrere SOPs neu definiert: Custom-Order (CAS/PubChem/Sequenz-Abfrage), Affiliate-Cap (1.000 Follower, Christian autonom), Norway Express Shipping (UPS Express Standard). Bulk-Pricing-Linie für B2B festgelegt (siehe [[support-eskalation]]). Slack-Schreibstil als Projekt-Skill formalisiert (`pulse-slack-schreibstil`).
 
 ## Offene Aufgaben
 
-- [ ] Neuen Supplier-Deal durchziehen: KPV + BPC-157 + 5-Amino-1 Kapseln sourcen (via Testing Badge) und Quality Control durchführen #hoch
-- [ ] 500 Pakete bestellen (Paketdesign kann sich ändern) #mittel
-- [ ] Thymosin-Kunde Compensation-Nachricht an Christian in Slack schreiben #hoch
-- [ ] Prostamax Peptide Custom-Order-Anfrage beantworten (Christian) #hoch
-- [ ] Affiliate Valko_body: nächste Schritte klären (Onboarding, Konditionen) #mittel
-- [ ] US Shipments: konkrete Schritte mit Kalani klären #mittel
-- [ ] Lager-Besuch Mittwoch 22.04. Eppelheim mit Kalani und Kai #hoch
-- [ ] Knowledge Base iterativ befüllen
+### Hoch
+- [ ] Bulk-Pricing-Liste von Christian einholen und überarbeiten, bevor Pepspan-Antwort rausgeht
+- [ ] Prostamax Custom-Order: auf Lily-Antwort (Lab Peptides) und Kundenmenge warten, dann Order auslösen
+- [ ] Affiliate-Framework mit No-Human-Use-Klausel aufbauen (siehe [[coo-aufgaben]])
+
+### Mittel
+- [ ] System-Login-Sweep: überall anmelden und Admin-Zugriff sicherstellen (siehe [[coo-aufgaben]])
+- [ ] Reta Lab-Test Transition PulsePeptides → Axonpeptides: beim nächsten Sync mit Kalani klären
+- [ ] Valko_body Onboarding-Details klären
+
+### Verschoben bis Kalani wieder fit ist
+- [ ] KPV Supplier-Wechsel von ZY auf Testing-Badge-Supplier durchziehen
+- [ ] BPC-157 + 5-Amino-1 Kapseln Sourcing beim Testing-Badge-Supplier
+- [ ] US Shipments konkrete Schritte festlegen
+- [ ] PepStack Vendor Program strategisch bewerten (Max Berktold)
 
 ## Abgeschlossene Meilensteine
 
 - ~~Metorik-Zugang eingerichtet~~ 2026-04-20
+- ~~500 Pakete nachbestellen (kein neues Design nötig)~~ 2026-04-23
+- ~~Norway Express Shipping SOP definiert (UPS Express ab 49,15 EUR)~~ 2026-04-23
+- ~~Affiliate Follower-Cap bei 1.000 festgelegt, Christian autonom~~ 2026-04-23
+- ~~Custom-Order-SOP definiert (CAS → PubChem → Sequenz)~~ 2026-04-23
+- ~~Lab Peptides Preisliste vollständig dokumentiert~~ 2026-04-23
+- ~~Thymosin-Kunde Compensation aus Agenda genommen~~ 2026-04-23
 
 ## Kontakte
 

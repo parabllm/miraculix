@@ -4,7 +4,7 @@ projekt: "[[pulsepeptides]]"
 thema: coo-aufgaben
 status: in_arbeit
 erstellt: 2026-04-17
-zuletzt_aktualisiert: 2026-04-17
+zuletzt_aktualisiert: 2026-04-23
 vertrauen: extrahiert
 quelle: voice_dump
 ---
@@ -84,6 +84,38 @@ Wird iterativ befüllt. Jede Aufgabe bekommt einen Status und einen Log-Verweis 
 - **Problem:** pulsepeptides.com bei GoDaddy, Compliance-Problem
 - **Aufgabe:** neuen Registrar finden, Transfer koordinieren (Patrick involvieren)
 
+### Affiliate-Regelung mit No-Human-Use-Klausel und Review bestehender Affiliates
+
+- **Status:** offen, neu 2026-04-23
+- **Problem:** Aktuelle Affiliate-Vereinbarungen haben keine explizite "Research Use Only" / "No Human Use" Klausel. Affiliates kommunizieren teils Human-Use-implizit (Body-Transformation-Content auf Instagram/TikTok), was Compliance-Risiko erzeugt.
+- **Zwischenlösung seit 2026-04-23:** Christian darf Affiliates autonom basierend auf 1.000 Follower Mindestcap accepten/rejecten. Dokumentiert in [[support-eskalation]].
+- **Aufgabe:**
+  - Neue Affiliate-Terms aufsetzen mit klarer No-Human-Use-Klausel
+  - Verpflichtung der Affiliates zu Research-Use-Only-Disclaimer in jedem Post
+  - Verbot von Dosing-Empfehlungen, Body-Transformation-Claims, medizinischen Aussagen
+  - Konsequenzen bei Verstoss (Code-Deaktivierung, Affiliate-Status entzogen)
+  - Review bestehender Affiliates (Valko_body, Alanzooo6) nach neuem Framework, ggf. revidieren
+- **Relevant für:** Valko_body Onboarding, Alanzooo6, alle zukünftigen Affiliates, PepStack Vendor Program
+- **Trigger:** Call mit Kalani 2026-04-23
+
+### Bulk-Pricing-Liste B2B überarbeiten
+
+- **Status:** offen, neu 2026-04-23
+- **Problem:** Pepspan-Anfrage (Mikel Gastaminza) hat gezeigt dass aktuelle Bulk-Pricing-Liste überarbeitet werden muss bevor wir sauber an B2B-Partner kommunizieren können.
+- **Aufgabe:**
+  - Aktuelle Liste von Christian einholen
+  - Reviewen und überarbeiten (Tier ab 300+ Vials)
+  - Interne Linie festlegen: Private-Label nein, unlabeled Vials ja, Lead 5 oder 21 Tage je nach Lager, BPC-157 Kapseln erst in 30 Tagen
+  - Als Standard-Dokument ablegen für zukünftige B2B-Anfragen
+- **Offener Fall:** Pepspan Ltd (siehe Meeting-Note [[2026-04-23-kalani-coo-call]], Block A)
+
+### System-Login-Sweep (Deniz persönlich)
+
+- **Status:** offen, neu 2026-04-23
+- **Aufgabe:** Alle Pulse-Systeme einmal durchgehen, überall anmelden, überall einen Login sicherstellen
+- **Zweck:** Admin-Zugriff als COO auf alle operativ relevanten Systeme
+- **Relevant für:** langfristige Übernahme operativer Verantwortung, Unabhängigkeit von Kalani bei Ad-hoc-Aufgaben
+
 ---
 
 ## Entschieden
@@ -93,6 +125,9 @@ Wird iterativ befüllt. Jede Aufgabe bekommt einen Status und einen Log-Verweis 
 | Passwörter | 1Password (Kalanis Vault) | 2026-04-17 |
 | Team-Kommunikation | Slack | 2026-04-17 |
 | Terminbuchung | Google Calendar | 2026-04-17 |
+| Affiliate-Mindest-Cap | 1.000 Follower, Christian autonom | 2026-04-23 |
+| Norway Express Shipping | UPS Express ab 49,15 EUR, kein Quote mehr | 2026-04-23 |
+| Custom-Order-SOP | CAS → PubChem → Sequenz beim Kunden abfragen | 2026-04-23 |
 
 ---
 
@@ -101,6 +136,9 @@ Wird iterativ befüllt. Jede Aufgabe bekommt einen Status und einen Log-Verweis 
 | Aufgabe | Dringlichkeit | Blockiert durch |
 |---|---|---|
 | Banking-Alternative Revolut | hoch | Recherche |
+| Affiliate-Regelung No-Human-Use | hoch | Konzept + Kalani-Freigabe |
+| Bulk-Pricing-Liste B2B | hoch | Liste von Christian |
+| System-Login-Sweep Deniz | mittel | Deniz persönlich |
 | Projektmanagement-Tool | mittel | Entscheidung |
 | Krypto-Pipeline | mittel | Konzept |
 | Prozess-Visualisierung | mittel | Tool-Entscheidung |

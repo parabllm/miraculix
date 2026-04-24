@@ -24,6 +24,12 @@ Sammel-Bucket für persönliche Inhalte die in keinen projekt-spezifischen Bucke
 - Reflexive Logs nur on-demand
 - Atomare Learnings/Patterns wandern ggf. nach `02-wissen/` mit `domain: health`
 
+## Sub-Projekte und Themenfiles
+
+- [[familie]] - Familienmitglieder, Events, Unterstützungs-Themen
+- [[zukunftsplaene]] - Strategische Ausrichtung post-Studium
+- [[personal-development]] - Awareness-Liste: Verhalten, Haushalt, Financials
+
 ## Freundeskreise
 
 ### HdWM-Crew (Spanien-Crew)
@@ -38,53 +44,38 @@ Padel-Runde und private Gruppe. Mitglieder: Deniz, [[maddox-yakymenskyy]], [[eri
 
 ## Familie
 
-Eigenes Sub-Projekt: [[familie]]. Mitglieder: [[sinan-oezbek]] (Bruder, 15, 9e Bach-Gymnasium Mannheim).
+Sub-Projekt: [[familie]]. Mitglieder: [[sandra-oezbek]] (Mutter), [[erguen-oezbek]] (Vater), [[sinan-oezbek]] (Bruder).
 
 ## Aktueller Stand
 
 Stand 2026-04-16:
-- Marokko-Reise 02.04.-15.04.2026 abgeschlossen
-- Supplement-Stack, Neurotransmitter-Network, Peptide-Protokolle, Energie-Stabilität, Haltung/Mobilität, Augenringe - Research-Docs in Notion
+- Marokko-Reise 02.04. bis 15.04.2026 abgeschlossen
+- Supplement-Stack, Neurotransmitter-Network, Peptide-Protokolle, Energie-Stabilität, Haltung/Mobilität, Augenringe: Research-Docs in Notion
 - Profil "Deniz Özbek" (Selbstbeschreibung), Freelance & Automation Kontext
 
 Stand 2026-04-20:
-- Spanien Empuriabrava 02.-12.08.2026 steht im Kalender als Blocker (HdWM-Crew, letztes Semester)
+- Spanien Empuriabrava 02. bis 12.08.2026 steht im Kalender als Blocker (HdWM-Crew, letztes Semester)
 - Schwitzer-Crew-Urlaub ursprünglich Mitte Mai, wird auf Semesterferien verschoben
 - Klausurenphase HdWM Ende Juli (Lernphase Anfang Juli, Klausuren Ende Juli)
-- Strategische Ausrichtung post-Studium: offen (siehe eigener Abschnitt unten)
 
-## Strategische Ausrichtung post-Studium
+Stand 2026-04-23:
+- Gemeinsamer Sommerurlaub mit [[anastasia-quast]] bestätigt: 26.07. bis 31.07.2026
+- Gespräch mit Mutter [[sandra-oezbek]], Personal Development und Financials als Themen (siehe [[personal-development]])
 
-**Ausgangslage (Stand 2026-04-20):**
-- Werkstudent bei HAYS, HAYS bietet keine Vollzeitstelle und Deniz will dort auch keine
-- Kalani/PulsePeptides-Retainer ist die einzige valide Vollzeit-Alternative (Kalani will Deniz auf Retainer als Vollzeitstelle)
-- SAP-Job nicht bekommen
-- Thalor-Freelance parallel
-- Ziel: Werkstudentenstatus halten, also irgendwo für ein Semester immatrikulieren
+## Strategische Ausrichtung post-Studium (kompakt)
 
-**Offene Fragen:**
-- Master ja/nein, welche Fachrichtung?
-- Welche Stadt?
-- Zulassungsvoraussetzungen, Notenschnitt?
-- Bewerbungsfristen?
-- Alternativen zum Master, die Werkstudentenstatus erhalten?
-- PulsePeptides-Retainer: Konditionen, Commitment-Level, Wie lässt sich das mit Studium/Thalor verbinden?
+Volle Version: [[zukunftsplaene]].
 
-**Zeitachse:**
-- April-Juni 2026: Bachelorarbeit
-- Anfang Juli 2026: Lernphase HdWM
-- Ende Juli 2026: Klausuren HdWM
-- 02.-12.08.2026: Spanien
-- Semesterferien Aug-Sep: Zeit für Neuorientierung
+Kurz: HAYS bietet keine Vollzeitstelle, Kalani/PulsePeptides-Retainer ist einzige Alternative, SAP abgesagt, Thalor-Freelance läuft parallel. Ziel: Werkstudentenstatus halten über Master-Immatrikulation. Entscheidung in den Semesterferien (August bis September 2026).
 
 ## Offene Aufgaben
 
-- [ ] Auto organisieren fuer Kalani-Lager-Besuch Eppelheim am Mittwoch 22.04. abends (bei wem fragen, Abholzeit klaeren) #hoch
-- [ ] Spanien 02.-12.08. planen: diese Woche finalisieren, Mitte nächster Woche Flüge buchen #hoch
+- [ ] Auto organisieren für Kalani-Lager-Besuch Eppelheim am Mittwoch 22.04. abends (bei wem fragen, Abholzeit klären) #hoch
+- [ ] Spanien 02. bis 12.08. planen: diese Woche finalisieren, Mitte nächster Woche Flüge buchen #hoch
 - [ ] Schwitzer-Urlaub: Mai absagen und auf Semesterferien verschieben (mit Eris, Mikail, Maddox klären) #mittel
-- [ ] Strategie post-Studium durchdenken: Master-Recherche (Zulassung, Stadt, Voraussetzungen, Fachrichtung) #mittel
-- [ ] Kalani-Retainer-Option konkret bewerten: Konditionen, Commitment, Vereinbarkeit mit Master-Option #mittel
-- [ ] Zertifikate holen für CV - Instagram durchschauen (TK-2, Low) #niedrig
+- [ ] Finanz-Aufstellung erstellen: Fixkosten, HdWM-Gebühren, Contributions an Eltern, aktuelle Miete-Situation #mittel
+- [ ] Sommerurlaub mit Anastasia 26. bis 31.07. planen (Ziel, Unterkunft, Budget), Anfang Juni relevant #niedrig
+- [ ] Zertifikate holen für CV, Instagram durchschauen (TK-2, Low) #niedrig
 
 ## Research-Themen (aus Notion-Docs, optional später nach 02-wissen/)
 
@@ -103,6 +94,6 @@ Stand 2026-04-20:
 
 ## Kontakte
 
-- [[sinan-oezbek]] (Bruder, siehe Sub-Projekt [[familie]])
-
+Familie: [[sandra-oezbek]], [[erguen-oezbek]], [[sinan-oezbek]] (siehe Sub-Projekt [[familie]]).
+Partnerin: [[anastasia-quast]].
 Freunde siehe Freundeskreise oben.

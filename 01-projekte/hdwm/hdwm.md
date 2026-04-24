@@ -35,6 +35,12 @@ Bachelor Business Management, HdWM Mannheim.
 
 - [[bachelor-thesis]] - Abgabe 15.06.2026
 
+## Finanzielles
+
+Studiengebühren: 600 EUR pro Monat.
+Davon 300 EUR Eigenanteil, 300 EUR übernehmen die Eltern (Kindergeld).
+Teil der laufenden Finanz-Übersicht in [[persönlich]].
+
 ## HdWM-Crew
 
 Studienkollegen, mit denen Deniz auch privat verbunden ist:

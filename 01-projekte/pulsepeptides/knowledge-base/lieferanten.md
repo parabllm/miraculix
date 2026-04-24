@@ -4,43 +4,44 @@ projekt: "[[pulsepeptides]]"
 thema: lieferanten
 status: in_arbeit
 erstellt: 2026-04-17
-zuletzt_aktualisiert: 2026-04-17
+zuletzt_aktualisiert: 2026-04-23
 vertrauen: extrahiert
-quelle: voice_dump
+quelle: voice_dump + pdf_pricelist
 ---
 
 # Lieferanten
 
 ## Übersicht
 
-| Supplier | Code | Produktionsgeschwindigkeit | Bestellkanal |
-|---|---|---|---|
-| Lab Peptides | LP | schnell | Telegram |
-| ZY Peptides | ZY | langsam | Telegram |
+| Supplier | Code | Produktionsgeschwindigkeit | Bestellkanal | Detail |
+|---|---|---|---|---|
+| Lab Peptides | LP | schnell | Telegram | [[lab-peptides]] |
+| ZY Peptides | ZY | langsam | Telegram | - |
 
 ## Lab Peptides
 
 - Produktionsgeschwindigkeit: schnell
-- Bestellkanal: Telegram-Gruppe
-- Preisliste: Standort noch zu erfragen (Call 14:15)
+- Bestellkanal: Telegram-Gruppe (LabPeptides x PulseP...)
+- Kontakt: Lily, lily@lab-peptides.com, +853 6351 4495
+- Vollständige Preisliste und Bestellmodalitäten: [[lab-peptides]]
+- Originaldokument: `_anhaenge/projekte/pulsepeptides/lab-peptides-pricelist-2026-01.pdf`
+- Preisliste gültig: 2025-12-03 bis 2026-03-31
 
 ## ZY Peptides
 
 - Produktionsgeschwindigkeit: langsam
 - Bestellkanal: Telegram-Gruppe
-- Preisliste: Standort noch zu erfragen (Call 14:15)
+- Preisliste: noch nicht dokumentiert
+- Bisher zuständig für: Custom Orders, KPV (wechselt jetzt auf Testing-Badge-Supplier)
 
 ## Offene Bestellungen
 
 - Tireptide: müssen bestellt werden (Kalani, 2026-04-17)
 
-## Offen (Call 14:15)
+## Offen
 
-- Wo liegen die Preislisten?
-- Wann bestelle ich bei Lab Peptides vs. ZY? (Auswahlkriterien)
-- Konkrete Bestellnachricht / Template
-- Mindestmengen, Bulk-Schwellen
-- Tipps und Quirks der Supplier
+- ZY Preisliste einholen und analog zu [[lab-peptides]] dokumentieren
+- Testing-Badge-Supplier (neuer KPV/BPC-157/5-Amino-1-Supplier) dokumentieren sobald Deal durch ist
 
 
 ## Produkt-Spezifikation
@@ -50,8 +51,9 @@ quelle: voice_dump
 
 ## Supplier-Zustaendigkeit
 
-- **Lab Peptides:** Standard-Bestellungen, BPC-157 Arginin (bevorzugt)
-- **ZY Peptides:** Custom Orders und nicht-standard Produkte (z.B. KPV Capsules)
+- **Lab Peptides:** Standard-Bestellungen, Arg-BPC-157 (bevorzugt), GLP-1-Klasse, Khavinson-Peptide (inkl. Prostamax direkt im Sortiment, siehe [[prostamax]])
+- **ZY Peptides:** historisch Custom Orders und nicht-standard Produkte (z.B. KPV Capsules) — wird teilweise abgeloest durch Testing-Badge-Supplier
+- **Testing-Badge-Supplier (neu):** KPV, BPC-157, 5-Amino-1 Kapseln (Quality Control noch offen, siehe Meeting [[2026-04-23-kalani-coo-call]])
 
 
 ## Kommunikationsstil mit Suppliern
