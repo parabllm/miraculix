@@ -25,13 +25,13 @@ vertrauen: extrahiert
 
 ## Thread
 
-### 2026-04-20 — Christian, taggt Deniz
+### 2026-04-20 - Christian, taggt Deniz
 
 > Another potential affiliate want to sign up. here is the Tiktok handle: https://www.tiktok.com/@alanzooo6
 >
 > I am thinking we should select our affiliate based on how many followers they had. I am thinking minimum of 1000 followers. What do you think? @Deniz
 
-### 2026-04-23 — Deniz (nach Call mit Kalani)
+### 2026-04-23 - Deniz (nach Call mit Kalani)
 
 > Hey, agreed on the 1k follower cap. From now on you can reject or accept affiliates based on that threshold. I'll sit down in the coming days and review the current affiliates as well, since we need to build out a new framework around this. Thanks!
 

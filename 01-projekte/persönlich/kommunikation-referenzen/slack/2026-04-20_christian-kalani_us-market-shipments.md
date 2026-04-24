@@ -25,15 +25,15 @@ vertrauen: bestaetigt
 
 ## Thread
 
-### 2026-04-20, 10:23 — Christian, taggt Deniz
+### 2026-04-20, 10:23 - Christian, taggt Deniz
 
 > A couple people asking if we ship to US recently for PulsePeptides. Are we doing US shipment in the near future? @Deniz
 
-### 2026-04-20, 10:30 — Deniz, taggt Kalani
+### 2026-04-20, 10:30 - Deniz, taggt Kalani
 
 > @senseikalani What is our current take on US shippments?
 
-### 2026-04-20, 11:44 — Deniz
+### 2026-04-20, 11:44 - Deniz
 
 > We are looking into supplying more of the US market. Do you have any specific requests open?
 

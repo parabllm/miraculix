@@ -20,7 +20,7 @@ Dozent: Daniel Heinrich, Raum 204
 
 ## Termine
 
-Jeden Mittwoch 11:15-14:45 (ab KW 17, nicht jede Woche — siehe Kalender)
+Jeden Mittwoch 11:15-14:45 (ab KW 17, nicht jede Woche - siehe Kalender)
 
 ## Zusammenfassungen
 

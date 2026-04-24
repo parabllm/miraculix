@@ -21,9 +21,9 @@ Dozent: Prof. Dr. Hans Rüdiger Kaufmann, HdWM Mannheim
 
 ## Seminararbeit
 
-- [[international-sales-seminararbeit]] — "Overcoming Structural Conflicts in KAM: A Case Study of Siemens AG"
-- [[international-sales-turnitin-bericht]] — Turnitin KI-Erkennungsbericht (63%)
-- [[email-kaufmann-ki-vorwurf]] — Email-Austausch mit Prof. Kaufmann, 17.04.2026
+- [[international-sales-seminararbeit]] - "Overcoming Structural Conflicts in KAM: A Case Study of Siemens AG"
+- [[international-sales-turnitin-bericht]] - Turnitin KI-Erkennungsbericht (63%)
+- [[email-kaufmann-ki-vorwurf]] - Email-Austausch mit Prof. Kaufmann, 17.04.2026
 
 ## Status
 

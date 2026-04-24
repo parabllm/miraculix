@@ -34,7 +34,7 @@ Dozent: [[christoph-sandbrink]], Raum 209
 
 _(nach jeder Vorlesung ergänzen)_
 
-### 2026-04-17 – Vollständiger Skript-Überblick (SS2026, 255 Seiten)
+### 2026-04-17 - Vollständiger Skript-Überblick (SS2026, 255 Seiten)
 
 **Prüfung & Aufbau**
 - 100% Klausur, 90 Min / 90 Punkte

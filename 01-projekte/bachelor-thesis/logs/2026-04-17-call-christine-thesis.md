@@ -10,7 +10,7 @@ quelle: voice_dump
 vertrauen: extrahiert
 ---
 
-# 2026-04-17 Call Christine Kampmann — Thesis Fortschritt + Mitarbeiteranfragen
+# 2026-04-17 Call Christine Kampmann - Thesis Fortschritt + Mitarbeiteranfragen
 
 ## Kontext
 

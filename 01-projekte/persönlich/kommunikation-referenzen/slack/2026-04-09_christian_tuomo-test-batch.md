@@ -24,25 +24,25 @@ vertrauen: bestaetigt
 
 ## Thread
 
-### 2026-04-09, 12:31 — Christian, taggt Kalani
+### 2026-04-09, 12:31 - Christian, taggt Kalani
 
 > Could you check and see if you want we can move forward for him to be affiliate? @senseikalani
 >
 > [Anhang: Email von Customer Tuomo Korhonen, themoykkytv@gmail.com, fragt nach "abassador cooperation", listet Social Media: Youtube @stillmoykky, Youtube @300prosenttia, TikTok stillmoykky, TikTok 300prosent, Instagram stillmoykky, Tel: +358 407784645]
 
-### 2026-04-15, 08:31 — Christian, Reminder an Kalani
+### 2026-04-15, 08:31 - Christian, Reminder an Kalani
 
 > reminder @senseikalani
 
-### 2026-04-16, 13:56 — Kalani
+### 2026-04-16, 13:56 - Kalani
 
 > yes
 
-### 2026-04-24, 06:53 — Christian, taggt Deniz
+### 2026-04-24, 06:53 - Christian, taggt Deniz
 
 > For this particular Affiliate, he asked if Is it possible to get some kind of test batch from you to try so I can tell subscribers that these are quality products? @Deniz Please advise if we can accomodate this.
 
-### 2026-04-24 — Deniz (Antwort, nach Kalani-Call)
+### 2026-04-24 - Deniz (Antwort, nach Kalani-Call)
 
 > Hey, tell him we don't ship out free samples. If he still wants to promote, the standard affiliate terms apply. Thanks!
 

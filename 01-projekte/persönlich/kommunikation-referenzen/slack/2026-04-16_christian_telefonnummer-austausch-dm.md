@@ -24,11 +24,11 @@ vertrauen: bestaetigt
 
 ## Thread
 
-### 2026-04-16, 14:48 — Christian
+### 2026-04-16, 14:48 - Christian
 
 > Hey Deniz, here is my phone number, just in case you need to contact me when I am away from my computer: +1-419-481-7700. And if you want to share yours too, that would be great. Thanks
 
-### 2026-04-17, 09:12 — Deniz
+### 2026-04-17, 09:12 - Deniz
 
 > Hi Christian, yeah of course I will text you now so you have my number.
 

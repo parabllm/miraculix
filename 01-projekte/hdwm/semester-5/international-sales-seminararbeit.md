@@ -1,6 +1,6 @@
 ---
 typ: sub-projekt
-name: "Seminararbeit: Overcoming Structural Conflicts in KAM — Siemens AG"
+name: "Seminararbeit: Overcoming Structural Conflicts in KAM - Siemens AG"
 aliase: ["International Sales Seminararbeit", "KAM Siemens Hausarbeit"]
 ueber_projekt: "[[international-sales]]"
 bereich: studium
@@ -184,14 +184,14 @@ While these concepts offer a good solution for the Siemens case they also show a
 > (4) In the event of significant content overlap, the first and second examiners will be notified.
 > **(5) I hereby declare that I used Google's Gemini AI agent solely for the purpose of checking and improving grammar and linguistic style. No content-related additions were made, and no new information or data was added by the AI.**
 >
-> Mannheim, 18 February 2026 — Deniz-Leon Özbek
+> Mannheim, 18 February 2026 - Deniz-Leon Özbek
 
 ## Korrigierte Declaration (nachgereicht 21.04.2026)
 
-Nach Klaerungsgespraech mit Prof. Kaufmann am 21.04.2026 wurde Punkt 6 ergaenzt:
+Nach Klärungsgespräch mit Prof. Kaufmann am 21.04.2026 wurde Punkt 6 ergänzt:
 
 > (6) In addition to point (5), I used Anthropic's Claude and Google's NotebookLM as research and comprehension support, for example to clarify concepts from the cited sources and to work more efficiently with my own uploaded literature.
 
-Punkt 5 unveraendert uebernommen ("solely" beibehalten, Punkt 6 als Ergaenzung gekennzeichnet).
+Punkt 5 unverändert übernommen ("solely" beibehalten, Punkt 6 als Ergänzung gekennzeichnet).
 
-Siehe [[meeting-kaufmann-2026-04-21]] fuer Gespraechsverlauf.
+Siehe [[meeting-kaufmann-2026-04-21]] für Gesprächsverlauf.

@@ -1,21 +1,21 @@
 ---
 typ: log
-name: "Email-Austausch: Prof. Kaufmann — KI-Vorwurf Seminararbeit"
+name: "Email-Austausch: Prof. Kaufmann - KI-Vorwurf Seminararbeit"
 art: notiz
 ueber_projekt: "[[international-sales]]"
 bereich: studium
 erstellt: 2026-04-17
 status: aufgeloest
-notizen: "Email-Korrespondenz mit Prof. Dr. Kaufmann zu 63% Turnitin KI-Erkennung. Klaerungsgespraech am 21.04.2026 gefuehrt, Vorwurf entkraeftet. Siehe Meeting-Note [[meeting-kaufmann-2026-04-21]]."
+notizen: "Email-Korrespondenz mit Prof. Dr. Kaufmann zu 63% Turnitin KI-Erkennung. Klärungsgespräch am 21.04.2026 geführt, Vorwurf entkräftet. Siehe Meeting-Note [[meeting-kaufmann-2026-04-21]]."
 quelle: extrahiert_aus_screenshot
 vertrauen: extrahiert
 ---
 
-# Email-Austausch: Prof. Kaufmann — KI-Vorwurf
+# Email-Austausch: Prof. Kaufmann - KI-Vorwurf
 
 **Quelle:** Screenshot `00-eingang/unverarbeitet/Screenshot 2026-04-17 144623.png`
 **Datum:** Freitag, 17.04.2026
-**Betreff:** (nicht sichtbar) — markiert als **High Importance**
+**Betreff:** (nicht sichtbar) - markiert als **High Importance**
 
 ---
 
@@ -101,11 +101,11 @@ Internet: www.hdwm.de
 ## Nächste Schritte
 
 - [x] Termin vereinbart: Di 21.04.2026, 09:00 Uhr, Raum 308, HdWM Hauptgebäude
-- [x] Schriftliche Aufstellung der KI-Nutzung vorbereitet (als ergaenzter Punkt 6 in Declaration, statt separater Aufstellung)
-- [x] Klaerungsgespraech am 21.04.2026 gefuehrt. Vorwurf entkraeftet.
+- [x] Schriftliche Aufstellung der KI-Nutzung vorbereitet (als ergänzter Punkt 6 in Declaration, statt separater Aufstellung)
+- [x] Klärungsgespräch am 21.04.2026 geführt. Vorwurf entkräftet.
 - [ ] Korrigierte PDF per Mail nachreichen
 
 **Kontext-Files:**
-- [[meeting-kaufmann-2026-04-21]] — Gespraechsverlauf und Ergebnis
+- [[meeting-kaufmann-2026-04-21]] - Gesprächsverlauf und Ergebnis
 - [[international-sales-seminararbeit]] — vollständige Arbeit inkl. Declaration
 - [[international-sales-turnitin-bericht]] — Turnitin-Bericht Details

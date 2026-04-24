@@ -1,6 +1,6 @@
 ---
 typ: sub-projekt
-name: "Semester 5 — WiSe 2025/26"
+name: "Semester 5 - WiSe 2025/26"
 aliase: ["Semester 5", "WiSe 2025/26", "5. Semester"]
 ueber_projekt: "[[hdwm]]"
 bereich: studium
@@ -15,13 +15,13 @@ quelle: chat_session
 vertrauen: extrahiert
 ---
 
-# Semester 5 — WiSe 2025/26
+# Semester 5 - WiSe 2025/26
 
 Vorletztes Semester. Abgeschlossen Feb 2026.
 
 ## Vorlesungen
 
-- [[international-sales]] — International Sales, Prof. Dr. Hans Rüdiger Kaufmann
+- [[international-sales]] - International Sales, Prof. Dr. Hans Rüdiger Kaufmann
 
 ## Offene Punkte
 

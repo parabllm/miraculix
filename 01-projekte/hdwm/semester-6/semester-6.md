@@ -1,6 +1,6 @@
 ---
 typ: sub-projekt
-name: "Semester 6 — SoSe 2026"
+name: "Semester 6 - SoSe 2026"
 aliase: ["Semester 6", "SoSe 2026", "6. Semester"]
 ueber_projekt: "[[hdwm]]"
 bereich: studium
@@ -16,17 +16,17 @@ quelle: chat_session
 vertrauen: extrahiert
 ---
 
-# Semester 6 — SoSe 2026
+# Semester 6 - SoSe 2026
 
 Letztes Semester. Mitschriebe in Google Drive. Kontext und Zusammenfassungen hier im Vault.
 
 ## Vorlesungen
 
-- [[it-systeme]] — IT Systeme und IT Anwendungen in Unternehmen, Sandbrink
-- [[personalpsychologie]] — Vertiefung Personalpsychologie, Zimber
-- [[mitarbeiterführung]] — Mitarbeiterführung, Stäudner
-- [[innovationsmanagement]] — UF II: Innovationsmanagement und Entrepreneurship, Heinrich
+- [[it-systeme]] - IT Systeme und IT Anwendungen in Unternehmen, Sandbrink
+- [[personalpsychologie]] - Vertiefung Personalpsychologie, Zimber
+- [[mitarbeiterführung]] - Mitarbeiterführung, Stäudner
+- [[innovationsmanagement]] - UF II: Innovationsmanagement und Entrepreneurship, Heinrich
 
 ## Abschluss
 
-- [[bachelor-thesis]] — Abgabe 15.06.2026
+- [[bachelor-thesis]] - Abgabe 15.06.2026

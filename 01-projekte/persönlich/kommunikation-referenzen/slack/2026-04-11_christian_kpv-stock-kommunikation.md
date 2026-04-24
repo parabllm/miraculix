@@ -25,23 +25,23 @@ vertrauen: bestaetigt
 
 ## Thread
 
-### 2026-04-11, 05:01 — Christian, taggt Kalani
+### 2026-04-11, 05:01 - Christian, taggt Kalani
 
 > There is customer wants to order KPV capsules. Can we still do custom order for that? @senseikalani
 
-### 2026-04-20, 09:34 — Christian, später im Thread
+### 2026-04-20, 09:34 - Christian, später im Thread
 
 > Thank you. please keep me posted @Deniz
 
-### 2026-04-20, 11:47 — Deniz
+### 2026-04-20, 11:47 - Deniz
 
 > We currently do not have KPV in stock, but we are planning to include it in our next order. Please feel free to communicate that KPV capsules will be available soon.
 
-### 2026-04-20, 11:56 — Christian (Rückfrage)
+### 2026-04-20, 11:56 - Christian (Rückfrage)
 
 > okay, in this case, there is a customer that wants to order 1 bottle. I gave a known price as KPV 500ugcapsules x 60 capsules = 100 Euros. Can I proceed to get their payment to reserve this KPV?
 
-### 2026-04-20, 18:03 — Deniz (klare Regel)
+### 2026-04-20, 18:03 - Deniz (klare Regel)
 
 > We are looking to have KPV in stock in two weeks. No payment until the stock is confirmed and in place.
 

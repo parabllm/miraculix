@@ -10,7 +10,7 @@ vertrauen: bestaetigt
 kontakte: ["[[martin-herd]]", "[[calvin-blick]]"]
 ---
 
-DigitalOcean-Droplet fuer die HeroSoftware CRM-Sync-Scripts. Ersetzt den Thalor-Hetzner (`204.168.188.228`, `/opt/crm-sync/`) fuer alle HeroSoft-Syncs. Cutover vom alten Server steht aus, zuerst muss das Droplet sauber laufen.
+DigitalOcean-Droplet für die HeroSoftware CRM-Sync-Scripts. Ersetzt den Thalor-Hetzner (`204.168.188.228`, `/opt/crm-sync/`) fuer alle HeroSoft-Syncs. Cutover vom alten Server steht aus, zuerst muss das Droplet sauber laufen.
 
 ## Ownership und Zugang
 
@@ -53,7 +53,7 @@ DigitalOcean-Droplet fuer die HeroSoftware CRM-Sync-Scripts. Ersetzt den Thalor-
 
 - **`root`** mit Deniz' Public Key in `authorized_keys`
 - **`nodejs`** System-User (UID 999, GID 988, in `sudo`-Gruppe), Home `/home/nodejs`, Passwort in `/root/.digitalocean_passwords` (Klartext, vom DO-Image generiert)
-- **PM2-App "hello"** laeuft als `nodejs` user aus `/var/www/html/hello.js`, Port 3000 (localhost only), Demo-App vom 1-Click-Image, verbraucht ca. 41 MB RAM
+- **PM2-App "hello"** läuft als `nodejs` user aus `/var/www/html/hello.js`, Port 3000 (localhost only), Demo-App vom 1-Click-Image, verbraucht ca. 41 MB RAM
 
 ## Netzwerk
 
@@ -64,11 +64,11 @@ DigitalOcean-Droplet fuer die HeroSoftware CRM-Sync-Scripts. Ersetzt den Thalor-
   - `apiv2.lagrowthmachine.com` HTTP 200
   - `github.com` HTTP 200
 
-## RAM-Kapazitaets-Problem
+## RAM-Kapazitäts-Problem
 
-Das Droplet hat nur 458 MB RAM. `mantle-reconcile.mjs` peakt laut Doku bei 200 bis 400 MB. Zusammen mit Bestandsverbrauch (nginx, PM2, systemd, ca. 200 MB) wuerde das OOM-killen.
+Das Droplet hat nur 458 MB RAM. `mantle-reconcile.mjs` peakt laut Doku bei 200 bis 400 MB. Zusammen mit Bestandsverbrauch (nginx, PM2, systemd, ca. 200 MB) würde das OOM-killen.
 
-**Loesung vor dem ersten `mantle-reconcile --execute`:** 1 GB Swap-File anlegen. Swap-Performance spielt keine Rolle weil reconcile nur einmal pro Woche nachts laeuft.
+**Lösung vor dem ersten `mantle-reconcile --execute`:** 1 GB Swap-File anlegen. Swap-Performance spielt keine Rolle weil reconcile nur einmal pro Woche nachts läuft.
 
 ```bash
 # Swap einrichten
@@ -92,7 +92,7 @@ Alternative: Droplet auf 1 GB RAM upgraden (ca. 2$/Monat mehr, ein Klick in DO-U
 - **Repo:** `HeroSoftware-GmbH/hero-software-sync` (PRIVATE, Owner HeroSoftware-GmbH-Org)
 - **URL:** `https://github.com/HeroSoftware-GmbH/hero-software-sync`
 - **Collaborators:** Deniz (Push-Access), Martin Herd (Owner)
-- **Altes Repo `parabllm/hero-software-sync` ist obsolet** und soll archiviert oder geloescht werden
+- **Altes Repo `parabllm/hero-software-sync` ist obsolet** und soll archiviert oder gelöscht werden
 
 ### Geplante Verzeichnisstruktur
 
@@ -114,7 +114,7 @@ Offene Entscheidung: bestehenden `nodejs` User nutzen (hat Sudo, Home schon da) 
 
 ### Geplante Crontab (UTC, weil Server-Zeitzone UTC ist)
 
-Berlin-Zeiten aus DEPLOYMENT.md muessen fuer UTC-Server um 2h (Sommerzeit) oder 1h (Winterzeit) zurueckgerechnet werden. Oder: Server-Timezone auf Berlin stellen.
+Berlin-Zeiten aus DEPLOYMENT.md müssen für UTC-Server um 2h (Sommerzeit) oder 1h (Winterzeit) zurückgerechnet werden. Oder: Server-Timezone auf Berlin stellen.
 
 ## Offene Setup-Tasks
 
@@ -129,7 +129,7 @@ Berlin-Zeiten aus DEPLOYMENT.md muessen fuer UTC-Server um 2h (Sommerzeit) oder 
 - [ ] Crontab einrichten
 - [ ] Notify-Test (STRATO SMTP funktionieren lassen)
 - [ ] Optional: Healthchecks.io aktivieren
-- [ ] Cutover vom Thalor-Hetzner: alte Crons in `/opt/crm-sync/` auf `204.168.188.228` deaktivieren sobald DO-Droplet stabil laeuft
+- [ ] Cutover vom Thalor-Hetzner: alte Crons in `/opt/crm-sync/` auf `204.168.188.228` deaktivieren sobald DO-Droplet stabil läuft
 
 ## Abgrenzung zum Thalor-Hetzner
 
@@ -141,8 +141,8 @@ Der Thalor-Hetzner `204.168.188.228` hatte bisher die HeroSoft-Scripts in `/opt/
 
 ## Wichtige Dateien auf dem Droplet
 
-- `/root/.ssh/authorized_keys` enthaelt Deniz' Public Key
-- `/root/.digitalocean_passwords` enthaelt `nodejs`-User-Passwort im Klartext (vom DO-Image)
+- `/root/.ssh/authorized_keys` enthält Deniz' Public Key
+- `/root/.digitalocean_passwords` enthält `nodejs`-User-Passwort im Klartext (vom DO-Image)
 - `/etc/systemd/system/pm2-nodejs.service` ist der Auto-Start der PM2-Demo-App
 - `/var/www/html/hello.js` ist die Demo-App
 

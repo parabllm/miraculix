@@ -1,6 +1,6 @@
 ---
 typ: log
-name: "Turnitin KI-Erkennungsbericht — International Sales Seminararbeit"
+name: "Turnitin KI-Erkennungsbericht - International Sales Seminararbeit"
 art: notiz
 ueber_projekt: "[[international-sales]]"
 bereich: studium
@@ -32,16 +32,16 @@ vertrauen: extrahiert
 | Zeichen | 22.648 |
 
 > [!caution] Achtung: Überprüfung erforderlich
-> Turnitin stuft den Bericht selbst als Näherungswert ein. Falsch-positive Ergebnisse sind möglich. Der Bericht darf nicht als alleinige Grundlage für Maßnahmen gegen Studierende verwendet werden — es braucht weitere menschliche Beurteilung.
+> Turnitin stuft den Bericht selbst als Näherungswert ein. Falsch-positive Ergebnisse sind möglich. Der Bericht darf nicht als alleinige Grundlage für Maßnahmen gegen Studierende verwendet werden - es braucht weitere menschliche Beurteilung.
 
 ---
 
 ## Erkennungsgruppen (Turnitin-Kategorien)
 
-**Gruppe 1 — Nur KI-erstellt (63% / 17 Stellen)**
+**Gruppe 1 - Nur KI-erstellt (63% / 17 Stellen)**
 > Wahrscheinlich KI-generierter Text aus einem großen Sprachmodell (LLM).
 
-**Gruppe 2 — KI-erstellt + KI-paraphrasiert (0%)**
+**Gruppe 2 - KI-erstellt + KI-paraphrasiert (0%)**
 > Wahrscheinlich KI-generierter Text, der mit einem KI-Paraphrase-Tool überarbeitet wurde.
 
 ---
@@ -68,6 +68,6 @@ Bei 63% von 3.095 Wörtern sind das ca. **1.950 Wörter** die Turnitin als KI-ge
 
 - Eingereicht: 18.02.2026 (Seminararbeit), Turnitin-Check: 19.02.2026
 - Prof. Kaufmann hat den Bericht am 17.04.2026 per Email angesprochen
-- Klaerungsgespraech am 21.04.2026 gefuehrt. Vorwurf entkraeftet. Siehe [[meeting-kaufmann-2026-04-21]].
+- Klärungsgespräch am 21.04.2026 geführt. Vorwurf entkräftet. Siehe [[meeting-kaufmann-2026-04-21]].
 - Email-Austausch dokumentiert in [[email-kaufmann-ki-vorwurf]]
 - Vollständige Seminararbeit → siehe [[international-sales-seminararbeit]]

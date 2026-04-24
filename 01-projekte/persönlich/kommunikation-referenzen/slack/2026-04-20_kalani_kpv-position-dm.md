@@ -25,11 +25,11 @@ vertrauen: bestaetigt
 
 ## Thread
 
-### 2026-04-20, 10:31 — Deniz
+### 2026-04-20, 10:31 - Deniz
 
 > Hallo, was gebe ich Christian bezüglich der KPV Kapseln weiter bzw. was ist unsere Position. Wollen wir KPV in Zukunft einführen?
 
-### 2026-04-23, 14:50 — Deniz (separate Rückfrage)
+### 2026-04-23, 14:50 - Deniz (separate Rückfrage)
 
 > Ich bin mit unsicher was sagst du dazu?
 

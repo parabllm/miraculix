@@ -1,6 +1,6 @@
 ---
 typ: meeting
-name: "Klärungsgespräch KI-Vorwurf — Prof. Dr. Kaufmann"
+name: "Klärungsgespräch KI-Vorwurf - Prof. Dr. Kaufmann"
 ueber_projekt: "[[international-sales]]"
 bereich: studium
 datum: 2026-04-21
@@ -10,15 +10,15 @@ ist_transkript: false
 teilnehmer: ["[[hans-ruediger-kaufmann]]", "Deniz-Leon Özbek"]
 offene_punkte: []
 erstellt: 2026-04-17
-notizen: "Vorbereitung ausstehend. Meeting per Email vereinbart 17.04.2026. Turnitin-Wert inoffiziell über Maddox bekannt — offiziell unbekannt."
+notizen: "Vorbereitung ausstehend. Meeting per Email vereinbart 17.04.2026. Turnitin-Wert inoffiziell über Maddox bekannt - offiziell unbekannt."
 quelle: extrahiert
 vertrauen: extrahiert
 ---
 
-# Klärungsgespräch KI-Vorwurf — Prof. Dr. Kaufmann
+# Klärungsgespräch KI-Vorwurf - Prof. Dr. Kaufmann
 
 **Datum:** Dienstag, 21.04.2026, 09:00 Uhr
-**Ort:** HdWM Mannheim — Hauptgebäude, Raum 308
+**Ort:** HdWM Mannheim - Hauptgebäude, Raum 308
 **Anlass:** Prof. Kaufmann hat per Email auf Turnitin-Ergebnis hingewiesen und Klärungsgespräch angefordert.
 
 **Unterlagen:** [[email-kaufmann-ki-vorwurf]] | [[international-sales-turnitin-bericht]] | [[international-sales-seminararbeit]]
@@ -175,21 +175,21 @@ Zu statisch für schnelle große Chancen. Wenn die Fossil-Division €300 Mio. o
 
 ## Gesprächsverlauf
 
-Anfangs skeptische Haltung beim Prof. Schnell die Eigenleistung transparent gemacht, indem der komplette Arbeitsprozess erklaert wurde: Research mit Gemini und Perplexity zur Verifizierung, NotebookLM zum Quellen-Organisieren und Kontext-Finden, Schreiben teils mit Gemini-Unterstuetzung teils komplett in Eigenleistung. Durch die Detailtiefe der Prozessbeschreibung Kompetenz vermittelt.
+Anfangs skeptische Haltung beim Prof. Schnell die Eigenleistung transparent gemacht, indem der komplette Arbeitsprozess erklärt wurde: Research mit Gemini und Perplexity zur Verifizierung, NotebookLM zum Quellen-Organisieren und Kontext-Finden, Schreiben teils mit Gemini-Unterstützung teils komplett in Eigenleistung. Durch die Detailtiefe der Prozessbeschreibung Kompetenz vermittelt.
 
-Gespraech kippte von Verdachtsklaerung zu fachlichem Austausch. Im Kern wurde das Thema KI-Nutzung in Seminararbeiten an der HdWM diskutiert, nicht mehr der einzelne Fall.
+Gespräch kippte von Verdachtsklärung zu fachlichem Austausch. Im Kern wurde das Thema KI-Nutzung in Seminararbeiten an der HdWM diskutiert, nicht mehr der einzelne Fall.
 
 ## Ergebnis
 
-- Vorwurf entkraeftet
-- Prof hat korrigierte Version mit ergaenztem Punkt 6 in der Declaration of Authorship akzeptiert
+- Vorwurf entkräftet
+- Prof hat korrigierte Version mit ergänztem Punkt 6 in der Declaration of Authorship akzeptiert
 - Vereinbarung: Nachreichen der korrigierten PDF per Mail
-- Smalltalk am Rand ueber moegliche Workshop-Teilnahme zu neuen Pruefungskonzepten mit KI. Nicht konkret, nicht weiterverfolgen.
+- Smalltalk am Rand über mögliche Workshop-Teilnahme zu neuen Prüfungskonzepten mit KI. Nicht konkret, nicht weiterverfolgen.
 
-## Naechste Schritte
+## Nächste Schritte
 
-- [x] Schriftliche KI-Nutzungs-Aufstellung vorbereiten (im Gespraech durch ergaenzten Punkt 6 in Declaration geloest)
-- [x] Konsistente Darstellung vor Gespraech erarbeiten
-- [x] Gespraech gefuehrt
+- [x] Schriftliche KI-Nutzungs-Aufstellung vorbereiten (im Gespräch durch ergänzten Punkt 6 in Declaration gelöst)
+- [x] Konsistente Darstellung vor Gespräch erarbeiten
+- [x] Gespräch geführt
 - [ ] Korrigierte PDF per Mail an Prof. Kaufmann schicken #hoch
 
