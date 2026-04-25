@@ -33,7 +33,7 @@ vertrauen: extrahiert
 | Studiengang | Business Management (B.A.) |
 | Datum | 18.02.2026 |
 | Matrikelnummer | 236802037 |
-| Betreuer | Prof. Dr. Hans Rüdiger Kaufmann |
+| Betreuer | [[hans-ruediger-kaufmann|Prof. Dr. Hans Rüdiger Kaufmann]] |
 | Wortanzahl | 3.095 |
 
 ---

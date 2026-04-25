@@ -19,7 +19,7 @@ vertrauen: extrahiert
 
 **Datum:** Dienstag, 21.04.2026, 09:00 Uhr
 **Ort:** HdWM Mannheim - Hauptgebäude, Raum 308
-**Anlass:** Prof. Kaufmann hat per Email auf Turnitin-Ergebnis hingewiesen und Klärungsgespräch angefordert.
+**Anlass:** [[hans-ruediger-kaufmann|Prof. Kaufmann]] hat per Email auf Turnitin-Ergebnis hingewiesen und Klärungsgespräch angefordert.
 
 **Unterlagen:** [[email-kaufmann-ki-vorwurf]] | [[international-sales-turnitin-bericht]] | [[international-sales-seminararbeit]]
 

@@ -21,7 +21,7 @@ vertrauen: extrahiert
 
 ## Email 1 - Prof. Dr. Kaufmann an Deniz
 
-**Von:** Prof. Dr. Hans Rüdiger Kaufmann
+**Von:** [[hans-ruediger-kaufmann|Prof. Dr. Hans Rüdiger Kaufmann]]
 **An:** Deniz-Leon Özbek
 **Datum:** Fr 2026-04-17, 14:43
 

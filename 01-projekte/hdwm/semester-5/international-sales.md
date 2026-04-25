@@ -17,7 +17,7 @@ vertrauen: extrahiert
 
 # International Sales
 
-Dozent: Prof. Dr. Hans Rüdiger Kaufmann, HdWM Mannheim
+Dozent: [[hans-ruediger-kaufmann|Prof. Dr. Hans Rüdiger Kaufmann]], HdWM Mannheim
 
 ## Seminararbeit
 
