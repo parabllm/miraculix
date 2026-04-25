@@ -22,9 +22,11 @@ Deniz Özbeks Obsidian-Vault ist die Single Source of Truth für alle Projekte, 
 03-kontakte/          Ein File pro Person
 04-tagebuch/          Daily Notes (YYYY/MM/YYYY-MM-DD.md)
 05-archiv/            Abgeschlossenes
-_api/                 Generierte JSONs (read-only)
+_api/                 API-Keys (.env), Templates, Doku, generierte JSONs
+                      Komplett gitignored ausser .env.example und *.md
 _anhaenge/            Große Dateien (PDFs, Excel, PPTX) - nicht im Git
 _claude/skills/       Master-Version der Skills (ist dort UND im Account-Skill-UI)
+_claude/scripts/      Lokale Skripte (lesen Keys aus _api/.env)
 _meta/                Schema + Glossar + Endpoints
 _migration/           Migrations-Artefakte (Progress, Report)
 ```
@@ -151,10 +153,24 @@ Gilt NICHT für Chat-Antworten an Deniz. Nur für Content der in `.md` Files lan
 
 ## Was NIE tun
 
-- `_api/` manuell editieren (werden generiert)
+- Generierte JSONs in `_api/` manuell editieren (werden generiert)
 - `_meta/` oder `CLAUDE.md` ändern ohne Anweisung
 - Frontmatter-Schema erfinden das nicht in `_meta/schema.md` steht
 - Mehrere Files gleichzeitig ändern ohne vorher Plan zu zeigen
 - Informationen zwischen Projekten kopieren - stattdessen Wikilinks
-- API-Keys im Klartext
+- API-Keys im Klartext (immer über `_api/.env` und `_api/env-konfiguration.md`)
 - Threads proaktiv nach `kommunikation-referenzen/` archivieren - nur auf expliziten Anstoß
+
+## Skripte und Secrets
+
+Der `_api/` Ordner ist die zentrale Stelle für alles API-bezogene: Keys, Templates, Doku, generierte JSON-Endpoints. Komplett gitignored, nur `.env.example` und `*.md` werden committed.
+
+- Echte Werte: `_api/.env`, NICHT committed
+- Template: `_api/.env.example`, committed
+- Doku mit Variablen-Liste, Status-Tabelle, Code-Snippets: `_api/env-konfiguration.md`, committed
+- Skripte selbst: `_claude/scripts/`
+- Audio-Drops für Transkription: `00-eingang/audio/`
+
+Wenn ein neuer Key gebraucht wird oder eine neue Variable angelegt werden soll: erst `_api/env-konfiguration.md` lesen, dort die Status-Tabelle pflegen, dann `_api/.env` und `_api/.env.example` parallel updaten.
+
+Wenn ein Skript gebraucht wird das einen externen API-Key nutzt: Skript in `_claude/scripts/` ablegen, Key über `python-dotenv` oder PowerShell-Loader aus `_api/.env` laden, Variablen-Name muss in `_api/.env`, `_api/.env.example` und `_api/env-konfiguration.md` existieren.

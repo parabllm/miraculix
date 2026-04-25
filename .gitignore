@@ -14,10 +14,19 @@ _anhaenge/
 !.obsidian/plugins/
 !.obsidian/snippets/
 
-# Secrets
+# API-Ordner: kompletter Inhalt ignorieren, ausser Template und Doku
+_api/*
+!_api/.gitkeep
+!_api/.env.example
+!_api/*.md
+
+# Secrets / API Keys (Defense-in-Depth, falls .env-Files anderswo landen)
 _secrets/
+.env
+.env.local
+.env.*.local
 *.env
-*.env.local
+!.env.example
 
 # OS
 .DS_Store
@@ -28,8 +37,13 @@ desktop.ini
 node_modules/
 npm-debug.log*
 
-# Generierte API-JSONs
-# _api/*.json
+# Generierte API-JSONs werden über _api/* ignoriert (siehe oben)
+
+# Claude Code Session-Artefakte
+.claude/worktrees/
+
+# Obsidian Trash
+.trash/
 
 # Temp
 *.tmp
