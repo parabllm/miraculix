@@ -74,7 +74,7 @@ Vor der Entscheidung kein weiterer Backend-Build. Food-Scanner läuft parallel u
 
 ## Detail-Docs
 
-- [[architektur]] Architektur-Spezifikation der drei Modi, SaMD, Pipeline
+- [[cora-ai-architektur]] Architektur-Spezifikation der drei Modi, SaMD, Pipeline
 - [[scope-jann-proposal]] Jann's Scope-Vorschlag vom 12. April (pausiert, future scope)
 - [[diskrepanzen]] Abgleich Vault gegen Live-DB, Handlungsbedarf
 - [[knowledge-chunks-guide]] Anleitung für Lars zum Schreiben und Verwalten von Knowledge-Chunks
