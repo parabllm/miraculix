@@ -1,16 +1,49 @@
 ---
 name: miraculix-eingang-verarbeiten
-description: Triggered whenever Deniz says "eingang verarbeiten", "digest", "inbox sortieren", "sortier das ein", "digest die inbox", or pastes content into the chat with instructions to categorize/sort it. Use this skill to read all unprocessed items in 00-eingang/, classify each one (appointment/task/meeting/context-update/document/unknown), match entities against existing contacts and projects, show a plan to Deniz, wait for OK, then bundle-write to the correct vault locations. This is the main digestion mechanism for voice dumps, transcripts, chat exports and random inputs.
+description: Triggered whenever Deniz says "eingang verarbeiten", "digest", "inbox sortieren", "sortier das ein", "digest die inbox", or pastes content into the chat with instructions to categorize/sort it. Scans all four subfolders of 00-eingang/ (audio/, transkripte/, chat-exports/, unverarbeitet/), reports what is where, routes audio to miraculix-audio-verarbeiten, transcripts to miraculix-transkript-verarbeiten, and standard items through the existing triage logic. Shows a plan before executing. Processing order: audio first (generates transcripts), then transcripts, then standard items.
 ---
 
 # Eingang-Verarbeiten (Digest)
 
-Inbox klassifizieren, einsortieren, bundled schreiben.
+Alle vier Eingang-Subfolders scannen, routen und verarbeiten.
 
-## Schritt 1 - Inbox lesen
+## Schritt 0 - Eingang-Status
+
+Scanne alle vier Subfolders und reporte was vorhanden ist:
+
+```
+[Eingang-Status]
+- audio/:        1 File (kalani-call-2026-04-25.m4a)
+- transkripte/:  0 Files
+- chat-exports/: 2 Files
+- unverarbeitet/: 5 Files
+```
+
+Ignoriere `.gitkeep` Files. Zähle nur tatsächliche Inhalte.
+
+## Routing
+
+Je nach Inhalt:
+
+| Subfolder | Inhalt vorhanden | Aktion |
+|---|---|---|
+| `audio/` | Ja | Skill `miraculix-audio-verarbeiten` aufrufen |
+| `transkripte/` | Ja, mit `status: unverarbeitet` | Skill `miraculix-transkript-verarbeiten` aufrufen |
+| `chat-exports/` | Ja | Bestehende Triage-Logik (Schritt 1-5 unten) |
+| `unverarbeitet/` | Ja | Bestehende Triage-Logik (Schritt 1-5 unten) |
+
+Reihenfolge wenn mehrere Subfolders nicht leer: Audio zuerst (erzeugt Transkripte), dann Transkripte, dann Standard-Items. Begründung: Audio-Processing liefert neue Transkripte die im selben Durchlauf noch verarbeitet werden können wenn Deniz das will.
+
+Plan zeigen, OK abwarten, dann ausführen.
+
+Falls alle Subfolders leer:
+> Eingang ist leer. Nichts zu verarbeiten.
+
+## Schritt 1 - Inbox lesen (Standard-Items)
 
 Alle Files in `00-eingang/unverarbeitet/` mit `status: unverarbeitet`.
 Auch: wenn Deniz content in Chat paste'd + "sortier das ein" → als Inbox-Item behandeln.
+Chat-Exports aus `00-eingang/chat-exports/` werden hier mitverarbeitet.
 
 ## Schritt 2 - Pro Item klassifizieren
 

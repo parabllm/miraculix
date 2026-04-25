@@ -1,13 +1,6 @@
 ---
-typ: wissen
-projekt: "[[pulsepeptides]]"
-thema: firmenstruktur
-status: in_arbeit
-erstellt: 2026-04-17
-zuletzt_aktualisiert: 2026-04-17
-vertrauen: extrahiert
-quelle: voice_dump
----
+
+## typ: wissen projekt: "[[pulsepeptides]]" thema: firmenstruktur status: in_arbeit erstellt: 2026-04-17 zuletzt_aktualisiert: 2026-04-17 vertrauen: extrahiert quelle: voice_dump
 
 # PulsePeptides Firmenstruktur
 
@@ -33,8 +26,8 @@ Drei separate Entitäten mit unterschiedlichen Funktionen:
 - **Konto:** Revolut Business
 - **Inhaber:** Kalani
 - **Accountant:** Sultan
-- **E-Mail:** pulseorganization@protonmail.com (Passwort in 1Password)
-- **Compliance-Workaround:** Revolut Business akzeptiert keine Zahlungen für Peptid-Shops. Zahlungen laufen über pulseprana.com (Consulting Service).
+- **E-Mail:** [pulseorganization@protonmail.com](mailto:pulseorganization@protonmail.com) (Passwort in 1Password)
+- **Compliance-Workaround:** Revolut Business akzeptiert keine Zahlungen für Peptid-Shops. Zahlungen laufen über [pulseprana.com](http://pulseprana.com) (Consulting Service).
 - **Pain-Point:** Revolut findet das irgendwann raus. Alternativer Banking-Anbieter muss gefunden werden.
 
 ### 3. Pulse Enterprise Limited - Hongkong / Air Wallet
@@ -68,19 +61,13 @@ Pulse Peptides Limited (Zypern) — operative Bestellungen
 
 ## Compliance-Risiken und Pain-Points
 
-| Thema | Risiko | Status |
-|---|---|---|
-| Revolut Business | Entdeckt Peptid-Zahlungen, sperrt Konto | Aktiv, Lösung offen |
-| Krypto-Limit | 12.000 EUR legal pro Person/Jahr | Aktiv, Lösung offen |
-| Lager Deutschland | Versand rechtlich nicht zugelassen | Aktiv, Verlagerung Tschechien Mai 2026 |
-| Domain GoDaddy | Compliance, Transfer steht aus | Aktiv |
-| UBO Zypern | Details zu klären | Offen |
+ThemaRisikoStatusRevolut BusinessEntdeckt Peptid-Zahlungen, sperrt KontoAktiv, Lösung offenKrypto-Limit12.000 EUR legal pro Person/JahrAktiv, Lösung offenLager DeutschlandVersand rechtlich nicht zugelassenAktiv, Verlagerung Tschechien Mai 2026Domain GoDaddyCompliance, Transfer steht ausAktivUBO ZypernDetails zu klärenOffen
 
 ---
 
 ## Website und Shop
 
-- **Domain:** pulsepeptides.com, aktuell bei GoDaddy (Transfer steht aus)
+- **Domain:** [pulsepeptides.com](http://pulsepeptides.com), aktuell bei GoDaddy (Transfer steht aus)
 - **Stack:** WordPress plus Elementor plus WooCommerce
 - **Hosting:** VPS (VPS4U), Backups dort
 - **Verantwortlich Website:** [[german-pulse]] (Freelancer, 30 EUR/h)
@@ -97,7 +84,7 @@ Pulse Peptides Limited (Zypern) — operative Bestellungen
 
 - **Tool:** Metorik
 - **Zugang:** über WordPress (Deniz angemeldet 2026-04-17)
-- **E-Mail:** pulseorganization@protonmail.com (Passwort in 1Password)
+- **E-Mail:** [pulseorganization@protonmail.com](mailto:pulseorganization@protonmail.com) (Passwort in 1Password)
 - **Inventar:** nach Anmeldung sichtbar, Details im Call 14:15
 
 ## Order Management
@@ -120,95 +107,48 @@ Pulse Peptides Limited (Zypern) — operative Bestellungen
 ## Labels
 
 - **Design:** [[lizzi-pulse]] (Freelancer, 30 EUR/h)
-- **Druck:** etikettendrucken.de
+- **Druck:** [etikettendrucken.de](http://etikettendrucken.de)
 - **Problem:** Batch-Nummern nicht mitdruckbar, nachträglich manuell (aktuell Kai)
 - **Offen:** Label-Pipeline automatisieren
 
 ## Systeme und Zugänge
 
-| System | Funktion | Zugang Deniz |
-|---|---|---|
-| Telegram | Supplier-Kommunikation | vorhanden |
-| Google Sheets | Batch-SSOT (17 Spalten) | vorhanden |
-| Metorik | Inventory Management | aktiv (WordPress, 2026-04-17) |
-| Freshdesk | Support-Tickets | kommt via 1Password |
-| Slack | Team-Kommunikation | vorhanden |
-| 1Password | Passwort-Vault Kalani | Zugriff kommt |
-| Vercel (Admin Hub) | Support-Interface | kommt via 1Password |
+SystemFunktionZugang DenizTelegramSupplier-KommunikationvorhandenGoogle SheetsBatch-SSOT (17 Spalten)vorhandenMetorikInventory Managementaktiv (WordPress, 2026-04-17)FreshdeskSupport-Ticketskommt via 1PasswordSlackTeam-Kommunikationvorhanden1PasswordPasswort-Vault KalaniZugriff kommtVercel (Admin Hub)Support-Interfacekommt via 1Password
 
 ## Team
 
-| Person | Rolle | Ort | Status |
-|---|---|---|---|
-| [[kalani-ginepri]] | CEO | variabel | Gründer |
-| Deniz | COO | Mannheim | Transition ab 2026-04-17 |
-| [[christian-pulse]] | Support | Bali | Teilzeit |
-| [[kai-pulse]] | Lager | Appelheim | Teilzeit |
-| [[patrick-pulse]] | Developer/Backend | variabel | Freelancer |
-| [[german-pulse]] | Website/WordPress | variabel | Freelancer, 30 EUR/h |
-| [[lizzi-pulse]] | Design/Labels | variabel | Freelancer, 30 EUR/h |
+PersonRolleOrtStatus[[kalani-ginepri]]CEOvariabelGründerDenizCOOMannheimTransition ab 2026-04-17[[christian-pulse]]SupportBaliTeilzeit[[kai-pulse]]LagerAppelheimTeilzeit[[patrick-pulse]]Developer/BackendvariabelFreelancer[[german-pulse]]Website/WordPressvariabelFreelancer, 30 EUR/h[[lizzi-pulse]]Design/LabelsvariabelFreelancer, 30 EUR/h
 
 ## Offen
 
 - Rechtsform-Details Pulse Peptides Limited Zypern (UBO genau)
 - Bankverbindung operative Firma
-- Krypto-Plattform und Lösung >12k
+- Krypto-Plattform und Lösung &gt;12k
 - Vollständige Preislisten Supplier (Call 14:15)
 - Verkaufspreis-Dokumentation
 - Alternativer Banking-Anbieter (Revolut-Ersatz)
-
 
 ## Slack-Workspace Struktur
 
 ### Operations (COO relevant)
 
-| Channel | Zweck | Wer |
-|---|---|---|
-| #general | Team-Kommunikation allgemein | Alle |
-| #inventory | Lagerbestand (alt) | Kai, Team |
-| #inventory- | Lagerbestand (neu, zu mergen mit #inventory) | Kai, Team |
-| #backorders | Nachbestellungen | Kai, COO |
-| #custom-order-requests | Manual/Custom Orders | Christian, Kai, COO |
-| #failed-shipments | Defekte und fehlgeschlagene Lieferungen | Christian, Kai |
-| #csupport-general | Customer Support allgemein | Christian |
-| #csupport-shipments | Support Versandfragen | Christian |
-| #financial | Finanzen allgemein | Kalani, COO |
-| #crypto-payments | Krypto-Zahlungen | Kalani, COO |
-| #forwarding | Zweck unklar, zu klären | - |
-| #shipping-costs-change | Versandkosten-Änderungen | Kai |
-| #affiliate-programm | Affiliate-Programm | Kalani |
-| #office-eppelheim | Kais Lager Appelheim | Kai |
+ChannelZweckWer#generalTeam-Kommunikation allgemeinAlle#inventoryLagerbestand (alt)Kai, Team#inventory-Lagerbestand (neu, zu mergen mit #inventory)Kai, Team#backordersNachbestellungenKai, COO#custom-order-requestsManual/Custom OrdersChristian, Kai, COO#failed-shipmentsDefekte und fehlgeschlagene LieferungenChristian, Kai#csupport-generalCustomer Support allgemeinChristian#csupport-shipmentsSupport VersandfragenChristian#financialFinanzen allgemeinKalani, COO#crypto-paymentsKrypto-ZahlungenKalani, COO#forwardingZweck unklar, zu klären-#shipping-costs-changeVersandkosten-ÄnderungenKai#affiliate-programmAffiliate-ProgrammKalani#office-eppelheimKais Lager AppelheimKai
 
 ### Automatisierte Channels (n8n Flows)
 
-| Channel | Zweck |
-|---|---|
-| #jumingo | Metorik-Exporte via n8n automatisch |
-| #dhl | DHL-Daten via n8n automatisch |
+ChannelZweck#jumingoMetorik-Exporte via n8n automatisch#dhlDHL-Daten via n8n automatisch
 
 ### Entwicklung/Tech
 
-| Channel | Zweck | Wer |
-|---|---|---|
-| #backend | Server und Backend | Patrick |
-| #webdev | Website WordPress | German |
-| #aidev | KI-Automatisierungen | Deniz, Kalani |
-| #adminhubphase1 | Admin Hub Entwicklung | Forster Labs |
-| #customer-supprt-hubdev | Support Hub Entwicklung | Forster Labs |
-| #qcanalytics | QC und Analytics | Kalani |
-| #workflow_testing | Deniz Testing-Channel | Deniz |
+ChannelZweckWer#backendServer und BackendPatrick#webdevWebsite WordPressGerman#aidevKI-AutomatisierungenDeniz, Kalani#adminhubphase1Admin Hub EntwicklungForster Labs#customer-supprt-hubdevSupport Hub EntwicklungForster Labs#qcanalyticsQC und AnalyticsKalani#workflow_testingDeniz Testing-ChannelDeniz
 
 ### Sonstiges
 
-| Channel | Zweck | Wer |
-|---|---|---|
-| #virtual-assistant | Freelancer für Monkey Tasks | Rasmus Madsen |
-| #goggleads | Google Ads | Kalani |
-| #random | Smalltalk | Alle |
+ChannelZweckWer#virtual-assistantFreelancer für Monkey TasksRasmus Madsen#goggleadsGoogle AdsKalani#randomSmalltalkAlle
 
 ### Offene Punkte Slack-Struktur
 
 - #inventory und #inventory- sollten gemergt werden (Kalani hat das erwähnt)
 - #forwarding Zweck unklar, mit Kalani klären
 - #shipping-costs-change Zweck unklar, mit Kai klären
-- Projektmanagement-Tool noch nicht definiert (steht in coo-aufgaben.md)
+- Projektmanagement-Tool noch nicht definiert (steht in [coo-aufgaben.md](http://coo-aufgaben.md))
