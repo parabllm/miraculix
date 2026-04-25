@@ -2,7 +2,7 @@
 typ: kontakt
 name: "Maddox Yakymenskyy"
 aliase: ["Maddox", "Max", "Maddox Y"]
-gruppen: ["freelance", "freunde", "hdwm-crew", "schwitzer-crew"]
+gruppen: ["freelance", "freunde", "hdwm-crew", "schwitzer-crew", "maddox-familie"]
 verbindung: ["beruflich", "privat", "studium"]
 rolle: entscheider
 staerke: eng
@@ -17,3 +17,7 @@ quelle: notion_migration
 ---
 
 Kunde [[bellavie]]. Freund + Kommilitone HdWM. Manager des Salons, Entscheider für Website, Preisliste, Fresha-Setup.
+
+## Familie
+
+Vater: [[andrij-yakymenskyy]], Mutter: [[natalia-yakymenskyy]], Familienfreund: [[igor-puzynya]]
