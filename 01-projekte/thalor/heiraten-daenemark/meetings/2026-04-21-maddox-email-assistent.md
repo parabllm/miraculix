@@ -17,7 +17,7 @@ Teil der Cafe-Session 12:00 bis 20:00 in Mannheim. Haupt-Themen der Session ware
 ## Ergebnis
 
 - Kundenmails landen aktuell im GMX-Postfach von Heiraten in Dänemark
-- Igor beantwortet sie aktuell manuell, Qualität ist nicht konstant
+- [[igor-puzynya|Igor]] beantwortet sie aktuell manuell, Qualität ist nicht konstant
 - Entscheidung: Automations-MVP auf n8n bauen mit Human-in-the-Loop via Telegram
 - Keine Mail geht raus ohne Freigabe von Deniz per Telegram-Button
 - Konzept liegt vor: [[email-assistent-konzept]]

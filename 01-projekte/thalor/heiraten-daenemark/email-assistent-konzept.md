@@ -19,7 +19,7 @@ vertrauen: bestätigt
 
 **Auftrag:** Nicht beauftragt. Pilotbau lief auf Deniz-Konto zu Demo- und Sparring-Zwecken. Siehe Auftragslage im Hauptprojekt [[heiraten-daenemark]].
 
-Relevante Kontakte: [[maddox-yakymenskyy]] (Entscheider, Management), Igor (aktueller Mail-Bearbeiter, noch kein Kontakt-File).
+Relevante Kontakte: [[maddox-yakymenskyy]] (Entscheider, Management), [[igor-puzynya]] (aktueller Mail-Bearbeiter).
 
 ---
 

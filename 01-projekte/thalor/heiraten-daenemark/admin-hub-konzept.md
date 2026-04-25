@@ -23,7 +23,7 @@ vertrauen: angenommen
 Heiraten in Dänemark hat aktuell drei parallel laufende, unverbundene Kommunikations- und Verwaltungs-Kanäle:
 
 1. **WhatsApp** (Hauptkanal, mehrere private Nummern, kein zentrales Postfach)
-2. **E-Mail via GMX** (Igor beantwortet manuell, Qualität schwankt)
+2. **E-Mail via GMX** ([[igor-puzynya|Igor]] beantwortet manuell, Qualität schwankt)
 3. **Lexware** (Rechnungsstellung, vermutlich manuell, Prozess ungeklärt)
 
 Dazu kommt Datei-Ablage über Dropbox (aktuell) mit möglichem Wechsel auf Google Drive.

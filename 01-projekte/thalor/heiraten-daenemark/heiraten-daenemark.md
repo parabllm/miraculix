@@ -55,7 +55,7 @@ Stand 2026-04-21, Cafe-Session mit Maddox ([[2026-04-21-maddox-cafe-session]]):
 - File-Ablage läuft aktuell über **Dropbox**
 - Maddox erwägt Switch auf **Google Drive**
 - Entscheidung offen, kein Trigger zum Handeln
-- **Kundenmails:** laufen über GMX-Postfach, werden aktuell manuell von **Igor** beantwortet. Qualität schwankt. Bedarf an Automatisierung.
+- **Kundenmails:** laufen über GMX-Postfach, werden aktuell manuell von **[[igor-puzynya|Igor]]** beantwortet. Qualität schwankt. Bedarf an Automatisierung.
 - **MVP entschieden:** n8n-basierter E-Mail-Assistent mit Claude-Entwurf und Telegram-Freigabe (siehe [[email-assistent-konzept]] und [[2026-04-21-maddox-email-assistent]]).
 
 ## Offene Aufgaben
@@ -111,4 +111,4 @@ _Keine Bestätigung durch Maddox, nur eigene Ableitung aus bekannten Patterns (s
 ## Kontakte
 
 - [[maddox-yakymenskyy]] - Management-Kontakt, analog Rolle bei [[bellavie]]
-- Igor - aktueller Mail-Bearbeiter. Beziehung zur Familie Yakymenskyy noch nicht dokumentiert, kein eigenes Kontakt-File. vertrauen: angenommen.
+- [[igor-puzynya]] - aktueller Mail-Bearbeiter, Familienfreund der Yakymenskyys.
