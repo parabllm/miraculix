@@ -1,6 +1,6 @@
 ---
 typ: meeting-note
-datum: 2026-04-22
+datum: 2026-04-23
 projekt: "[[pulsepeptides]]"
 teilnehmer: ["[[kalani-ginepri]]", "[[kai-pulse]]", "Deniz"]
 ort: "Lager Eppelheim"
@@ -11,7 +11,7 @@ quelle: meeting
 vertrauen: offen
 ---
 
-# Lager-Besuch Eppelheim, 2026-04-22
+# Lager-Besuch Eppelheim, 2026-04-23
 
 **Teilnehmer:** Kalani Ginepri, Kai (Lager), Deniz
 **Ort:** Lager Eppelheim

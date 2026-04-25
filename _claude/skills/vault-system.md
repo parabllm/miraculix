@@ -160,6 +160,7 @@ Gilt NICHT für Chat-Antworten an Deniz. Nur für Content der in `.md` Files lan
 - Informationen zwischen Projekten kopieren - stattdessen Wikilinks
 - API-Keys im Klartext (immer über `_api/.env` und `_api/env-konfiguration.md`)
 - Threads proaktiv nach `kommunikation-referenzen/` archivieren - nur auf expliziten Anstoß
+- **Dateinamen beim Archivieren oder Verschieben ändern.** Beim Verschieben nach `05-archiv/` oder zwischen Ordnern bleibt der Dateiname exakt gleich. Status-Indikatoren ("verschoben", "archiviert", "alt") gehören ins Frontmatter (`status: archiviert`), niemals in den Dateinamen. Umbenennung bricht alle Wikilinks.
 
 ## Skripte und Secrets
 
