@@ -36,25 +36,17 @@ phase: 2
 
 ---
 
-## Ungeklärter Fall — Manuelles Review nötig
+## Nachkorrektur (2026-04-25)
 
-### Widerspruch: Eltern vs. Geschwister in Maddox-File
+### Eltern-Korrektur in Maddox-File — ERLEDIGT
 
-**Problem:** Das bestehende `maddox-yakymenskyy.md` hat in `notizen`:
-> "2 Geschwister: Natalia, Andrej."
+Die ursprüngliche `notizen`-Notiz "2 Geschwister: Natalia, Andrej" war falsch (Migrations-Artefakt aus Notion). Korrekt: Natalia und Andrij sind die **Eltern** von Maddox.
 
-Die Phase-2-Instruktion definiert aber:
-- Andrij Yakymenskyy = **Vater** von Maddox
-- Natalia Yakymenskyy = **Mutter** von Maddox
+**Durchgeführte Korrekturen:**
+- `maddox-yakymenskyy.md` `notizen`: "2 Geschwister: Natalia, Andrej" → "Eltern: Andrij Yakymenskyy (Vater) und Natalia Yakymenskyy (Mutter)"
+- Vault-weite Suche nach weiteren falschen Geschwister-Nennungen: keine weiteren Content-Files betroffen
 
-Das ist ein direkter Widerspruch. Die `notizen` des Maddox-Files wurden **nicht geändert**, da unklar ist ob die bestehende Notiz falsch ist (Migration aus Notion) oder ob Natalia und Andrej tatsächlich Geschwister sind und die Eltern andere Namen haben.
-
-**Handlungsbedarf:** Deniz muss klären:
-- Sind Natalia und Andrej die Eltern oder Geschwister von Maddox?
-- Wenn Geschwister: Welche Namen haben die Eltern?
-- Wenn Eltern: `notizen` in `maddox-yakymenskyy.md` anpassen von "2 Geschwister: Natalia, Andrej" zu "Eltern: Andrij und Natalia"
-
-Bis zur Klärung bleiben die neuen Kontakt-Files mit Vater/Mutter-Rolle angelegt (entsprechend der Instruktion), aber die Maddox-Notiz ist noch inkonsistent.
+**Commit:** `cleanup-phase2: maddox eltern-korrektur`
 
 ---
 
