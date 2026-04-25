@@ -14,7 +14,7 @@ vertrauen: extrahiert
 
 ## Anlass
 
-Bestandsaufnahme am 2026-04-18 hat gezeigt dass Vault-Doku und Live-DB bei Cora auseinanderlaufen. Vollständige Analyse: [[cora-diskrepanzen]].
+Bestandsaufnahme am 2026-04-18 hat gezeigt dass Vault-Doku und Live-DB bei Cora auseinanderlaufen. Vollständige Analyse: [[diskrepanzen]].
 
 Kurzfassung: Vault beschreibt Korrelations-Engine mit 3 Modi und 4 Action-Typen. DB implementiert klassischen Fitness-Coach mit 6 Triggern und 19 Action-Typen. Drift seit 7. April, nie zusammengeführt.
 

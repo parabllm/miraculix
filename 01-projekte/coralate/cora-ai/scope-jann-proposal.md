@@ -130,4 +130,4 @@ Selten, teilbar, überraschend → organisches Wachstum via Screenshot.
 
 ## Verbindung zu bestehender Architektur
 
-Bestehende Cora-Architektur-Entscheidungen → [[cora-ai-architektur]]
+Bestehende Cora-Architektur-Entscheidungen → [[architektur]]
