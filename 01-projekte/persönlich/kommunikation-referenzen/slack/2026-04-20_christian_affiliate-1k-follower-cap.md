@@ -2,7 +2,7 @@
 typ: kommunikation-thread
 kanal: slack
 projekt: pulsepeptides
-kontakte: ["[[christian]]", "[[kalani-ginepri]]"]
+kontakte: ["[[christian-pulse]]", "[[kalani-ginepri]]"]
 herkunft: slack_search
 richtung: beidseitig
 status: abgeschlossen
@@ -43,7 +43,7 @@ vertrauen: extrahiert
 
 ## Cross-Reference
 
-- [[pulse-slack-schreibstil]] - Beispiel 1 (Empfänger-Modus)
+- pulse-slack-schreibstil (Skill, kein Vault-File) - Beispiel 1 (Empfänger-Modus)
 - [[support-eskalation]] - Affiliate-Regelung 1k Cap dokumentiert
 - [[2026-04-23-kalani-coo-call]] - Call wo 1k Cap finalisiert wurde
 - [[coo-aufgaben]] - Affiliate-Framework-Review als offene Aufgabe

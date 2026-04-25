@@ -2,7 +2,7 @@
 typ: kommunikation-thread
 kanal: slack
 projekt: pulsepeptides
-kontakte: ["[[christian]]"]
+kontakte: ["[[christian-pulse]]"]
 herkunft: slack_thread
 richtung: beidseitig
 status: abgeschlossen
@@ -54,6 +54,6 @@ vertrauen: bestätigt
 
 ## Cross-Reference
 
-- [[pulse-slack-schreibstil]] - Messenger-Muster im Stock-Kontext
+- pulse-slack-schreibstil (Skill, kein Vault-File) - Messenger-Muster im Stock-Kontext
 - [[lieferanten]] - KPV Supplier-Wechsel (ZY → Testing Badge)
 - [[support-eskalation]] - Custom-Order-SOP

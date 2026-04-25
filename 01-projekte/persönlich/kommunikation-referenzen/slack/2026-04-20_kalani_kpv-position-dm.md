@@ -46,4 +46,4 @@ vertrauen: bestätigt
 
 - [[2026-04-11_christian_kpv-stock-kommunikation]] - öffentliche Umsetzung der Position
 - [[kalani-ginepri]] - Kontakt-Profil
-- [[pulse-slack-schreibstil]] - mögliches neues Pattern: DM für strategisches Sparring, Channel für Team-Kommunikation
+- pulse-slack-schreibstil (Skill, kein Vault-File) - mögliches neues Pattern: DM für strategisches Sparring, Channel für Team-Kommunikation

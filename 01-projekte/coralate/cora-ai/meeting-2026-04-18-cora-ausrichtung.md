@@ -128,7 +128,7 @@ Ist das Feature-Set Konsens? Deniz' Skepsis gegenüber iMessage-Bridge muss gekl
 - [ ] **Eval-Setup:** Wie prüfen wir ob neue Prompts besser sind als alte? Kein Eval-Set = kein sicheres Iterieren.
 - [ ] **Knowledge-Chunks Ziel-Anzahl:** Wie viele brauchen wir für Launch mit breitem Scope? Lars muss wissen worauf er hinarbeitet.
 - [ ] **Action-Confirmation:** Muss der User jede Cora-Aktion explizit bestätigen oder gibt es Auto-Execute? Letzteres ist SaMD-Risiko.
-- [ ] **Sign-In Form und Onboarding:** Welche Nutzerdaten beim Signup, wie granular, wie in Cora-Korrelationen einfliessen. Siehe [[zukunftsausblick]] Abschnitt unten.
+- [ ] **Sign-In Form und Onboarding:** Welche Nutzerdaten beim Signup, wie granular, wie in Cora-Korrelationen einfließen. Siehe Abschnitt Zukunftsausblick unten.
 
 ## Zukunftsausblick
 

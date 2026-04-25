@@ -2,7 +2,7 @@
 typ: kommunikation-thread
 kanal: slack
 projekt: pulsepeptides
-kontakte: ["[[christian]]", "[[kalani-ginepri]]"]
+kontakte: ["[[christian-pulse]]", "[[kalani-ginepri]]"]
 herkunft: slack_thread
 richtung: beidseitig
 status: aktiv
@@ -46,6 +46,6 @@ vertrauen: bestätigt
 
 ## Cross-Reference
 
-- [[pulse-slack-schreibstil]] - Messenger-Pattern mit Safe-Default-Formulierung
+- pulse-slack-schreibstil (Skill, kein Vault-File) - Messenger-Pattern mit Safe-Default-Formulierung
 - [[support-eskalation]] - US-Shipment-Anfragen SOP (Standardantwort definiert)
 - [[coo-aufgaben]] - US Shipments als offener strategischer Punkt

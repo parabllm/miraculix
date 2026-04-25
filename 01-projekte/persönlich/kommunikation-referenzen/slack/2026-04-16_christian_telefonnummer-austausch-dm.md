@@ -2,7 +2,7 @@
 typ: kommunikation-thread
 kanal: slack
 projekt: pulsepeptides
-kontakte: ["[[christian]]"]
+kontakte: ["[[christian-pulse]]"]
 herkunft: slack_dm
 richtung: beidseitig
 status: abgeschlossen
@@ -40,5 +40,5 @@ vertrauen: bestätigt
 
 ## Cross-Reference
 
-- [[christian]] - Kontakt-Profil Christian (Support/Ops, Bali-basiert)
-- [[pulse-slack-schreibstil]] - Tonalität in DMs (unterscheidet sich leicht von Channel-Posts, entspannter)
+- [[christian-pulse]] - Kontakt-Profil Christian (Support/Ops, Bali-basiert)
+- pulse-slack-schreibstil (Skill, kein Vault-File) - Tonalität in DMs (unterscheidet sich leicht von Channel-Posts, entspannter)

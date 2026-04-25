@@ -2,7 +2,7 @@
 typ: kommunikation-thread
 kanal: slack
 projekt: pulsepeptides
-kontakte: ["[[christian]]"]
+kontakte: ["[[christian-pulse]]"]
 herkunft: slack_screenshot
 richtung: beidseitig
 status: abgeschlossen
@@ -54,6 +54,6 @@ vertrauen: bestätigt
 
 ## Cross-Reference
 
-- [[pulse-slack-schreibstil]] - Messenger-Pattern Beispiel 5
+- pulse-slack-schreibstil (Skill, kein Vault-File) - Messenger-Pattern Beispiel 5
 - [[support-eskalation]] - Affiliate-Regelungen
 - [[2026-04-24-kalani-call]] - Entscheidung dokumentiert

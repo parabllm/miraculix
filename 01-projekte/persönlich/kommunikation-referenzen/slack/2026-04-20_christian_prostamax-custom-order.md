@@ -2,7 +2,7 @@
 typ: kommunikation-thread
 kanal: slack
 projekt: pulsepeptides
-kontakte: ["[[christian]]"]
+kontakte: ["[[christian-pulse]]"]
 herkunft: slack_thread
 richtung: beidseitig
 status: aktiv
@@ -52,7 +52,7 @@ vertrauen: bestätigt
 
 ## Cross-Reference
 
-- [[pulse-slack-schreibstil]] - Beispiel 2 (Status + Handlungsaufforderung)
+- pulse-slack-schreibstil (Skill, kein Vault-File) - Beispiel 2 (Status + Handlungsaufforderung)
 - [[support-eskalation]] - Custom-Order-SOP mit CAS/PubChem/Sequenz-Prozess
 - [[lab-peptides]] - Prostamax = Y63
 - [[2026-04-23-kalani-coo-call]] - Call wo Custom-Order-SOP finalisiert wurde

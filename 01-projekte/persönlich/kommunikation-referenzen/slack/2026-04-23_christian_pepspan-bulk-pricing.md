@@ -2,7 +2,7 @@
 typ: kommunikation-thread
 kanal: slack
 projekt: pulsepeptides
-kontakte: ["[[christian]]"]
+kontakte: ["[[christian-pulse]]"]
 herkunft: slack_search
 richtung: beidseitig
 status: aktiv
@@ -47,6 +47,6 @@ vertrauen: bestätigt
 
 ## Cross-Reference
 
-- [[pulse-slack-schreibstil]] - Beispiel 3 (Empfänger-Modus, Rückfrage mit Begründung)
+- pulse-slack-schreibstil (Skill, kein Vault-File) - Beispiel 3 (Empfänger-Modus, Rückfrage mit Begründung)
 - [[support-eskalation]] - Bulk-Pricing-Linie für B2B
 - [[2026-04-23-kalani-coo-call]] - Call wo Bulk-Pricing-Linie definiert wurde
