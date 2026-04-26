@@ -1,0 +1,34 @@
+---
+typ: lieferant
+projekt: "[[pulsepeptides]]"
+name: "ZY Peptides"
+code: "ZY"
+kontakt: ""
+email: ""
+whatsapp: ""
+telegram: ""
+bestellkanal: ""
+preisliste_gueltig: ""
+preisliste_anhang: "[[zy-pricelist-2026-04.pdf]]"
+zustaendig_fuer: []
+erstellt: 2026-04-26
+zuletzt_aktualisiert: 2026-04-26
+quelle: pdf_pricelist
+vertrauen: angenommen
+---
+
+# ZY Peptides
+
+Lieferant für Standard-Bestellungen. Kontaktdaten und Bestellkonventionen noch nicht dokumentiert.
+
+## Offene Klärungspunkte
+
+Diese Datei wurde aus der PDF-Preisliste 2026-04 erzeugt. Folgende Felder sind leer und müssen ergänzt werden:
+
+- Email, WhatsApp, Telegram
+- Ansprechpartner bei ZY
+- Bestellkanal-Konvention (Telegram-Gruppe, Email, anderes)
+- Geschäftsbedingungen (MOQ, Payment-Methoden, Lead-Time, Shipping)
+- Bestell-Konventionen Pulse (welche Produkte, ab welcher Menge, Sonderwünsche)
+- Gültigkeit der Preisliste (Datum)
+- Welche Produkte kauft Pulse aktuell tatsächlich bei ZY

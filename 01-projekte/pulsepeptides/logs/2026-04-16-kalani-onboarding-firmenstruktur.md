@@ -1,15 +1,14 @@
 ---
-
-typ: meeting projekt: "[[pulsepeptides]]" datum: 2026-04-16 teilnehmer: \[[kalani-ginepri]]"\] ist_transkript: false zusammenfassung: "Onboarding-Call. Kalani erklärt Deniz die gesamte Firmen- und Tech-Struktur von PulsePeptides." offene_punkte:
-
-- Methodik-Zugang (Inventory Management)
-- Krypto-Pipeline (&gt;12k EUR Legal-Problem)
-- Label-Pipeline verbessern
-- Domain-Transfer weg von GoDaddy
-- Lager-Verlagerung nach Tschechien (Kalani dran) quelle: voice_dump vertrauen: extrahiert
-
+typ: meeting
+projekt: "[[pulsepeptides]]"
+datum: 2026-04-16
+teilnehmer: ["[[kalani-ginepri]]"]
+ist_transkript: false
+zusammenfassung: "Onboarding-Call. Kalani erklärt Deniz die gesamte Firmen- und Tech-Struktur von PulsePeptides."
+offene_punkte: ["Methodik-Zugang (Inventory Management)", "Krypto-Pipeline (>12k EUR Legal-Problem)", "Label-Pipeline verbessern", "Domain-Transfer weg von GoDaddy", "Lager-Verlagerung nach Tschechien (Kalani dran)"]
+quelle: voice_dump
+vertrauen: extrahiert
 ---
-
 # 2026-04-16 Onboarding Call Kalani - Firmenstruktur
 
 ## Tech-Stack und Infrastruktur

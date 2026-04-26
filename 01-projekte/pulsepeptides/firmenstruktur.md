@@ -1,6 +1,13 @@
 ---
-
-## typ: wissen projekt: "[[pulsepeptides]]" thema: firmenstruktur status: in_arbeit erstellt: 2026-04-17 zuletzt_aktualisiert: 2026-04-17 vertrauen: extrahiert quelle: voice_dump
+typ: wissen
+projekt: "[[pulsepeptides]]"
+thema: firmenstruktur
+status: in_arbeit
+erstellt: 2026-04-17
+zuletzt_aktualisiert: 2026-04-17
+vertrauen: extrahiert
+quelle: voice_dump
+---
 
 # PulsePeptides Firmenstruktur
 

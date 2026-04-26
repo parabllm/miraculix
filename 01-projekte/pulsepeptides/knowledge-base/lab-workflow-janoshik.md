@@ -1,6 +1,12 @@
 ---
-
-## typ: wissen projekt: "[[pulsepeptides]]" thema: lab-workflow-janoshik status: leer erstellt: 2026-04-17 vertrauen: angenommen quelle: chat_session
+typ: wissen
+projekt: "[[pulsepeptides]]"
+thema: lab-workflow-janoshik
+status: leer
+erstellt: 2026-04-17
+vertrauen: angenommen
+quelle: chat_session
+---
 
 # Lab-Workflow Janoshik (operative Seite)
 

@@ -1,0 +1,244 @@
+{
+  "main": {
+    "id": "243fff34fe5f1da9",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c5d34eeacb480b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "717487c5b1a0fd52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-projekte/pulsepeptides/knowledge-base/lab-peptides.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lab-peptides"
+            }
+          },
+          {
+            "id": "bd9607957afc852a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-projekte/pulsepeptides/logs/2026-04-25-kalani-call.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-25-kalani-call"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b0e6888651cf9b4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e08763dbd5141c3b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15715ca8eb382ff1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Dateiexplorer"
+            }
+          },
+          {
+            "id": "a9fa36479c65af1b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Suchen"
+            }
+          },
+          {
+            "id": "4c90feac026d23f7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Lesezeichen"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9e889b0f07726a21",
+    "type": "split",
+    "children": [
+      {
+        "id": "49f4cae6c3d5ed8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39232c1bc6422ccd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Rückverweise"
+            }
+          },
+          {
+            "id": "a9fbe2d68c8718ec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Ausgehende Links"
+            }
+          },
+          {
+            "id": "7f5dff064fc0540b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "cd0aa3d516fe0420",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Alle Eigenschaften"
+            }
+          },
+          {
+            "id": "b126a56b7e354d4b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Gliederung"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graph-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false,
+      "bases:Neue Base erstellen": false
+    }
+  },
+  "active": "bd9607957afc852a",
+  "lastOpenFiles": [
+    "_claude/scripts/forensik-2026-04-26/02-untracked/_claude/scripts/test-b64-1.txt",
+    "_claude/scripts/forensik-2026-04-26/02-untracked/_claude/scripts/git-log.txt",
+    "_claude/scripts/forensik-2026-04-26/02-untracked/_claude/scripts",
+    "_claude/scripts/forensik-2026-04-26/02-untracked/_claude",
+    "_claude/scripts/forensik-2026-04-26/02-untracked/04-tagebuch/2026/04/2026-04-26.md",
+    "_claude/scripts/forensik-2026-04-26/02-untracked/04-tagebuch/2026/04",
+    "_claude/scripts/forensik-2026-04-26/02-untracked/04-tagebuch/2026",
+    "_claude/scripts/forensik-2026-04-26/02-untracked/04-tagebuch",
+    "_claude/scripts/forensik-2026-04-26/02-untracked/01-projekte/pulsepeptides/knowledge-base/zy-peptides.md",
+    "_claude/scripts/forensik-2026-04-26/02-untracked/01-projekte/pulsepeptides/knowledge-base",
+    "_claude/scripts/forensik-2026-04-26/02-untracked/01-projekte/pulsepeptides/clickup-pulse-entwurf.md",
+    "_claude/scripts/forensik-2026-04-26/02-untracked/01-projekte/pulsepeptides",
+    "_claude/scripts/forensik-2026-04-26/02-untracked/01-projekte",
+    "_claude/scripts/forensik-2026-04-26/02-untracked/00-eingang/unverarbeitet/PulsePeptdies Pricing.xlsx",
+    "_claude/scripts/forensik-2026-04-26/02-untracked/00-eingang/unverarbeitet/2026-04-25-1735-anastasia-geburtstagsgeschenk.md",
+    "_claude/scripts/forensik-2026-04-26/00-vorgeschichte.md",
+    "01-projekte/pulsepeptides/knowledge-base/zy-peptides.md",
+    "_claude/scripts/forensik-2026-04-26/CLAUDE-CODE-PROMPT.md",
+    "01-projekte/pulsepeptides/pulsepeptides.md",
+    "04-tagebuch/2026/04/2026-04-26.md",
+    "01-projekte/pulsepeptides/logs/2026-04-25-kalani-call.md",
+    "01-projekte/pulsepeptides/logs/2026-03-17-janoshik-ocr-pipeline.md",
+    "01-projekte/pulsepeptides/knowledge-base/team-koordination.md",
+    "01-projekte/pulsepeptides/knowledge-base/support-eskalation.md",
+    "01-projekte/pulsepeptides/knowledge-base/produkte.md",
+    "01-projekte/pulsepeptides/knowledge-base/bestellprozess.md",
+    "01-projekte/pulsepeptides/knowledge-base/lab-peptides.md",
+    "01-projekte/pulsepeptides/knowledge-base/lab-workflow-janoshik.md",
+    "01-projekte/pulsepeptides/knowledge-base/lieferanten.md",
+    "01-projekte/pulsepeptides/logs/2026-04-16-kalani-onboarding-firmenstruktur.md",
+    "03-kontakte/kai-pulse.md",
+    "03-kontakte/kalani-ginepri.md",
+    "01-projekte/pulsepeptides/firmenstruktur.md",
+    "01-projekte/pulsepeptides/logs/2026-04-24-kalani-call.md",
+    "01-projekte/pulsepeptides/logs/2026-04-23-kalani-coo-call.md",
+    "01-projekte/pulsepeptides/logs/2026-04-17-coo-rolle-transition-start.md",
+    "Unbenannt 1.canvas",
+    "Unbenannt.canvas",
+    "00-eingang/unverarbeitet/Screenshot 2026-04-18 014852.png",
+    "_anhaenge/uni/Screenshot 2026-04-17 153658.png",
+    "00-eingang/unverarbeitet/Screenshot 2026-04-17 153658.png",
+    "_anhaenge/uni/Screenshot 2026-04-17 144623.png",
+    "00-eingang/unverarbeitet/Screenshot 2026-04-17 144623.png"
+  ]
+}

@@ -1,6 +1,6 @@
 ---
 
-## typ: ueber-projekt name: "PulsePeptides" aliase: \["PulsePeptides", "Pulse", "Pulse Peptides", "PulseBot"\] bereich: operativ umfang: offen status: aktiv kapazitaets_last: hoch rolle_deniz: "COO" transition_start: 2026-04-17 transition_ende_geplant: 2026-05-08 hauptkontakt: "[[kalani-ginepri]]" kontakte: \[[kalani-ginepri]]", "[[christian-pulse]]", "[[kai-pulse]]", "[[patrick-pulse]]", "[[german-pulse]]", "[[lizzi-pulse]]"\] tech_stack: \["wordpress", "woocommerce", "elementor", "n8n", "slack", "google-sheets", "gmail", "browserless", "openai", "freshdesk", "metorik", "vercel", "telegram"\] notion_url: "" erstellt: 2026-04-16 aktualisiert: 2026-04-23 notizen: "Peptide-E-Commerce. Deniz ist COO ab 2026-04-17. Kein Thalor-Client mehr, eigenes Uber-Projekt. Firmenstruktur siehe [[firmenstruktur]]." quelle: chat_session vertrauen: bestätigt
+## typ: ueber-projekt name: "PulsePeptides" aliase: \["PulsePeptides", "Pulse", "Pulse Peptides", "PulseBot"\] bereich: operativ umfang: offen status: aktiv kapazitaets_last: hoch rolle_deniz: "COO" transition_start: 2026-04-17 transition_ende_geplant: 2026-05-08 hauptkontakt: "[[kalani-ginepri]]" kontakte: [[kalani-ginepri]]", "[[christian-pulse]]", "[[kai-pulse]]", "[[patrick-pulse]]", "[[german-pulse]]", "[[lizzi-pulse]]"\] tech_stack: \["wordpress", "woocommerce", "elementor", "n8n", "slack", "google-sheets", "gmail", "browserless", "openai", "freshdesk", "metorik", "vercel", "telegram"\] notion_url: "" erstellt: 2026-04-16 aktualisiert: 2026-04-23 notizen: "Peptide-E-Commerce. Deniz ist COO ab 2026-04-17. Kein Thalor-Client mehr, eigenes Uber-Projekt. Firmenstruktur siehe [[firmenstruktur]]." quelle: chat_session vertrauen: bestätigt
 
 ## Kontext
 
@@ -73,6 +73,9 @@ Stand 2026-04-23: COO Weekly Call mit Kalani durchgeführt (Details [[2026-04-23
 - \[ \] Bulk-Pricing-Liste von Christian einholen und überarbeiten, bevor Pepspan-Antwort rausgeht
 - \[ \] Prostamax Custom-Order: auf Lily-Antwort (Lab Peptides) und Kundenmenge warten, dann Order auslösen
 - \[ \] Affiliate-Framework mit No-Human-Use-Klausel aufbauen (siehe [[coo-aufgaben]])
+- \[ \] ZY-Lieferanten-Doku Lücken füllen: Email, WhatsApp/Telegram, Ansprechpartner, Bestellkanal-Konvention, Geschäftsbedingungen (MOQ, Payment, Lead-Time, Shipping), Bestell-Konventionen Pulse, Gültigkeit der Preisliste, ZY_Price.pdf nach `_anhaenge/projekte/pulsepeptides/zy-pricelist-2026-04.pdf` ablegen. Datei: [[zy-peptides]]
+- \[ \] Pulse-Pricing-Supplier-Match: pro Pulse-Webshop-Produkt den tatsächlichen Lieferanten und Einkaufspreis ergänzen (Lab Peptides / ZY / anderer). Datei: [[pulse-pricing-2026-04-26]]
+- \[ \] HX2 Hexarelin 2mg Preisstaffel bei ZY verifizieren (PDF zeigt 40, 63, 33, 30, vermutlich Tippfehler)
 
 ### Mittel
 

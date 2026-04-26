@@ -1,6 +1,14 @@
 ---
-
-## typ: meeting projekt: "[[pulsepeptides]]" datum: 2026-04-17 teilnehmer: \[[kalani-ginepri]]"\] ist_transkript: false zusammenfassung: "" offene_punkte: \[\] quelle: voice_dump vertrauen: extrahiert
+typ: meeting
+projekt: "[[pulsepeptides]]"
+datum: 2026-04-17
+teilnehmer: ["[[kalani-ginepri]]"]
+ist_transkript: false
+zusammenfassung: ""
+offene_punkte: []
+quelle: voice_dump
+vertrauen: extrahiert
+---
 
 # 2026-04-17 Call Kalani - Orderprozess + Methodik
 

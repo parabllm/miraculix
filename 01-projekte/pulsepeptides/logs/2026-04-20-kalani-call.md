@@ -1,6 +1,14 @@
 ---
-
-## typ: meeting-note datum: 2026-04-20 projekt: "[[pulsepeptides]]" teilnehmer: \[[kalani-ginepri]]", "Deniz"\] thema: "COO Weekly - Affiliate, Custom Orders, US Shipments" status: abgeschlossen erstellt: 2026-04-20 quelle: voice_dump vertrauen: bestätigt
+typ: meeting-note
+datum: 2026-04-20
+projekt: "[[pulsepeptides]]"
+teilnehmer: ["[[kalani-ginepri]]", "Deniz"]
+thema: "COO Weekly - Affiliate, Custom Orders, US Shipments"
+status: abgeschlossen
+erstellt: 2026-04-20
+quelle: voice_dump
+vertrauen: bestätigt
+---
 
 # Kalani Call - 20.04.2026
 
@@ -38,14 +46,14 @@ Kalani plant in den nächsten Tagen nach Deutschland zu fliegen (morgen oder üb
 
 ## Agenda Call
 
-- \[ \] **KPV dringend:** Wie viele Bottles bei ZY bestellen? Darf Christian Kundenzahlung (100 EUR) einsammeln zur Reservierung?
-- \[ \] Affiliate-Programm: Onboarding-Prozess definieren (Konditionen, Tracking, Kommunikation mit Affiliates)
-- \[ \] Weitere Affiliate-Anfragen durchgehen falls vorhanden
-- \[ \] US Shipments: aktueller Stand und Entscheidung
-- \[ \] Thymosin-Kunde Compensation: wo hat Kalani die Mail gesehen? Wie an Christian kommunizieren?
-- \[ \] Neue Custom-Order-Anfrage: Prostamax Peptide - können wir das besorgen?
-- \[ \] Deutschland-Besuch Kalani (morgen/übermorgen) - Treffen planen?
-- \[ \] Sonstiges / Offene Punkte COO-Transition
+- [ ] **KPV dringend:** Wie viele Bottles bei ZY bestellen? Darf Christian Kundenzahlung (100 EUR) einsammeln zur Reservierung?
+- [ ] Affiliate-Programm: Onboarding-Prozess definieren (Konditionen, Tracking, Kommunikation mit Affiliates)
+- [ ] Weitere Affiliate-Anfragen durchgehen falls vorhanden
+- [ ] US Shipments: aktueller Stand und Entscheidung
+- [ ] Thymosin-Kunde Compensation: wo hat Kalani die Mail gesehen? Wie an Christian kommunizieren?
+- [ ] Neue Custom-Order-Anfrage: Prostamax Peptide - können wir das besorgen?
+- [ ] Deutschland-Besuch Kalani (morgen/übermorgen) - Treffen planen?
+- [ ] Sonstiges / Offene Punkte COO-Transition
 
 ---
 
@@ -98,7 +106,7 @@ Kalani plant in den nächsten Tagen nach Deutschland zu fliegen (morgen oder üb
 
 ## Nächste Schritte
 
-- \[ \] Sourcing-Tasks in [[pulsepeptides]] anlegen (KPV, BPC-157, 5-Amino-1, Quality Control)
-- \[ \] 500 Pakete bestellen
-- \[ \] Mittwoch 22.04. Lager-Besuch Eppelheim durchführen
-- \[ \] Affiliate-Onboarding, US-Shipments, Thymosin, Prostamax im nächsten Sync final klären
+- [ ] Sourcing-Tasks in [[pulsepeptides]] anlegen (KPV, BPC-157, 5-Amino-1, Quality Control)
+- [ ] 500 Pakete bestellen
+- [ ] Mittwoch 22.04. Lager-Besuch Eppelheim durchführen
+- [ ] Affiliate-Onboarding, US-Shipments, Thymosin, Prostamax im nächsten Sync final klären

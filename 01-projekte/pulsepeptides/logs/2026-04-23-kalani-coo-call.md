@@ -1,6 +1,18 @@
 ---
-
-## typ: meeting-note datum: 2026-04-23 projekt: "[[pulsepeptides]]" teilnehmer: \[[kalani-ginepri]]", "Deniz"\] ort: "Call (Discord/Telefon)" thema: "COO Weekly Call: Supplier-Deal, Pakete, Affiliate, US Shipments, Compensation, Custom-Order-SOP, Bulk-Pricing-Anfrage" status: abgeschlossen erstellt: 2026-04-22 aktualisiert: 2026-04-23 quelle: meeting vertrauen: bestätigt notizen: "Lager-Besuch ursprünglich 22.04. geplant, dann 23.04., finaler Call 23.04. 15:30 (30 Min) weil Kalani krank (Lebensmittelvergiftung). Keine Lager-Anwesenheit, kein Kai."
+typ: meeting-note
+datum: 2026-04-23
+projekt: "[[pulsepeptides]]"
+teilnehmer: ["[[kalani-ginepri]]", "Deniz"]
+ort: "Call (Discord/Telefon)"
+thema: "COO Weekly
+Call: Supplier-Deal, Pakete, Affiliate, US Shipments, Compensation, Custom-Order-SOP, Bulk-Pricing-Anfrage"
+status: abgeschlossen
+erstellt: 2026-04-22
+aktualisiert: 2026-04-23
+quelle: meeting
+vertrauen: bestätigt
+notizen: "Lager-Besuch ursprünglich 22.04. geplant, dann 23.04., finaler Call 23.04. 15:30 (30 Min) weil Kalani krank (Lebensmittelvergiftung). Keine Lager-Anwesenheit, kein Kai."
+---
 
 # COO Weekly Call mit Kalani, 2026-04-23
 

@@ -1,6 +1,13 @@
 ---
-
-## typ: wissen projekt: "[[pulsepeptides]]" thema: lieferanten status: in_arbeit erstellt: 2026-04-17 zuletzt_aktualisiert: 2026-04-23 vertrauen: extrahiert quelle: voice_dump + pdf_pricelist
+typ: wissen
+projekt: "[[pulsepeptides]]"
+thema: lieferanten
+status: in_arbeit
+erstellt: 2026-04-17
+zuletzt_aktualisiert: 2026-04-23
+vertrauen: extrahiert
+quelle: voice_dump + pdf_pricelist
+---
 
 # Lieferanten
 
@@ -53,7 +60,7 @@ Ton: locker, nicht formell, aber strukturiert.
 
 Beispiel-Struktur einer Bestellnachricht:
 
-> Hey, we'd like to order \[Menge\] x \[Produkt\] (\[Spezifikation\]). Shipping to: \[Adresse\] Please let us know the total and payment details. Thanks!
+> Hey, we'd like to order [Menge] x [Produkt] ([Spezifikation]). Shipping to: [Adresse] Please let us know the total and payment details. Thanks!
 
 ## Kritische Produktspezifikation BPC-157
 

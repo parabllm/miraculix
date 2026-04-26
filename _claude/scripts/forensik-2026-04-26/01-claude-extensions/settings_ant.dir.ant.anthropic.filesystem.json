@@ -1,0 +1,11 @@
+{
+  "isEnabled": true,
+  "userConfig": {
+    "allowed_directories": [
+      "C:\\Users\\deniz\\Desktop",
+      "G:\\",
+      "C:\\Users\\deniz\\Documents",
+      "C:\\Users\\deniz\\Downloads"
+    ]
+  }
+}

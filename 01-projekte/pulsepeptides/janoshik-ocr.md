@@ -1,6 +1,15 @@
 ---
-
-## typ: aufgabe name: "Janoshik OCR Pipeline" projekt: "[[pulsepeptides]]" status: erledigt benoetigte_kapazitaet: mittel kontext: \["desktop"\] kontakte: \[[kalani-ginepri]]"\] quelle: notion_migration vertrauen: extrahiert erstellt: 2026-04-16
+typ: aufgabe
+name: "Janoshik OCR Pipeline"
+projekt: "[[pulsepeptides]]"
+status: erledigt
+benoetigte_kapazitaet: mittel
+kontext: ["desktop"]
+kontakte: ["[[kalani-ginepri]]"]
+quelle: notion_migration
+vertrauen: extrahiert
+erstellt: 2026-04-16
+---
 
 OCR-Pipeline die Janoshik Labor-Testergebnisse automatisch aus Screenshots extrahiert und ins Google Sheet schreibt. Backfill-Workflow einmalig ausgeführt, Mail-Check-Flow als Extension geplant.
 

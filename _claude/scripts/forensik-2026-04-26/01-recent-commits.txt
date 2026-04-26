@@ -1,0 +1,77 @@
+COMMIT: 6964841 auto-push 2026-04-26 14:24:46 (2 files) @ 2026-04-26 14:24:48 +0200
+_migration/auto-push.log
+
+COMMIT: ded3556 auto-push 2026-04-26 11:41:48 (18 files) @ 2026-04-26 11:41:51 +0200
+01-projekte/pulsepeptides/janoshik-ocr.md
+01-projekte/pulsepeptides/knowledge-base/bestellprozess.md
+01-projekte/pulsepeptides/knowledge-base/lab-workflow-janoshik.md
+01-projekte/pulsepeptides/knowledge-base/lieferanten.md
+01-projekte/pulsepeptides/knowledge-base/produkte.md
+01-projekte/pulsepeptides/logs/2026-04-16-kalani-onboarding-firmenstruktur.md
+01-projekte/pulsepeptides/logs/2026-04-17-kalani-call-orderprozess.md
+01-projekte/pulsepeptides/logs/2026-04-20-kalani-call.md
+01-projekte/pulsepeptides/logs/2026-04-23-kalani-coo-call.md
+01-projekte/pulsepeptides/logs/2026-04-24-kalani-call.md
+03-kontakte/christian-pulse.md
+03-kontakte/german-pulse.md
+03-kontakte/kai-pulse.md
+03-kontakte/lizzi-pulse.md
+03-kontakte/patrick-pulse.md
+04-tagebuch/2026/04/2026-04-25.md
+_migration/auto-push.log
+
+COMMIT: 7c4aff1 auto-push 2026-04-25 20:00:03 (9 files) @ 2026-04-25 20:00:03 +0200
+01-projekte/pulsepeptides/firmenstruktur.md
+01-projekte/pulsepeptides/logs/2026-04-25-kalani-call.md
+01-projekte/pulsepeptides/pulsepeptides.md
+_claude/skills/eingang-verarbeiten.md
+
+COMMIT: f7bbc32 cleanup-phase3: architektur.md umbenannt zu cora-ai-architektur.md @ 2026-04-25 19:48:30 +0200
+01-projekte/coralate/cora-ai/cora-ai.md
+01-projekte/coralate/cora-ai/scope-jann-proposal.md
+
+COMMIT: 2de4802 cleanup-phase3: tote-wikilinks gefixt (christian+pulse-slack-schreibstil+zukunftsausblick) @ 2026-04-25 19:47:58 +0200
+01-projekte/coralate/cora-ai/meeting-2026-04-18-cora-ausrichtung.md
+01-projekte/persönlich/kommunikation-referenzen/slack/2026-04-09_christian_tuomo-test-batch.md
+01-projekte/persönlich/kommunikation-referenzen/slack/2026-04-11_christian_kpv-stock-kommunikation.md
+01-projekte/persönlich/kommunikation-referenzen/slack/2026-04-16_christian_telefonnummer-austausch-dm.md
+01-projekte/persönlich/kommunikation-referenzen/slack/2026-04-20_christian-kalani_us-market-shipments.md
+01-projekte/persönlich/kommunikation-referenzen/slack/2026-04-20_christian_affiliate-1k-follower-cap.md
+01-projekte/persönlich/kommunikation-referenzen/slack/2026-04-20_christian_prostamax-custom-order.md
+01-projekte/persönlich/kommunikation-referenzen/slack/2026-04-20_christian_reta-lab-test.md
+01-projekte/persönlich/kommunikation-referenzen/slack/2026-04-20_kalani_kpv-position-dm.md
+01-projekte/persönlich/kommunikation-referenzen/slack/2026-04-23_christian_pepspan-bulk-pricing.md
+
+COMMIT: c3dbbe3 cleanup-phase3: kalani-lager-besuch umbenannt + archiv-regel vault-system @ 2026-04-25 19:47:04 +0200
+_claude/skills/vault-system.md
+
+COMMIT: 3195422 pre-pipeline-state: snapshot vor transkriptions-pipeline build @ 2026-04-25 15:03:30 +0200
+.gitignore
+_claude/skills/vault-system.md
+_migration/auto-push.log
+
+COMMIT: 93daeed cleanup-phase2: maddox eltern-korrektur @ 2026-04-25 15:03:01 +0200
+03-kontakte/maddox-yakymenskyy.md
+_cleanup-phase-2-report.md
+
+COMMIT: e6bf9f2 cleanup-phase2: kaufmann-verlinkung hdwm @ 2026-04-25 14:01:06 +0200
+01-projekte/hdwm/semester-5/email-kaufmann-ki-vorwurf.md
+01-projekte/hdwm/semester-5/international-sales-seminararbeit.md
+01-projekte/hdwm/semester-5/international-sales.md
+01-projekte/hdwm/semester-5/meeting-kaufmann-2026-04-21.md
+
+COMMIT: 5efda63 auto-push 2026-04-25 14:00:03 (4 files) @ 2026-04-25 14:00:04 +0200
+.obsidian/graph.json
+
+COMMIT: 5739f75 cleanup-phase2: cora-wikilinks gefixt @ 2026-04-25 13:59:22 +0200
+01-projekte/coralate/cora-ai/meeting-2026-04-18-cora-ausrichtung.md
+01-projekte/coralate/cora-ai/scope-jann-proposal.md
+
+COMMIT: 6825539 cleanup-phase2: maddox-familie verknuepft (heiraten-daenemark, bellavie) @ 2026-04-25 13:58:56 +0200
+01-projekte/thalor/heiraten-daenemark/admin-hub-konzept.md
+01-projekte/thalor/heiraten-daenemark/email-assistent-konzept.md
+01-projekte/thalor/heiraten-daenemark/heiraten-daenemark.md
+01-projekte/thalor/heiraten-daenemark/meetings/2026-04-21-maddox-email-assistent.md
+
+COMMIT: 477f530 cleanup-phase2: kontakte angelegt (4 neue Files) @ 2026-04-25 13:57:59 +0200
+03-kontakte/maddox-yakymenskyy.md

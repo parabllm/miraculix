@@ -1,6 +1,13 @@
 ---
-
-## typ: wissen projekt: "[[pulsepeptides]]" thema: produkte status: aktiv erstellt: 2026-04-17 zuletzt_aktualisiert: 2026-04-20 vertrauen: extrahiert quelle: metorik_export
+typ: wissen
+projekt: "[[pulsepeptides]]"
+thema: produkte
+status: aktiv
+erstellt: 2026-04-17
+zuletzt_aktualisiert: 2026-04-20
+vertrauen: extrahiert
+quelle: metorik_export
+---
 
 # Produkte
 
