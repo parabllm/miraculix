@@ -1,13 +1,6 @@
 ---
-typ: wissen
-projekt: "[[pulsepeptides]]"
-thema: produkte
-status: aktiv
-erstellt: 2026-04-17
-zuletzt_aktualisiert: 2026-04-20
-vertrauen: extrahiert
-quelle: metorik_export
----
+
+## typ: wissen projekt: "[[pulsepeptides]]" thema: produkte status: aktiv erstellt: 2026-04-17 zuletzt_aktualisiert: 2026-04-20 vertrauen: extrahiert quelle: metorik_export
 
 # Produkte
 
@@ -15,46 +8,17 @@ Quelle: Metorik CSV-Export, Stand 2026-04-17. Alle Preise in EUR.
 
 ## Produktübersicht
 
-| Produkt | Preis | COGS | Marge | Verkauft | Umsatz (Net) | Lager | Days of Stock |
-|---|---|---|---|---|---|---|---|
-| BAC-Water | 15,99 | 2,00 | 87% | 1.214 | 18.456 | 2 | kritisch |
-| BPC-157 | 34,99 | 4,95 | 85% | 1.181 | 38.890 | 290 | 45 Tage |
-| GHK-CU | 39,99 | 10,82 | 71% | 1.033 | 39.079 | 405 | 71 Tage |
-| Ipamorelin | 24,99 | 5,40 | 77% | 698 | 16.242 | 144 | 38 Tage |
-| TB-500 (TB4) | 39,99 | 10,82 | 71% | 608 | 22.673 | 443 | 133 Tage |
-| MOTS-c | 39,99 | 9,92 | 73% | 573 | 21.396 | 520 | 165 Tage |
-| Epithalon | 24,99 | 5,85 | 74% | 365 | 8.185 | 140 | 70 Tage |
-| Tesamorelin | 54,99 | 18,05 | 64% | 361 | 18.302 | 35 | **18 Tage** |
-| MOD-GRF | 39,99 | 11,75 | 69% | 303 | 11.378 | 215 | 130 Tage |
-| TB-500 (17-23) | 34,99 | 6,76 | 79% | 292 | 9.596 | 359 | 224 Tage |
-| Semax | 29,99 | 9,00 | 68% | 239 | 6.745 | 172 | 131 Tage |
-| BPC-157 Capsules | 89,99 | k.A. | 100% | 192 | 18.466 | 7 | **7 Tage** |
-| Selank | 29,99 | 9,00 | 69% | 181 | 5.198 | 152 | 154 Tage |
-| PT-141 | 39,99 | 9,00 | 77% | 133 | 5.189 | 7 | **10 Tage** |
-| Thymosin Alpha-1 | 39,99 | 15,33 | 58% | 131 | 4.810 | 170 | 236 Tage |
-| DSIP | 29,99 | 5,41 | 81% | 21 | 3.322 | 21 | 33 Tage |
-| GHRP-2 | 24,99 | 3,60 | 85% | 50 | 1.218 | 73 | 270 Tage |
+ProduktPreisCOGSMargeVerkauftUmsatz (Net)LagerDays of StockBAC-Water15,992,0087%1.21418.4562kritischBPC-15734,994,9585%1.18138.89029045 TageGHK-CU39,9910,8271%1.03339.07940571 TageIpamorelin24,995,4077%69816.24214438 TageTB-500 (TB4)39,9910,8271%60822.673443133 TageMOTS-c39,999,9273%57321.396520165 TageEpithalon24,995,8574%3658.18514070 TageTesamorelin54,9918,0564%36118.30235**18 Tage**MOD-GRF39,9911,7569%30311.378215130 TageTB-500 (17-23)34,996,7679%2929.596359224 TageSemax29,999,0068%2396.745172131 TageBPC-157 Capsules89,99k.A.100%19218.4667**7 Tage**Selank29,999,0069%1815.198152154 TagePT-14139,999,0077%1335.1897**10 Tage**Thymosin Alpha-139,9915,3358%1314.810170236 TageDSIP29,995,4181%213.3222133 TageGHRP-224,993,6085%501.21873270 Tage
 
 ## Kritischer Lagerstand (sofort handeln)
 
-| Produkt | Lager | Days of Stock | Prioritaet |
-|---|---|---|---|
-| BPC-157 Capsules | 7 | 7 Tage | sofort |
-| PT-141 | 7 | 10 Tage | sofort |
-| Tesamorelin | 35 | 18 Tage | diese Woche |
-| BAC-Water | 2 | k.A. | sofort |
-| Ipamorelin | 144 | 38 Tage | nächste Bestellung |
-| BPC-157 | 290 | 45 Tage | nächste Bestellung |
+ProduktLagerDays of StockPrioritaetBPC-157 Capsules77 TagesofortPT-141710 TagesofortTesamorelin3518 Tagediese WocheBAC-Water2k.A.sofortIpamorelin14438 Tagenächste BestellungBPC-15729045 Tagenächste Bestellung
 
 ## Custom-Only Produkte (nicht im Shop)
 
 Produkte die nur über Manual Orders laufen, nicht im WooCommerce-Shop und nicht im Metorik-Export:
 
-| Produkt | Supplier | Status |
-|---|---|---|
-| KPV Capsules | ZY Peptides | in nächste Bestellung eingeplant (2026-04-20) |
-| Tirzepatide | ZY Peptides | bestellen (Kalani, 2026-04-17) |
-| Retatrutide | - | unbekannt |
+ProduktSupplierStatusKPV CapsulesZY Peptidesin nächste Bestellung eingeplant (2026-04-20)TirzepatideZY Peptidesbestellen (Kalani, 2026-04-17)Retatrutide-unbekannt
 
 ### KPV Capsules
 

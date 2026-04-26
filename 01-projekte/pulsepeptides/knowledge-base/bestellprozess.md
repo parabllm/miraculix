@@ -1,12 +1,6 @@
 ---
-typ: wissen
-projekt: "[[pulsepeptides]]"
-thema: bestellprozess
-status: leer
-erstellt: 2026-04-17
-vertrauen: angenommen
-quelle: chat_session
----
+
+## typ: wissen projekt: "[[pulsepeptides]]" thema: bestellprozess status: leer erstellt: 2026-04-17 vertrauen: angenommen quelle: chat_session
 
 # Bestellprozess
 
@@ -35,10 +29,10 @@ Platzhalter. Wird gefüllt nach Onboarding-Calls mit Kalani.
 
 Notiz: Pulse verwendet ausschließlich BPC-157 mit Arginin. Bei Bestellungen immer darauf achten.
 
-
 ## Custom Orders - Supplier-Anfrage
 
 Für Produkte die nicht im Standard-Sortiment sind (z.B. KPV Capsules):
+
 - Anfrage direkt bei Supplier per Telegram
 - ZY Peptides ist der bevorzugte Supplier für Custom Orders / nicht-standard Produkte
 - Ablauf: Christian meldet Kundenwunsch, Deniz fragt bei ZY per Telegram an ob und zu welchem Preis möglich
