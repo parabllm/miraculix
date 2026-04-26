@@ -1,0 +1,6 @@
+﻿T0 BASELINE
+  Path: C:\Users\deniz\Documents\miraculix\_claude\scripts\forensik-2026-04-26\test-files\test-watchdog-T0.md
+  mtime: 04/26/2026 20:21:26
+  SHA256: 5285F861D9ED8DDC8336ED1B3DF1856CD8E8B73B3BA299F625BFB4BCA7C039F6
+  Size: 890
+

@@ -1,18 +1,6 @@
 ---
-typ: ueber-projekt
-name: "coralate"
-aliase: ["coralate", "Coralate", "corelate", "corelate-v3", "Cora"]
-bereich: produkt
-umfang: offen
-status: aktiv
-kapazitaets_last: hoch
-hauptkontakt: "[[jann-allenberger]]"
-tech_stack: ["expo", "react-native", "zustand", "skia", "supabase", "postgres", "pgvector", "python"]
-erstellt: 2026-04-16
-notizen: "iOS-first AI Fitness-Tracking-App mit Cora AI Korrelations-Engine. Deniz = Co-Founder + Frontend/AI-Dev. Strikt kein SaMD."
-quelle: notion_migration
-vertrauen: extrahiert
----
+
+## typ: ueber-projekt name: "coralate" aliase: \["coralate", "Coralate", "corelate", "corelate-v3", "Cora"\] bereich: produkt umfang: offen status: aktiv kapazitaets_last: hoch hauptkontakt: "[[jann-allenberger]]" tech_stack: \["expo", "react-native", "zustand", "skia", "supabase", "postgres", "pgvector", "python"\] erstellt: 2026-04-16 notizen: "iOS-first AI Fitness-Tracking-App mit Cora AI Korrelations-Engine. Deniz = Co-Founder + Frontend/AI-Dev. Strikt kein SaMD." quelle: notion_migration vertrauen: extrahiert
 
 ## Kontext
 
@@ -20,12 +8,7 @@ vertrauen: extrahiert
 
 `coralate` = App/Company. `corelate-v3` = Repo-Folder (Legacy-Artefakt).
 
-**Repo:** `parabllm/coralate` (GitHub privat) - Folder `corelate-v3`
-**Supabase Project:** `vviutyisqtimicpfqbmi` (eu-west-1, Postgres 17)
-**Stack:** Expo SDK 55 preview, React Native 0.83.1, Zustand 5, Supabase JS 2.99, React Native Skia 2.4.18, Reanimated 4.2.1
-**Target:** iOS-first, Android-fallback
-**Bundle ID:** `com.corelate.v3`
-**Deep Link Scheme:** `corelate`
+**Repo:** `parabllm/coralate` (GitHub privat) - Folder `corelate-v3`**Supabase Project:** `vviutyisqtimicpfqbmi` (eu-west-1, Postgres 17) **Stack:** Expo SDK 55 preview, React Native 0.83.1, Zustand 5, Supabase JS 2.99, React Native Skia 2.4.18, Reanimated 4.2.1 **Target:** iOS-first, Android-fallback **Bundle ID:** `com.corelate.v3`**Deep Link Scheme:** `corelate`
 
 **Team-Workspace "Cora's Space HQ" (Notion)** ist SSOT fürs Team (Meeting-Logs, Page-Specs, Launch-Checklist, Team-Tasks, Components Registry). Dieser Vault enthält nur Deniz-relevante AI-Developer-Infos.
 
@@ -71,8 +54,8 @@ Stand 2026-04-20: Food-Scanner Category Fix durch. Nächste Iterationen: Food-Sc
 
 ## Offene Aufgaben
 
-- [ ] Food-Scanner an sich verbessern (Accuracy, Edge Cases) #hoch
-- [ ] Cora AI funktionsfähig machen #hoch
+- \[ \] Food-Scanner an sich verbessern (Accuracy, Edge Cases) #hoch
+- \[ \] Cora AI funktionsfähig machen #hoch
 - Team-Tasks: siehe Cora HQ Workspace
 
 ## Abgeschlossene Meilensteine
