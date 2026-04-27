@@ -90,3 +90,13 @@ Nach OK: alles gebündelt.
 - **Transkripte:** `ist_transkript: true`, Teilnehmer + offene Punkte extrahieren.
 - **Unbekannte Personen:** fragen.
 - **Nicht-klassifizierbares:** AMBIG_-Prefix, nicht raten.
+
+## Vault-Writes
+
+Vor jedem .md-Write Pflicht-Lektuere:
+- [[vault-schreibkonventionen]] - WAS rein (Encoding, Umlaute, Naming, Gedankenstriche)
+- [[vault-schreibregeln]] - WIE schreiben (Tools, Rollback, Bug-Patterns)
+
+Kernregeln:
+- NIE Desktop Commander `write_file` oder `edit_block` fuer .md mit YAML-Frontmatter
+- Hex-Verify Pflicht nach jedem Write (erste 8 Bytes muessen `2D 2D 2D 0A` plus YAML-Key sein)

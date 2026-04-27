@@ -64,3 +64,13 @@ Bundled schreiben. Git-Commit:
 - **Datierung erzwingen.** "Stand [Datum]".
 - **Wissens-Einträge mit-prüfen** wenn Projekt-Update einen betrifft.
 - **Kein Schneeballeffekt.** Updates in anderen Projekten nur als Vorschlag.
+
+## Vault-Writes
+
+Vor jedem .md-Write Pflicht-Lektuere:
+- [[vault-schreibkonventionen]] - WAS rein (Encoding, Umlaute, Naming, Gedankenstriche)
+- [[vault-schreibregeln]] - WIE schreiben (Tools, Rollback, Bug-Patterns)
+
+Kernregeln:
+- NIE Desktop Commander `write_file` oder `edit_block` fuer .md mit YAML-Frontmatter
+- Hex-Verify Pflicht nach jedem Write (erste 8 Bytes muessen `2D 2D 2D 0A` plus YAML-Key sein)

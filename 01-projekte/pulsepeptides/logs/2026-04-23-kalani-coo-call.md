@@ -4,7 +4,7 @@ datum: 2026-04-23
 projekt: "[[pulsepeptides]]"
 teilnehmer: ["[[kalani-ginepri]]", "Deniz"]
 ort: "Call (Discord/Telefon)"
-thema: "COO Weekly
+thema: "COO Weekly Call: Supplier-Deal, Pakete, Affiliate, US Shipments, Compensation, Custom-Order-SOP, Bulk-Pricing-Anfrage"
 Call: Supplier-Deal, Pakete, Affiliate, US Shipments, Compensation, Custom-Order-SOP, Bulk-Pricing-Anfrage"
 status: abgeschlossen
 erstellt: 2026-04-22

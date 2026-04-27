@@ -59,3 +59,14 @@ Begründung: Obsidian-Wikilinks zeigen auf den Dateinamen ohne Pfad. Eine Umbene
 ## Verweis im Skill-System
 
 Diese Datei ist die Single Source of Truth für Schreibkonventionen. Der Skill `vault-system` enthält die Archivierungs-Regel und verweist auf diese Datei für Details.
+
+## Tool-Sicherheit und Schreibmethoden
+
+Diese Datei regelt **WAS** in .md-Files steht (Encoding, Umlaute, Naming). Die komplementaere Master-Quelle [[vault-schreibregeln]] regelt **WIE** Files geschrieben werden:
+
+- Sichere und verbotene MCP-Tools (Desktop Commander Bug)
+- Hex-Verify-Pflicht nach jedem Write
+- Bug-Patterns A bis H
+- Rollback-Verfahren
+
+Beide Files MUESSEN gelesen werden vor Vault-Writes. Keine ist Ersatz fuer die andere.

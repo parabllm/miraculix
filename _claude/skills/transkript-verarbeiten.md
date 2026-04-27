@@ -171,3 +171,13 @@ Bestätige an Deniz:
 - Speaker-Mapping ist nicht Pflicht für Kernerkenntnisse.
 - Transkripte nie löschen, nur verschieben nach `_anhaenge/transkripte/`.
 - Wenn keine passende Meeting-Note existiert: fragen ob neue erstellt werden soll, Pfad von Deniz erfragen.
+
+## Vault-Writes
+
+Vor jedem .md-Write Pflicht-Lektuere:
+- [[vault-schreibkonventionen]] - WAS rein (Encoding, Umlaute, Naming, Gedankenstriche)
+- [[vault-schreibregeln]] - WIE schreiben (Tools, Rollback, Bug-Patterns)
+
+Kernregeln:
+- NIE Desktop Commander `write_file` oder `edit_block` fuer .md mit YAML-Frontmatter
+- Hex-Verify Pflicht nach jedem Write (erste 8 Bytes muessen `2D 2D 2D 0A` plus YAML-Key sein)

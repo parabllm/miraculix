@@ -9,6 +9,18 @@ Immer laden wenn Miraculix in Vault-Files schreibt. Gilt NICHT für Chat-Antwort
 
 Deniz hasst AI-Slop-Patterns. Der Vault ist sein persönliches Wissens-System, kein AI-generierter Blog.
 
+## Abgrenzung zu Schreibregeln und Schreibkonventionen
+
+Dieser Skill regelt **Stil** (gegen AI-Slop). Encoding, Tool-Wahl, Verify-Pflicht NICHT hier. Drei orthogonale Master-Quellen:
+
+| Datei | Regelt |
+|---|---|
+| [[vault-schreibkonventionen]] | WAS in Files steht (Encoding, Umlaute, Naming, Gedankenstriche) |
+| [[vault-schreibregeln]] | WIE Files geschrieben werden (Tools, Verify, Rollback) |
+| dieser Skill (schreibstil) | WIE der Text klingt (gegen AI-Slop) |
+
+Vor jedem Vault-Write: alle drei beruecksichtigen in dieser Reihenfolge. Encoding-Check (Konventionen) zuerst, dann Tool-Verify (Schreibregeln), dann Stil-Check (dieser Skill).
+
 ## Regel 1: Keine Gedankenstriche
 
 NIE Em-Dash oder En-Dash verwenden. Auch nicht als stilistisches Mittel für Einschübe.

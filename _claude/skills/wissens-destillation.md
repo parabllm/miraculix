@@ -91,3 +91,13 @@ erstellt: 2026-04-16
 - **Quellen verlinken, nicht kopieren.**
 - **Destillation ist kein Move.** Log bleibt.
 - **Projekt-Spezifisches nicht ins Wissen.** Nur Transferables.
+
+## Vault-Writes
+
+Vor jedem .md-Write Pflicht-Lektuere:
+- [[vault-schreibkonventionen]] - WAS rein (Encoding, Umlaute, Naming, Gedankenstriche)
+- [[vault-schreibregeln]] - WIE schreiben (Tools, Rollback, Bug-Patterns)
+
+Kernregeln:
+- NIE Desktop Commander `write_file` oder `edit_block` fuer .md mit YAML-Frontmatter
+- Hex-Verify Pflicht nach jedem Write (erste 8 Bytes muessen `2D 2D 2D 0A` plus YAML-Key sein)

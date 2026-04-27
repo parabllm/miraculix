@@ -13,6 +13,25 @@ Deniz Özbeks Obsidian-Vault ist die Single Source of Truth für alle Projekte, 
 
 ---
 
+## VAULT-SCHREIBREGELN (PFLICHT, immer beachten)
+
+Bevor irgendein .md-File im Vault geschrieben oder editiert wird:
+
+1. NIE Desktop Commander `write_file` oder `edit_block` fuer .md mit YAML-Frontmatter (Pretty-Printer-Roundtrip-Bug korruptiert Frontmatter, Pattern A).
+2. Sichere Methoden: PowerShell `[System.IO.File]::WriteAllBytes` mit UTF-8 NoBOM, Filesystem-MCP `write_file`/`edit_file`, Claude-Code Write-Tool.
+3. Hex-Verify nach JEDEM Write Pflicht. Erste 8 Bytes muessen `2D 2D 2D 0A 74...` ergeben, NICHT `2D 2D 2D 0A 0A 23 23` (Pattern A).
+
+Pflicht-Lektuere VOR jedem Vault-Write (kein Optional):
+
+| Datei | Regelt |
+|---|---|
+| [[vault-schreibkonventionen]] | **WAS** in Files steht (Encoding, Umlaute, Naming, Gedankenstriche) |
+| [[vault-schreibregeln]] | **WIE** Files geschrieben werden (Tools, Verify, Rollback, Bug-Patterns) |
+
+Wenn diese Files nicht im aktuellen Kontext sind: read jetzt. Annahme "kenne ich schon" ist Quelle vergangener Bugs.
+
+---
+
 ## Ordnerstruktur
 
 ```
@@ -47,7 +66,7 @@ _migration/           Migrations-Artefakte (Progress, Report)
 
 Tabelle wird manuell gepflegt wenn neue Über-Projekte entstehen. Deniz sagt dann explizit "neues Über-Projekt: X".
 
-**Umlaut-Hinweis Persönlich:** Der Ordner heißt `persönlich/` mit echtem Umlaut, nicht `persoenlich/`. Bei `str_replace`/`edit_block`-Operationen auf Files unter diesem Pfad können stille Fehler auftreten (Memory-Eintrag Deniz). Workaround bei Problemen: `write_file` mit `mode: append` oder vollständiges Rewrite.
+**Umlaut-Hinweis Persönlich:** Der Ordner heißt `persönlich/` mit echtem Umlaut. Encoding-Regeln (welche Zonen UTF-8 vs ASCII) stehen in [[vault-schreibkonventionen]]. Tool-Sicherheit (welche Schreibmethoden sicher sind, Hex-Verify-Pflicht) steht in [[vault-schreibregeln]]. Beide IMMER konsultieren bei Operationen auf Files mit Umlauten im Pfad.
 
 ---
 

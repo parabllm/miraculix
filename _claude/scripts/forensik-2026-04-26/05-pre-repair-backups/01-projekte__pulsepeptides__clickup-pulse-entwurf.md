@@ -1,13 +1,6 @@
 ---
-typ: wissen
-projekt: "[[pulsepeptides]]"
-thema: clickup-pulse-entwurf
-status: entwurf
-erstellt: 2026-04-26
-zuletzt_aktualisiert: 2026-04-26
-vertrauen: angenommen
-quelle: "chat_session + kalani-call-2026-04-25 + zenpilot-framework"
----
+
+## typ: wissen projekt: "[[pulsepeptides]]" thema: clickup-pulse-entwurf status: entwurf erstellt: 2026-04-26 zuletzt_aktualisiert: 2026-04-26 vertrauen: angenommen quelle: chat_session + kalani-call-2026-04-25 + zenpilot-framework
 
 # ClickUp-Aufbau Pulse Peptides Entwurf
 

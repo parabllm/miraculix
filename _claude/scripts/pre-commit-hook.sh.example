@@ -1,0 +1,36 @@
+#!/bin/sh
+# Vault-Health-Check als Git Pre-Commit-Hook (NICHT INSTALLIERT)
+#
+# Status: Bewusst nicht standard-installiert. Auto-Push Pre-Check
+# (`_migration/auto-push.ps1`) deckt den gleichen Use-Case ab ohne
+# Pre-Commit-Hook-Nervigkeit bei Massen-Commits.
+#
+# Wenn Deniz spaeter doch Pre-Commit will, dieses File nach
+# `.git/hooks/pre-commit` kopieren und chmod +x setzen:
+#
+#   cp _claude/scripts/pre-commit-hook.sh.example .git/hooks/pre-commit
+#   chmod +x .git/hooks/pre-commit
+#
+# Bypass falls noetig: git commit --no-verify
+
+VAULT_ROOT="$(git rev-parse --show-toplevel)"
+WATCHDOG="$VAULT_ROOT/_claude/scripts/vault-health-check.ps1"
+
+if [ ! -f "$WATCHDOG" ]; then
+    echo "WARN: Watchdog-Skript nicht gefunden: $WATCHDOG"
+    echo "Pre-Commit-Hook laeuft ohne Pruefung."
+    exit 0
+fi
+
+powershell.exe -ExecutionPolicy Bypass -File "$WATCHDOG" -Full -FailOnBugs -NoReport
+EXIT_CODE=$?
+
+if [ $EXIT_CODE -ne 0 ]; then
+    echo ""
+    echo "COMMIT BLOCKIERT: vault-health-check hat SEVERE Findings (Pattern A/C/G)."
+    echo "Reparieren oder bypassen mit 'git commit --no-verify'."
+    echo "Details: powershell -File _claude/scripts/vault-health-check.ps1 -Full"
+    exit 1
+fi
+
+exit 0

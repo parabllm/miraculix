@@ -112,3 +112,13 @@ Bei jedem Fehler: Meldung an Deniz, Skill stoppt. Kein automatischer Retry.
 - Bei mehreren Audio-Files: erst alle Slugs abfragen, dann Batch ausführen.
 - MP3-Files und Transkript-Files nie manuell editieren oder löschen ohne Deniz-OK.
 - Transkripte landen in `00-eingang/transkripte/`, nicht direkt in Projekt-Ordnern.
+
+## Vault-Writes
+
+Vor jedem .md-Write Pflicht-Lektuere:
+- [[vault-schreibkonventionen]] - WAS rein (Encoding, Umlaute, Naming, Gedankenstriche)
+- [[vault-schreibregeln]] - WIE schreiben (Tools, Rollback, Bug-Patterns)
+
+Kernregeln:
+- NIE Desktop Commander `write_file` oder `edit_block` fuer .md mit YAML-Frontmatter
+- Hex-Verify Pflicht nach jedem Write (erste 8 Bytes muessen `2D 2D 2D 0A` plus YAML-Key sein)

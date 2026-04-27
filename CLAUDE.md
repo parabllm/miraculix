@@ -16,6 +16,35 @@ Du arbeitest mit diesem Obsidian-Vault - Deniz' Single Source of Truth für Proj
 
 ---
 
+## KRITISCHE VAULT-SCHREIBREGELN (PFLICHT, immer beachten)
+
+Vor jedem .md-Write Pflicht-Lektuere:
+- `02-wissen/vault-schreibkonventionen.md` - WAS rein (Encoding, Umlaute, Naming, Gedankenstriche)
+- `02-wissen/vault-schreibregeln.md` - WIE schreiben (Tools, Verify, Rollback, Bug-Patterns)
+
+Kernregeln:
+- NIE Desktop Commander `write_file` oder `edit_block` fuer .md mit YAML-Frontmatter (Pretty-Printer-Roundtrip-Bug, Pattern A)
+- Sichere Schreibmethoden in Reihenfolge der Praeferenz:
+  - Filesystem-MCP `edit_file` fuer chirurgische Edits (in Phase C als sicher bestaetigt, git-style diff)
+  - Filesystem-MCP `write_file` fuer komplette Files (in Phase C als sicher bestaetigt)
+  - PowerShell `[System.IO.File]::WriteAllBytes` mit UTF-8 NoBOM (Fallback wenn MCP nicht verfuegbar)
+  - Claude-Code Write/Edit (Self-Test SAUBER, Hex-Verify trotzdem Pflicht)
+- Hex-Verify Pflicht nach JEDEM Write: erste 8 Bytes muessen `2D 2D 2D 0A` plus YAML-Key, NICHT `2D 2D 2D 0A 0A 23 23` (Pattern A)
+
+Bei Verstoss: Datenverlust moeglich. Bei Unsicherheit: erst Deniz fragen.
+
+---
+
+## Sprachregeln
+
+- `.md`-Inhalte und Frontmatter-Werte: echte Umlaute ä ö ü ß als UTF-8
+- Frontmatter-Keys, Dateinamen, Code-Blocks, URLs, Git-Commits: ASCII
+- Keine Gedankenstriche (em-dash —, en-dash –) - Komma, Punkt, normaler Bindestrich
+- Details und alle Edge-Cases: siehe `02-wissen/vault-schreibkonventionen.md`
+- Stil-Regeln (gegen AI-Slop): siehe `_claude/skills/schreibstil.md`
+
+---
+
 ## Modi
 
 ### Migrations-Modus (einmalig, beim Setup)
@@ -97,11 +126,14 @@ Jede faktische Aussage wird datiert, nicht über File-Datum:
 | "vault prüfen" / "lint" | `_claude/skills/vault-pruefung.md` | Wöchentlich |
 | "log" / "fortschritt speichern" | inline | Nach Arbeitssession |
 | implizit beim "log" | `_claude/skills/wissens-destillation.md` | Pattern 2× aufgetreten |
+| "audio verarbeiten" / "transkribiere" | `_claude/skills/audio-verarbeiten.md` | Wenn Audio in `00-eingang/audio/` |
+| "transkript verarbeiten" / "triag transkript" | `_claude/skills/transkript-verarbeiten.md` | Nach Audio-Verarbeitung oder direkt |
 
 ---
 
 ## Was Claude NICHT tun soll
 
+- Schreibregeln verletzen (siehe **KRITISCHE VAULT-SCHREIBREGELN** oben: Desktop Commander, Hex-Verify, Encoding)
 - Nie `_api/` Files manuell editieren (werden generiert)
 - Nie `_meta/` oder `CLAUDE.md` ändern ohne explizite Anweisung
 - Nie Frontmatter-Schema erfinden das nicht in `_meta/schema.md` steht

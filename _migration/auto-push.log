@@ -28,3 +28,5 @@
 2026-04-26 14:11:55 : OK 1 files pushed
 2026-04-26 14:24:46 : OK 2 files pushed
 2026-04-26 20:00:01 : OK 31 files pushed
+2026-04-27 03:03:33 : BLOCKED by vault-health-check (SEVERE findings). Report in _claude/scripts/vault-health-reports/. Push uebersprungen.
+2026-04-27 09:35:55 : BLOCKED by vault-health-check (SEVERE findings). Report in _claude/scripts/vault-health-reports/. Push uebersprungen.

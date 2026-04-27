@@ -77,3 +77,13 @@ Nach OK:
 - **Commit-Message aussagekräftig.** Nicht "log", sondern "log: {projekt} {titel}".
 - **Bei kurzer Session:** 1-Zeilen-Log reicht. Nicht zwanghaft ausführlich.
 - **Bei großen Meilensteinen:** auch `## Abgeschlossene Meilensteine` in `{slug}.md` ergänzen.
+
+## Vault-Writes
+
+Vor jedem .md-Write Pflicht-Lektuere:
+- [[vault-schreibkonventionen]] - WAS rein (Encoding, Umlaute, Naming, Gedankenstriche)
+- [[vault-schreibregeln]] - WIE schreiben (Tools, Rollback, Bug-Patterns)
+
+Kernregeln:
+- NIE Desktop Commander `write_file` oder `edit_block` fuer .md mit YAML-Frontmatter
+- Hex-Verify Pflicht nach jedem Write (erste 8 Bytes muessen `2D 2D 2D 0A` plus YAML-Key sein)

@@ -30,6 +30,8 @@ Probleme finden, Bericht liefern. Deniz entscheidet.
 - Kaputte Wikilinks
 - Verwaiste Files
 - Inbox-Items `unverarbeitet` älter als 7 Tage
+- Frontmatter-Korruptions-Patterns: vollstaendige Liste in [[vault-schreibregeln]] Sektion 3.2. Watchdog-Skript: `_claude/scripts/vault-health-check.ps1`. Aufruf manuell: `powershell -ExecutionPolicy Bypass -File _claude/scripts/vault-health-check.ps1 -Full`. Output: Console-Summary plus Markdown-Report nach `_claude/scripts/vault-health-reports/YYYY-MM-DD-HHMM.md`.
+- Leere Files (Size < 50 Bytes oder nur Frontmatter ohne Body). Watchdog markiert als WARN, nicht SEVERE (existierende Stubs blockieren keinen Auto-Push).
 
 ### 4. Duplikate
 - Ähnliche Titel in verschiedenen Ordnern
@@ -75,3 +77,13 @@ Bei Drift: Diff zeigen. Deniz bestätigt → Skill updaten UND erinnern: "Neue V
 - **Nur berichten, nicht fixen.** Deniz entscheidet.
 - **Priorisierung:** Widersprüche > Skill-Drift > Veraltet > Struktur > Duplikate > Eingang
 - **Bei false-positives:** "Möglicher Widerspruch, kann unkritisch sein: ..."
+
+## Vault-Writes
+
+Vor jedem .md-Write Pflicht-Lektuere:
+- [[vault-schreibkonventionen]] - WAS rein (Encoding, Umlaute, Naming, Gedankenstriche)
+- [[vault-schreibregeln]] - WIE schreiben (Tools, Rollback, Bug-Patterns)
+
+Kernregeln:
+- NIE Desktop Commander `write_file` oder `edit_block` fuer .md mit YAML-Frontmatter
+- Hex-Verify Pflicht nach jedem Write (erste 8 Bytes muessen `2D 2D 2D 0A` plus YAML-Key sein)

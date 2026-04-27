@@ -1,0 +1,93 @@
+[
+    {
+        "rel":  "03-kontakte/christian-pulse.md",
+        "hash":  "1494c8b4de5ce0a42aabaea186d1df32d374576f",
+        "date":  "2026-04-17 10:47:01 +0200",
+        "size":  713,
+        "status":  "FOUND"
+    },
+    {
+        "rel":  "03-kontakte/kai-pulse.md",
+        "hash":  "90ef09f6344848bbc04dcafd4c62f635d253a3a8",
+        "date":  "2026-04-20 23:06:18 +0200",
+        "size":  605,
+        "status":  "FOUND"
+    },
+    {
+        "rel":  "03-kontakte/german-pulse.md",
+        "hash":  "1494c8b4de5ce0a42aabaea186d1df32d374576f",
+        "date":  "2026-04-17 10:47:01 +0200",
+        "size":  643,
+        "status":  "FOUND"
+    },
+    {
+        "rel":  "03-kontakte/patrick-pulse.md",
+        "hash":  "1494c8b4de5ce0a42aabaea186d1df32d374576f",
+        "date":  "2026-04-17 10:47:01 +0200",
+        "size":  619,
+        "status":  "FOUND"
+    },
+    {
+        "rel":  "03-kontakte/lizzi-pulse.md",
+        "hash":  "1494c8b4de5ce0a42aabaea186d1df32d374576f",
+        "date":  "2026-04-17 10:47:01 +0200",
+        "size":  581,
+        "status":  "FOUND"
+    },
+    {
+        "rel":  "01-projekte/pulsepeptides/knowledge-base/zy-peptides.md",
+        "hash":  "",
+        "date":  "",
+        "size":  0,
+        "status":  "NO-PRE-CORRUPTION-COMMIT"
+    },
+    {
+        "rel":  "01-projekte/pulsepeptides/knowledge-base/lab-peptides.md",
+        "hash":  "cffc4bbc8865c8aacc1988a7e7b3d962d1677232",
+        "date":  "2026-04-24 21:18:20 +0200",
+        "size":  44107,
+        "status":  "FOUND"
+    },
+    {
+        "rel":  "01-projekte/pulsepeptides/pulsepeptides.md",
+        "hash":  "7c4aff19b958d80a7944c4ca29f4545b64dbb153",
+        "date":  "2026-04-25 20:00:03 +0200",
+        "size":  4988,
+        "status":  "FOUND"
+    },
+    {
+        "rel":  "01-projekte/pulsepeptides/knowledge-base/bestellprozess.md",
+        "hash":  "ded3556cad16cad91c70a8e940124435e0564784",
+        "date":  "2026-04-26 11:41:51 +0200",
+        "size":  1146,
+        "status":  "FOUND"
+    },
+    {
+        "rel":  "01-projekte/pulsepeptides/clickup-pulse-entwurf.md",
+        "hash":  "",
+        "date":  "",
+        "size":  0,
+        "status":  "NO-PRE-CORRUPTION-COMMIT"
+    },
+    {
+        "rel":  "01-projekte/coralate/coralate.md",
+        "hash":  "6172afabf5aa2dfc9e4f5b4ef570067140b09f43",
+        "date":  "2026-04-20 15:00:54 +0200",
+        "size":  4272,
+        "status":  "FOUND"
+    },
+    {
+        "rel":  "01-projekte/coralate/cora-ai/cora-ai.md",
+        "hash":  "f7bbc32bf36be90bb7bf30f3679935ed9b82d4f2",
+        "date":  "2026-04-25 19:48:30 +0200",
+        "size":  4267,
+        "status":  "FOUND"
+    },
+    {
+        "rel":  "01-projekte/coralate/cora-ai/meeting-2026-04-26-weekly.md",
+        "hash":  "",
+        "date":  "",
+        "size":  0,
+        "status":  "NO-PRE-CORRUPTION-COMMIT"
+    }
+]

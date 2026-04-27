@@ -1,28 +1,10 @@
 ---
-typ: ueber-projekt
-name: "PulsePeptides"
-aliase: ["PulsePeptides", "Pulse", "Pulse Peptides", "PulseBot"]
-bereich: operativ
-umfang: offen
-status: aktiv
-kapazitaets_last: hoch
-rolle_deniz: "COO"
-transition_start: 2026-04-17
-transition_ende_geplant: 2026-05-08
-hauptkontakt: "[[kalani-ginepri]]"
-kontakte: ["[[kalani-ginepri]]", "[[christian-pulse]]", "[[kai-pulse]]", "[[patrick-pulse]]", "[[german-pulse]]", "[[lizzi-pulse]]"]
-tech_stack: ["wordpress", "woocommerce", "elementor", "n8n", "slack", "google-sheets", "gmail", "browserless", "openai", "freshdesk", "metorik", "vercel", "telegram"]
-notion_url: ""
-erstellt: 2026-04-16
-aktualisiert: 2026-04-23
-notizen: "Peptide-E-Commerce. Deniz ist COO ab 2026-04-17. Kein Thalor-Client mehr, eigenes Uber-Projekt. Firmenstruktur siehe [[firmenstruktur]]."
-quelle: chat_session
-vertrauen: bestätigt
----
+
+## typ: ueber-projekt name: "PulsePeptides" aliase: \["PulsePeptides", "Pulse", "Pulse Peptides", "PulseBot"\] bereich: operativ umfang: offen status: aktiv kapazitaets_last: hoch rolle_deniz: "COO" transition_start: 2026-04-17 transition_ende_geplant: 2026-05-08 hauptkontakt: "[[kalani-ginepri]]" kontakte: [[kalani-ginepri]]", "[[christian-pulse]]", "[[kai-pulse]]", "[[patrick-pulse]]", "[[german-pulse]]", "[[lizzi-pulse]]"\] tech_stack: \["wordpress", "woocommerce", "elementor", "n8n", "slack", "google-sheets", "gmail", "browserless", "openai", "freshdesk", "metorik", "vercel", "telegram"\] notion_url: "" erstellt: 2026-04-16 aktualisiert: 2026-04-23 notizen: "Peptide-E-Commerce. Deniz ist COO ab 2026-04-17. Kein Thalor-Client mehr, eigenes Uber-Projekt. Firmenstruktur siehe [[firmenstruktur]]." quelle: chat_session vertrauen: bestätigt
 
 ## Kontext
 
-Peptide-E-Commerce. Verkauf über pulsepeptides.com. Batch-Management intern über PulseBot (Slack) plus n8n plus Google Sheets. Order Management mit Suppliern über Telegram.
+Peptide-E-Commerce. Verkauf über [pulsepeptides.com](http://pulsepeptides.com). Batch-Management intern über PulseBot (Slack) plus n8n plus Google Sheets. Order Management mit Suppliern über Telegram.
 
 Firmenstruktur, Team, Systeme, Pain-Points: siehe [[firmenstruktur]].
 
@@ -35,6 +17,7 @@ Seit 2026-04-17 intern offiziell COO. Transitionsphase ca. 3 Wochen. Umfang 5-10
 **Haftung:** Kalani ist Frontrunner für Compliance-Themen.
 
 **Verantwortungsbereiche:**
+
 - Peptide bei Suppliern bestellen (Telegram)
 - Team koordinieren und Aufgaben verteilen
 - Rechnungen und Abrechnung mit Lieferanten
@@ -43,6 +26,7 @@ Seit 2026-04-17 intern offiziell COO. Transitionsphase ca. 3 Wochen. Umfang 5-10
 - Workaround für Revolut-Banking finden
 
 **Kommunikation:**
+
 - Slack mit Team
 - WhatsApp mit Kalani
 - Discord für Calls
@@ -50,6 +34,7 @@ Seit 2026-04-17 intern offiziell COO. Transitionsphase ca. 3 Wochen. Umfang 5-10
 **Onboarding:** täglich Ruecksprache in Transitionsphase.
 
 **Offene Punkte:**
+
 - Fixe Verguetung definieren (nach Transition)
 
 ## Technischer Stack (Bot-Seite)
@@ -63,6 +48,7 @@ Seit 2026-04-17 intern offiziell COO. Transitionsphase ca. 3 Wochen. Umfang 5-10
 ## Knowledge Base
 
 `knowledge-base/` wird iterativ befuellt:
+
 - `produkte.md`
 - `bestellprozess.md`
 - `lieferanten.md`
@@ -83,20 +69,26 @@ Stand 2026-04-23: COO Weekly Call mit Kalani durchgeführt (Details [[2026-04-23
 ## Offene Aufgaben
 
 ### Hoch
-- [ ] Bulk-Pricing-Liste von Christian einholen und überarbeiten, bevor Pepspan-Antwort rausgeht
-- [ ] Prostamax Custom-Order: auf Lily-Antwort (Lab Peptides) und Kundenmenge warten, dann Order auslösen
-- [ ] Affiliate-Framework mit No-Human-Use-Klausel aufbauen (siehe [[coo-aufgaben]])
+
+- \[ \] Bulk-Pricing-Liste von Christian einholen und überarbeiten, bevor Pepspan-Antwort rausgeht
+- \[ \] Prostamax Custom-Order: auf Lily-Antwort (Lab Peptides) und Kundenmenge warten, dann Order auslösen
+- \[ \] Affiliate-Framework mit No-Human-Use-Klausel aufbauen (siehe [[coo-aufgaben]])
+- \[ \] ZY-Lieferanten-Doku Lücken füllen: Email, WhatsApp/Telegram, Ansprechpartner, Bestellkanal-Konvention, Geschäftsbedingungen (MOQ, Payment, Lead-Time, Shipping), Bestell-Konventionen Pulse, Gültigkeit der Preisliste, ZY_Price.pdf nach `_anhaenge/projekte/pulsepeptides/zy-pricelist-2026-04.pdf` ablegen. Datei: [[zy-peptides]]
+- \[ \] Pulse-Pricing-Supplier-Match: pro Pulse-Webshop-Produkt den tatsächlichen Lieferanten und Einkaufspreis ergänzen (Lab Peptides / ZY / anderer). Datei: [[pulse-pricing-2026-04-26]]
+- \[ \] HX2 Hexarelin 2mg Preisstaffel bei ZY verifizieren (PDF zeigt 40, 63, 33, 30, vermutlich Tippfehler)
 
 ### Mittel
-- [ ] System-Login-Sweep: überall anmelden und Admin-Zugriff sicherstellen (siehe [[coo-aufgaben]])
-- [ ] Reta Lab-Test Transition PulsePeptides → Axonpeptides: beim nächsten Sync mit Kalani klären
-- [ ] Valko_body Onboarding-Details klären
+
+- \[ \] System-Login-Sweep: überall anmelden und Admin-Zugriff sicherstellen (siehe [[coo-aufgaben]])
+- \[ \] Reta Lab-Test Transition PulsePeptides → Axonpeptides: beim nächsten Sync mit Kalani klären
+- \[ \] Valko_body Onboarding-Details klären
 
 ### Verschoben bis Kalani wieder fit ist
-- [ ] KPV Supplier-Wechsel von ZY auf Testing-Badge-Supplier durchziehen
-- [ ] BPC-157 + 5-Amino-1 Kapseln Sourcing beim Testing-Badge-Supplier
-- [ ] US Shipments konkrete Schritte festlegen
-- [ ] PepStack Vendor Program strategisch bewerten (Max Berktold)
+
+- \[ \] KPV Supplier-Wechsel von ZY auf Testing-Badge-Supplier durchziehen
+- \[ \] BPC-157 + 5-Amino-1 Kapseln Sourcing beim Testing-Badge-Supplier
+- \[ \] US Shipments konkrete Schritte festlegen
+- \[ \] PepStack Vendor Program strategisch bewerten (Max Berktold)
 
 ## Abgeschlossene Meilensteine
 

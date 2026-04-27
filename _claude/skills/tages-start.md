@@ -117,3 +117,13 @@ Nach Antworten:
 - Inbox voll (5+ Items) → aktiv darauf hinweisen: "Du hast X unverarbeitete Sachen in der Inbox."
 - Letzter Log älter als 3 Tage → hinweisen.
 - Thesis-Deadline (2026-06-15) immer im Hinterkopf. Bei Energie ≥ 7 **und** Zeit ≥ 5 aktiv Thesis-Progress vorschlagen wenn nicht explizit anderes Fokus-Projekt genannt.
+
+## Vault-Writes
+
+Vor jedem .md-Write Pflicht-Lektuere:
+- [[vault-schreibkonventionen]] - WAS rein (Encoding, Umlaute, Naming, Gedankenstriche)
+- [[vault-schreibregeln]] - WIE schreiben (Tools, Rollback, Bug-Patterns)
+
+Kernregeln:
+- NIE Desktop Commander `write_file` oder `edit_block` fuer .md mit YAML-Frontmatter
+- Hex-Verify Pflicht nach jedem Write (erste 8 Bytes muessen `2D 2D 2D 0A` plus YAML-Key sein)

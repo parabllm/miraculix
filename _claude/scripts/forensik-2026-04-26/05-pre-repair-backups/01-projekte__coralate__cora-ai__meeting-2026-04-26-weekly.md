@@ -1,18 +1,6 @@
 ---
-typ: meeting
-name: "coralate Weekly 2026-04-26"
-projekt: "[[coralate]]"
-datum: 2026-04-26
-uhrzeit: "20:00-21:00"
-meet_link: "<https://meet.google.com/bcs-ictf-rcr>"
-teilnehmer: ["[[jann-allenberger]]", "[[lars-blum]]", "Deniz Özbek"]
-ist_transkript: false
-zusammenfassung: ""
-offene_punkte: []
-erstellt: 2026-04-26
-quelle: extrahiert
-vertrauen: extrahiert
----
+
+## typ: meeting name: "coralate Weekly 2026-04-26" projekt: "[[coralate]]" datum: 2026-04-26 uhrzeit: "20:00-21:00" meet_link: "<https://meet.google.com/bcs-ictf-rcr>" teilnehmer: \[[jann-allenberger]]", "[[lars-blum]]", "Deniz Özbek"\] ist_transkript: false zusammenfassung: "" offene_punkte: \[\] erstellt: 2026-04-26 quelle: extrahiert vertrauen: extrahiert
 
 ## Kontext
 

@@ -4,7 +4,7 @@ projekt: "[[pulsepeptides]]"
 name: "Lab Peptides"
 code: "LP"
 kontakt: "Lily"
-email: "lily@lab-peptides.com"
+email: "[lily@lab-peptides.com](mailto:lily@lab-peptides.com)"
 whatsapp: "+853 6351 4495"
 telegram: "+853 6351 4495"
 bestellkanal: "Telegram-Gruppe (LabPeptides x PulseP...)"
@@ -13,7 +13,7 @@ preisliste_anhang: "[[lab-peptides-pricelist-2026-01.pdf]]"
 zustaendig_fuer: ["Standard-Bestellungen", "Arg-BPC-157", "GLP-1-Klasse", "Khavinson-Peptide"]
 erstellt: 2026-04-23
 zuletzt_aktualisiert: 2026-04-23
-quelle: pdf_pricelist + voice_dump
+quelle: pdf_pricelist
 vertrauen: bestätigt
 ---
 
@@ -23,15 +23,12 @@ Hauptlieferant für Standard-Bestellungen. Schnelle Produktion. Kontakt: Lily.
 
 ## Kontakt
 
-| Kanal | Wert |
-|---|---|
-| Email | lily@lab-peptides.com |
-| WhatsApp / Telegram | +853 6351 4495 |
-| Bestellkanal Pulse | Telegram-Gruppe "LabPeptides x PulseP..." |
+KanalWertEmail[lily@lab-peptides.com](mailto:lily@lab-peptides.com)WhatsApp / Telegram+853 6351 4495Bestellkanal PulseTelegram-Gruppe "LabPeptides x PulseP..."
 
 ## Geschäftsbedingungen
 
 **China-Direktversand:**
+
 - Custom/Blend Peptides Preis = Summe der Einzelkomponenten zum USA-Preis, MOQ 5 Kits
 - Kein Free Shipping, kein Freebies
 - Stückpreis abhängig von Bestellmenge des Einzelprodukts (nicht Gesamtbestellung), nicht verhandelbar
@@ -41,6 +38,7 @@ Hauptlieferant für Standard-Bestellungen. Schnelle Produktion. Kontakt: Lily.
 - Versand: Fedex / EU Special Line / DHL / HK EMS
 
 **US-Direktversand (NJ oder CA-M Warehouse):**
+
 - Shipping: 2 bis 5 Tage via USPS oder UPS
 - Lead Time: 2 Werktage nach Payment
 - MOQ: NJ = 1 Kit/Item, CA-M = 10 Kits/Item
@@ -56,10 +54,7 @@ Hauptlieferant für Standard-Bestellungen. Schnelle Produktion. Kontakt: Lily.
 
 Beispiel-Template:
 
-> Hey, we'd like to order [Menge] x [Produkt] ([Spezifikation]).
-> Shipping to: [Adresse]
-> Please let us know the total and payment details.
-> Thanks!
+> Hey, we'd like to order [Menge] x [Produkt] ([Spezifikation]). Shipping to: [Adresse] Please let us know the total and payment details. Thanks!
 
 ## Erste Bestellung (2026-04-17)
 
@@ -76,6 +71,7 @@ Beispiel-Template:
 **Originaldokument:** [[lab-peptides-pricelist-2026-01.pdf]] in `_anhaenge/projekte/pulsepeptides/`
 
 **Preis-Spalten:**
+
 1. **USA Price** (USD) - Versand aus US-Warehouse, 1 bis 99 Vials / unter 10 Kits
 2. **China-Direkt 1 bis 99 Vials / unter 10 Kits** (USD)
 3. **China-Direkt 100 bis 2000 Vials / bis 200 Kits** (USD)

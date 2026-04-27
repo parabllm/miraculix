@@ -1,21 +1,6 @@
 ---
-typ: lieferant
-projekt: "[[pulsepeptides]]"
-name: "ZY Peptides"
-code: "ZY"
-kontakt: ""
-email: ""
-whatsapp: ""
-telegram: ""
-bestellkanal: ""
-preisliste_gueltig: ""
-preisliste_anhang: "[[zy-pricelist-2026-04.pdf]]"
-zustaendig_fuer: []
-erstellt: 2026-04-26
-zuletzt_aktualisiert: 2026-04-26
-quelle: pdf_pricelist
-vertrauen: angenommen
----
+
+## typ: lieferant projekt: "[[pulsepeptides]]" name: "ZY Peptides" code: "ZY" kontakt: "" email: "" whatsapp: "" telegram: "" bestellkanal: "" preisliste_gueltig: "" preisliste_anhang: "[[zy-pricelist-2026-04.pdf]]" zustaendig_fuer: \[\] erstellt: 2026-04-26 zuletzt_aktualisiert: 2026-04-26 quelle: pdf_pricelist vertrauen: angenommen
 
 # ZY Peptides
 

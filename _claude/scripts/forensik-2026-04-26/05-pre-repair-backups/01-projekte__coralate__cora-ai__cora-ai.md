@@ -1,26 +1,13 @@
 ---
-typ: sub-projekt
-name: "Cora AI"
-aliase: ["Cora", "Cora AI", "Cora Engine", "cora-engine"]
-ueber_projekt: "[[coralate]]"
-bereich: produkt
-umfang: offen
-status: in_arbeit
-lieferdatum: ""
-kapazitaets_last: hoch
-kontakte: ["[[jann-allenberger]]", "[[lars-blum]]"]
-tech_stack: ["supabase", "edge-functions", "postgres", "pgvector", "pgmq", "pg-cron", "vertex-ai", "gemini"]
-erstellt: 2026-04-18
-notizen: "AI-Schicht von Coralate. Positionierung zwischen Korrelations-Engine (Vault) und Fitness-Coach (DB) aktuell nicht konsolidiert. Siehe Diskrepanzen-Doku."
-quelle: extrahiert
-vertrauen: extrahiert
----
+
+## typ: sub-projekt name: "Cora AI" aliase: \["Cora", "Cora AI", "Cora Engine", "cora-engine"\] ueber_projekt: "[[coralate]]" bereich: produkt umfang: offen status: in_arbeit lieferdatum: "" kapazitaets_last: hoch kontakte: \[[jann-allenberger]]", "[[lars-blum]]"\] tech_stack: \["supabase", "edge-functions", "postgres", "pgvector", "pgmq", "pg-cron", "vertex-ai", "gemini"\] erstellt: 2026-04-18 notizen: "AI-Schicht von Coralate. Positionierung zwischen Korrelations-Engine (Vault) und Fitness-Coach (DB) aktuell nicht konsolidiert. Siehe Diskrepanzen-Doku." quelle: extrahiert vertrauen: extrahiert
 
 ## Kontext
 
 AI-Schicht von Coralate. Liest User-Daten (Workouts, Ernährung, Aktivität, Profil, Facts) und produziert strukturierte Outputs für die App. Backend via Supabase Edge Function `cora-engine`, LLM via Vertex AI Gemini 2.5 Flash in `europe-west4`.
 
 **Zwei parallele Wahrheiten aktuell:**
+
 - Vault-Positionierung: Korrelations-Engine, 3 Modi, 4 Action-Typen, kein Coach, harte SaMD-Abgrenzung.
 - DB-Stand: Fitness-Coach, 6 Trigger, 19 Action-Typen, 5 Coach-Prompts.
 
@@ -41,12 +28,7 @@ Konsolidierung steht aus. Siehe [[diskrepanzen]] und [[meeting-2026-04-18-cora-a
 
 ## Vier Action-Button-Typen (Vault-Lock)
 
-| Typ | Wann |
-|---|---|
-| GEWICHT_ANPASSEN | Performance hoch, Ziel Kraft oder Masse |
-| VOLUMEN_ANPASSEN | Performance niedrig oder Volumen zu hoch |
-| FOOD_SCREEN_OEFFNEN | Kaloriendefizit zu groß für Ziel |
-| VARIATION_VORSCHLAGEN | Stagnation bei Übung ab 3 Wochen |
+TypWannGEWICHT_ANPASSENPerformance hoch, Ziel Kraft oder MasseVOLUMEN_ANPASSENPerformance niedrig oder Volumen zu hochFOOD_SCREEN_OEFFNENKaloriendefizit zu groß für ZielVARIATION_VORSCHLAGENStagnation bei Übung ab 3 Wochen
 
 ## DB-Stand (Ist)
 
