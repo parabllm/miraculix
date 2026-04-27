@@ -138,21 +138,28 @@ Get-ChildItem -Path $VaultRoot -Recurse -File -Filter "*.md" -ErrorAction Silent
         $body = $matches[2]
     }
 
-    # === PATTERN B: Multi-Line-YAML zu Single-Line kollabiert (flat-FM) ===
-    # Strikteste Heuristik gegen FPs aus legitimen notizen: Multi-Line-Strings:
-    #   - Linestart-Keys (Keys am Zeilenanfang) <= 1
-    #   - UND Total-Key-Hits (Key-Pattern in FM) >= 4
-    # Klassischer Pattern-B-Fall: alle Keys auf einer Zeile, also nur 0-1 linestart-key.
-    # Legit-Fall (notizen mit Colons): typ/name/datum/notizen am Linestart >= 2, also nicht flagged.
+    # === PATTERN B: Empty-line-after-FM-open ===
+    # Saubere FM startet mit `---\n` direkt gefolgt von erstem YAML-Key.
+    # Korruption: `---\n\n<content>` (doppelter Newline) - egal ob Pattern A (## ) oder
+    # flat-FM (key: val key: val). Beides Bug-Signature.
+    # Pattern A wird oben separat detected (## prefix). Pattern B faengt alle anderen Faelle.
     $patternBHit = $false
     $patternBDetail = ""
-    if ($frontmatter.Length -gt 0) {
+    $patternB_LF   = $first8Hex.StartsWith('2D 2D 2D 0A 0A') -and -not $patternA_LF
+    $patternB_CRLF = $first8Hex.StartsWith('2D 2D 2D 0D 0A 0D 0A') -and -not $patternA_CRLF
+    if ($patternB_LF -or $patternB_CRLF) {
+        $patternBHit = $true
+        $patternBDetail = "Empty-line-after-FM-open: $first8Hex"
+    }
+    # Zusaetzlich: Squeezed-FM-Heuristik fuer Faelle wo erste Bytes nicht treffen
+    # (z.B. CRLF mit Mischformen)
+    elseif ($frontmatter.Length -gt 0) {
         $fmLinestartKeys = ([regex]::Matches($frontmatter, '(?m)^[a-zA-Z_][a-zA-Z0-9_]*:\s')).Count
-        $fmTotalKeyHits = ([regex]::Matches($frontmatter, '(?:^|\s)[a-zA-Z_][a-zA-Z0-9_]{2,}:\s\S')).Count
-
+        # Robusterer total-Key-Counter mit lookbehind statt greedy boundary
+        $fmTotalKeyHits = ([regex]::Matches($frontmatter, '(?<=^|\s)[a-zA-Z_][a-zA-Z0-9_]{2,}:')).Count
         if ($fmLinestartKeys -le 1 -and $fmTotalKeyHits -ge 4) {
             $patternBHit = $true
-            $patternBDetail = "Flat-FM: $fmLinestartKeys linestart-keys, $fmTotalKeyHits total-keys"
+            $patternBDetail = "Flat-FM-Heuristik: $fmLinestartKeys linestart-keys, $fmTotalKeyHits total-keys"
         }
     }
     if ($patternBHit) {

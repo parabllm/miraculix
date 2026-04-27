@@ -2,7 +2,6 @@
 name: miraculix-wissens-destillation
 description: Triggered implicitly during "log" when Deniz wraps up work. Also explicitly when Deniz says "destilliere das", "das ist ein Pattern", "speicher das als transferable". Use this skill to detect patterns that have occurred 2+ times across different projects and propose a knowledge entry in 02-wissen/. Applies 3-phase model: first occurrence stays as log, second triggers destillation with "abgeleitet" trust, third upgrades to "bestaetigt". Special rules for architecture decisions, debug fixes, tool docs - can be destilled on first occurrence. Always propose first, never auto-write.
 ---
-
 # Wissens-Destillation
 
 Destilliere gelöste Probleme zu Wissens-Einträgen. Filter: Wiederholung.
