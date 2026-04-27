@@ -10,7 +10,8 @@ projekte: ["[[bachelor-thesis]]"]
 email: ""
 telefon: ""
 wie_kennengelernt: "Eigenrecherche LinkedIn für Thesis-Interview"
-notizen: "Thesis-Interview-Kandidat. Externer Kontakt über LinkedIn. Cluster: Extern. Erkenntnisinteresse: KI im Recruiting aus externer Perspektive. LinkedIn-Profil vor Versand prüfen und Template konkretisieren. Interview-Status: offen."
+notizen: |-
+  Thesis-Interview-Kandidat. Externer Kontakt über LinkedIn. Cluster: Extern. Erkenntnisinteresse: KI im Recruiting aus externer Perspektive. LinkedIn-Profil vor Versand prüfen und Template konkretisieren. Interview-Status: offen.
 erstellt: 2026-04-16
 vertrauen: extrahiert
 quelle: notion_migration

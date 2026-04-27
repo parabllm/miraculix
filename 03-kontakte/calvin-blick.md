@@ -10,7 +10,8 @@ projekte: ["[[herosoftware]]"]
 email: ""
 telefon: ""
 wie_kennengelernt: "Über Robin Kronshagen als dessen Chef bei HeroSoftware"
-notizen: "Robin Kronshagens Chef bei HeroSoftware. Führt zusätzlich eigene Firma Blick Solutions. Hat Martin Herd aus Blick Solutions für die HeroSoft-Skript-Übernahme entsendet. Attio Workspace Member ID: 5a60de25-f010-4f60-81bf-8e0a03930db1."
+notizen: |-
+  Robin Kronshagens Chef bei HeroSoftware. Führt zusätzlich eigene Firma Blick Solutions. Hat Martin Herd aus Blick Solutions für die HeroSoft-Skript-Übernahme entsendet. Attio Workspace Member ID: 5a60de25-f010-4f60-81bf-8e0a03930db1.
 erstellt: 2026-04-21
 vertrauen: bestätigt
 quelle: martin_call_2026-04-21

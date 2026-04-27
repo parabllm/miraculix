@@ -6,7 +6,7 @@ bereich: persoenlich
 umfang: offen
 status: aktiv
 erstellt: 2026-04-24
-zuletzt_aktualisiert: 2026-04-24
+zuletzt_aktualisiert: 2026-04-27
 quelle: chat_session
 vertrauen: bestätigt
 notizen: "Zentrales Rohmaterial-Archiv für Kommunikations-Threads (E-Mail, Slack, WhatsApp, Teams). Dient als Pool für spätere Skill-Destillation."
@@ -74,7 +74,7 @@ kommunikation-referenzen/
 | Kanal | Anzahl | Projekte |
 |---|---|---|
 | email | 1 | bachelor-thesis |
-| slack | 9 | pulsepeptides |
+| slack | 11 | pulsepeptides |
 | whatsapp | 0 | - |
 | teams | 0 | - |
 
@@ -88,11 +88,13 @@ kommunikation-referenzen/
 - [[2026-04-11_christian_kpv-stock-kommunikation]] - KPV Stock Kunden-Info
 - [[2026-04-16_christian_telefonnummer-austausch-dm]] - DM, Kontakt-Austausch
 - [[2026-04-20_christian_affiliate-1k-follower-cap]] - 1k Follower Cap Policy
-- [[2026-04-20_christian_prostamax-custom-order]] - Custom Order Status + Handlung
+- [[2026-04-20_christian_prostamax-custom-order]] - Custom Order Status + Handlung, Folge-Antwort 27.04. (mg)
 - [[2026-04-20_christian_reta-lab-test]] - Axon-COA Entscheidung (Messenger)
 - [[2026-04-20_christian-kalani_us-market-shipments]] - US-Shipment Position
 - [[2026-04-20_kalani_kpv-position-dm]] - DM, strategische Rückfrage Deutsch
 - [[2026-04-23_christian_pepspan-bulk-pricing]] - Bulk-Pricing Review-Schleife
+- [[2026-04-24_christian_affiliate-free-samples]] - Free-Sample-Anfrage abgelehnt, Standard-Affiliate-Terms
+- [[2026-04-27_christian_credit-card-processor]] - Credit Card Processor Status, "available soon"
 
 ## Destillations-Kandidaten
 

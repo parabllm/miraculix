@@ -1,6 +1,11 @@
 ---
 name: miraculix-drive-eingang-holen
-description: Triggered when Deniz says "hol den eingang aus dem drive", "drive pull", "drive eingang holen", "zieh den drive eingang", "sync drive inbox", or similar. Pulls all files from the Google Drive folder `Miraculix_Eingang/` down to the local vault `00-eingang/unverarbeitet/`, deletes them from Drive (so the Drive inbox ends up empty), reports what was moved, and offers to chain directly into the `eingang-verarbeiten` digest skill. Works only on PC (Claude Code or Claude Desktop App with filesystem+shell MCPs). From Claude Mobile this skill explains that the pull is not possible from the phone and advises to trigger the pull at the PC.
+description: |-
+  Triggered when Deniz says "hol den eingang aus dem drive", "drive pull", "drive eingang holen", "zieh den drive eingang", "sync drive inbox", or similar.
+  
+  Pulls all files from the Google Drive folder `Miraculix_Eingang/` down to the local vault `00-eingang/unverarbeitet/`, deletes them from Drive (so the Drive inbox ends up empty), reports what was moved, and offers to chain directly into the `eingang-verarbeiten` digest skill.
+  
+  Works only on PC (Claude Code or Claude Desktop App with filesystem+shell MCPs). From Claude Mobile this skill explains that the pull is not possible from the phone and advises to trigger the pull at the PC.
 ---
 
 # Drive-Eingang holen

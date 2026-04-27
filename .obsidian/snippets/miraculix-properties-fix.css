@@ -1,0 +1,119 @@
+/* miraculix-properties-fix.css
+   
+   Zwei Probleme:
+   1. Properties-Plugin-Anzeige: lange description-Felder nicht hervorheben
+   2. Live-Preview Frontmatter-Code-Block: rotes Highlight entfernen
+   
+   Ziel: Skill-Files mit langem description: sehen aus wie kurze Daten-Files.
+*/
+
+/* ============================================================ */
+/* 1. PROPERTIES-PLUGIN VIEW (Reading-Mode-Style)               */
+/* ============================================================ */
+
+.metadata-container,
+.metadata-properties-heading,
+.metadata-property,
+.metadata-property-key,
+.metadata-property-value {
+  color: var(--text-normal) !important;
+}
+
+/* Erstes Zeichen eines Property-Values nicht hervorheben */
+.metadata-property-value::first-letter,
+.metadata-property-value > *::first-letter,
+.metadata-input-text:first-letter,
+.metadata-input-longtext:first-letter {
+  background: transparent !important;
+  color: inherit !important;
+  font-weight: inherit !important;
+  text-decoration: none !important;
+  padding: 0 !important;
+}
+
+/* description und name: klein, grau, abgeschnitten, Hover zeigt voll */
+.metadata-property[data-property-key="description"],
+.metadata-property[data-property-key="name"] {
+  font-size: 0.75em !important;
+  opacity: 0.45 !important;
+  font-family: var(--font-monospace) !important;
+  transition: opacity 0.2s ease !important;
+}
+
+.metadata-property[data-property-key="description"]:hover,
+.metadata-property[data-property-key="name"]:hover {
+  opacity: 1 !important;
+}
+
+.metadata-property[data-property-key="description"] .metadata-property-value,
+.metadata-property[data-property-key="name"] .metadata-property-value {
+  white-space: pre-wrap !important;
+  word-break: break-word !important;
+  max-height: 2.4em !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  color: var(--text-faint) !important;
+}
+
+.metadata-property[data-property-key="description"]:hover .metadata-property-value,
+.metadata-property[data-property-key="name"]:hover .metadata-property-value {
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+/* ============================================================ */
+/* 2. LIVE-PREVIEW & SOURCE-MODE Frontmatter-Code-Block          */
+/* ============================================================ */
+
+/* Das ist der Hauptfix: Live-Preview rendert Frontmatter als 
+   roten Code-Block, das ist optisch wie Pattern-A-Bug aussieht 
+   obwohl die Datei sauber ist. Hier neutralisieren. */
+
+.cm-line.HyperMD-codeblock-bg.HyperMD-frontmatter,
+.cm-line.HyperMD-frontmatter,
+.cm-hmd-frontmatter,
+.cm-def.cm-hmd-frontmatter,
+.cm-hmd-frontmatter.cm-string,
+.cm-hmd-frontmatter.cm-atom,
+.cm-hmd-frontmatter.cm-meta {
+  color: var(--text-muted) !important;
+  background-color: transparent !important;
+  font-family: var(--font-monospace) !important;
+  font-size: 0.8em !important;
+  opacity: 0.6 !important;
+}
+
+.cm-line.HyperMD-codeblock-bg.HyperMD-frontmatter:hover,
+.cm-line.HyperMD-frontmatter:hover {
+  opacity: 1 !important;
+}
+
+/* Reading-Mode YAML-Block */
+.markdown-rendered code.frontmatter-code,
+.markdown-rendered pre.frontmatter-code,
+.frontmatter-container {
+  color: var(--text-muted) !important;
+  background-color: var(--background-secondary) !important;
+  font-size: 0.8em !important;
+  opacity: 0.6 !important;
+}
+
+.markdown-rendered code.frontmatter-code:hover,
+.markdown-rendered pre.frontmatter-code:hover,
+.frontmatter-container:hover {
+  opacity: 1 !important;
+}
+
+/* Falls Obsidian Frontmatter mit cm-string-Syntax-Highlight rendert */
+.cm-s-obsidian span.cm-hmd-frontmatter,
+.cm-s-obsidian span.cm-hmd-frontmatter.cm-string,
+.cm-s-obsidian span.cm-hmd-frontmatter.cm-atom {
+  color: var(--text-muted) !important;
+  background: transparent !important;
+}
+
+/* Unterstreichungen unter Hyperlinks im Frontmatter (mailto: etc) entfernen */
+.cm-hmd-frontmatter a,
+.metadata-property a {
+  text-decoration: none !important;
+}

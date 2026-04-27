@@ -10,7 +10,8 @@ projekte: ["[[bachelor-thesis]]"]
 email: "anna.lüttgen@hays.de"
 telefon: ""
 wie_kennengelernt: "Empfohlen von Christine Kampmann (17.03.2026) für Bachelor-Thesis Interview"
-notizen: "Thesis-Interview-Kandidatin. Cluster: Strategie / Director-Level. Rolle bei HAYS: Director/VP Recruiting. Ist Christines direkte Vorgesetzte. Befreundet mit Christine, enger Draht. Ansatz: nicht kalt anschreiben, sondern Christine bitten Anna anzusprechen. Interview-Status: offen, wartet auf Christine-Vermittlung."
+notizen: |-
+  Thesis-Interview-Kandidatin. Cluster: Strategie / Director-Level. Rolle bei HAYS: Director/VP Recruiting. Ist Christines direkte Vorgesetzte. Befreundet mit Christine, enger Draht. Ansatz: nicht kalt anschreiben, sondern Christine bitten Anna anzusprechen. Interview-Status: offen, wartet auf Christine-Vermittlung.
 erstellt: 2026-04-16
 zuletzt_aktualisiert: 2026-04-20
 vertrauen: bestätigt

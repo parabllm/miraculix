@@ -4,7 +4,7 @@ projekt: "[[pulsepeptides]]"
 thema: produkte
 status: aktiv
 erstellt: 2026-04-17
-zuletzt_aktualisiert: 2026-04-20
+zuletzt_aktualisiert: 2026-04-27
 vertrauen: extrahiert
 quelle: metorik_export
 ---
@@ -12,6 +12,8 @@ quelle: metorik_export
 # Produkte
 
 Quelle: Metorik CSV-Export, Stand 2026-04-17. Alle Preise in EUR.
+
+**Pricing-Architektur:** Diese File enthaelt nur **Retail-Preise** (Endkunden-Shop). Bulk-Pricing fuer B2B/Wholesale siehe [[bulk-pricing]] (in Ueberarbeitung). B2B-Policy/Linie siehe [[support-eskalation]] Section "Bulk-Pricing / B2B-Anfragen".
 
 ## Produktübersicht
 

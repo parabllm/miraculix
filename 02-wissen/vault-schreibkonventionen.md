@@ -32,6 +32,33 @@ Verbindliche Regeln für Schreibweise, Encoding und Datei-Handling im Miraculix-
 - Ausnahme: in Code-Blöcken erlaubt
 - Ausnahme: in explizit markierten Negativ-Beispielen (z.B. in Stil-Doku)
 
+## Lange Frontmatter-String-Werte (>100 chars)
+
+Frontmatter-Werte mit mehr als ca. 100 Zeichen muessen YAML-Block-Syntax `|-` mit 2-Space-Einrueckung verwenden, niemals als einzeilige Zuweisung.
+
+Begruendung: Obsidian rendert lange einzeilige Werte als roten Code-Block, sieht visuell aus wie Pattern-A-Korruption, ist aber nur ein Display-Effekt. Mit Block-Syntax rendert Obsidian sauber als Multi-Line-Property in der Properties-View.
+
+Korrekt:
+```yaml
+notizen: |-
+  Erste Zeile mit Inhalt.
+  
+  Zweiter Absatz wenn die Notiz lang ist.
+```
+
+Falsch:
+```yaml
+notizen: Sehr langer Text in einer Zeile der dann als roter Code-Block gerendert wird und falsch wie ein Bug aussieht.
+```
+
+Ausnahmen (kein Block-Syntax noetig):
+- Listen: `aliase: ["A", "B"]`
+- Wikilink-Arrays: `projekte: ["[[xy]]"]`
+- Datums-Strings: `erstellt: 2026-04-27`
+- Kurze Werte (unter 100 chars): einzeilig OK
+
+Schwelle 100 chars ist konservativ. Echte Display-Probleme starten ab ~200 chars. Aktuelles Audit (V3-Hardening 2026-04-27) hat alle Files >200 chars migriert. Files 100-200 chars optional.
+
 ## Archivierung und Datei-Operationen
 
 **Beim Archivieren oder Verschieben wird der Dateiname NICHT verändert.**

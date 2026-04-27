@@ -11,7 +11,8 @@ hauptkontakt: "[[eris-osmani-wiedmeier]]"
 kontakte: ["[[eris-osmani-wiedmeier]]"]
 tech_stack: ["framer", "n8n"]
 erstellt: 2026-04-22
-notizen: "Familienunternehmen der Familie Wiedmeier in Brühl (Baden). Eris ist Sohn der Inhaber, strebt analog zu Maddox bei BellaVie in die Geschäftsführung. Aktueller Scope: Website MVP bauen und präsentieren. Perspektivisch Automatisierungen in Personalverwaltung und Personalkommunikation."
+notizen: |-
+  Familienunternehmen der Familie Wiedmeier in Brühl (Baden). Eris ist Sohn der Inhaber, strebt analog zu Maddox bei BellaVie in die Geschäftsführung. Aktueller Scope: Website MVP bauen und präsentieren. Perspektivisch Automatisierungen in Personalverwaltung und Personalkommunikation.
 quelle: gespräch_eris_2026-04-22
 vertrauen: bestätigt
 ---

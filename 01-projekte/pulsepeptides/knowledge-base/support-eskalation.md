@@ -4,7 +4,7 @@ projekt: "[[pulsepeptides]]"
 thema: support-eskalation
 status: aktiv
 erstellt: 2026-04-17
-zuletzt_aktualisiert: 2026-04-24
+zuletzt_aktualisiert: 2026-04-27
 vertrauen: bestätigt
 quelle: slack_logs + kalani_call_2026-04-23 + kalani_call_2026-04-24
 ---
@@ -71,6 +71,8 @@ Christian meldet Kundenwunsch in #custom-order-requests wenn Produkt nicht im Sh
 
 **Trigger:** Anfragen von Firmen die als Distributor, Reseller oder Wholesale-Partner auftreten wollen. Beispiele: Pepspan Ltd, potentielle zukünftige B2B-Partner.
 
+**Aktuelle Pricing-Liste:** [[bulk-pricing]] (Christians v2, Stand 2026-04-27, Überarbeitung durch Deniz pending). NICHT direkt rausschicken, erst nach Review.
+
 **Linie Pulse (Stand Call Kalani 2026-04-23):**
 
 - **Tier-Pricing:** ab 300+ Vials pro SKU, darunter aktuell kein Bulk-Tier
@@ -87,7 +89,7 @@ Christian meldet Kundenwunsch in #custom-order-requests wenn Produkt nicht im Sh
 3. Deniz reviewt Liste und formuliert finale Antwort
 4. Deniz oder Christian schickt raus
 
-**Offener Fall Pepspan Ltd (Mikel Gastaminza):** siehe Meeting-Note [[2026-04-23-kalani-coo-call]], Block A. Bulk-Pricing-Liste von Christian anfordern vor Antwort.
+**Offener Fall Pepspan Ltd (Mikel Gastaminza):** siehe Meeting-Note [[2026-04-23-kalani-coo-call]], Block A. Christians Liste vom 2026-04-27 liegt vor (siehe [[bulk-pricing]]), Deniz muss sie überarbeiten bevor sie rausgeht.
 
 ---
 

@@ -5,7 +5,8 @@ projekt: "[[cora-ai]]"
 datum: 2026-04-18
 teilnehmer: ["[[jann-allenberger]]", "[[lars-blum]]", "Deniz Özbek"]
 ist_transkript: false
-zusammenfassung: "Positionierung auf breiten Fitness-Coach festgezogen (Option B). Feature-Set so weit wie möglich: Workout-Änderungen, Empfehlungen, Planung, Chat-Interface testweise, Freundesfunktion. Trigger bleibt post/pre_workout über Context Builder."
+zusammenfassung: |-
+  Positionierung auf breiten Fitness-Coach festgezogen (Option B). Feature-Set so weit wie möglich: Workout-Änderungen, Empfehlungen, Planung, Chat-Interface testweise, Freundesfunktion. Trigger bleibt post/pre_workout über Context Builder.
 offene_punkte: ["SaMD-Analyse obligatorisch", "Launch-Scope konkret priorisieren", "Chat-Interface Scope definieren", "Freunde + GDPR klären"]
 erstellt: 2026-04-18
 quelle: extrahiert

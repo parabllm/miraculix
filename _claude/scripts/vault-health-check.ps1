@@ -106,10 +106,25 @@ Get-ChildItem -Path $VaultRoot -Recurse -File -Filter "*.md" -ErrorAction Silent
     $startBytes = if ($bytes.Length -ge ($offset + 8)) { $bytes[$offset..($offset+7)] } else { $bytes[$offset..($bytes.Length-1)] }
     $first8Hex = ($startBytes | ForEach-Object { '{0:X2}' -f $_ }) -join ' '
 
-    # === PATTERN A: Frontmatter zu Heading kollabiert ===
-    # Hex: 2D 2D 2D 0A 0A 23 23 (LF-Variant) oder 2D 2D 2D 0D 0A 0D 0A 23 (CRLF-Variant)
-    $patternA_LF   = $first8Hex -eq '2D 2D 2D 0A 0A 23 23 20'
-    $patternA_CRLF = $first8Hex -eq '2D 2D 2D 0D 0A 0D 0A 23'
+    # === PATTERN A + B Detection (beide Modi) ===
+    # Saubere FM: 2D 2D 2D 0A <yaml-key>...    bzw  2D 2D 2D 0D 0A <yaml-key>...
+    # Korruption: Empty-line nach FM-Open (---\n\n... bzw ---\r\n\r\n...)
+    #   Pattern A: Empty-line gefolgt von Markdown-Heading (##) -> "FM zu Heading kollabiert"
+    #   Pattern B: Empty-line gefolgt von beliebigem anderen Inhalt (z.B. flat-FM, normaler Text)
+    # Beide werden in Quick UND Full erkannt damit Auto-Push-Pre-Check nichts durchlaesst.
+    $startsEmptyLine_LF   = $first8Hex.StartsWith('2D 2D 2D 0A 0A')
+    $startsEmptyLine_CRLF = $first8Hex.StartsWith('2D 2D 2D 0D 0A 0D 0A')
+
+    # Pattern A LF: nach `---\n\n` kommen 2x `#` (Bytes 5+6). Zeichen danach egal (Space, Newline, Buchstabe).
+    $patternA_LF = $startsEmptyLine_LF -and $first8Hex.StartsWith('2D 2D 2D 0A 0A 23 23')
+    # Pattern A CRLF: nach `---\r\n\r\n` (7 Bytes) kommt `##` - bytes 7+8. First8Hex zeigt nur Byte 7.
+    # Byte 7 muss `#` sein (= im first8Hex). Byte 8 (nicht in first8Hex) muss auch `#` sein.
+    $patternA_CRLF = $false
+    if ($startsEmptyLine_CRLF -and $first8Hex.StartsWith('2D 2D 2D 0D 0A 0D 0A 23')) {
+        if ($bytes.Length -gt ($offset + 8) -and $bytes[$offset + 8] -eq 0x23) {
+            $patternA_CRLF = $true
+        }
+    }
 
     if ($patternA_LF -or $patternA_CRLF) {
         $findings += [PSCustomObject]@{
@@ -120,48 +135,18 @@ Get-ChildItem -Path $VaultRoot -Recurse -File -Filter "*.md" -ErrorAction Silent
             mtime    = $_.LastWriteTime.ToString("yyyy-MM-dd HH:mm:ss")
             size     = $bytes.Length
         }
-        # Pattern A wird in Quick und Full geprueft
     }
 
-    # Im Quick-Modus aufhoeren wenn nur Pattern A geprueft wird
-    if ($Quick) { return }
-
-    # === FULL-MODE: zusaetzliche Patterns ===
-
-    $content = [System.Text.Encoding]::UTF8.GetString($bytes, $offset, $bytes.Length - $offset)
-
-    # Frontmatter und Body trennen
-    $frontmatter = ""
-    $body = $content
-    if ($content -match '^(?s)---\r?\n(.*?)\r?\n---\r?\n(.*)$') {
-        $frontmatter = $matches[1]
-        $body = $matches[2]
-    }
-
-    # === PATTERN B: Empty-line-after-FM-open ===
-    # Saubere FM startet mit `---\n` direkt gefolgt von erstem YAML-Key.
-    # Korruption: `---\n\n<content>` (doppelter Newline) - egal ob Pattern A (## ) oder
-    # flat-FM (key: val key: val). Beides Bug-Signature.
-    # Pattern A wird oben separat detected (## prefix). Pattern B faengt alle anderen Faelle.
+    # Pattern B: empty-line-after-FM-open ohne ##-Heading-Pattern
     $patternBHit = $false
     $patternBDetail = ""
-    $patternB_LF   = $first8Hex.StartsWith('2D 2D 2D 0A 0A') -and -not $patternA_LF
-    $patternB_CRLF = $first8Hex.StartsWith('2D 2D 2D 0D 0A 0D 0A') -and -not $patternA_CRLF
+    $patternB_LF   = $startsEmptyLine_LF   -and -not $patternA_LF
+    $patternB_CRLF = $startsEmptyLine_CRLF -and -not $patternA_CRLF
     if ($patternB_LF -or $patternB_CRLF) {
         $patternBHit = $true
         $patternBDetail = "Empty-line-after-FM-open: $first8Hex"
     }
-    # Zusaetzlich: Squeezed-FM-Heuristik fuer Faelle wo erste Bytes nicht treffen
-    # (z.B. CRLF mit Mischformen)
-    elseif ($frontmatter.Length -gt 0) {
-        $fmLinestartKeys = ([regex]::Matches($frontmatter, '(?m)^[a-zA-Z_][a-zA-Z0-9_]*:\s')).Count
-        # Robusterer total-Key-Counter mit lookbehind statt greedy boundary
-        $fmTotalKeyHits = ([regex]::Matches($frontmatter, '(?<=^|\s)[a-zA-Z_][a-zA-Z0-9_]{2,}:')).Count
-        if ($fmLinestartKeys -le 1 -and $fmTotalKeyHits -ge 4) {
-            $patternBHit = $true
-            $patternBDetail = "Flat-FM-Heuristik: $fmLinestartKeys linestart-keys, $fmTotalKeyHits total-keys"
-        }
-    }
+
     if ($patternBHit) {
         $findings += [PSCustomObject]@{
             pfad     = $rel
@@ -170,6 +155,50 @@ Get-ChildItem -Path $VaultRoot -Recurse -File -Filter "*.md" -ErrorAction Silent
             detail   = $patternBDetail
             mtime    = $_.LastWriteTime.ToString("yyyy-MM-dd HH:mm:ss")
             size     = $bytes.Length
+        }
+    }
+
+    # Im Quick-Modus aufhoeren - Pattern C/G/leer/Wikilinks brauchen volle Inhalts-Analyse
+    if ($Quick) { return }
+
+    # === FULL-MODE: zusaetzliche Patterns ===
+
+    $content = [System.Text.Encoding]::UTF8.GetString($bytes, $offset, $bytes.Length - $offset)
+
+    # Frontmatter und Body trennen
+    # Edge-Case: Body-Markdown-Tabellen wie ---|---|---| nicht mit FM-Schluss verwechseln.
+    # Stattdessen line-by-line: erste Zeile ist `---`, suche naechste Zeile die EXAKT `---` ist.
+    $frontmatter = ""
+    $body = $content
+    $lines = $content -split "`r?`n"
+    if ($lines.Length -gt 0 -and $lines[0] -eq '---') {
+        for ($i = 1; $i -lt $lines.Length; $i++) {
+            if ($lines[$i] -eq '---') {
+                $frontmatter = ($lines[1..($i-1)] -join "`n")
+                if ($i + 1 -lt $lines.Length) {
+                    $body = ($lines[($i+1)..($lines.Length-1)] -join "`n")
+                } else {
+                    $body = ""
+                }
+                break
+            }
+        }
+    }
+
+    # === Squeezed-FM-Heuristik (Fallback fuer Mischformen die nicht durch Hex-Bytes
+    # erkannt wurden, z.B. Pattern B mit Whitespace-Variationen) ===
+    if (-not $patternBHit -and -not $patternA_LF -and -not $patternA_CRLF -and $frontmatter.Length -gt 0) {
+        $fmLinestartKeys = ([regex]::Matches($frontmatter, '(?m)^[a-zA-Z_][a-zA-Z0-9_]*:\s')).Count
+        $fmTotalKeyHits = ([regex]::Matches($frontmatter, '(?<=^|\s)[a-zA-Z_][a-zA-Z0-9_]{2,}:')).Count
+        if ($fmLinestartKeys -le 1 -and $fmTotalKeyHits -ge 4) {
+            $findings += [PSCustomObject]@{
+                pfad     = $rel
+                pattern  = 'B'
+                severity = 'SEVERE'
+                detail   = "Flat-FM-Heuristik: $fmLinestartKeys linestart-keys, $fmTotalKeyHits total-keys"
+                mtime    = $_.LastWriteTime.ToString("yyyy-MM-dd HH:mm:ss")
+                size     = $bytes.Length
+            }
         }
     }
 

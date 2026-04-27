@@ -1,6 +1,11 @@
 ---
 name: miraculix-audio-verarbeiten
-description: Triggered when Deniz says "audio verarbeiten", "transkribiere die audio", "transkribiere audio aus eingang", or when called from miraculix-eingang-verarbeiten with an audio file. Converts audio (any format) to MP3 via ffmpeg, archives MP3 in _anhaenge/audio-files/, calls transcribe.py to generate transcript via ElevenLabs Scribe v2, places transcript in 00-eingang/transkripte/. After successful transcription, asks if Deniz wants to chain into transkript-verarbeiten.
+description: |-
+  Triggered when Deniz says "audio verarbeiten", "transkribiere die audio", "transkribiere audio aus eingang", or when called from miraculix-eingang-verarbeiten with an audio file.
+  
+  Converts audio (any format) to MP3 via ffmpeg, archives MP3 in _anhaenge/audio-files/, calls transcribe.py to generate transcript via ElevenLabs Scribe v2, places transcript in 00-eingang/transkripte/.
+  
+  After successful transcription, asks if Deniz wants to chain into transkript-verarbeiten.
 ---
 
 # Audio-Verarbeiten

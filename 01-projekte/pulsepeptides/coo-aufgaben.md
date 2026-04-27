@@ -4,7 +4,7 @@ projekt: "[[pulsepeptides]]"
 thema: coo-aufgaben
 status: in_arbeit
 erstellt: 2026-04-17
-zuletzt_aktualisiert: 2026-04-23
+zuletzt_aktualisiert: 2026-04-27
 vertrauen: extrahiert
 quelle: voice_dump
 ---
@@ -77,6 +77,7 @@ Wird iterativ befüllt. Jede Aufgabe bekommt einen Status und einen Log-Verweis 
 
 - **Status:** Kalani dran, Zieldatum Mai 2026
 - **Aufgabe Deniz:** Übergabe-Prozess mit Kai vorbereiten, was ändert sich operativ
+- **Inquiry erhalten 2026-03-30:** Maman Euro Logistic s.r.o. (Cheb, CZ). Indikatives Preisangebot für 20 m² Setup, CZK-Pricing. Alle Details, TBD-Liste und Next Steps in [[lager-tschechien]]. PDF unter `_anhaenge/projekte/pulsepeptides/2026-03-30-maman-euro-logistic-angebot.pdf`.
 
 ### Domain-Transfer
 
@@ -100,12 +101,14 @@ Wird iterativ befüllt. Jede Aufgabe bekommt einen Status und einen Log-Verweis 
 
 ### Bulk-Pricing-Liste B2B überarbeiten
 
-- **Status:** offen, neu 2026-04-23
+- **Status:** Liste eingegangen 2026-04-27, Überarbeitung läuft
 - **Problem:** Pepspan-Anfrage (Mikel Gastaminza) hat gezeigt dass aktuelle Bulk-Pricing-Liste überarbeitet werden muss bevor wir sauber an B2B-Partner kommunizieren können.
+- **Aktuelle Liste:** Christians v2 vom 2026-04-27, vollständig dokumentiert in [[bulk-pricing]] inkl. Konflikte mit Kalani-Linie und 9-Punkte-Review-Liste.
 - **Aufgabe:**
-  - Aktuelle Liste von Christian einholen
-  - Reviewen und überarbeiten (Tier ab 300+ Vials)
+  - ~~Aktuelle Liste von Christian einholen~~ erledigt 2026-04-27
+  - Reviewen und überarbeiten (Konflikt: Christians Tiers ab 10+, Kalani-Linie ab 300+, siehe [[bulk-pricing]])
   - Interne Linie festlegen: Private-Label nein, unlabeled Vials ja, Lead 5 oder 21 Tage je nach Lager, BPC-157 Kapseln erst in 30 Tagen
+  - Eigene v3 erstellen die mit Kalani-Linie konsistent ist
   - Als Standard-Dokument ablegen für zukünftige B2B-Anfragen
 - **Offener Fall:** Pepspan Ltd (siehe Meeting-Note [[2026-04-23-kalani-coo-call]], Block A)
 

@@ -1,6 +1,11 @@
 ---
 name: miraculix-abgleich
-description: Triggered whenever Deniz says "abgleich X", "reconcile X", "update X", "X aktualisieren", "prüf mal X", or similar - where X is a project name (coralate, herosoftware, bellavie, hays, thalor etc). Use this skill to read the project file, recent logs and tasks, identify new inputs since last reconcile, find contradictions, propose surgical updates with vertrauen-level and source, wait for Deniz's approval per update, then bundle-write and git-commit. Central mechanism against information drift.
+description: |-
+  Triggered whenever Deniz says "abgleich X", "reconcile X", "update X", "X aktualisieren", "prüf mal X", or similar - where X is a project name (coralate, herosoftware, bellavie, hays, thalor etc).
+  
+  Use this skill to read the project file, recent logs and tasks, identify new inputs since last reconcile, find contradictions, propose surgical updates with vertrauen-level and source, wait for Deniz's approval per update, then bundle-write and git-commit.
+  
+  Central mechanism against information drift.
 ---
 
 # Abgleich (Reconcile)

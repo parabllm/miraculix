@@ -11,7 +11,8 @@ hauptkontakt: "[[christoph-sandbrink]]"
 tech_stack: ["zotero", "sci-hub", "claude-code", "obsidian"]
 erstellt: 2026-04-16
 zuletzt_aktualisiert: 2026-04-23
-notizen: "HdWM Mannheim. Abgabe 15.06.2026 (HARTE Deadline). Qualitative empirische Studie zu KI-Compliance im Recruiting unter EU AI Act. Mayring-Methodik. Scope nach Sandbrink-Gespräch 23.04.2026 finalisiert."
+notizen: |-
+  HdWM Mannheim. Abgabe 15.06.2026 (HARTE Deadline). Qualitative empirische Studie zu KI-Compliance im Recruiting unter EU AI Act. Mayring-Methodik. Scope nach Sandbrink-Gespräch 23.04.2026 finalisiert.
 quelle: notion_migration
 vertrauen: bestätigt
 ---

@@ -10,7 +10,8 @@ kapazitaets_last: niedrig
 kontakte: ["[[maddox-yakymenskyy]]"]
 tech_stack: ["n8n", "gmx-imap", "gmx-smtp", "anthropic-claude", "telegram"]
 erstellt: 2026-04-21
-notizen: "Zweites Familienunternehmen der Yakymenskyys parallel zu BellaVie. Heiratsagentur für internationale Paare, die in Dänemark heiraten wollen. Maddox ist hier wie bei BellaVie im Management. Aktuell kein Thalor-Auftrag, nur Kontext für spätere Zusammenarbeit."
+notizen: |-
+  Zweites Familienunternehmen der Yakymenskyys parallel zu BellaVie. Heiratsagentur für internationale Paare, die in Dänemark heiraten wollen. Maddox ist hier wie bei BellaVie im Management. Aktuell kein Thalor-Auftrag, nur Kontext für spätere Zusammenarbeit.
 quelle: gespräch_maddox_2026-04-21
 vertrauen: extrahiert
 ---

@@ -3,7 +3,7 @@ typ: meeting-note
 datum: 2026-04-25
 projekt: "[[pulsepeptides]]"
 teilnehmer: ["[[kalani-ginepri]]", "Deniz"]
-ort: "Call"
+ort: Call
 thema: "Zwischenstand-Check Pulse, Pricing-Strategie, Pillar-Struktur, Tool-Entscheidung"
 status: offen
 uhrzeit: "20:00-21:00"
@@ -11,9 +11,9 @@ erstellt: 2026-04-25
 aktualisiert: 2026-04-25
 quelle: meeting
 vertrauen: bestätigt
-notizen: "Strategie-Call. Pricing-Phase-1, Pillar-Struktur, Tool-Entscheidung ClickUp. Folgecall zu 2026-04-24 (Kurz-Call) und 2026-04-23 (COO Weekly)."
+notizen: |-
+  Strategie-Call. Pricing-Phase-1, Pillar-Struktur, Tool-Entscheidung ClickUp. Folgecall zu 2026-04-24 (Kurz-Call) und 2026-04-23 (COO Weekly).
 ---
-
 # Kalani Call, 2026-04-25
 
 **Teilnehmer:** Kalani Ginepri, Deniz **Format:** Call (verschoben auf 20:00) **Zeit:** 20:00 - 21:00
@@ -146,22 +146,22 @@ Bestellungen sind ab nächster Woche operativ wieder dran. Bis dahin steht das F
 
 ### Diese Woche (bis Freitag 01.05.)
 
-- [ ] Slack-ClickUp Integration: Kalani-OK einholen, Integration in Pulse-Slack aktivieren
-- [ ] Google-Drive-Account-Frage mit Kalani klären (privater Account, Pulse Workspace neu, oder anders)
-- [ ] Drive an ClickUp koppeln
-- [ ] Offene COO-Aufgaben aus `coo-aufgaben.md` in ClickUp-Pillars übertragen
-- [ ] ZY + XiAN Sheerherb Preislisten ziehen
-- [ ] Margen-Berechnung pro Produkt
-- [ ] Biolab Shop Preise scrapen (Einzel + Bulk)
-- [ ] Pulse-Organization-Mail Auto-Forwarding einrichten
+- \[ \] Slack-ClickUp Integration: Kalani-OK einholen, Integration in Pulse-Slack aktivieren
+- \[ \] Google-Drive-Account-Frage mit Kalani klären (privater Account, Pulse Workspace neu, oder anders)
+- \[ \] Drive an ClickUp koppeln
+- \[ \] Offene COO-Aufgaben aus `coo-aufgaben.md` in ClickUp-Pillars übertragen
+- \[ \] ZY + XiAN Sheerherb Preislisten ziehen
+- \[ \] Margen-Berechnung pro Produkt
+- \[ \] Biolab Shop Preise scrapen (Einzel + Bulk)
+- \[ \] Pulse-Organization-Mail Auto-Forwarding einrichten
 
 ### Nächste Woche
 
-- [ ] Custom-Order-Form in ClickUp bauen
-- [ ] Slack Morning Sweep Automation aufsetzen
-- [ ] Janoshik COA-Auslese via n8n testen
-- [ ] Tschechien-Lager-Übergabe vorbereiten mit Kai
-- [ ] Erste Bestellungen über neuen Workflow
+- \[ \] Custom-Order-Form in ClickUp bauen
+- \[ \] Slack Morning Sweep Automation aufsetzen
+- \[ \] Janoshik COA-Auslese via n8n testen
+- \[ \] Tschechien-Lager-Übergabe vorbereiten mit Kai
+- \[ \] Erste Bestellungen über neuen Workflow
 
 ### Pausiert
 

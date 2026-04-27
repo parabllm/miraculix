@@ -10,7 +10,8 @@ projekte: ["[[bachelor-thesis]]"]
 email: ""
 telefon: ""
 wie_kennengelernt: "Empfohlen von Christine Kampmann (17.03.2026) für Bachelor-Thesis Interview"
-notizen: "Thesis-Interview-Kandidat. Cluster: Legal Global. Rolle bei HAYS: Legal/Compliance Global oder Datenschutzbeauftragter. Erkenntnisinteresse: EU AI Act, DSGVO Art. 22, automatisierte Entscheidungen. Englischsprachig. Interview-Status: offen."
+notizen: |-
+  Thesis-Interview-Kandidat. Cluster: Legal Global. Rolle bei HAYS: Legal/Compliance Global oder Datenschutzbeauftragter. Erkenntnisinteresse: EU AI Act, DSGVO Art. 22, automatisierte Entscheidungen. Englischsprachig. Interview-Status: offen.
 erstellt: 2026-04-16
 vertrauen: extrahiert
 quelle: notion_migration

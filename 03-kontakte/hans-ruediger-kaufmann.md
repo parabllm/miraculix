@@ -10,7 +10,8 @@ projekte: ["[[hdwm]]", "[[international-sales]]"]
 email: "hans-ruediger.kaufmann@hdwm.org"
 telefon: ""
 wie_kennengelernt: "Professor an der HdWM Mannheim, International Sales"
-notizen: "Professor an der HdWM für International Sales. Hat Seminararbeit von Deniz im WiSe 2025/26 betreut. Stellte am 17.04.2026 per E-Mail Turnitin-Vorwurf (63% KI-Erkennung). Klärungsgespräch am 21.04.2026, Raum 308, verlief positiv. Akzeptierte korrigierte Version mit ergänztem Punkt 6 in der Declaration of Authorship."
+notizen: |-
+  Professor an der HdWM für International Sales. Hat Seminararbeit von Deniz im WiSe 2025/26 betreut. Stellte am 17.04.2026 per E-Mail Turnitin-Vorwurf (63% KI-Erkennung). Klärungsgespräch am 21.04.2026, Raum 308, verlief positiv. Akzeptierte korrigierte Version mit ergänztem Punkt 6 in der Declaration of Authorship.
 erstellt: 2026-04-25
 vertrauen: bestätigt
 quelle: vault-recherche

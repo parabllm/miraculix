@@ -1,6 +1,11 @@
 ---
 name: miraculix-log
-description: Triggered whenever Deniz says "log", "fortschritt speichern", "pack das in logs", "speicher den stand", "abschluss", or at the end of a working session. Use this skill to capture session learnings - write log entries to the relevant project(s), update task statuses, update project current state if changed, and critically check for cross-project patterns that occurred 2+ times and propose knowledge destillation. This is how raw work becomes documented work.
+description: |-
+  Triggered whenever Deniz says "log", "fortschritt speichern", "pack das in logs", "speicher den stand", "abschluss", or at the end of a working session.
+  
+  Use this skill to capture session learnings - write log entries to the relevant project(s), update task statuses, update project current state if changed, and critically check for cross-project patterns that occurred 2+ times and propose knowledge destillation.
+  
+  This is how raw work becomes documented work.
 ---
 
 # Log (Session-Abschluss)

@@ -1,6 +1,11 @@
 ---
 name: miraculix-vault-system
-description: Always-on context for working with Deniz Özbek's Obsidian Second Brain "Miraculix". Use this skill whenever Deniz mentions his vault, projects, Obsidian, his personal knowledge base, or asks anything about his work context (Thalor, Coralate, HAYS, BellaVie, HeroSoftware, Resolvia, PulsePeptides, Bachelor-Thesis, Terminbuchungs-App). Also trigger when Deniz uses trigger words like "tages-start", "log", "eingang verarbeiten", "abgleich", "vault prüfen". Contains vault structure, active projects, knowledge domains, naming conventions, and provenance rules. This skill is the foundation - read it first before any vault operation.
+description: |-
+  Always-on context for working with Deniz Özbek's Obsidian Second Brain "Miraculix". Use this skill whenever Deniz mentions his vault, projects, Obsidian, his personal knowledge base, or asks anything about his work context (Thalor, Coralate, HAYS, BellaVie, HeroSoftware, Resolvia, PulsePeptides, Bachelor-Thesis, Terminbuchungs-App).
+  
+  Also trigger when Deniz uses trigger words like "tages-start", "log", "eingang verarbeiten", "abgleich", "vault prüfen".
+  
+  Contains vault structure, active projects, knowledge domains, naming conventions, and provenance rules. This skill is the foundation - read it first before any vault operation.
 ---
 
 # Miraculix Vault-System

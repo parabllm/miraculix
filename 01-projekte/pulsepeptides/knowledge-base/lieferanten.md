@@ -13,7 +13,7 @@ quelle: voice_dump + pdf_pricelist
 
 ## Übersicht
 
-SupplierCodeProduktionsgeschwindigkeitBestellkanalDetailLab PeptidesLPschnellTelegram[[lab-peptides]]ZY PeptidesZYlangsamTelegram-
+SupplierCodeProduktionsgeschwindigkeitBestellkanalDetailLab PeptidesLPschnellTelegram[[lab-peptides]]ZY PeptidesZYlangsamTelegram[[zy-peptides]]XiAN SheererbXSoffenWhatsApp[[xian-sheerherb]]
 
 ## Lab Peptides
 
@@ -31,14 +31,22 @@ SupplierCodeProduktionsgeschwindigkeitBestellkanalDetailLab PeptidesLPschnellTel
 - Preisliste: noch nicht dokumentiert
 - Bisher zuständig für: Custom Orders, KPV (wechselt jetzt auf Testing-Badge-Supplier)
 
+## XiAN Sheerherb
+
+- Kommunikation: WhatsApp-Gruppe (Deniz mit eSIM in der Gruppe)
+- Produkte für Pulse: BPC-157 (Arg), 5-Amino-1 Kapseln, PT-141, DSIP, Tesamorelin
+- Supplier-Code für Batch-IDs: XS
+- Details: [[xian-sheerherb]]
+- Preisliste: noch nicht dokumentiert, Inbox-File prüfen (PulsePeptides Pricing.xlsx)
+
 ## Offene Bestellungen
 
-- Tireptide: müssen bestellt werden (Kalani, 2026-04-17)
+- Tirzepatide: bestellen (Kalani-Task seit 17.04.)
 
-## Offen
+## Offene Klärungspunkte
 
-- ZY Preisliste einholen und analog zu [[lab-peptides]] dokumentieren
-- Testing-Badge-Supplier (neuer KPV/BPC-157/5-Amino-1-Supplier) dokumentieren sobald Deal durch ist
+- ZY Preisliste einholen und dokumentieren
+- XiAN Sheerherb Konditionen und Preisliste dokumentieren
 
 ## Produkt-Spezifikation
 
@@ -46,9 +54,9 @@ SupplierCodeProduktionsgeschwindigkeitBestellkanalDetailLab PeptidesLPschnellTel
 
 ## Supplier-Zuständigkeit
 
-- **Lab Peptides:** Standard-Bestellungen, Arg-BPC-157 (bevorzugt), GLP-1-Klasse, Khavinson-Peptide (inkl. Prostamax direkt im Sortiment, siehe [[prostamax]])
-- **ZY Peptides:** historisch Custom Orders und nicht-standard Produkte (z.B. KPV Capsules) - wird teilweise abgelöst durch Testing-Badge-Supplier
-- **Testing-Badge-Supplier (neu):** KPV, BPC-157, 5-Amino-1 Kapseln (Quality Control noch offen, siehe Meeting [[2026-04-23-kalani-coo-call]])
+- **Lab Peptides (LP):** Standard-Bestellungen, Arg-BPC-157, GLP-1-Klasse, Khavinson-Peptide (inkl. Prostamax)
+- **ZY Peptides (ZY):** Custom Orders, KPV Capsules
+- **XiAN Sheerherb (XS):** BPC-157, 5-Amino-1 Kapseln, PT-141, DSIP, Tesamorelin (Testing-Badge-Supplier)
 
 ## Kommunikationsstil mit Suppliern
 

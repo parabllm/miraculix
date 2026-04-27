@@ -154,6 +154,23 @@ if ($first8 -eq $bad_a_lf -or $first8 -eq $bad_a_crlf) {
 - `2D 2D 2D 0D 0A` (CRLF) gefolgt von ASCII-Buchstaben
 - `EF BB BF 2D 2D 2D ...` (BOM + LF + ---) -> akzeptabel aber suboptimal, BOM lieber vermeiden
 
+### 3.4 Lange Frontmatter-String-Werte
+
+Frontmatter-Werte mit > 100 Zeichen muessen YAML-Block-Syntax `|-` mit 2-Space-Einrueckung verwenden.
+
+Begruendung: Lange einzeilige Werte rendert Obsidian als roten Code-Block (sieht aus wie Pattern-A-Korruption). Block-Syntax rendert sauber als Multi-Line-Property.
+
+```yaml
+notizen: |-
+  Erste Zeile.
+
+  Zweiter Absatz.
+```
+
+Ausnahmen (kein Block-Syntax noetig): Listen `[a, b]`, Wikilink-Arrays `["[[xy]]"]`, Datums-Strings, kurze Werte (<100 chars).
+
+Detail-Regel mit Beispielen siehe [[vault-schreibkonventionen]] Sektion "Lange Frontmatter-String-Werte".
+
 ## Sektion 4: Umlaut-Regeln
 
 Encoding und Umlaut-Detail-Regeln stehen in [[vault-schreibkonventionen]] (Sektion "Encoding und Zeichen").

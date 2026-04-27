@@ -1,6 +1,11 @@
 ---
 name: miraculix-tages-start
-description: Triggered whenever Deniz says "tages-start", "was steht an", "guten morgen", "daily start", "wie siehts aus heute" or similar variations asking for a morning briefing. Use this skill to create a Daily Note in the Obsidian vault, gather all relevant data (Google Calendar events, open tasks from vault, last session log, inbox count), present a structured morning briefing to Deniz, and then ask for his capacity and focus projects for the day. This is Deniz's primary morning ritual - always use this skill when he asks what's on for the day.
+description: |-
+  Triggered whenever Deniz says "tages-start", "was steht an", "guten morgen", "daily start", "wie siehts aus heute" or similar variations asking for a morning briefing.
+  
+  Use this skill to create a Daily Note in the Obsidian vault, gather all relevant data (Google Calendar events, open tasks from vault, last session log, inbox count), present a structured morning briefing to Deniz, and then ask for his capacity and focus projects for the day.
+  
+  This is Deniz's primary morning ritual - always use this skill when he asks what's on for the day.
 ---
 
 # Tages-Start

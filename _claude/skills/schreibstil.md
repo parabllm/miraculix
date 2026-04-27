@@ -1,6 +1,11 @@
 ---
 name: miraculix-schreibstil
-description: Always-on rules for how Miraculix writes content INTO Deniz's Obsidian vault (logs, project states, knowledge entries, meeting notes, task descriptions). Does NOT apply to chat responses — only to text that ends up in .md files. Deniz hates AI-slop patterns: em dashes, inflated language, rule of three, fake -ing analyses, promotional words. This skill enforces clean, direct writing style for all vault content.
+description: |-
+  Always-on rules for how Miraculix writes content INTO Deniz's Obsidian vault (logs, project states, knowledge entries, meeting notes, task descriptions).
+  
+  Does NOT apply to chat responses - only to text that ends up in .md files.
+  
+  Deniz hates AI-slop patterns: em dashes, inflated language, rule of three, fake -ing analyses, promotional words. This skill enforces clean, direct writing style for all vault content.
 ---
 
 # Schreibstil für Vault-Content

@@ -12,7 +12,8 @@ kontakte: ["[[jann-allenberger]]"]
 tech_stack: ["supabase", "postgres", "pgvector", "python", "openai", "deno", "edge-functions", "node"]
 notion_url: ""
 erstellt: 2026-04-16
-notizen: "Nährwert-Retrieval-Pipeline für Coralate. Hybrid 3-Tier Architektur. Edge Function live (food-scanner v15). Stand 19.04. abends: Etappe 3 Cross-DB Borrowing Live-Run läuft, Vision-Prompt-Analyse mit konkreten Bugs aus food_scan_log abgeschlossen, v6-Spec in Arbeit."
+notizen: |-
+  Nährwert-Retrieval-Pipeline für Coralate. Hybrid 3-Tier Architektur. Edge Function live (food-scanner v15). Stand 19.04. abends: Etappe 3 Cross-DB Borrowing Live-Run läuft, Vision-Prompt-Analyse mit konkreten Bugs aus food_scan_log abgeschlossen, v6-Spec in Arbeit.
 quelle: notion_migration
 vertrauen: extrahiert
 ---

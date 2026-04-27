@@ -1,6 +1,11 @@
 ---
 name: miraculix-vault-pruefung
-description: Triggered when Deniz says "vault prüfen", "lint", "konsistenz check", "ist alles aktuell?", "geh mal alles durch", "vault audit" or similar - typically weekly or when Deniz wants to verify vault health. Use this skill to scan the vault for outdated information, contradictions, structural problems, duplicates, stale inbox items, and skill-drift. Produce a priority-sorted report - do NOT auto-fix. Deniz decides per finding.
+description: |-
+  Triggered when Deniz says "vault prüfen", "lint", "konsistenz check", "ist alles aktuell?", "geh mal alles durch", "vault audit" or similar - typically weekly or when Deniz wants to verify vault health.
+  
+  Use this skill to scan the vault for outdated information, contradictions, structural problems, duplicates, stale inbox items, and skill-drift.
+  
+  Produce a priority-sorted report - do NOT auto-fix. Deniz decides per finding.
 ---
 
 # Vault-Prüfung (Lint)

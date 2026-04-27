@@ -1,21 +1,21 @@
 ---
 typ: sub-projekt
-name: "HeroSoftware"
+name: HeroSoftware
 aliase: ["HeroSoftware", "Hero", "Hero Software", "HS"]
-ueber_projekt: "[[thalor]]"
+ueber_projekt: [[thalor]]
 bereich: client_work
 umfang: offen
 status: aktiv
 kapazitaets_last: hoch
 kontakte: ["[[robin-kronshagen]]", "[[calvin-blick]]", "[[martin-herd]]"]
 tech_stack: ["n8n", "attio", "clay", "lgm", "mantle", "digitalocean", "node"]
-notion_url: ""
+notion_url: "\"\""
 erstellt: 2026-04-16
-notizen: "Größter aktiver Thalor-Client. Mantle→Attio→Clay→LGM Pipeline. 1 n8n Cloud Workflow (WF1) + 4 Node-Scripts. Infrastructure migriert vom Thalor-Hetzner auf eigenes DigitalOcean-Droplet in Blick Solutions' DO-Space (Entscheidung Martin-Call 2026-04-21)."
+notizen: |-
+  |- Größter aktiver Thalor-Client. Mantle→Attio→Clay→LGM Pipeline. 1 n8n Cloud Workflow (WF1) + 4 Node-Scripts. Infrastructure migriert vom Thalor-Hetzner auf eigenes DigitalOcean-Droplet in Blick Solutions' DO-Space (Entscheidung Martin-Call 2026-04-21).
 quelle: notion_migration
 vertrauen: extrahiert
 ---
-
 ## Kontext
 
 Client-Projekt von Robin Kronshagen (Founder HeroSoftware GmbH). Vollständiges CRM- und Outreach-Automation-System für drei Shopify-Apps: **AddressHero, DiscountHero, PaymentHero**.
@@ -23,6 +23,7 @@ Client-Projekt von Robin Kronshagen (Founder HeroSoftware GmbH). Vollständiges 
 **Pipeline:** Mantle (Shopify-Billing) → Attio (CRM/SSOT) → Clay (Enrichment Outbound-Ready) → La Growth Machine (Multi-Channel-Outreach: Email + LinkedIn + Call).
 
 **Architektur gelocked** (siehe [[thalor]] für projektübergreifende Prinzipien):
+
 - Attio = SSOT, alle Systeme schreiben rein/lesen raus
 - Clay nur "Outbound Ready" Leads
 - Batch-Jobs als Node.js-Scripts auf Linux-Server (kein n8n 60s-Timeout)
@@ -32,6 +33,7 @@ Client-Projekt von Robin Kronshagen (Founder HeroSoftware GmbH). Vollständiges 
 - Domain als Matching-Key (`.myshopify.com` ausgeschlossen)
 
 **Technische Identifier:**
+
 - n8n Cloud: `herosoftware.app.n8n.cloud`
 - **Aktuelle Infrastructure (Migration 2026-04-21):** DigitalOcean-Droplet `68.183.222.21` (Hostname `hero-software-sync-automation`), Ubuntu 24.04, Scripts-Pfad `/opt/crm-sync/`. Details siehe [[digitalocean-droplet]]
 - **Alte Infrastructure (wird abgeschaltet):** Thalor-Hetzner `204.168.188.228`, `/opt/crm-sync/` (alte Script-Version mit hardcoded Keys)
@@ -44,11 +46,13 @@ Client-Projekt von Robin Kronshagen (Founder HeroSoftware GmbH). Vollständiges 
 Stand 2026-04-21 nach Martin-Call ([[2026-04-21-martin-call]]): **Infrastructure-Migration entschieden.** Eigenes DigitalOcean-Droplet statt Thalor-Hetzner. Droplet ist aufgesetzt, SSH-Zugang steht, Deployment steht an.
 
 **Komponenten live:**
+
 - **WF1 (n8n Cloud, 17 Nodes)** Mantle→Attio Echtzeit-Webhook, Activity Notes in Node 17 integriert
 - **Clay:** 2 Templates live (Executive Leadership + Churns), pro Attio-Liste eigenes Template
-- **Alte Sync-Scripts auf Thalor-Hetzner `/opt/crm-sync/`** laufen weiter bis Cutover (alte Version mit hardcoded API-Keys)
+- **Alte Sync-Scripts auf Thalor-Hetzner** `/opt/crm-sync/` laufen weiter bis Cutover (alte Version mit hardcoded API-Keys)
 
-**Scripts im neuen Repo `HeroSoftware-GmbH/hero-software-sync` (production-ready):**
+**Scripts im neuen Repo** `HeroSoftware-GmbH/hero-software-sync` **(production-ready):**
+
 - `daily-sync.mjs` täglich 03:00 UTC, Mantle→Attio MRR/Plans-Update
 - `lgm-push.mjs` Dienstag 06:00 UTC, Attio-Listen → 8 LGM-Audiences
 - `lgm-status-sync.mjs` täglich 12:00 UTC, LGM-Status zurück nach Attio
@@ -59,22 +63,25 @@ Stand 2026-04-21 nach Martin-Call ([[2026-04-21-martin-call]]): **Infrastructure
 ## Offene Aufgaben
 
 **Droplet-Setup und Deployment:**
-- [ ] Swap-File 1 GB auf Droplet einrichten vor dem ersten `mantle-reconcile` Lauf #hoch
-- [ ] Zeitzone auf Droplet entscheiden (Berlin setzen oder Cron-Zeiten in UTC umrechnen) #hoch
-- [ ] Scripts nach `/opt/crm-sync/` deployen, `.env` befüllen, `--check` plus `--dry` pro Script #hoch
-- [ ] Crontab einrichten plus Notify-Test #hoch
-- [ ] Optional: dedizierten `crm-sync` System-User anlegen (empfohlen laut DEPLOYMENT.md)
-- [ ] Cutover vom Thalor-Hetzner: alte Crons in `/opt/crm-sync/` auf `204.168.188.228` deaktivieren sobald DO stabil läuft #hoch
+
+- \[ \] Swap-File 1 GB auf Droplet einrichten vor dem ersten `mantle-reconcile` Lauf #hoch
+- \[ \] Zeitzone auf Droplet entscheiden (Berlin setzen oder Cron-Zeiten in UTC umrechnen) #hoch
+- \[ \] Scripts nach `/opt/crm-sync/` deployen, `.env` befüllen, `--check` plus `--dry` pro Script #hoch
+- \[ \] Crontab einrichten plus Notify-Test #hoch
+- \[ \] Optional: dedizierten `crm-sync` System-User anlegen (empfohlen laut [DEPLOYMENT.md](http://DEPLOYMENT.md))
+- \[ \] Cutover vom Thalor-Hetzner: alte Crons in `/opt/crm-sync/` auf `204.168.188.228` deaktivieren sobald DO stabil läuft #hoch
 
 **Doku-Lieferung an Martin (aus Call 21.04.):**
-- [ ] Saubere Endkunden-Dokumentation schreiben die das HeroSoft-Team versteht #hoch
-- [ ] Loom-Video aufnehmen: Architektur plus Deployment plus Betrieb #hoch
-- [ ] Testing-Phase begleiten bis Scripts auf dem Droplet stabil laufen #hoch
+
+- \[ \] Saubere Endkunden-Dokumentation schreiben die das HeroSoft-Team versteht #hoch
+- \[ \] Loom-Video aufnehmen: Architektur plus Deployment plus Betrieb #hoch
+- \[ \] Testing-Phase begleiten bis Scripts auf dem Droplet stabil laufen #hoch
 
 **Business:**
-- [ ] Abrechnung HeroSoftware (Robin) abschließen (TK-7, seit 2026-04-14) #hoch
-- [ ] Code-Ownership langfristig klären (Deniz Retainer oder andere Lösung, separat mit Robin und Calvin) #mittel
-- [ ] Altes Repo `parabllm/hero-software-sync` archivieren oder löschen (ist jetzt obsolet) #niedrig
+
+- \[ \] Abrechnung HeroSoftware (Robin) abschließen (TK-7, seit 2026-04-14) #hoch
+- \[ \] Code-Ownership langfristig klären (Deniz Retainer oder andere Lösung, separat mit Robin und Calvin) #mittel
+- \[ \] Altes Repo `parabllm/hero-software-sync` archivieren oder löschen (ist jetzt obsolet) #niedrig
 
 ## Abgeschlossene Meilensteine
 
@@ -83,7 +90,7 @@ Stand 2026-04-21 nach Martin-Call ([[2026-04-21-martin-call]]): **Infrastructure
 - ~~Production-Ready Refactor alle 4 Scripts~~ 2026-04-13
 - ~~Phase 2 validiert, Repo privat gesichert~~ 2026-04-13
 - ~~Abrechnung BellaVie/Maddox 400 EUR~~ 2026-04-19
-- ~~Martin-Call 2026-04-21: Rollen geklärt, Infrastructure-Entscheidung (eigenes DO-Droplet), neues Repo `HeroSoftware-GmbH/hero-software-sync` übernommen~~ 2026-04-21
+- ~~Martin-Call 2026-04-21: Rollen geklärt, Infrastructure-Entscheidung (eigenes DO-Droplet), neues Repo~~ `HeroSoftware-GmbH/hero-software-sync` ~~übernommen~~ 2026-04-21
 
 ## Out of Scope
 
@@ -100,7 +107,7 @@ Stand 2026-04-21 nach Martin-Call ([[2026-04-21-martin-call]]): **Infrastructure
 
 ## Rollen und Abhängigkeiten
 
-- **Entscheider-Hierarchie:** Calvin > Robin. Calvin bestimmt strategisch, Robin führt operativ aus.
+- **Entscheider-Hierarchie:** Calvin &gt; Robin. Calvin bestimmt strategisch, Robin führt operativ aus.
 - **Developer-Ressource:** Martin Herd kommt über Calvins Firma Blick Solutions, nicht als HeroSoftware-Angestellter. Stellt die DigitalOcean-Infrastructure für die Sync-Scripts, ist NICHT laufender Code-Owner.
 - **Deniz' Rolle:** Freelancer, kein Developer. Hat die Pipeline mit Claude als Co-Pilot gebaut. Liefert einmaliges Deployment auf dem neuen Droplet plus saubere Doku und Loom-Video. Laufende Code-Maintenance ist offene Frage zwischen Deniz, Robin und Calvin.
 - **Infrastructure-Ownership:** Blick Solutions via DigitalOcean-Space, eigenes Projekt für HeroSoft-Sync.

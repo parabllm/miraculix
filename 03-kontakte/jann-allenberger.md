@@ -18,7 +18,8 @@ projekte:
 email: ""
 telefon: ""
 wie_kennengelernt: Co-Founder coralate
-notizen: Co-Founder coralate, Product + Design. Hält Apple Developer Account (Deniz baut iOS über diesen Account). Entscheider für Frontend-/Design-Architektur, canonical Shader-Versionen, Cora Overlay Spec, Workout-Page.
+notizen: |-
+  Co-Founder coralate, Product + Design. Hält Apple Developer Account (Deniz baut iOS über diesen Account). Entscheider für Frontend-/Design-Architektur, canonical Shader-Versionen, Cora Overlay Spec, Workout-Page.
 erstellt: 2026-04-16
 vertrauen: extrahiert
 quelle: notion_migration

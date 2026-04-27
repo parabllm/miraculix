@@ -77,6 +77,7 @@ Kurz: HAYS bietet keine Vollzeitstelle, Kalani/PulsePeptides-Retainer ist einzig
 - [ ] Finanz-Aufstellung erstellen: Fixkosten, HdWM-Gebühren, Contributions an Eltern, aktuelle Miete-Situation #mittel
 - [ ] Sommerurlaub mit Anastasia 26. bis 31.07. planen (Ziel, Unterkunft, Budget), Anfang Juni relevant #niedrig
 - [ ] Zertifikate holen für CV, Instagram durchschauen (TK-2, Low) #niedrig
+- [ ] Geburtstagsgeschenk für [[anastasia-quast]] aussuchen und besorgen, Geburtstag 30.05.2026 (21.) #hoch
 
 ## Research-Themen (aus Notion-Docs, optional später nach 02-wissen/)
 

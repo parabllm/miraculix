@@ -1,6 +1,11 @@
 ---
 name: miraculix-transkript-verarbeiten
-description: Triggered when Deniz says "transkript verarbeiten", "triag transkript", "ordne transkript ein", or when called from miraculix-eingang-verarbeiten or miraculix-audio-verarbeiten. Reads transcripts in 00-eingang/transkripte/, summarizes for Deniz, asks where to file each, finds and updates the relevant meeting note with key insights, optionally cross-checks meeting note vs transcript for task-status changes and new topics. After processing, moves transcript from 00-eingang/transkripte/ to _anhaenge/transkripte/ (gitignored).
+description: |-
+  Triggered when Deniz says "transkript verarbeiten", "triag transkript", "ordne transkript ein", or when called from miraculix-eingang-verarbeiten or miraculix-audio-verarbeiten.
+  
+  Reads transcripts in 00-eingang/transkripte/, summarizes for Deniz, asks where to file each, finds and updates the relevant meeting note with key insights, optionally cross-checks meeting note vs transcript for task-status changes and new topics.
+  
+  After processing, moves transcript from 00-eingang/transkripte/ to _anhaenge/transkripte/ (gitignored).
 ---
 
 # Transkript-Verarbeiten
