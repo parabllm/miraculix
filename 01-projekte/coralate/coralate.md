@@ -66,7 +66,7 @@ Stand 2026-04-20: Food-Scanner Category Fix durch. Nächste Iterationen: Food-Sc
 
 ## Detail-Docs
 
-- [[design-system]] Color Tokens, Typography, Motion, Haptics, Buttons, Border Radius
+- [[01-projekte/coralate/design-system|design-system]] Color Tokens, Typography, Motion, Haptics, Buttons, Border Radius
 - [[tech-stack-conventions]] Core Dependencies, File Structure, Store Persistence, Mandatory Rules
 
 ## Offene Aufgaben

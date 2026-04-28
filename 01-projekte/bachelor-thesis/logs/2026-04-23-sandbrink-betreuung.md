@@ -29,8 +29,8 @@ Ort: offen, vor Call klären ob HdWM vor Ort oder per Teams.
 ## Agenda
 
 - Status Interview-Anfragen und nächste Schritte (Anna, Rob, Francis, Florian Meyer)
-- Scope der Arbeit (Klartext-Beschreibung) durchgehen, siehe [[scope]]
-- Gliederung besprechen, siehe [[gliederung]]
+- Scope der Arbeit (Klartext-Beschreibung) durchgehen, siehe [[scope-klartext]]
+- Gliederung besprechen, siehe [[gliederung-klartext]]
 - Methodik-Teil bestätigen (Mayring)
 - Zeitplan bis 15.06.2026 abstimmen
 - Interviewleitfaden gemeinsam durchgehen (Aufbau, Cluster-Differenzierung)

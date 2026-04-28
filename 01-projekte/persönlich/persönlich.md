@@ -14,6 +14,10 @@ quelle: notion_migration
 vertrauen: extrahiert
 ---
 
+## Persönliche Daten
+
+Adresse: Rosenstraße 107, 68199 Mannheim, Baden-Württemberg, Deutschland
+
 ## Kontext
 
 Sammel-Bucket für persönliche Inhalte die in keinen projekt-spezifischen Bucket gehören: **Health, Supplements, Family-Events, Travel, Reflexion, persönliche Decisions, Strategie post-Studium**.
@@ -33,15 +37,21 @@ Sammel-Bucket für persönliche Inhalte die in keinen projekt-spezifischen Bucke
 
 ## Freundeskreise
 
-### HdWM-Crew (Spanien-Crew)
+### HdWM-Crew
 
-Entstanden über das Studium an der HdWM. Jährliche Tradition: erste zwei Augustwochen nach Empuriabrava (Haus Familie Stetter).
+Entstanden über das Studium an der HdWM.
+
+Mitglieder: Deniz, [[lars-blum]], [[maddox-yakymenskyy]], [[tim-stetter]], [[luca-schmitt]], [[marc-eckel]].
+
+### Spanien-Crew
+
+Jährliche Spanien-Runde nach Empuriabrava, Haus Familie Stetter. [[jannik-ellminger]] gehört zur Spanien-Crew, aber nicht zur HdWM-Crew.
 
 Mitglieder: Deniz, [[lars-blum]], [[maddox-yakymenskyy]], [[tim-stetter]], [[jannik-ellminger]], [[luca-schmitt]], [[marc-eckel]].
 
 ### Schwitzer-Crew
 
-Padel-Runde und private Gruppe. Mitglieder: Deniz, [[maddox-yakymenskyy]], [[eris-osmani-wiedmeier]], [[mikail-ismailov]], [[jannik-ellminger]].
+Padel-Runde und private Gruppe. Mitglieder: Deniz, [[maddox-yakymenskyy]], [[eris-osmani-wiedmeier]], [[mikail-ismailov]].
 
 ## Familie
 
@@ -71,7 +81,6 @@ Kurz: HAYS bietet keine Vollzeitstelle, Kalani/PulsePeptides-Retainer ist einzig
 
 ## Offene Aufgaben
 
-- [ ] Auto organisieren für Kalani-Lager-Besuch Eppelheim am Mittwoch 22.04. abends (bei wem fragen, Abholzeit klären) #hoch
 - [ ] Spanien 02. bis 12.08. planen: diese Woche finalisieren, Mitte nächster Woche Flüge buchen #hoch
 - [ ] Schwitzer-Urlaub: Mai absagen und auf Semesterferien verschieben (mit Eris, Mikail, Maddox klären) #mittel
 - [ ] Finanz-Aufstellung erstellen: Fixkosten, HdWM-Gebühren, Contributions an Eltern, aktuelle Miete-Situation #mittel

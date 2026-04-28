@@ -4,16 +4,20 @@ projekt: "[[pulsepeptides]]"
 thema: lieferanten
 status: in_arbeit
 erstellt: 2026-04-17
-zuletzt_aktualisiert: 2026-04-23
+zuletzt_aktualisiert: 2026-04-28
 vertrauen: extrahiert
-quelle: voice_dump + pdf_pricelist
+quelle: voice_dump + pdf_pricelist + whatsapp_screenshot
 ---
 
 # Lieferanten
 
 ## Übersicht
 
-SupplierCodeProduktionsgeschwindigkeitBestellkanalDetailLab PeptidesLPschnellTelegram[[lab-peptides]]ZY PeptidesZYlangsamTelegram[[zy-peptides]]XiAN SheererbXSoffenWhatsApp[[xian-sheerherb]]
+| Supplier | Code | Produktionsgeschwindigkeit | Bestellkanal | Detail |
+|---|---|---|---|---|
+| Lab Peptides | LP | schnell | Telegram | [[lab-peptides]] |
+| ZY Peptides | ZY | langsam | Telegram | [[zy-peptides]] |
+| XiAN Sheerherb | XS | offen | WhatsApp | [[xian-sheerherb]] |
 
 ## Lab Peptides
 
@@ -29,12 +33,14 @@ SupplierCodeProduktionsgeschwindigkeitBestellkanalDetailLab PeptidesLPschnellTel
 - Produktionsgeschwindigkeit: langsam
 - Bestellkanal: Telegram-Gruppe
 - Preisliste: noch nicht dokumentiert
-- Bisher zuständig für: Custom Orders, KPV (wechselt jetzt auf Testing-Badge-Supplier)
+- Bisher zuständig für: Custom Orders. KPV wechselt ab 2026-04-28 zu XiAN Sheerherb.
 
 ## XiAN Sheerherb
 
-- Kommunikation: WhatsApp-Gruppe (Deniz mit eSIM in der Gruppe)
-- Produkte für Pulse: BPC-157 (Arg), 5-Amino-1 Kapseln, PT-141, DSIP, Tesamorelin
+- Kommunikation: WhatsApp-Gruppe Pulse x XianHerb (Deniz mit eSIM in der Gruppe)
+- Kontakt: Pax (von Kalani 2026-04-27 in Gruppe hinzugefügt)
+- Produkte für Pulse: BPC-157 Caps, 5-Amino-1MQ Caps, KPV (neu seit 2026-04-28), PT-141, DSIP, Tesamorelin, BPC-157 Arg
+- Spezialisierung: Kapsel-Produkte
 - Supplier-Code für Batch-IDs: XS
 - Details: [[xian-sheerherb]]
 - Preisliste: noch nicht dokumentiert, Inbox-File prüfen (PulsePeptides Pricing.xlsx)
@@ -42,6 +48,13 @@ SupplierCodeProduktionsgeschwindigkeitBestellkanalDetailLab PeptidesLPschnellTel
 ## Offene Bestellungen
 
 - Tirzepatide: bestellen (Kalani-Task seit 17.04.)
+- PT-141 nachbestellen (leer)
+- Tesamorelin nachbestellen (3/4 Rolle als Reserve)
+- Cmax nachbestellen
+- Semang nachbestellen
+- Kapseln plus Kapsel-Labels nachbestellen
+- Hyaluronic-Acid-Label korrigiert von Lieferantin einholen (100 Stück mit altem Text)
+- BPC-157 Caps, 5-Amino-1MQ Caps, KPV bei XiAN Sheerherb (neue Inquiry 2026-04-28, Pax in Klaerung)
 
 ## Offene Klärungspunkte
 
@@ -55,8 +68,8 @@ SupplierCodeProduktionsgeschwindigkeitBestellkanalDetailLab PeptidesLPschnellTel
 ## Supplier-Zuständigkeit
 
 - **Lab Peptides (LP):** Standard-Bestellungen, Arg-BPC-157, GLP-1-Klasse, Khavinson-Peptide (inkl. Prostamax)
-- **ZY Peptides (ZY):** Custom Orders, KPV Capsules
-- **XiAN Sheerherb (XS):** BPC-157, 5-Amino-1 Kapseln, PT-141, DSIP, Tesamorelin (Testing-Badge-Supplier)
+- **ZY Peptides (ZY):** Custom Orders. KPV wandert ab 2026-04-28 zu XiAN.
+- **XiAN Sheerherb (XS):** Kapsel-Produkte (BPC-157 Caps, 5-Amino-1MQ, KPV), plus Vials BPC-157 Arg, 5-Amino-1, PT-141, DSIP, Tesamorelin (Testing-Badge-Supplier)
 
 ## Kommunikationsstil mit Suppliern
 

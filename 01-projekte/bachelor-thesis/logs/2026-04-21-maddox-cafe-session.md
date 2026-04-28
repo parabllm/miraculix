@@ -29,7 +29,8 @@ Donnerstag 23.04. 12:00-12:30 Meeting mit [[christoph-sandbrink]] (Deniz' Betreu
 ### 1. Spanien 02.-12.08.2026 finalisieren
 
 - Termin steht als Blocker im Kalender
-- HdWM-Crew: Deniz, [[lars-blum]], [[maddox-yakymenskyy]], [[tim-stetter]], [[jannik-ellminger]], [[luca-schmitt]], [[marc-eckel]]
+- HdWM-Crew: Deniz, [[lars-blum]], [[maddox-yakymenskyy]], [[tim-stetter]], [[luca-schmitt]], [[marc-eckel]]
+- Spanien-Crew zusätzlich mit [[jannik-ellminger]]
 - Ziel: Planung diese Woche fertig, Mitte nächster Woche Flüge buchen
 - Maddox danach in die Gruppe kommunizieren
 

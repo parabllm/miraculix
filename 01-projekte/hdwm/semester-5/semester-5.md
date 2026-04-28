@@ -25,5 +25,8 @@ Vorletztes Semester. Abgeschlossen Feb 2026.
 
 ## Offene Punkte
 
-- [ ] Morgen 21.04. 09:00 Klärungsgespräch Prof. Kaufmann (Turnitin 63% KI-Vorwurf), Raum 308. Meeting Note: [[meeting-kaufmann-2026-04-21]] #hoch
 - [[email-kaufmann-ki-vorwurf]] - Turnitin 63% KI-Vorwurf
+
+## Erledigt
+
+- Klärungsgespräch Prof. Kaufmann am 21.04.2026, siehe [[meeting-kaufmann-2026-04-21]]

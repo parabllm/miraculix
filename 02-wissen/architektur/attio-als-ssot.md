@@ -6,9 +6,9 @@ domain: ["attio", "architektur", "crm-integration"]
 kategorie: entscheidung
 vertrauen: bestätigt
 quellen:
-  - "[[01-projekte/thalor/_projekt]]"
-  - "[[01-projekte/thalor/herosoftware/_projekt]]"
-  - "[[01-projekte/thalor/resolvia/_projekt]]"
+  - "[[thalor]]"
+  - "[[herosoftware]]"
+  - "[[resolvia]]"
 projekte: ["[[herosoftware]]", "[[resolvia]]", "[[thalor]]"]
 zuletzt_verifiziert: 2026-04-16
 widerspricht: null

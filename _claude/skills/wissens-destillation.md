@@ -5,7 +5,7 @@ description: |-
   
   Use this skill to detect patterns that have occurred 2+ times across different projects and propose a knowledge entry in 02-wissen/.
   
-  Applies 3-phase model: first occurrence stays as log, second triggers destillation with "abgeleitet" trust, third upgrades to "bestaetigt". Special rules for architecture decisions, debug fixes, tool docs - can be destilled on first occurrence. Always propose first, never auto-write.
+  Applies 3-phase model: first occurrence stays as log, second triggers destillation with "abgeleitet" trust, third upgrades to "bestätigt". Special rules for architecture decisions, debug fixes, tool docs - can be destilled on first occurrence. Always propose first, never auto-write.
 ---
 # Wissens-Destillation
 
@@ -37,7 +37,7 @@ Bei OK → Eintrag mit:
 ### Phase 3 - Bestätigt (3.+ Auftreten)
 
 Bestehender Eintrag aktualisiert:
-- `vertrauen: bestaetigt`
+- `vertrauen: bestätigt`
 - Neue Quelle + Projekt anhängen
 - `zuletzt_verifiziert: heute`
 

@@ -1,3 +1,14 @@
+---
+typ: wissen
+name: "Schema - Frontmatter-Spezifikation"
+domain: ["vault-management"]
+kategorie: referenz
+erstellt: 2026-04-16
+aktualisiert: 2026-04-27
+quelle: manuell
+vertrauen: bestätigt
+---
+
 # Schema - Frontmatter-Spezifikation
 
 Jedes File im Vault (außer `00-eingang/unverarbeitet/`) hat YAML-Frontmatter nach diesem Schema.
@@ -15,9 +26,9 @@ Beispiel: `01-projekte/thalor/thalor.md`, `01-projekte/hays/hays.md`
 typ: ueber-projekt
 name: "Maddox"
 aliase: ["Maddox", "Max", "Maddox Y"]
-bereich: client_work          # client_work | produkt | intern | studium | persoenlich | gesundheit | familie
+bereich: client_work          # client_work | produkt | intern | studium | persoenlich | gesundheit | familie | operativ | kontext | integration
 umfang: offen                 # offen | geschlossen
-status: aktiv                 # aktiv | blockiert | ausgeliefert | pausiert | archiviert
+status: aktiv                 # aktiv | in_arbeit | scouting | blockiert | ausgeliefert | pausiert | archiviert
 kapazitaets_last: mittel      # niedrig | mittel | hoch
 hauptkontakt: "[[maddox]]"
 tech_stack: []
@@ -144,7 +155,7 @@ name: "n8n Webhook Race-Condition Pattern"
 aliase: ["Race Condition Fix"]
 domain: ["n8n", "webhook"]
 kategorie: pattern             # pattern | referenz | entscheidung | debug_fix | tool
-vertrauen: bestaetigt          # extrahiert | abgeleitet | angenommen | bestaetigt
+vertrauen: bestätigt          # extrahiert | abgeleitet | angenommen | bestätigt
 quellen:
   - "[[01-projekte/thalor/herosoftware/logs/2026-03-12-webhook-fix]]"
 projekte: ["[[herosoftware]]", "[[resolvia]]"]
@@ -231,10 +242,10 @@ roh: true
 | Feld | Erlaubte Werte |
 |---|---|
 | `typ` | ueber-projekt, sub-projekt, aufgabe, log, meeting, wissen, kontakt, tagebuch, eingang |
-| `status` (Projekt) | aktiv, blockiert, ausgeliefert, pausiert, archiviert |
+| `status` (Projekt) | aktiv, in_arbeit, scouting, blockiert, ausgeliefert, pausiert, archiviert |
 | `status` (Aufgabe) | offen, in_arbeit, erledigt, blockiert |
 | `umfang` | offen, geschlossen |
-| `bereich` | client_work, produkt, intern, studium, persoenlich, gesundheit, familie |
-| `vertrauen` | extrahiert, abgeleitet, angenommen, bestaetigt |
+| `bereich` | client_work, produkt, intern, studium, persoenlich, gesundheit, familie, operativ, kontext, integration |
+| `vertrauen` | extrahiert, abgeleitet, angenommen, bestätigt |
 | `kapazitaets_last` / `benoetigte_kapazitaet` | niedrig, mittel, hoch |
 | `kapazitaet_energie` / `kapazitaet_zeit` (Daily) | integer 1-10 |

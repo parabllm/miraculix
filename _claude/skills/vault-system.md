@@ -61,9 +61,11 @@ _migration/           Migrations-Artefakte (Progress, Report)
 
 | Über-Projekt | Pfad | Bereich | Status |
 |---|---|---|---|
-| Thalor | `01-projekte/thalor/` | client_work | aktiv - 4 Sub: herosoftware, bellavie, pulsepeptides, resolvia |
+| Thalor | `01-projekte/thalor/` | client_work | aktiv - Sub: herosoftware, bellavie, resolvia, heiraten-daenemark, pflegedienst-triebskorn |
+| PulsePeptides | `01-projekte/pulsepeptides/` | operativ | aktiv - Deniz COO, eigenes Über-Projekt |
 | Coralate | `01-projekte/coralate/` | produkt | aktiv - Sub: food-scanner |
 | HAYS | `01-projekte/hays/` | intern | aktiv - Werkstudent CEMEA License Management |
+| HdWM | `01-projekte/hdwm/` | studium | aktiv - Studium, Semester 6 |
 | Bachelor-Thesis | `01-projekte/bachelor-thesis/` | studium | aktiv - Abgabe 2026-06-15 KRITISCH |
 | Miraculix | `01-projekte/miraculix/` | intern | aktiv - dieser Vault + KI-Orga |
 | Persönlich | `01-projekte/persönlich/` | persoenlich | aktiv - Sub: familie, zukunftsplaene, personal-development, kommunikation-referenzen |
@@ -94,7 +96,9 @@ Beispiel:
 | Claude Workflow | `02-wissen/claude-workflow/` |
 | CRM-Integration | `02-wissen/crm-integration/` |
 | Design | `02-wissen/design/` |
+| Health | `02-wissen/health/` |
 | Integration | `02-wissen/integration/` |
+| Lexware | `02-wissen/lexware/` |
 | Marketing | `02-wissen/marketing/` |
 | n8n | `02-wissen/n8n/` |
 | Power Automate | `02-wissen/power-automate/` |
@@ -156,7 +160,7 @@ datum_ende: YYYY-MM-DD
 - `extrahiert` - direkt aus Quelle
 - `abgeleitet` - logisch geschlossen mit Begründung
 - `angenommen` - Vermutung, braucht Prüfung
-- `bestaetigt` - nach expliziter Bestätigung hochgestuft
+- `bestätigt` - nach expliziter Bestätigung hochgestuft
 
 ## Operations-Trigger
 

@@ -54,7 +54,7 @@ vertrauen: extrahiert
 - Produktion: China
 - Versandweg: China, London, Belgien, Europa
 - Lead Time: 10-18 Tage
-- Lager: Kai, Appelheim (bei Mannheim), Teilzeit
+- Lager: Kai, Eppelheim (bei Mannheim), Teilzeit
 - Lager-Verlagerung: perspektivisch nach Tschechien (Kalani dran)
 - Grund Tschechien: Versand in Deutschland aktuell kritisch (rechtlich nicht zugelassen)
 
@@ -67,7 +67,15 @@ vertrauen: extrahiert
 
 ## Team-Übersicht (aus diesem Call)
 
-PersonRolleOrtAnstellungKalaniCEOvariabelGründerDenizCOO (informell)MannheimTransitionChristianSupportBaliTeilzeitKaiLagerAppelheimTeilzeitPatrickDeveloper/BackendvariabelFreelancerGermanWebsite/WordPressvariabelFreelancer, 30 EUR/hLizziDesign/LabelsvariabelFreelancer, 30 EUR/h
+| Person | Rolle | Ort | Anstellung |
+|---|---|---|---|
+| Kalani | CEO | variabel | Gründer |
+| Deniz | COO (informell) | Mannheim | Transition |
+| Christian | Support | Bali | Teilzeit |
+| Kai | Lager | Eppelheim | Teilzeit |
+| Patrick | Developer/Backend | variabel | Freelancer |
+| German | Website/WordPress | variabel | Freelancer, 30 EUR/h |
+| Lizzi | Design/Labels | variabel | Freelancer, 30 EUR/h |
 
 ## Offene Punkte nach diesem Call
 

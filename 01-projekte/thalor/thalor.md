@@ -36,7 +36,7 @@ Stand 2026-04-16:
 - [[heiraten-daenemark]] - Maddox Yakymenskyy, Heiratsagentur Familie Yakymenskyy (Kontext, kein Auftrag)
 - [[pflegedienst-triebskorn]] - Eris Osmani-Wiedmeier, Website-MVP für Familienunternehmen Wiedmeier (Scouting, neu 2026-04-22)
 
-Hinweis: PulsePeptides ist kein Thalor-Client mehr. Deniz ist dort COO. Siehe [[pulsepeptides]] als eigenes Uber-Projekt.
+Hinweis: PulsePeptides ist kein Thalor-Client mehr. Deniz ist dort COO. Siehe [[pulsepeptides]] als eigenes Über-Projekt.
 
 ## Offene Aufgaben
 

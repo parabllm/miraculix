@@ -6,8 +6,8 @@ domain: ["slack", "n8n", "async-patterns"]
 kategorie: pattern
 vertrauen: abgeleitet
 quellen:
-  - "[[01-projekte/thalor/pulsepeptides/logs/2026-03-19-pulse-restrukturierung]]"
-  - "[[01-projekte/thalor/pulsepeptides/_projekt]]"
+  - "[[01-projekte/pulsepeptides/logs/2026-03-19-pulse-restrukturierung]]"
+  - "[[pulsepeptides]]"
 projekte: ["[[pulsepeptides]]"]
 zuletzt_verifiziert: 2026-04-16
 widerspricht: null

@@ -10,6 +10,7 @@ projekte: ["[[familie]]"]
 email: ""
 telefon: ""
 geburtstag: ""
+adresse: "Rosenstraße 107, 68199 Mannheim"
 wie_kennengelernt: "Mutter"
 notizen: |-
   Mutter von Deniz. Geschäftsführerin der Basilika GbR in Mannheim-Neckarau. Deniz wohnt aktuell noch zu Hause, zahlt keine Miete. Contributions an Eltern sind offenes Thema (siehe [[personal-development]] und zukünftige Finanz-Aufstellung in [[persönlich]]).

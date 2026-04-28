@@ -8,7 +8,7 @@ vertrauen: bestätigt
 quellen:
   - "[[01-projekte/thalor/herosoftware/logs/2026-03-25-hetzner-setup-daily-sync]]"
   - "[[01-projekte/thalor/herosoftware/logs/2026-04-13-production-ready-refactor-4-scripts]]"
-  - "[[01-projekte/thalor/herosoftware/_projekt]]"
+  - "[[herosoftware]]"
 projekte: ["[[herosoftware]]", "[[thalor]]"]
 zuletzt_verifiziert: 2026-04-16
 widerspricht: null

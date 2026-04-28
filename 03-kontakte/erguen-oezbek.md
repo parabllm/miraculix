@@ -10,6 +10,7 @@ projekte: ["[[familie]]"]
 email: ""
 telefon: ""
 geburtstag: ""
+adresse: "Rosenstraße 107, 68199 Mannheim"
 wie_kennengelernt: "Vater"
 notizen: "Vater von Deniz."
 erstellt: 2026-04-23

@@ -12,7 +12,7 @@ tech_stack: ["n8n", "attio", "clay", "lgm", "mantle", "digitalocean", "node"]
 notion_url: "\"\""
 erstellt: 2026-04-16
 notizen: |-
-  |- Größter aktiver Thalor-Client. Mantle→Attio→Clay→LGM Pipeline. 1 n8n Cloud Workflow (WF1) + 4 Node-Scripts. Infrastructure migriert vom Thalor-Hetzner auf eigenes DigitalOcean-Droplet in Blick Solutions' DO-Space (Entscheidung Martin-Call 2026-04-21).
+  Größter aktiver Thalor-Client. Mantle→Attio→Clay→LGM Pipeline. 1 n8n Cloud Workflow (WF1) + 4 Node-Scripts. Infrastructure migriert vom Thalor-Hetzner auf eigenes DigitalOcean-Droplet in Blick Solutions' DO-Space (Entscheidung Martin-Call 2026-04-21).
 quelle: notion_migration
 vertrauen: extrahiert
 ---

@@ -6,7 +6,7 @@ datum: 2026-04-19
 kapazitaet: hoch
 kontext: ["desktop", "live-test-handy"]
 quelle: claude-session
-vertrauen: direkt
+vertrauen: extrahiert
 ---
 
 ## Was heute passiert ist

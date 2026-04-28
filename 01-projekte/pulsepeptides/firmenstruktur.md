@@ -4,7 +4,7 @@ projekt: "[[pulsepeptides]]"
 thema: firmenstruktur
 status: in_arbeit
 erstellt: 2026-04-17
-zuletzt_aktualisiert: 2026-04-17
+zuletzt_aktualisiert: 2026-04-28
 vertrauen: extrahiert
 quelle: voice_dump
 ---
@@ -23,19 +23,24 @@ Drei separate Entitäten mit unterschiedlichen Funktionen:
 
 - **Funktion:** operative Firma, über die bestellt und das Geschäft geführt wird
 - **Registrierung:** Zypern
+- **Adresse:** Kalymnou, Q MERITO, 4th floor Agios Nikolaos, Kamares, 6037 Larnaca, Cyprus
 - **Shareholder:** Kalani (100%)
 - **UBO (Ultimate Beneficial Owner):** formell andere Person eingetragen (Details offen)
 - **Steuern:** offen (Zypern-Regelung zu klären)
+- **Verwendung Operations:** Druckerei-Bestellungen (Vials, Kapsel-Bottles, Bac-Water-Bottles) laufen über Pulse Peptides Cyprus
+- **Hinweis:** Maman-Angebot (2026-03-30) ist an "PULSPEPTIDES Ltd." (sic, ohne E) adressiert, vermutlich Tippfehler von Maman. Korrekte Schreibweise mit Mandak klaeren bevor Vertrag.
 
-### 2. Pulse Organization Limited - Revolut Business
+### 2. Pulse Organization Limited - England (UK)
 
-- **Funktion:** Annahme von Kartenzahlungen der Kunden
+- **Funktion:** Annahme von Kartenzahlungen der Kunden, Rechnungsstellung an Lieferanten und Druckereien
+- **Registrierung:** England (UK)
 - **Konto:** Revolut Business
 - **Inhaber:** Kalani
 - **Accountant:** Sultan
 - **E-Mail:** [pulseorganization@protonmail.com](mailto:pulseorganization@protonmail.com) (Passwort in 1Password)
 - **Compliance-Workaround:** Revolut Business akzeptiert keine Zahlungen für Peptid-Shops. Zahlungen laufen über [pulseprana.com](http://pulseprana.com) (Consulting Service).
 - **Pain-Point:** Revolut findet das irgendwann raus. Alternativer Banking-Anbieter muss gefunden werden.
+- **Stand 2026-04-28:** Rechnungen für Druckerei-Bestellungen werden über die UK-Entitaet gestellt, Bezahlung erfolgt über Pulse Cyprus.
 
 ### 3. Pulse Enterprise Limited - Hongkong / Air Wallet
 
@@ -55,7 +60,7 @@ Kunde zahlt per Karte
         ↓
 pulseprana.com (Consulting-Tarnung)
         ↓
-Pulse Organization Limited (Revolut Business)
+Pulse Organization Limited UK (Revolut Business)
         ↓
 Pulse Enterprise Limited (Air Wallet Hongkong, 0% Steuer)
         ↓
@@ -68,7 +73,13 @@ Pulse Peptides Limited (Zypern) — operative Bestellungen
 
 ## Compliance-Risiken und Pain-Points
 
-ThemaRisikoStatusRevolut BusinessEntdeckt Peptid-Zahlungen, sperrt KontoAktiv, Lösung offenKrypto-Limit12.000 EUR legal pro Person/JahrAktiv, Lösung offenLager DeutschlandVersand rechtlich nicht zugelassenAktiv, Verlagerung Tschechien Mai 2026Domain GoDaddyCompliance, Transfer steht ausAktivUBO ZypernDetails zu klärenOffen
+| Thema | Risiko | Status |
+|---|---|---|
+| Revolut Business | Entdeckt Peptid-Zahlungen, sperrt Konto | Aktiv, Lösung offen |
+| Krypto-Limit | 12.000 EUR legal pro Person/Jahr | Aktiv, Lösung offen |
+| Lager Deutschland | Versand rechtlich nicht zugelassen | Aktiv, Verlagerung Tschechien Mai 2026 |
+| Domain GoDaddy | Compliance, Transfer steht aus | Aktiv |
+| UBO Zypern | Details zu klären | Offen |
 
 ---
 
@@ -96,9 +107,10 @@ ThemaRisikoStatusRevolut BusinessEntdeckt Peptid-Zahlungen, sperrt KontoAktiv, L
 
 ## Order Management
 
-- **Kanal:** Telegram (zwei Gruppen)
+- **Kanal:** Telegram (zwei Gruppen) plus WhatsApp (XiAN Sheerherb)
 - **Supplier 1:** Lab Peptides (schnelle Produktion)
 - **Supplier 2:** ZY Peptides (langsame Produktion)
+- **Supplier 3:** XiAN Sheerherb (Kapseln plus Vials, Testing-Badge)
 - **Zahlung:** Krypto
 - **Krypto-Limit:** 12.000 EUR legal pro Person/Jahr. Aktuelles Restlimit: offen
 - **Offene Bestellung:** Tireptide müssen bestellt werden
@@ -108,23 +120,50 @@ ThemaRisikoStatusRevolut BusinessEntdeckt Peptid-Zahlungen, sperrt KontoAktiv, L
 - **Produktion:** China
 - **Versandweg:** China, London, Belgien, Europa
 - **Lead Time:** 10-18 Tage
-- **Lager:** [[kai-pulse]], Appelheim bei Mannheim, Teilzeit
+- **Lager:** [[kai-pulse]], Eppelheim bei Mannheim, Teilzeit
 - **Lager-Verlagerung:** Tschechien, Zieldatum Anfang Mai 2026
 
-## Labels
+## Labels und Druckerei
 
 - **Design:** [[lizzi-pulse]] (Freelancer, 30 EUR/h)
-- **Druck:** [etikettendrucken.de](http://etikettendrucken.de)
+- **Aktueller Druck:** [etikettendrucken.de](http://etikettendrucken.de)
+- **Aktuelles Format:** 6x9mm Etikett, mit Pinzette zu kleben, sehr fummelig
 - **Problem:** Batch-Nummern nicht mitdruckbar, nachträglich manuell (aktuell Kai)
-- **Offen:** Label-Pipeline automatisieren
+- **Bug 2026-04-28:** 100 Stück Kapsel-Labels mit altem "Hyaluronic Acid"-Text (vor Halal-Wechsel)
+- **Referenz:** Lab Peptides druckt Batch-Nummer direkt auf Flasche, Vorbild fuer eigene Loesung
+
+### Druckerei-Sourcing (Stand 2026-04-28)
+
+- **Spec:** 10 ct pro Label, 10.000 Stueck alle 3 Monate, scalable
+- **Scope:** Vials plus Bottles fuer Kapseln plus Bac-Water-Bottles
+- **Bezahlung:** ueber Pulse Peptides Cyprus
+- **Rechnungsstellung:** ueber Pulse Organization Limited UK
+- **Aufgabe Deniz:** Druckereien anrufen, Angebote einholen
 
 ## Systeme und Zugänge
 
-SystemFunktionZugang DenizTelegramSupplier-KommunikationvorhandenGoogle SheetsBatch-SSOT (17 Spalten)vorhandenMetorikInventory Managementaktiv (WordPress, 2026-04-17)FreshdeskSupport-Ticketskommt via 1PasswordSlackTeam-Kommunikationvorhanden1PasswordPasswort-Vault KalaniZugriff kommtVercel (Admin Hub)Support-Interfacekommt via 1Password
+| System | Funktion | Zugang Deniz |
+|---|---|---|
+| Telegram | Supplier-Kommunikation | vorhanden |
+| WhatsApp | XiAN Sheerherb (Pax) | vorhanden, eSIM |
+| Google Sheets | Batch-SSOT (17 Spalten) | vorhanden |
+| Metorik | Inventory Management | aktiv (WordPress, 2026-04-17) |
+| Freshdesk | Support-Tickets | kommt via 1Password |
+| Slack | Team-Kommunikation | vorhanden |
+| 1Password | Passwort-Vault Kalani | Zugriff kommt |
+| Vercel (Admin Hub) | Support-Interface | kommt via 1Password |
 
 ## Team
 
-PersonRolleOrtStatus[[kalani-ginepri]]CEOvariabelGründerDenizCOOMannheimTransition ab 2026-04-17[[christian-pulse]]SupportBaliTeilzeit[[kai-pulse]]LagerAppelheimTeilzeit[[patrick-pulse]]Developer/BackendvariabelFreelancer[[german-pulse]]Website/WordPressvariabelFreelancer, 30 EUR/h[[lizzi-pulse]]Design/LabelsvariabelFreelancer, 30 EUR/h
+| Person | Rolle | Ort | Status |
+|---|---|---|---|
+| [[kalani-ginepri]] | CEO | variabel | Gründer |
+| Deniz | COO | Mannheim | Transition ab 2026-04-17 |
+| [[christian-pulse]] | Support | Bali | Teilzeit |
+| [[kai-pulse]] | Lager | Eppelheim | Teilzeit |
+| [[patrick-pulse]] | Developer/Backend | variabel | Freelancer |
+| [[german-pulse]] | Website/WordPress | variabel | Freelancer, 30 EUR/h |
+| [[lizzi-pulse]] | Design/Labels | variabel | Freelancer, 30 EUR/h |
 
 ## Offen
 
@@ -139,19 +178,49 @@ PersonRolleOrtStatus[[kalani-ginepri]]CEOvariabelGründerDenizCOOMannheimTransit
 
 ### Operations (COO relevant)
 
-ChannelZweckWer#generalTeam-Kommunikation allgemeinAlle#inventoryLagerbestand (alt)Kai, Team#inventory-Lagerbestand (neu, zu mergen mit #inventory)Kai, Team#backordersNachbestellungenKai, COO#custom-order-requestsManual/Custom OrdersChristian, Kai, COO#failed-shipmentsDefekte und fehlgeschlagene LieferungenChristian, Kai#csupport-generalCustomer Support allgemeinChristian#csupport-shipmentsSupport VersandfragenChristian#financialFinanzen allgemeinKalani, COO#crypto-paymentsKrypto-ZahlungenKalani, COO#forwardingZweck unklar, zu klären-#shipping-costs-changeVersandkosten-ÄnderungenKai#affiliate-programmAffiliate-ProgrammKalani#office-eppelheimKais Lager AppelheimKai
+| Channel | Zweck | Wer |
+|---|---|---|
+| #general | Team-Kommunikation allgemein | Alle |
+| #inventory | Lagerbestand (alt) | Kai, Team |
+| #inventory-Lagerbestand | Lagerbestand (neu, zu mergen mit #inventory) | Kai, Team |
+| #backorders | Nachbestellungen | Kai, COO |
+| #custom-order-requests | Manual/Custom Orders | Christian, Kai, COO |
+| #failed-shipments | Defekte und fehlgeschlagene Lieferungen | Christian, Kai |
+| #csupport-general | Customer Support allgemein | Christian |
+| #csupport-shipments | Support Versandfragen | Christian |
+| #financial | Finanzen allgemein | Kalani, COO |
+| #crypto-payments | Krypto-Zahlungen | Kalani, COO |
+| #forwarding | Zweck unklar, zu klären | - |
+| #shipping-costs-change | Versandkosten-Änderungen | Kai |
+| #affiliate-programm | Affiliate-Programm | Kalani |
+| #office-eppelheim | Kais Lager Eppelheim | Kai |
 
 ### Automatisierte Channels (n8n Flows)
 
-ChannelZweck#jumingoMetorik-Exporte via n8n automatisch#dhlDHL-Daten via n8n automatisch
+| Channel | Zweck |
+|---|---|
+| #jumingo | Metorik-Exporte via n8n automatisch |
+| #dhl | DHL-Daten via n8n automatisch |
 
 ### Entwicklung/Tech
 
-ChannelZweckWer#backendServer und BackendPatrick#webdevWebsite WordPressGerman#aidevKI-AutomatisierungenDeniz, Kalani#adminhubphase1Admin Hub EntwicklungForster Labs#customer-supprt-hubdevSupport Hub EntwicklungForster Labs#qcanalyticsQC und AnalyticsKalani#workflow_testingDeniz Testing-ChannelDeniz
+| Channel | Zweck | Wer |
+|---|---|---|
+| #backend | Server und Backend | Patrick |
+| #webdev | Website WordPress | German |
+| #aidev | KI-Automatisierungen | Deniz, Kalani |
+| #adminhubphase1 | Admin Hub Entwicklung | Forster Labs |
+| #customer-supprt-hubdev | Support Hub Entwicklung | Forster Labs |
+| #qcanalytics | QC und Analytics | Kalani |
+| #workflow_testing | Deniz Testing-Channel | Deniz |
 
 ### Sonstiges
 
-ChannelZweckWer#virtual-assistantFreelancer für Monkey TasksRasmus Madsen#goggleadsGoogle AdsKalani#randomSmalltalkAlle
+| Channel | Zweck | Wer |
+|---|---|---|
+| #virtual-assistant | Freelancer für Monkey Tasks | Rasmus Madsen |
+| #goggleads | Google Ads | Kalani |
+| #random | Smalltalk | Alle |
 
 ### Offene Punkte Slack-Struktur
 

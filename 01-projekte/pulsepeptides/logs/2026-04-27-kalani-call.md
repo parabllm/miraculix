@@ -63,12 +63,7 @@ Bestehende Janoshik-Links prüfen, in n8n-Workflow einfügen. Voraussetzung für
 
 Folgende Produkte auf dem Weg. Batch-Nummern nach Ankunft in Google Sheet eintragen, Status auf Ready for Testing setzen:
 
-| Produkt | Batch-Nr. | Status |
-|---|---|---|
-| PT-141 | TBD | unterwegs |
-| DSIP | TBD | unterwegs |
-| BPC-157 | TBD | offen, Umstellung auf anderes Produkt geplant (siehe unten) |
-| Tesamorelin | TBD | unterwegs |
+ProduktBatch-Nr.StatusPT-141TBDunterwegsDSIPTBDunterwegsBPC-157TBDoffen, Umstellung auf anderes Produkt geplant (siehe unten)TesamorelinTBDunterwegs
 
 Anmerkung BPC-157: Bestellung steht außen. Kalani hatte BPC bereits zuvor bestellt, das Eintragen aber vergessen. Versuch jetzt, die offene BPC-Bestellung auf ein anderes Produkt umzustellen, damit kein Doppelbestand entsteht.
 

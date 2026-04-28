@@ -53,6 +53,6 @@ Studienkollegen, mit denen Deniz auch privat verbunden ist:
 - [[eris-osmani-wiedmeier]] - auch Schwitzer-Crew, Familie betreibt [[pflegedienst-triebskorn]]
 - [[mikail-ismailov]] - auch Schwitzer-Crew
 
-**Spanien-Crew** (Empuriabrava, Familie Stetter Haus, erste 2 Augustwochen): Lars, Maddox, Tim, Marc, Luca, Deniz. Jannik Ellminger gehört NICHT zur HdWM-Crew, wurde über Tim in Spanien kennengelernt.
+**Spanien-Crew** (Empuriabrava, Familie Stetter Haus, erste 2 Augustwochen): Lars, Maddox, Tim, Marc, Luca, Jannik, Deniz. [[jannik-ellminger]] gehört zur Spanien-Crew, aber nicht zur HdWM-Crew.
 
 **Schwitzer-Crew** (Padel, privat): Maddox, Eris, Mikail, Deniz.

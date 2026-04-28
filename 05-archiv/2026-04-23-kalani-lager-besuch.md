@@ -8,7 +8,7 @@ thema: "Lager-Besuch + COO Weekly: Supplier-Deal, Pakete, Affiliate, US Shipment
 status: offen
 erstellt: 2026-04-22
 quelle: meeting
-vertrauen: offen
+vertrauen: angenommen
 ---
 
 # Lager-Besuch Eppelheim, 2026-04-23
