@@ -1,0 +1,46 @@
+// Syncthing-Ignorierliste fuer den Miraculix-Vault
+// Stand: 2026-04-29
+// Ziel: PC-Vault auf Hetzner spiegeln, ohne Secrets, Git-Internals,
+// Worktree-State oder grosse Anhaenge mitzunehmen.
+// MCP-Eingang ist ein eigener Syncthing-Folder und darf hier nicht doppelt syncen.
+
+// Versionskontrolle und Tooling
+/.git/
+/.gitignore
+/.gitattributes
+/.gitmodules
+
+// Claude-Code lokaler State (Worktrees, Settings, Sessions)
+/.claude/
+
+// Obsidian-User-State (workspace, cache, hotkeys)
+/.obsidian/workspace*
+/.obsidian/cache
+/.obsidian/.workspace*
+/.obsidian/.workspace.json
+
+// API-Secrets niemals spiegeln
+/_api/.env
+/_api/.env.*
+
+// Anhaenge bleiben am PC, separat behandelt
+/_anhaenge/
+
+// MCP-Eingang laeuft als eigener Syncthing-Folder, nicht doppelt syncen
+/00-vault-mcp-eingang/
+
+// Syncthing-interne Ordner
+/.stversions/
+/.stfolder/
+.stignore.tmp
+
+// Migrations-Artefakte und Reports lokal halten falls gross
+/_migration/.cache/
+
+// Tempdateien und Editor-Backups
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

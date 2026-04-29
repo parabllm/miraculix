@@ -56,3 +56,13 @@ npm-debug.log*
 # Source-Exports nicht committen (zu gro├ƒ)
 00-eingang/claude/*.json
 00-eingang/notion/
+
+# Syncthing-Internals (per-device, nicht im Git)
+.stfolder/
+.stversions/
+
+# Obsidian volatile state (graph layout pro Session)
+.obsidian/graph.json
+
+# PDF-Preview Tempfolder
+.tmp_pdf_preview/
