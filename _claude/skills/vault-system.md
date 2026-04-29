@@ -167,11 +167,24 @@ datum_ende: YYYY-MM-DD
 | Trigger | Was passiert |
 |---|---|
 | "tages-start" | Daily Note, Kalender, Tasks, Kapazität |
-| "eingang verarbeiten" | Inbox durchgehen, klassifizieren |
+| "eingang verarbeiten" | MCP-Eingang (Mobile-Artefakte) zuerst mergen, dann 00-eingang/ klassifizieren |
 | "abgleich X" | Projekt X mit neuen Inputs abgleichen |
 | "vault prüfen" | Konsistenz-Check |
 | "log" | Session-Erkenntnisse speichern |
 | "leg das in kommunikation-referenzen" | Thread im passenden Kanal-Unterordner ablegen |
+| Mobile-Anfrage zum Schreiben in den Vault | Skill `miraculix-vault-mcp-artefakt-erstellen` triggern (nur wenn keine Filesystem-Tools) |
+
+## Capture-Architektur
+
+Drei Wege wie Inhalte in den Vault kommen:
+
+| Weg | Zielordner | Verarbeitung |
+|---|---|---|
+| Am PC direkt (Claude Code, Desktop, Obsidian) | direkt in Projekt-/Wissen-Files | Live-Edit |
+| Klassische Inbox (Voice, Transkripte, Drive-Dump, Email) | `00-eingang/{audio,transkripte,chat-exports,unverarbeitet}/` | "eingang verarbeiten" |
+| Mobile via Vault-MCP | `00-vault-mcp-eingang/` (auf Hetzner, Syncthing zum PC) | Merge in "eingang verarbeiten", Sektion "MCP-Eingang Merge" |
+
+Mobile-Claude schreibt NIE direkt in Vault-Dateien. Stattdessen Artefakte im MCP-Eingang. PC-Claude validiert und merged. Volle Spec: `02-wissen/vault-mcp-architektur.md`.
 
 ## Schreibstil für Vault-Content
 

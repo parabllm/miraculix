@@ -137,7 +137,7 @@ Jede faktische Aussage wird datiert, nicht über File-Datum:
 | Trigger | Skill | Wann |
 |---|---|---|
 | "tages-start" / "was steht an" | `_claude/skills/tages-start.md` | Morgens |
-| "eingang verarbeiten" / "digest" | `_claude/skills/eingang-verarbeiten.md` | Wenn Inbox voll |
+| "eingang verarbeiten" / "digest" | `_claude/skills/eingang-verarbeiten.md` | Wenn Inbox voll oder MCP-Artefakte vom Mobile warten |
 | "hol den eingang aus dem drive" / "drive pull" | `_claude/skills/drive-eingang-holen.md` | Wenn Mobile Files in Drive abgelegt hat |
 | "abgleich X" / "reconcile X" | `_claude/skills/abgleich.md` | Nach Input-Welle zu Projekt |
 | "vault prüfen" / "lint" | `_claude/skills/vault-pruefung.md` | Wöchentlich |
@@ -145,6 +145,7 @@ Jede faktische Aussage wird datiert, nicht über File-Datum:
 | implizit beim "log" | `_claude/skills/wissens-destillation.md` | Pattern 2× aufgetreten |
 | "audio verarbeiten" / "transkribiere" | `_claude/skills/audio-verarbeiten.md` | Wenn Audio in `00-eingang/audio/` |
 | "transkript verarbeiten" / "triag transkript" | `_claude/skills/transkript-verarbeiten.md` | Nach Audio-Verarbeitung oder direkt |
+| Mobile-Anfrage "leg das in den vault" / "vault note" / "ergänze X" | `_claude/skills/vault-mcp-artefakt-erstellen.md` | Nur Mobile, wenn keine Filesystem-Tools verfügbar |
 
 ---
 
