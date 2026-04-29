@@ -237,11 +237,82 @@ roh: true
 
 ---
 
+## Vault-MCP-Artefakt
+
+Pfad: `00-vault-mcp-eingang/YYYY-MM-DD-HHMM-{slug}-{aktion}.md`
+
+Wird ausschließlich vom Vault-MCP-Server (Mobile-Capture) angelegt. PC-Claude verarbeitet via Skill `eingang-verarbeiten` Sektion "MCP-Eingang Merge". Volle Spec siehe [[vault-mcp-architektur]] und [[vault-mcp-artefakt-erstellen]].
+
+Pflichtfelder im Artefakt-Header:
+
+```yaml
+---
+typ: vault-mcp-artefakt
+erstellt: YYYY-MM-DD HH:MM        # mit Uhrzeit, ISO-ähnlich
+quelle_geraet: mobile-handy        # mobile-handy | mobile-tablet | desktop-mobile-app
+quelle_konversation: kurzer-titel  # damit der Kontext nachvollziehbar ist
+ziel_pfad: relativer/pfad/zur/zieldatei.md
+ziel_aktion: neue-datei            # neue-datei | ergaenzung | ersetzen-sektion
+idempotenz_key: YYYY-MM-DD-HHMM-slug
+body_sha256: <hex-sha256-vom-body-unter-dem-frontmatter>
+status: bereit-zum-mergen          # bereit-zum-mergen | gemerged | verworfen
+pc_anweisung: |                     # Mobile beschreibt für PC was gilt
+  Konvention: <was Mobile beim Sondieren gefunden hat>
+  Referenz-Files: <Pfade zu existierenden Files mit gleicher Konvention>
+  Sondierungs-Tools: <welche vault_*-Calls Mobile genutzt hat>
+  Annahmen: <was Mobile angenommen hat, PC soll prüfen>
+  Risiken: <was schief gehen könnte>
+---
+```
+
+Bei `ziel_aktion: ergaenzung` oder `ersetzen-sektion` zusätzlich:
+
+```yaml
+basis_mtime: 2026-04-29T15:05:00+02:00  # mtime der Zieldatei beim Mobile-Lesen
+basis_sha256: <hex-sha256-der-zieldatei>
+ziel_sektion: "Aktuelle Kommunikation"   # ohne Markdown-Hashes
+ziel_heading_ebene: 2                    # 2 oder 3
+einfuege_position: ende-der-sektion      # nur bei ergaenzung: ende-der-sektion | anfang-der-sektion
+```
+
+Bei `ziel_aktion: neue-datei` optional:
+
+```yaml
+verlinkungen_einbauen:
+  - in: 01-projekte/{ueberprojekt}/{ueberprojekt}.md
+    sektion: "Sub-Projekte"
+    ziel_heading_ebene: 2
+    text: "[[neuer-slug]] Kurze Beschreibung"
+```
+
+Trennt sich vom Output-File-Frontmatter durch HTML-Kommentar:
+
+```markdown
+---
+<artefakt-header>
+---
+
+<!-- ALLES UNTER DIESER ZEILE IST DIE FERTIGE DATEI. -->
+
+---
+<output-file-frontmatter mit typ: meeting-note | projekt | wissen | etc.>
+---
+
+# Eigentlicher Inhalt
+```
+
+Siehe `_claude/skills/vault-mcp-artefakt-erstellen.md` für vollständigen Workflow und Beispiele.
+
+---
+
 ## Feldtypen-Referenz
 
 | Feld | Erlaubte Werte |
 |---|---|
-| `typ` | ueber-projekt, sub-projekt, aufgabe, log, meeting, wissen, kontakt, tagebuch, eingang |
+| `typ` | ueber-projekt, sub-projekt, aufgabe, log, meeting, wissen, kontakt, tagebuch, eingang, vault-mcp-artefakt, system-marker |
+| `ziel_aktion` (vault-mcp-artefakt) | neue-datei, ergaenzung, ersetzen-sektion |
+| `quelle_geraet` (vault-mcp-artefakt) | mobile-handy, mobile-tablet, desktop-mobile-app |
+| `status` (vault-mcp-artefakt) | bereit-zum-mergen, gemerged, verworfen |
 | `status` (Projekt) | aktiv, in_arbeit, scouting, blockiert, ausgeliefert, pausiert, archiviert |
 | `status` (Aufgabe) | offen, in_arbeit, erledigt, blockiert |
 | `umfang` | offen, geschlossen |

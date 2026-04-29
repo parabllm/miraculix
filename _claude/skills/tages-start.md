@@ -51,6 +51,7 @@ fokus_projekte: []
 - Vault: offene Aufgaben aus `01-projekte/` (Files mit `status: offen` oder offene Checkboxen in `{slug}.md`)
 - Vault: letzten Log-Eintrag finden (neuestes File in allen `logs/` Ordnern)
 - Vault: `00-eingang/unverarbeitet/` → Anzahl unverarbeiteter Items
+- Vault: `00-vault-mcp-eingang/` → Mobile-Artefakte: Anzahl plus Filenames mit Alter
 
 ---
 
@@ -72,7 +73,13 @@ Heute ist [Wochentag], [Datum].
 
 **Letzte Session:** [Datum] — [Projekt]: [was gemacht]
 
-**Eingang:** [X] unverarbeitete Items
+**Eingang:** [X] unverarbeitete Items in 00-eingang/
+
+**MCP-Eingang:** [Y] wartende Mobile-Artefakte
+- 2026-04-29-1530-pulse-status-update-ergaenzung (vor 2h)
+- 2026-04-30-0815-kalani-call-neue-datei (vor 30min)
+- ...
+(max 5 zeigen, Rest als "+ N weitere")
 ```
 
 ---
@@ -120,6 +127,8 @@ Nach Antworten:
 - **Beides hoch (≥ 7):** Deep-Work-Sessions anbieten.
 - **Beides niedrig (< 5):** Pause empfehlen, maximal Admin.
 - Inbox voll (5+ Items) → aktiv darauf hinweisen: "Du hast X unverarbeitete Sachen in der Inbox."
+- MCP-Eingang nicht leer → "Du hast Y Mobile-Artefakte zum Mergen. Soll ich `eingang verarbeiten` triggern?"
+- MCP-Artefakt älter als 7 Tage → "Achtung, Artefakt {filename} liegt schon X Tage. Mergen oder verwerfen?"
 - Letzter Log älter als 3 Tage → hinweisen.
 - Thesis-Deadline (2026-06-15) immer im Hinterkopf. Bei Energie ≥ 7 **und** Zeit ≥ 5 aktiv Thesis-Progress vorschlagen wenn nicht explizit anderes Fokus-Projekt genannt.
 
