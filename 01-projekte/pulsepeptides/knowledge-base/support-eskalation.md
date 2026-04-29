@@ -155,6 +155,30 @@ Christian kann das eigenständig an Kunden kommunizieren.
 
 ---
 
+### Invoice Verification / Drittparteien-Anfragen
+
+**Stand 2026-04-29**
+
+**Trigger:** Externe Drittpartei (z.B. Buchhaltungsfirma, Steuerberater) bittet um Bestätigung einer Rechnung oder Bestelldetails - nicht der Kunde direkt.
+
+**Regelung:**
+- Keine Bestätigung ohne Anfrage direkt vom Kunden (registrierte E-Mail-Adresse)
+- Vor Antwort prüfen: unter welcher Firma wurde die Invoice ausgestellt? Stimmt das mit der korrekten Legal-Entity überein?
+- Christian braucht schriftliche interne Bestätigung vor jeder Antwort an externe Drittparteien
+- Solche Anfragen NICHT in #general posten, direkt an Deniz per DM
+
+**Standard-Antwort (bestätigt 2026-04-29, Case Invoice #7347, Buchhalterin von Uno Vita AS):**
+
+> We can confirm that an order exists under the number #7347. However, we are only able to provide specific details once we receive a request directly from the customer's registered email address. At this stage, we can also clarify that the invoice in question does not match the format of our official invoice templates. Additionally, no sales were conducted through our Cyprus entity in November 2025, as this company was established after that date.
+
+**Lernpunkt aus Case #7347:**
+- Invoice war unter Cyprus-Entity ausgestellt, aber kein Verkauf lief dort im Nov 2025
+- Cyprus-Entity existierte zu dem Zeitpunkt noch nicht
+- Invoice-Format stimmte nicht mit offiziellem Template überein
+- Kalani-Abstimmung ausstehend für Prozessformalisierung
+
+---
+
 ### Defekte Vials / Failed Shipments
 
 **Prozess:**
