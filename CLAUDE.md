@@ -45,6 +45,24 @@ Bei Verstoss: Datenverlust moeglich. Bei Unsicherheit: erst Deniz fragen.
 
 ---
 
+## Tool-Routing nach Geraet (PFLICHT)
+
+Drei Zugriffswege auf den Vault, je nach Umgebung. Strikte Regel: nutze immer den nativsten verfuegbaren Weg, nie den Vault-MCP wenn Filesystem-Zugriff da ist.
+
+| Umgebung | Was nutzen | Erkennungsmerkmal |
+|---|---|---|
+| **Claude Code** (CLI/Worktree) | Direkt: Read, Edit, Write, Glob, Grep, Bash | Tool-List enthaelt `Read`, `Edit`, `Bash` |
+| **Claude Desktop App** | Filesystem-MCP (`mcp__filesystem__*`) | Tool-List enthaelt Filesystem-MCP, kein nativer `Read` |
+| **Claude Mobile App** | Vault-MCP (`vault_read_file`, `vault_list_directory`, `vault_search`, `vault_get_recent_logs`, `vault_get_project_state`) | Nur `vault_*`-Tools sichtbar, kein Filesystem |
+
+Regeln:
+- **Vault-MCP ist ausschliesslich fuer Mobile.** Wenn `Read` ODER `mcp__filesystem__*` verfuegbar sind, niemals `vault_*`-Tools aufrufen.
+- Vault-MCP ist read-only Subset, hat Groessenlimits, keine Schreibrechte. Filesystem-Zugriff ist immer maechtiger.
+- Bei Doppel-Verfuegbarkeit (Bug oder Versehen): Filesystem hat Vorrang. `vault_*`-Tools ignorieren.
+- Diese Regel gilt fuer ALLE Skills. Einzelne Skills muessen sie nicht wiederholen.
+
+Begruendung: Vault-MCP wurde gebaut damit Mobile-Claude den Vault lesen kann ohne Filesystem-Zugang. Desktop und Claude Code haben Filesystem - dort ist Vault-MCP redundant und schwaecher.
+
 ## Modi
 
 ### Migrations-Modus (einmalig, beim Setup)
