@@ -78,7 +78,9 @@ einfuege_position: ende-der-sektion | anfang-der-sektion   # nur ergaenzung
 
 Nach dem Frontmatter kommt der Body (alles unter dem zweiten `---`). Davon den SHA-256 Hash bilden und als `body_sha256` ins Frontmatter eintragen.
 
-Wenn du keinen Hash berechnen kannst, lass das Feld leer mit `body_sha256: ""` und füge ein Kommentar im Body ein. PC-Merge wird dann strenger prüfen.
+**Pflicht.** Leeres `body_sha256: ""` ist nicht erlaubt - PC-Merge kann den Body sonst nicht gegen Manipulation prüfen.
+
+Wenn du keine Hash-Funktion ausführen kannst (selten), nutze als Fallback eine Pseudo-Hash-Strategie: erste 16 Zeichen des Bodys (nach Trim) plus Body-Länge als String, z.B. `body_sha256: "FALLBACK:erste-16-zeichen-len-1234"`. Markier im `pc_anweisung`-Feld dass Hash-Berechnung nicht möglich war, damit PC-Claude den Body manuell verifiziert.
 
 ## Drei Aktions-Typen
 
@@ -188,34 +190,145 @@ status: bereit-zum-mergen
 
 Wenn Deniz dir auf Mobile etwas zum Speichern gibt:
 
-1. **Recherche - PFLICHT**: `vault_search` nach ähnlichen existierenden Files. Ziel: Vault-Konvention für Pfad und Struktur finden, nicht erfinden.
-   - Beispiel: bei Meeting-Notes mit Kalani vorher `vault_search("kalani-call")` oder `vault_list_directory("01-projekte/pulsepeptides/logs")` um zu sehen wo bestehende Files liegen.
-   - Wenn kein passendes Schema gefunden: bei Deniz nachfragen, NICHT raten.
-2. **Klassifizieren**: `neue-datei`, `ergaenzung` oder `ersetzen-sektion`?
+1. **Pfad-Erkundung (PFLICHT, nicht überspringbar)** - siehe Sektion "Pfad finden, nie raten" unten. Mindestens drei Tool-Calls bevor du `ziel_pfad` festlegst.
+2. **Klassifizieren**: `neue-datei`, `ergaenzung` oder `ersetzen-sektion`? Antwort ergibt sich aus Schritt 1.
 3. **Pre-Write-Checkliste durchgehen** (siehe unten). ALLE Punkte abhaken vor dem Schreiben.
-4. **Header bauen**: Pflichtfelder, plus aktions-spezifische. Field-Namen EXAKT wie spezifiziert (`ziel_aktion` nicht `aktion`).
+4. **Header bauen**: Pflichtfelder, plus aktions-spezifische. Field-Namen EXAKT wie spezifiziert (`ziel_aktion` nicht `aktion`). Plus `pc_anweisung` Block (siehe "Selbsterklärendes Artefakt") mit Begründung warum dieser Pfad, welche Konvention gilt, welche Referenz-Files PC-Claude beim Merge ansehen soll.
 5. **Bei ergaenzung/ersetzen-sektion**: Zieldatei lesen, `basis_sha256` und `basis_mtime` notieren, Sektion finden.
 6. **Wikilinks prüfen**: Jeder `[[name]]` im Body muss auf existierende Datei zeigen. `vault_read_file` zum Verifizieren.
 7. **Body bauen**: Eigentlicher Inhalt nach Schreibstil-Skill (`miraculix-schreibstil`).
 8. **Hash berechnen**: SHA-256 vom Body, in `body_sha256`.
 9. **Filename**: Pattern bauen, `vault_list_eingang()` checken auf Doppel-Filename.
 10. **Schreiben**: `vault_create_artefakt(filename, content)`.
-11. **Bestätigen**: Deniz kurz sagen was im Eingang gelandet ist und dass PC-Claude beim nächsten "eingang verarbeiten" merged.
+11. **Bestätigen**: Deniz kurz sagen was im Eingang gelandet ist, mit gewähltem Pfad und Begründung.
+
+## Pfad finden, nie raten (PFLICHT)
+
+Mobile-Claude darf einen Pfad NICHT erfinden. Die häufigsten Fehler bisher: erfundener `logs/`-Ordner, erfundene Top-Level-Folder wie `03-meeting-notes/`. Beide kommen daher dass Mobile nur ein Über-Projekt-Wort hatte und einen Pfad zusammengebaut hat.
+
+Pflicht-Workflow vor jedem `ziel_pfad`:
+
+### Schritt P.1: Über-Projekt identifizieren
+
+Aus dem User-Input das Über-Projekt ableiten (HDWM, Pulsepeptides, Thalor, Coralate, HAYS, Bachelor-Thesis, Miraculix, Persönlich, Terminbuchung-App).
+
+Bei Unsicherheit: `vault_read_file("_claude/skills/vault-system.md")` lesen, dort steht die aktive Über-Projekt-Tabelle.
+
+### Schritt P.2: Über-Projekt-Struktur sondieren
+
+```
+vault_list_directory(path="01-projekte/{ueberprojekt}", depth=2)
+```
+
+Output ansehen: gibt es Sub-Projekte? Gibt es einen `logs/`-Ordner? Gibt es Semester-/Jahres-Strukturen? Gibt es ein zentrales `{ueberprojekt}.md` File?
+
+### Schritt P.3: Über-Projekt-Hauptfile lesen
+
+```
+vault_read_file(path="01-projekte/{ueberprojekt}/{ueberprojekt}.md")
+```
+
+Output zeigt häufig die Konvention. Beispiele:
+- Pulsepeptides hat `logs/` → projekt-lokale Logs üblich
+- HDWM hat `semester-X/{vorlesung}.md` → Vorlesungs-Notes als Sektionen IN dem Vorlesungs-File, nicht als separate Files
+- Thalor hat Sub-Projekte mit jeweils eigenen Strukturen → ein Schritt tiefer schauen
+
+### Schritt P.4: Existierende ähnliche Files finden
+
+```
+vault_search(query="{themenbegriff}", scope="01-projekte/{ueberprojekt}")
+```
+
+Beispiel: bei einem Kalani-Call vorher `vault_search("kalani-call", scope="01-projekte/pulsepeptides")` aufrufen. Wenn Treffer in `01-projekte/pulsepeptides/logs/` landen → Konvention klar.
+
+Bei Vorlesungs-Notes: `vault_search("Heinrich", scope="01-projekte/hdwm")` → siehst Sektionen in `innovationsmanagement.md`, also kein neuer File sondern Ergänzung.
+
+### Schritt P.5: Konvention extrahieren und festhalten
+
+Aus den Tool-Outputs die Konvention zusammenfassen. Drei mögliche Ergebnisse:
+
+| Konvention erkannt | Mobile-Aktion |
+|---|---|
+| **Sub-Files in einem Ordner** (z.B. `pulsepeptides/logs/YYYY-MM-DD-thema.md`) | `ziel_aktion: neue-datei`, Pfad mit gleichem Pattern bauen |
+| **Sektion in einem Hauptfile** (z.B. `hdwm/semester-6/innovationsmanagement.md`) | `ziel_aktion: ergaenzung`, `ziel_sektion` setzen, basis_sha256 berechnen |
+| **Keine klare Konvention** | nicht raten - bei Deniz nachfragen oder als Annahme im `pc_anweisung`-Feld vermerken und Deniz beim Bestätigen mitteilen |
+
+### Beispiel: HDWM-Innovationsmanagement (Lessons aus 2026-04-29)
+
+User sagt "leg eine Note für Innovationsmanagement an".
+
+Falsch: direkt `01-projekte/hdwm/logs/2026-04-29-innovationsmanagement.md` annehmen.
+
+Richtig:
+1. `vault_list_directory("01-projekte/hdwm", depth=2)` → sieht `semester-5/`, `semester-6/`, `hdwm.md`. KEIN `logs/`.
+2. `vault_read_file("01-projekte/hdwm/semester-6/semester-6.md")` → sieht "Vorlesungen: [[innovationsmanagement]]"
+3. `vault_read_file("01-projekte/hdwm/semester-6/innovationsmanagement.md")` → sieht Sektion "## Zusammenfassungen" mit existierender Untersektion "### 2026-04-29 - Absprache Prüfungsleistung..."
+4. Konvention erkannt: pro Termin eine Untersektion in `## Zusammenfassungen`. → `ziel_aktion: ergaenzung`, `ziel_sektion: "Zusammenfassungen"`, basis_sha256 von der innovationsmanagement.md berechnen.
+
+Nicht raten, immer sondieren.
+
+## Selbsterklärendes Artefakt (für PC-Merge)
+
+PC-Claude sieht beim Merge nur das Artefakt, nicht die Mobile-Konversation. Damit der PC-Merge ohne Rückfrage durchläuft, baut Mobile alle relevanten Findings in den Artefakt-Header ein.
+
+Pflicht-Feld zusätzlich zum Standard-Schema:
+
+```yaml
+pc_anweisung: |
+  Konvention: <was Mobile beim Sondieren gefunden hat, in 1-3 Sätzen>
+  Referenz-Files: <Pfade zu existierenden Files mit derselben Konvention>
+  Sondierungs-Tools: <welche Tool-Calls Mobile genutzt hat um die Konvention zu finden>
+  Annahmen: <was Mobile angenommen hat und PC-Claude vor dem Merge prüfen soll>
+  Risiken: <was schief gehen könnte, z.B. Sektion existiert mehrfach, Wikilink unsicher>
+```
+
+Beispiel (HDWM Innovationsmanagement Ergänzung):
+
+```yaml
+pc_anweisung: |
+  Konvention: HDWM nutzt keine separaten log-Files. Vorlesungs-Notes sind
+    Untersektionen in 01-projekte/hdwm/semester-6/{vorlesung}.md unter der
+    Sektion "## Zusammenfassungen". Pro Termin eine "### YYYY-MM-DD - Titel"
+    Untersektion.
+  Referenz-Files:
+    - 01-projekte/hdwm/semester-6/innovationsmanagement.md (existierende Sektion
+      "### 2026-04-29 - Absprache Prüfungsleistung mit Heinrich")
+  Sondierungs-Tools:
+    - vault_list_directory("01-projekte/hdwm", depth=2)
+    - vault_read_file("01-projekte/hdwm/semester-6/semester-6.md")
+    - vault_read_file("01-projekte/hdwm/semester-6/innovationsmanagement.md")
+  Annahmen:
+    - Heutiges Datum 2026-04-29, gleiches Datum wie bestehende Heinrich-Sektion -
+      mein Eintrag ist ein zweiter Termin am selben Tag (Test-Note vom User,
+      kein echter zweiter Termin). PC-Claude sollte vor Merge mit Deniz klaeren
+      ob das wirklich gewollt ist oder ob die Test-Note verworfen werden soll.
+  Risiken:
+    - Sektion "Zusammenfassungen" existiert genau einmal in der Zieldatei (geprueft).
+    - Doppeltes Datum 2026-04-29 in Untersektionen kann Wikilink-Targets
+      verwirren (kein bestehender Wikilink zeigt darauf, daher unkritisch).
+```
+
+PC-Claude liest `pc_anweisung` vor dem Plausibilitäts-Check. Wenn Mobile dort schon "Annahme: ..." als Risiko markiert, fragt PC-Claude Deniz BEVOR der Merge läuft.
+
+Je vollständiger das `pc_anweisung`-Feld, desto wahrscheinlicher läuft der Merge ohne Rückfrage durch.
 
 ## Pre-Write-Checkliste (PFLICHT abhaken vor jedem vault_create_artefakt)
 
 Vor dem Aufruf von `vault_create_artefakt` jeden Punkt mental durchgehen:
 
 ```
-[ ] Pfad-Konvention via vault_search verifiziert (nicht erfunden)
+[ ] Pfad-Erkundung gemacht: vault_list_directory + vault_read_file + vault_search auf Über-Projekt (nicht geraten)
+[ ] Konvention identifiziert: Sub-Files vs. Sektion-im-Hauptfile vs. unklar
+[ ] Bei "Sektion-im-Hauptfile" Konvention: ziel_aktion ist ergaenzung, NICHT neue-datei
+[ ] pc_anweisung-Block im Artefakt-Header gefuellt mit Konvention, Referenz-Files, Sondierungs-Tools, Annahmen, Risiken
 [ ] Header beginnt mit '---' und enthaelt typ: vault-mcp-artefakt
 [ ] Field-Name ist 'ziel_aktion' (NICHT 'aktion'), Wert ist neue-datei | ergaenzung | ersetzen-sektion
-[ ] Pflichtfelder: typ, erstellt (mit Uhrzeit), quelle_geraet, quelle_konversation, ziel_pfad, ziel_aktion, idempotenz_key, body_sha256, status
+[ ] Pflichtfelder: typ, erstellt (mit Uhrzeit), quelle_geraet, quelle_konversation, ziel_pfad, ziel_aktion, idempotenz_key, body_sha256, status, pc_anweisung
 [ ] Bei ergaenzung/ersetzen-sektion zusaetzlich: basis_mtime, basis_sha256, ziel_sektion, ziel_heading_ebene
 [ ] Header ist ABGESCHLOSSEN mit zweitem '---'
 [ ] HTML-Kommentar als Trenner: <!-- ALLES UNTER DIESER ZEILE IST DIE FERTIGE DATEI. -->
 [ ] Bei neue-datei: Output-File hat EIGENEN Frontmatter (typ: meeting-note / projekt / wissen / etc.) - getrennt vom Artefakt-Header
-[ ] Body bestaetigt sha256 als body_sha256 im Header
+[ ] body_sha256 berechnet (nicht leer)
 [ ] Filename matcht YYYY-MM-DD-HHMM-{slug}-{aktion}.md
 [ ] Wikilinks im Body verifiziert via vault_read_file
 [ ] Kein Schreibversuch in Sperrzonen (_meta, _api, _claude/skills, CLAUDE.md, _migration)
@@ -291,6 +404,16 @@ Lehre: VOR der Pfad-Wahl `vault_search("kalani")` oder `vault_list_directory("01
 `aktion: create` statt `ziel_aktion: neue-datei`. Server validiert exakt nach Schema. Field-Namen sind 1:1 zu uebernehmen, keine Synonyme.
 
 Erlaubte Werte fuer `ziel_aktion`: `neue-datei`, `ergaenzung`, `ersetzen-sektion`. Sonst nichts.
+
+### Fehler 4: Pfad geraten ohne zu sondieren
+
+Beispiel 2026-04-29: User sagte "Innovationsmanagement-Note", Mobile schrieb `01-projekte/hdwm/logs/2026-04-29-innovationsmanagement-test.md`. Der `logs/`-Ordner existiert nicht in HDWM. Konvention im HDWM-Projekt: Vorlesungs-Notes als Sektionen IN `01-projekte/hdwm/semester-6/{vorlesung}.md`, nicht als separate Files.
+
+Lehre: NIE einen Pfad aus dem Projekt-Namen plus Konvention-Annahme zusammenbauen. Immer den konkreten Workflow aus "Pfad finden, nie raten" durchgehen, mindestens drei Tool-Calls (`vault_list_directory`, `vault_read_file`, `vault_search`) bevor `ziel_pfad` gesetzt wird.
+
+### Fehler 5: pc_anweisung-Feld leer oder fehlt
+
+Wenn Mobile keinen `pc_anweisung`-Block fuellt, muss PC-Claude beim Merge alle Konventionsfragen selbst neu klaeren. Verlangsamt den Merge, fuehrt zu Rueckfragen. Mobile hat schon recherchiert - dieses Wissen gehoert ins Artefakt damit es im Merge nicht verloren geht.
 
 ## Wikilink-Regeln
 

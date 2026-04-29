@@ -78,10 +78,13 @@ Header-Pflichtfelder prüfen:
 - `idempotenz_key`
 - `body_sha256`
 - `status: bereit-zum-mergen`
+- `pc_anweisung` (Block mit Konvention, Referenz-Files, Sondierungs-Tools, Annahmen, Risiken)
 
 Bei `ergaenzung` und `ersetzen-sektion` zusätzlich: `basis_mtime`, `basis_sha256`, `ziel_sektion`, `ziel_heading_ebene`.
 
 Wenn Pflichtfelder fehlen: Artefakt überspringen, Bericht für Deniz, nicht mergen.
+
+**Mobile-Annahmen lesen**: Der `pc_anweisung`-Block ist die kompakte Übergabe von Mobile an PC. Vor jedem Merge lesen und ernst nehmen - besonders die "Annahmen" und "Risiken" Felder. Wenn Mobile dort schreibt "PC-Claude sollte vor Merge mit Deniz klären", dann auch tun - nicht ignorieren.
 
 ### M.3 - Plausibilitäts-Check
 

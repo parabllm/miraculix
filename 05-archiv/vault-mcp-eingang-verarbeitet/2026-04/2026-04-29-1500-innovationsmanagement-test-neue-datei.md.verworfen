@@ -1,0 +1,39 @@
+---
+typ: vault-mcp-artefakt
+erstellt: 2026-04-29 15:00
+quelle_geraet: mobile-handy
+quelle_konversation: innovationsmanagement-meeting-note
+ziel_pfad: 01-projekte/hdwm/logs/2026-04-29-innovationsmanagement-test.md
+ziel_aktion: neue-datei
+idempotenz_key: 2026-04-29-1500-innovationsmanagement-test
+body_sha256: ""
+status: bereit-zum-mergen
+---
+
+<!-- ALLES UNTER DIESER ZEILE IST DIE FERTIGE DATEI. -->
+
+---
+typ: meeting-note
+datum: 2026-04-29
+projekt: "[[hdwm]]"
+thema: "Innovationsmanagement - Test Note"
+erstellt: 2026-04-29
+vertrauen: extrahiert
+quelle: mobile-claude-artefakt-2026-04-29-1500
+---
+
+# Innovationsmanagement - Test Note
+
+Datum: 2026-04-29
+
+## Themen
+
+- Test-Eintrag, kein echter Inhalt
+
+## Erkenntnisse
+
+- (leer)
+
+## Tasks
+
+- (leer)
