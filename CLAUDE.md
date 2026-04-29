@@ -27,7 +27,7 @@ Kernregeln:
 - Sichere Schreibmethoden in Reihenfolge der Praeferenz:
   - Filesystem-MCP `edit_file` fuer chirurgische Edits (in Phase C als sicher bestaetigt, git-style diff)
   - Filesystem-MCP `write_file` fuer komplette Files (in Phase C als sicher bestaetigt)
-  - PowerShell `[System.IO.File]::WriteAllBytes` mit UTF-8 NoBOM (Fallback wenn MCP nicht verfuegbar)
+  - PowerShell `[System.IO.File]::WriteAllBytes` mit UTF-8 NoBOM (Fallback wenn MCP nicht verfügbar)
   - Claude-Code Write/Edit (Self-Test SAUBER, Hex-Verify trotzdem Pflicht)
 - Hex-Verify Pflicht nach JEDEM Write: erste 8 Bytes muessen `2D 2D 2D 0A` plus YAML-Key, NICHT `2D 2D 2D 0A 0A 23 23` (Pattern A)
 
@@ -47,20 +47,20 @@ Bei Verstoss: Datenverlust moeglich. Bei Unsicherheit: erst Deniz fragen.
 
 ## Tool-Hierarchie (PFLICHT)
 
-Bei jedem Vault-Zugriff: nutze das maechtigste verfuegbare Tool. Erste verfuegbare Stufe gewinnt, niedrigere Stufen NIEMALS nutzen wenn hoehere da sind.
+Bei jedem Vault-Zugriff: nutze das mächtigste verfügbare Tool. Erste verfügbare Stufe gewinnt, niedrigere Stufen NIEMALS nutzen wenn höhere da sind.
 
 1. **Native Tools**: `Read`, `Edit`, `Write`, `Glob`, `Grep`, `Bash`
 2. **Filesystem-MCP**: `mcp__filesystem__*`
 3. **Vault-MCP** (read-only): `vault_read_file`, `vault_list_directory`, `vault_search`, `vault_get_recent_logs`, `vault_get_project_state`
 
-Konsequenz pro Geraet (ergibt sich automatisch):
-- Claude Code: Stufe 1 (Native Tools verfuegbar)
+Konsequenz pro Gerät (ergibt sich automatisch):
+- Claude Code: Stufe 1 (Native Tools verfügbar)
 - Claude Desktop: Stufe 2 (Filesystem-MCP)
 - Claude Mobile: Stufe 3 (nur Vault-MCP)
 
-Bei Doppel-Verfuegbarkeit: hoehere Stufe gewinnt, andere ignorieren. Skills wiederholen diese Regel nicht.
+Bei Doppel-Verfügbarkeit: höhere Stufe gewinnt, andere ignorieren. Skills wiederholen diese Regel nicht.
 
-Begruendung: Vault-MCP ist read-only Subset mit Groessenlimits, gebaut fuer Mobile ohne Filesystem-Zugang. Wo Filesystem da ist, ist Vault-MCP redundant.
+Begründung: Vault-MCP ist read-only Subset mit Größenlimits, gebaut für Mobile ohne Filesystem-Zugang. Wo Filesystem da ist, ist Vault-MCP redundant.
 
 ## Modi
 
