@@ -38,6 +38,14 @@ Probleme finden, Bericht liefern. Deniz entscheidet.
 - Frontmatter-Korruptions-Patterns: vollstaendige Liste in [[vault-schreibregeln]] Sektion 3.2. Watchdog-Skript: `_claude/scripts/vault-health-check.ps1`. Aufruf manuell: `powershell -ExecutionPolicy Bypass -File _claude/scripts/vault-health-check.ps1 -Full`. Output: Console-Summary plus Markdown-Report nach `_claude/scripts/vault-health-reports/YYYY-MM-DD-HHMM.md`.
 - Leere Files (Size < 50 Bytes oder nur Frontmatter ohne Body). Watchdog markiert als WARN, nicht SEVERE (existierende Stubs blockieren keinen Auto-Push).
 
+### 6. MCP-Eingang Health
+- Artefakte in `00-vault-mcp-eingang/` älter als 7 Tage → Warnung "lange ungemerged"
+- Artefakte älter als 30 Tage → Empfehlung "verwerfen oder mergen, nicht weiter liegen lassen"
+- Artefakte mit korruptem Header (fehlende Pflichtfelder, falsches Field-Name `aktion` statt `ziel_aktion`, leeres `body_sha256`) → Liste mit Defekten
+- Artefakte ohne `pc_anweisung`-Block → Hinweis "PC-Merge wird langsamer ohne Mobile-Recherche"
+- Doppelte `idempotenz_key` über mehrere Artefakte → Konflikt-Hinweis
+- Verarbeitete Artefakte in `00-vault-mcp-eingang/` die nicht archiviert wurden → "sollten in 05-archiv/vault-mcp-eingang-verarbeitet/YYYY-MM/"
+
 ### 4. Duplikate
 - Ähnliche Titel in verschiedenen Ordnern
 - Gleiche Info in Projekt-File UND Wissens-File
@@ -71,7 +79,12 @@ Bei Drift: Diff zeigen. Deniz bestätigt → Skill updaten UND erinnern: "Neue V
 - 📄 n8n Race-Condition in BEIDEN log + wissens-eintrag
 
 ### Eingang (X)
-- 📥 3 Items seit 5+ Tagen
+- 📥 3 Items in 00-eingang/unverarbeitet/ seit 5+ Tagen
+
+### MCP-Eingang (X)
+- 🚨 1 Artefakt seit 12 Tagen ungemerged: 2026-04-17-1823-thalor-update-ergaenzung.md
+- ⚠️ 2 Artefakte ohne pc_anweisung-Block (Mobile-Recherche fehlt)
+- ❌ 1 Artefakt mit korruptem Header (Field 'aktion' statt 'ziel_aktion')
 
 ### Skill-Drift (X)
 - 🔄 pulsepeptides in Ordner aber nicht in Skill-Tabelle
@@ -80,7 +93,7 @@ Bei Drift: Diff zeigen. Deniz bestätigt → Skill updaten UND erinnern: "Neue V
 ## Regeln
 
 - **Nur berichten, nicht fixen.** Deniz entscheidet.
-- **Priorisierung:** Widersprüche > Skill-Drift > Veraltet > Struktur > Duplikate > Eingang
+- **Priorisierung:** Widersprüche > Skill-Drift > MCP-Eingang > Veraltet > Struktur > Duplikate > Eingang
 - **Bei false-positives:** "Möglicher Widerspruch, kann unkritisch sein: ..."
 
 ## Vault-Writes
