@@ -188,16 +188,109 @@ status: bereit-zum-mergen
 
 Wenn Deniz dir auf Mobile etwas zum Speichern gibt:
 
-1. **Recherche**: `vault_read_file` und `vault_search` nutzen um zu verstehen was schon da ist und welche Wikilinks gültig sind.
-2. **Klassifizieren**: Ist das `neue-datei`, `ergaenzung` oder `ersetzen-sektion`?
-3. **Header bauen**: Pflichtfelder, plus aktions-spezifische.
-4. **Bei ergaenzung/ersetzen-sektion**: Zieldatei lesen, `basis_sha256` und `basis_mtime` notieren, Sektion finden.
-5. **Wikilinks prüfen**: Jeder `[[name]]` im Body muss auf existierende Datei zeigen. Wenn unsicher: `vault_read_file` zum Verifizieren.
-6. **Body bauen**: Eigentlicher Inhalt nach Schreibstil-Skill (`miraculix-schreibstil`).
-7. **Hash berechnen**: SHA-256 vom Body, in `body_sha256`.
-8. **Filename**: Pattern bauen, `vault_list_eingang()` checken auf Doppel-Filename.
-9. **Schreiben**: `vault_create_artefakt(filename, content)`.
-10. **Bestätigen**: Deniz kurz sagen was im Eingang gelandet ist und dass PC-Claude beim nächsten "eingang verarbeiten" merged.
+1. **Recherche - PFLICHT**: `vault_search` nach ähnlichen existierenden Files. Ziel: Vault-Konvention für Pfad und Struktur finden, nicht erfinden.
+   - Beispiel: bei Meeting-Notes mit Kalani vorher `vault_search("kalani-call")` oder `vault_list_directory("01-projekte/pulsepeptides/logs")` um zu sehen wo bestehende Files liegen.
+   - Wenn kein passendes Schema gefunden: bei Deniz nachfragen, NICHT raten.
+2. **Klassifizieren**: `neue-datei`, `ergaenzung` oder `ersetzen-sektion`?
+3. **Pre-Write-Checkliste durchgehen** (siehe unten). ALLE Punkte abhaken vor dem Schreiben.
+4. **Header bauen**: Pflichtfelder, plus aktions-spezifische. Field-Namen EXAKT wie spezifiziert (`ziel_aktion` nicht `aktion`).
+5. **Bei ergaenzung/ersetzen-sektion**: Zieldatei lesen, `basis_sha256` und `basis_mtime` notieren, Sektion finden.
+6. **Wikilinks prüfen**: Jeder `[[name]]` im Body muss auf existierende Datei zeigen. `vault_read_file` zum Verifizieren.
+7. **Body bauen**: Eigentlicher Inhalt nach Schreibstil-Skill (`miraculix-schreibstil`).
+8. **Hash berechnen**: SHA-256 vom Body, in `body_sha256`.
+9. **Filename**: Pattern bauen, `vault_list_eingang()` checken auf Doppel-Filename.
+10. **Schreiben**: `vault_create_artefakt(filename, content)`.
+11. **Bestätigen**: Deniz kurz sagen was im Eingang gelandet ist und dass PC-Claude beim nächsten "eingang verarbeiten" merged.
+
+## Pre-Write-Checkliste (PFLICHT abhaken vor jedem vault_create_artefakt)
+
+Vor dem Aufruf von `vault_create_artefakt` jeden Punkt mental durchgehen:
+
+```
+[ ] Pfad-Konvention via vault_search verifiziert (nicht erfunden)
+[ ] Header beginnt mit '---' und enthaelt typ: vault-mcp-artefakt
+[ ] Field-Name ist 'ziel_aktion' (NICHT 'aktion'), Wert ist neue-datei | ergaenzung | ersetzen-sektion
+[ ] Pflichtfelder: typ, erstellt (mit Uhrzeit), quelle_geraet, quelle_konversation, ziel_pfad, ziel_aktion, idempotenz_key, body_sha256, status
+[ ] Bei ergaenzung/ersetzen-sektion zusaetzlich: basis_mtime, basis_sha256, ziel_sektion, ziel_heading_ebene
+[ ] Header ist ABGESCHLOSSEN mit zweitem '---'
+[ ] HTML-Kommentar als Trenner: <!-- ALLES UNTER DIESER ZEILE IST DIE FERTIGE DATEI. -->
+[ ] Bei neue-datei: Output-File hat EIGENEN Frontmatter (typ: meeting-note / projekt / wissen / etc.) - getrennt vom Artefakt-Header
+[ ] Body bestaetigt sha256 als body_sha256 im Header
+[ ] Filename matcht YYYY-MM-DD-HHMM-{slug}-{aktion}.md
+[ ] Wikilinks im Body verifiziert via vault_read_file
+[ ] Kein Schreibversuch in Sperrzonen (_meta, _api, _claude/skills, CLAUDE.md, _migration)
+```
+
+Wenn auch nur einer nicht abgehakt: NICHT schreiben, sondern fixen oder bei Deniz nachfragen.
+
+## Häufige Fehler (Bug-Patterns aus echtem Use)
+
+### Fehler 1: Frontmatter zusammengemischt
+
+**Falsch** (so hat Mobile am 2026-04-29 geschrieben):
+```yaml
+---
+typ: vault-mcp-artefakt
+ziel_pfad: 03-meeting-notes/2026/2026-04-29-kalani.md
+aktion: create
+projekt: "[[pulsepeptides]]"
+teilnehmer: ["[[kalani-ginepri]]", "Deniz"]
+---
+
+# Inhalt
+```
+
+Was hier falsch ist:
+- Nur EIN Frontmatter-Block (Artefakt-Meta vermischt mit Output-File-Meta)
+- `aktion: create` statt `ziel_aktion: neue-datei`
+- Pflichtfelder fehlen (quelle_geraet, body_sha256, status etc.)
+- `projekt`, `teilnehmer` gehoeren in den Output-File-Frontmatter, nicht in den Artefakt-Header
+
+**Richtig**:
+```yaml
+---
+typ: vault-mcp-artefakt
+erstellt: 2026-04-29 12:10
+quelle_geraet: mobile-handy
+quelle_konversation: kalani-call-maman-lager
+ziel_pfad: 01-projekte/pulsepeptides/logs/2026-04-29-kalani-maman-lager.md
+ziel_aktion: neue-datei
+idempotenz_key: 2026-04-29-1210-kalani-maman-lager
+body_sha256: 7a1f2c...
+status: bereit-zum-mergen
+---
+
+<!-- ALLES UNTER DIESER ZEILE IST DIE FERTIGE DATEI. -->
+
+---
+typ: meeting-note
+datum: 2026-04-29
+projekt: "[[pulsepeptides]]"
+teilnehmer: ["[[kalani-ginepri]]", "Deniz"]
+thema: "Maman Euro Logistic + Lager Eppelheim"
+status: aktiv
+uhrzeit: "12:10"
+erstellt: 2026-04-29
+quelle: mobile-claude-artefakt-2026-04-29-1210
+vertrauen: extrahiert
+---
+
+# Inhalt
+```
+
+Zwei separate Frontmatter-Bloecke. Erster fuer den Artefakt-Header (wie wird verarbeitet), zweiter fuer die Output-Datei (wie wird sie im Vault verwendet).
+
+### Fehler 2: Pfad erfunden
+
+Mobile schlug `03-meeting-notes/2026/` vor - der Ordner existiert nicht im Vault. Die Konvention fuer Meeting-Notes mit Kalani ist `01-projekte/pulsepeptides/logs/`.
+
+Lehre: VOR der Pfad-Wahl `vault_search("kalani")` oder `vault_list_directory("01-projekte/pulsepeptides")` aufrufen. Dann an existierende Konvention anlehnen.
+
+### Fehler 3: Field-Namen ungenau
+
+`aktion: create` statt `ziel_aktion: neue-datei`. Server validiert exakt nach Schema. Field-Namen sind 1:1 zu uebernehmen, keine Synonyme.
+
+Erlaubte Werte fuer `ziel_aktion`: `neue-datei`, `ergaenzung`, `ersetzen-sektion`. Sonst nichts.
 
 ## Wikilink-Regeln
 
