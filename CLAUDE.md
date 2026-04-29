@@ -18,20 +18,20 @@ Du arbeitest mit diesem Obsidian-Vault - Deniz' Single Source of Truth für Proj
 
 ## KRITISCHE VAULT-SCHREIBREGELN (PFLICHT, immer beachten)
 
-Vor jedem .md-Write Pflicht-Lektuere:
+Vor jedem .md-Write Pflicht-Lektüre:
 - `02-wissen/vault-schreibkonventionen.md` - WAS rein (Encoding, Umlaute, Naming, Gedankenstriche)
 - `02-wissen/vault-schreibregeln.md` - WIE schreiben (Tools, Verify, Rollback, Bug-Patterns)
 
 Kernregeln:
-- NIE Desktop Commander `write_file` oder `edit_block` fuer .md mit YAML-Frontmatter (Pretty-Printer-Roundtrip-Bug, Pattern A)
-- Sichere Schreibmethoden in Reihenfolge der Praeferenz:
-  - Filesystem-MCP `edit_file` fuer chirurgische Edits (in Phase C als sicher bestaetigt, git-style diff)
-  - Filesystem-MCP `write_file` fuer komplette Files (in Phase C als sicher bestaetigt)
+- NIE Desktop Commander `write_file` oder `edit_block` für .md mit YAML-Frontmatter (Pretty-Printer-Roundtrip-Bug, Pattern A)
+- Sichere Schreibmethoden in Reihenfolge der Präferenz:
+  - Filesystem-MCP `edit_file` für chirurgische Edits (in Phase C als sicher bestätigt, git-style diff)
+  - Filesystem-MCP `write_file` für komplette Files (in Phase C als sicher bestätigt)
   - PowerShell `[System.IO.File]::WriteAllBytes` mit UTF-8 NoBOM (Fallback wenn MCP nicht verfügbar)
   - Claude-Code Write/Edit (Self-Test SAUBER, Hex-Verify trotzdem Pflicht)
-- Hex-Verify Pflicht nach JEDEM Write: erste 8 Bytes muessen `2D 2D 2D 0A` plus YAML-Key, NICHT `2D 2D 2D 0A 0A 23 23` (Pattern A)
+- Hex-Verify Pflicht nach JEDEM Write: erste 8 Bytes müssen `2D 2D 2D 0A` plus YAML-Key, NICHT `2D 2D 2D 0A 0A 23 23` (Pattern A)
 
-Bei Verstoss: Datenverlust moeglich. Bei Unsicherheit: erst Deniz fragen.
+Bei Verstoß: Datenverlust möglich. Bei Unsicherheit: erst Deniz fragen.
 
 ---
 
