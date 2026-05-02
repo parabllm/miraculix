@@ -4,15 +4,15 @@ datum: 2026-04-28
 projekt: "[[pulsepeptides]]"
 teilnehmer: ["[[kalani-ginepri]]", "Deniz"]
 ort: remote
-thema: "Nachgespraech nach Lager-Besuch Eppelheim, Labels-Sourcing, Pax-Kontakt"
+thema: "Nachgespraech nach Lager-Besuch Eppelheim, Labels-Sourcing, XiAN-Inquiry"
 status: in_arbeit
 uhrzeit: "Nachmittag"
 erstellt: 2026-04-28
-aktualisiert: 2026-04-28
+aktualisiert: 2026-05-02
 quelle: chat_session
 vertrauen: extrahiert
 notizen: |-
-  Nachgespraech nach Lager-Besuch (siehe [[2026-04-28-lager-besuch-kalani]]). Live-Call waehrend Deniz Tagesarbeit. Hauptpunkte: Druckerei-Spec fuer Labels, Pax als XiAN-Sheerherb-Kontakt aufgemacht.
+  Nachgespraech nach Lager-Besuch (siehe [[2026-04-28-lager-besuch-kalani]]). Live-Call waehrend Deniz Tagesarbeit. Hauptpunkte: Druckerei-Spec fuer Labels, neue XiAN-Sheerherb-Inquiry aufgemacht (Kalani fuegt Deniz/Pax in Gruppe).
 ---
 
 # Nachgespraech nach Lager-Besuch, 2026-04-28
@@ -51,21 +51,23 @@ Aufgabe Deniz: Druckereien anrufen und Angebote einholen.
 - [ ] Bei Anrufen Spec mitteilen: 10 ct/Stueck, 10k alle 3 Monate, scalable
 - [ ] Klaeren ob Direktdruck Batch-Nummer moeglich (wie Lab Peptides)
 
-## Hauptthema 2: WhatsApp XiAN Sheerherb (Pax)
+## Hauptthema 2: WhatsApp XiAN Sheerherb (Inquiry mit Vivian)
 
-Kalani hat 2026-04-27 WhatsApp-Gruppe "Pulse x XianHerb" angelegt und Pax hinzugefuegt. Inquiry-Inhalt:
+Kalani hat 2026-04-27 WhatsApp-Gruppe "Pulse x XianHerb" angelegt und Deniz/Pax (Deniz' Supplier-Alias auf eSIM) zur Detail-Klaerung hinzugefuegt. Inquiry-Inhalt:
 
 - BPC-157 Caps
 - 5-Amino-1MQ
 - KPV
 
-Pax uebernimmt Detail-Klaerung. KPV-Supplier-Wechsel von ZY zu XiAN ist damit aktiv. 5-Amino-1MQ neu in Kapsel-Form.
+Deniz uebernimmt Detail-Klaerung als COO. KPV-Supplier-Wechsel von ZY zu XiAN ist damit aktiv. 5-Amino-1MQ neu in Kapsel-Form.
+
+XiAN-seitige Hauptkontaktperson: Vivian (seit 2026-05-02 im Kalani-Call bestaetigt). Pax-Alias-Klaerung siehe [[firmenstruktur]] Sektion "Aliase und Identitaeten".
 
 ### Aktion
 
-- Erst-Kontakt Deniz: "Hey, nice to meet you guys" (16:22) bereits raus
-- [ ] Antwort von Pax abwarten, dann Detail-Bestellung formulieren
-- [ ] MOQ und Lead-Time bei Pax erfragen
+- Erst-Kontakt Deniz/Pax: "Hey, nice to meet you guys" (16:22) bereits raus
+- [ ] Antwort von Vivian abwarten, dann Detail-Bestellung formulieren
+- [ ] MOQ und Lead-Time bei Vivian erfragen
 - [ ] Janoshik-Test-Plan fuer KPV von XiAN klaeren
 
 Details Lieferant: [[xian-sheerherb]]. Screenshot Erstkontakt: `_anhaenge/projekte/pulsepeptides/2026-04-28-whatsapp-xianherb-erstkontakt.png`.
@@ -78,7 +80,7 @@ Details Lieferant: [[xian-sheerherb]]. Screenshot Erstkontakt: `_anhaenge/projek
 
 ### Deniz
 - [ ] Druckereien anrufen mit Spec (siehe oben)
-- [ ] Pax-Antwort tracken in WhatsApp-Gruppe
+- [ ] XiAN-Antwort tracken in WhatsApp-Gruppe (Vivian, Pricing-Antwort steht aus)
 - [ ] Janoshik OCR Pipeline aufsetzen (offene Task aus Lager-Besuch)
 - [ ] Offene Bestellungen ins System eintragen (offene Task aus Lager-Besuch)
 

@@ -4,7 +4,7 @@ projekt: "[[pulsepeptides]]"
 thema: firmenstruktur
 status: in_arbeit
 erstellt: 2026-04-17
-zuletzt_aktualisiert: 2026-04-28
+zuletzt_aktualisiert: 2026-05-02
 vertrauen: extrahiert
 quelle: voice_dump
 ---
@@ -145,7 +145,7 @@ Pulse Peptides Limited (Zypern) — operative Bestellungen
 | System | Funktion | Zugang Deniz |
 |---|---|---|
 | Telegram | Supplier-Kommunikation | vorhanden |
-| WhatsApp | XiAN Sheerherb (Pax) | vorhanden, eSIM |
+| WhatsApp | XiAN Sheerherb (Pulse-seitig Deniz alias Pax) | vorhanden, eSIM |
 | Google Sheets | Batch-SSOT (17 Spalten) | vorhanden |
 | Metorik | Inventory Management | aktiv (WordPress, 2026-04-17) |
 | Freshdesk | Support-Tickets | kommt via 1Password |
@@ -153,17 +153,31 @@ Pulse Peptides Limited (Zypern) — operative Bestellungen
 | 1Password | Passwort-Vault Kalani | Zugriff kommt |
 | Vercel (Admin Hub) | Support-Interface | kommt via 1Password |
 
+## Aliase und Identitäten
+
+Am 2026-05-02 dokumentiert. Vor dieser Klärung wurden Aliase teils als externe Personen interpretiert, das ist jetzt korrigiert.
+
+| Alias | Echte Person | Plattform | Zweck |
+|---|---|---|---|
+| Pax | Deniz | WhatsApp Business, Telegram | Supplier-Kommunikation (XiAN, Lab Peptides, ZY etc.) |
+| sensei / senseikalani | Kalani | Slack | interne Pulse-Kommunikation |
+
+**Wichtig:** Wenn Kalani in einer Supplier-Gruppe schreibt "@Pax wird das uebernehmen", meint sie Deniz. Nie als externen XiAN-Kontakt interpretieren.
+
 ## Team
 
-| Person | Rolle | Ort | Status |
-|---|---|---|---|
-| [[kalani-ginepri]] | CEO | variabel | Gründer |
-| Deniz | COO | Mannheim | Transition ab 2026-04-17 |
-| [[christian-pulse]] | Support | Bali | Teilzeit |
-| [[kai-pulse]] | Lager | Eppelheim | Teilzeit |
-| [[patrick-pulse]] | Developer/Backend | variabel | Freelancer |
-| [[german-pulse]] | Website/WordPress | variabel | Freelancer, 30 EUR/h |
-| [[lizzi-pulse]] | Design/Labels | variabel | Freelancer, 30 EUR/h |
+| Person | Rolle | Ort | Status | Vollname |
+|---|---|---|---|---|
+| [[kalani-ginepri]] | CEO | variabel | Gründer | Kalani Ginepri |
+| Deniz | COO | Mannheim | Transition ab 2026-04-17 | Deniz Özbek (alias Pax bei Suppliern) |
+| [[christian-pulse]] | Support | Bali | Teilzeit | Christian Nathaniel Darmahkasih |
+| [[kai-pulse]] | Lager | Eppelheim | Teilzeit | Kai (Vollname offen) |
+| [[albin-pulse]] | operativ / Bacwater | offen | bei Lager-Besuch 28.04. | Albin Shkreli |
+| [[patrick-pulse]] | Developer/Backend | variabel | Freelancer | Patrick (Vollname offen) |
+| [[german-pulse]] | Website/WordPress | variabel | Freelancer, 30 EUR/h | German (Vollname offen) |
+| [[lizzi-pulse]] | Design/Labels | variabel | Freelancer, 30 EUR/h | Lizzi (Vollname offen) |
+| [[tobias-rasmussen]] | Virtual Assistant | offen | Freelancer Monkey-Tasks | Tobias Lund Rasmussen (Rufname Rasmus) |
+| [[marlon-wettstein]] | offen | offen | im Workspace, Rolle TBD | Marlon Paul Wettstein |
 
 ## Offen
 
@@ -218,7 +232,7 @@ Pulse Peptides Limited (Zypern) — operative Bestellungen
 
 | Channel | Zweck | Wer |
 |---|---|---|
-| #virtual-assistant | Freelancer für Monkey Tasks | Rasmus Madsen |
+| #virtual-assistant | Freelancer für Monkey Tasks | [[tobias-rasmussen]] (Rufname Rasmus) |
 | #goggleads | Google Ads | Kalani |
 | #random | Smalltalk | Alle |
 

@@ -10,11 +10,11 @@ rolle_deniz: COO
 transition_start: 2026-04-17
 transition_ende_geplant: 2026-05-08
 hauptkontakt: "[[kalani-ginepri]]"
-kontakte: ["[[kalani-ginepri]]", "[[christian-pulse]]", "[[kai-pulse]]", "[[patrick-pulse]]", "[[german-pulse]]", "[[lizzi-pulse]]"]
+kontakte: ["[[kalani-ginepri]]", "[[christian-pulse]]", "[[kai-pulse]]", "[[albin-pulse]]", "[[patrick-pulse]]", "[[german-pulse]]", "[[lizzi-pulse]]", "[[tobias-rasmussen]]", "[[marlon-wettstein]]"]
 tech_stack: ["wordpress", "woocommerce", "elementor", "n8n", "slack", "google-sheets", "gmail", "browserless", "openai", "freshdesk", "metorik", "vercel", "telegram"]
 notion_url: ""
 erstellt: 2026-04-16
-aktualisiert: 2026-04-28
+aktualisiert: 2026-05-02
 notizen: |-
   Peptide-E-Commerce. Deniz ist COO ab 2026-04-17. Kein Thalor-Client mehr, eigenes Über-Projekt. Firmenstruktur siehe [[firmenstruktur]].
 quelle: chat_session
@@ -46,7 +46,7 @@ Seit 2026-04-17 intern offiziell COO. Transitionsphase ca. 3 Wochen. Umfang 5-10
 **Kommunikation:**
 
 - Slack mit Team
-- WhatsApp mit Kalani plus mit XiAN Sheerherb (Pax)
+- WhatsApp mit Kalani plus mit XiAN Sheerherb (Deniz alias Pax bei Suppliern)
 - Discord für Calls
 
 **Onboarding:** täglich Ruecksprache in Transitionsphase.
@@ -69,7 +69,7 @@ Seit 2026-04-17 intern offiziell COO. Transitionsphase ca. 3 Wochen. Umfang 5-10
 
 - `produkte.md`
 - `bestellprozess.md`
-- `lieferanten.md` (XiAN-Sheerherb-Kontakt Pax und neue Inquiry, neu 2026-04-28)
+- `lieferanten.md` (XiAN-Sheerherb Hauptkontakt Vivian, Pricing-Inquiry, neu 2026-04-28)
 - `lab-peptides.md` (vollständige Preisliste)
 - `team-koordination.md`
 - `lab-workflow-janoshik.md`
@@ -77,7 +77,7 @@ Seit 2026-04-17 intern offiziell COO. Transitionsphase ca. 3 Wochen. Umfang 5-10
 - `firmenstruktur.md` (Pulse Organization UK ergaenzt, Druckerei-Sourcing-Spec, neu 2026-04-28)
 - `bulk-pricing.md` (Christians v2 plus geplante v3-Struktur)
 - `design-system.md` (Farbpalette, Typografie, Komponenten, CSS-Tokens [pulsepeptides.com](http://pulsepeptides.com))
-- `xian-sheerherb.md` (Kontakt Pax, KPV-Wechsel, neu 2026-04-28)
+- `xian-sheerherb.md` (Hauptkontakt Vivian, KPV-Wechsel, neu 2026-04-28)
 
 `coo-aufgaben.md`, `coo-automations.md`, `janoshik-ocr.md`, `pulsebot-workflows.md`, `eppelheim-lager.md` (operatives Lager mit aktuellen Logistik-Daten, neu 2026-04-28), `lager-tschechien.md` (geplante Verlagerung) im Haupt-Ordner.
 
@@ -89,7 +89,9 @@ Stand 2026-04-23: COO Weekly Call mit Kalani durchgeführt (Details [[2026-04-23
 
 Stand 2026-04-27: Erste Inquiry für Lager-Verlagerung Tschechien eingegangen (Maman Euro Logistic, Cheb). Angebot vom 2026-03-30, ausführlich aufgenommen in [[lager-tschechien]]. TBD-Felder offen, Vergleichs-Inquiries noch nicht eingeholt. Christians Bulk-Pricing v2 eingegangen, dokumentiert in [[bulk-pricing]] inkl. Konflikt-Analyse zur Kalani-Linie und 9-Punkte-Review-Liste, Pepspan-Antwort weiter geblockt bis v3. Design-System [pulsepeptides.com](http://pulsepeptides.com) extrahiert und in [[01-projekte/pulsepeptides/knowledge-base/design-system|design-system]] dokumentiert (Farbpalette, Typografie Red Hat Display, Komponenten, CSS-Tokens, Astra-Theme abgeleitet).
 
-Stand 2026-04-28: Lager-Besuch Eppelheim durchgeführt mit Kalani, Kai und Albin (Details [[2026-04-28-lager-besuch-kalani]]). Tschechien Phase 1 entschieden: DE labelt fertig, Tschechen lernen erst nur Versand, Test mit 20% der Bestellungen. Pulse-aus-DE-Strategie mit DDP-Setup ueber chinesische Firma als Origin. Versandsystem-Migration zu UPS plus Unternehmens-API in Tschechien. Inventory-Bestellungen identifiziert: PT-141, Tesamorelin, Cmax, Semang. Etiketten-Bug 100 Stueck Hyaluronic-Acid-Text. WhatsApp-Gruppe Pulse x XianHerb mit Pax aufgemacht (KPV-Wechsel von ZY plus 5-Amino-1MQ neu plus BPC-157 Caps). Pulse Organization Ltd UK in Firmenstruktur ergaenzt. Druckerei-Sourcing-Auftrag: 10 ct/Stueck, 10k alle 3 Monate, scalable, Vials plus Kapsel-Bottles plus Bac-Water-Bottles, Cyprus zahlt, UK rechnet (Nachgespraech [[2026-04-28-nachgespraech-kalani]]).
+Stand 2026-05-02: Pax-Alias-Klarstellung. Pax ist Deniz' Supplier-Alias auf WhatsApp Business und Telegram, kein externer XiAN-Kontakt. Vault-weiter Cleanup durchgeführt (xian-sheerherb, lieferanten, beide 04-28-Notes, 05-01-Notes, firmenstruktur). Vivian als Hauptkontakt XiAN bestätigt im Kalani-Call ([[2026-05-02-kalani-call]]). Vollnamen Team aus Slack-Profilen extrahiert: Christian Nathaniel Darmahkasih, Albin Shkreli, Tobias Lund Rasmussen (vorher falsch als Rasmus Madsen), Marlon Paul Wettstein. Slack-Schreibstil-Skill um EK-Preis-Embargo ergänzt.
+
+Stand 2026-04-28: Lager-Besuch Eppelheim durchgeführt mit Kalani, Kai und Albin (Details [[2026-04-28-lager-besuch-kalani]]). Tschechien Phase 1 entschieden: DE labelt fertig, Tschechen lernen erst nur Versand, Test mit 20% der Bestellungen. Pulse-aus-DE-Strategie mit DDP-Setup ueber chinesische Firma als Origin. Versandsystem-Migration zu UPS plus Unternehmens-API in Tschechien. Backorders identifiziert: PT-141 Labels, Tesamorelin (Vials, XiAN), Semax Labels, Selank Labels. Etiketten-Bug 100 Stueck Hyaluronic-Acid-Text. WhatsApp-Gruppe Pulse x XianHerb mit XiAN-Seite aufgemacht, Deniz alias Pax als COO-Vertretung dazu geholt (KPV-Wechsel von ZY plus 5-Amino-1MQ neu plus BPC-157 Caps). Pulse Organization Ltd UK in Firmenstruktur ergaenzt. Druckerei-Sourcing-Auftrag: 10 ct/Stueck, 10k alle 3 Monate, scalable, Vials plus Kapsel-Bottles plus Bac-Water-Bottles, Cyprus zahlt, UK rechnet (Nachgespraech [[2026-04-28-nachgespraech-kalani]]).
 
 ## Offene Aufgaben
 
@@ -98,12 +100,12 @@ Stand 2026-04-28: Lager-Besuch Eppelheim durchgeführt mit Kalani, Kai und Albin
 - \[ \] Janoshik OCR Pipeline aufsetzen
 - \[ \] Offene Bestellungen ins System eintragen (Backlog plus aktuelle Backorders)
 - \[ \] Druckereien anrufen fuer Label-Sourcing (10 ct/Stueck, 10k alle 3 Monate, scalable, Scope: Vials, Kapsel-Bottles, Bac-Water-Bottles, Cyprus zahlt, UK rechnet)
-- \[ \] WhatsApp-Antwort von Pax (XiAN Sheerherb) tracken: BPC-157 Caps, 5-Amino-1MQ, KPV
+- \[ \] WhatsApp-Antwort von Vivian (XiAN) tracken: BPC-157 Caps, 5-Amino-1MQ, KPV (Inquiry läuft über Deniz alias Pax)
 - \[ \] Bulk-Pricing-Liste überarbeiten und als v3 ablegen, bevor Pepspan-Antwort rausgeht (Christians v2 liegt vor, siehe [[bulk-pricing]])
 - \[ \] Prostamax Custom-Order: auf Lily-Antwort (Lab Peptides) und Kundenmenge warten, dann Order auslösen
 - \[ \] Affiliate-Framework mit No-Human-Use-Klausel aufbauen (siehe [[coo-aufgaben]])
 - \[ \] N8N Janoshik-Workflow fixen, dann DHL-CSV-Flow reparieren
-- \[ \] PT-141, Tesamorelin, Cmax, Semang nachbestellen
+- \[ \] PT-141 Labels, Tesamorelin (Vials bei XiAN), Semax Labels, Selank Labels nachbestellen
 - \[ \] Bezahl-Setup: andere Kreditkarte fuer Pulse organisieren (getrennt vom Rest)
 
 ### Mittel
@@ -123,7 +125,7 @@ Stand 2026-04-28: Lager-Besuch Eppelheim durchgeführt mit Kalani, Kai und Albin
 
 ### Verschoben
 
-- \[ \] BPC-157 plus 5-Amino-1 Kapseln Sourcing beim Testing-Badge-Supplier (XiAN Sheerherb): laeuft aktiv ueber Pax, in WhatsApp-Inquiry uebergegangen
+- \[ \] BPC-157 plus 5-Amino-1 Kapseln Sourcing beim Testing-Badge-Supplier (XiAN Sheerherb): läuft aktiv über Vivian, Inquiry-Lead Deniz alias Pax
 - \[ \] US Shipments konkrete Schritte festlegen
 - \[ \] PepStack Vendor Program strategisch bewerten (Max Berktold)
 
@@ -138,14 +140,17 @@ Stand 2026-04-28: Lager-Besuch Eppelheim durchgeführt mit Kalani, Kai und Albin
 - ~~Thymosin-Kunde Compensation aus Agenda genommen~~ 2026-04-23
 - ~~Lager-Besuch Eppelheim durchgefuehrt mit Kalani plus Kai plus Albin~~ 2026-04-28
 - ~~Tschechien Phase 1 Setup entschieden (DE labelt, Tschechen versenden, 20% Test-Volumen)~~ 2026-04-28
-- ~~WhatsApp-Gruppe Pulse x XianHerb mit Pax aufgemacht (KPV-Wechsel, neue Inquiry)~~ 2026-04-28
+- ~~WhatsApp-Gruppe Pulse x XianHerb mit Vivian aufgemacht (Pulse-Seite Deniz alias Pax)~~ 2026-04-28
 
 ## Kontakte
 
 - [[kalani-ginepri]] CEO
-- [[christian-pulse]] Support Bali
+- [[christian-pulse]] Support Bali (Vollname Christian Nathaniel Darmahkasih)
 - [[kai-pulse]] Lager Eppelheim
+- [[albin-pulse]] operativ / Bacwater (Vollname Albin Shkreli)
 - [[patrick-pulse]] Developer/Backend
 - [[german-pulse]] Website/WordPress
 - [[lizzi-pulse]] Design/Labels
-- Pax (XiAN Sheerherb, neu 2026-04-28, Kontakt-File offen)
+- [[tobias-rasmussen]] Virtual Assistant (Rufname Rasmus, vorher falsch als Madsen geführt)
+- [[marlon-wettstein]] Rolle TBD
+- Vivian (XiAN Sheerherb, Hauptkontakt seit 2026-05-02 bestätigt, Kontakt-File offen)

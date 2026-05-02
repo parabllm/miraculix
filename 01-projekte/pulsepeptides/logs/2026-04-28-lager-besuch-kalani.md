@@ -100,7 +100,7 @@ Aus den letzten Call-Logs. Priorisieren ob heute live oder verschoben.
 ### Operations
 
 - [ ] Reta Lab-Test Transition PulsePeptides zu Axonpeptides: Prozess als SOP dokumentieren
-- [ ] BPC-157 plus 5-Amino-1 Kapseln Sourcing bei XiAN Sheerherb: Status, Lead-Time
+- [ ] BPC-157 plus 5-Amino-1 Kapseln Sourcing bei XiAN Sheerherb: Status, Lead-Time (Inquiry mit Vivian, Deniz alias Pax fuehrt)
 - [ ] Labels mit integrierter Batch-Nummer: Lizzi Design-Stand, Druckerei-Frage variable Daten
 - [ ] BPC-157-Bestellung umstellen weil Doppelbestellung (aus 2026-04-27-Call)
 - [ ] Order-Management Verbesserung damit Doppel-Bestellungen nicht mehr durchrutschen
@@ -208,8 +208,8 @@ Aus den letzten Call-Logs. Priorisieren ob heute live oder verschoben.
 ### Bestellungen
 - [ ] PT-141 nachbestellen
 - [ ] Tesamorelin nachbestellen
-- [ ] Cmax nachbestellen
-- [ ] Semang nachbestellen
+- [ ] Semax nachbestellen
+- [ ] Selank nachbestellen
 - [ ] Kapseln + Kapsel-Labels nachbestellen
 - [ ] Hyaluronic-Acid-Label korrigiert von Lieferantin einholen
 
@@ -263,7 +263,7 @@ Hinweis: speaker_0 verstummt etwa wenn speaker_2 einsetzt. Möglich dass ElevenL
 - PT-141: leer
 - Tesamorelin: nachbestellen (3/4 Rolle daheim als Reserve)
 - DSIP: 1.5 Rollen
-- Cmax und Semang: nachbestellen
+- Semax und Selank: nachbestellen
 - Total 4 Produkte zu bestellen
 
 #### Versand-System aktuell und Migration (11:00-17:00)
@@ -286,5 +286,5 @@ Hinweis: speaker_0 verstummt etwa wenn speaker_2 einsetzt. Möglich dass ElevenL
 - Onboarding-Dokument für Tschechen zusammenstellen
 - Brother-Label Live-Demo nachholen (Deniz hat es noch nicht gesehen wie das kleine Label geklebt wird)
 - Hyaluronic Acid Label-Fehler: Sie hat altes Label mit "Hyaluronic Acid" drauf geschickt, seit Halal-Wechsel falsch, nur 100 Stück betroffen
-- Xian Herb (Kapseln-Spezialist, Kontakt Pax via WhatsApp): aktuell PT-141, DSIP, BPC-157, Tesamorelin unterwegs. Kalani hat 2026-04-27 separate WhatsApp-Gruppe mit Pax angelegt fuer neue Inquiry (BPC-157 Caps, 5-Amino-1MQ, KPV). Direktdruck-Batch-Nummer ist NICHT bei XiAN sondern bei Lab Peptides (Korrektur 25:09).
+- Xian Herb (Kapseln-Spezialist, Pulse-seitig Deniz unter Alias Pax via WhatsApp): aktuell PT-141, DSIP, BPC-157, Tesamorelin unterwegs. Kalani hat 2026-04-27 separate WhatsApp-Gruppe mit XiAN aufgemacht und Deniz/Pax dazu geholt fuer neue Inquiry (BPC-157 Caps, 5-Amino-1MQ, KPV). Direktdruck-Batch-Nummer ist NICHT bei XiAN sondern bei Lab Peptides (Korrektur 25:09).
 - Reta: 12x10ml gleich 120ml unlabelled mitnehmen

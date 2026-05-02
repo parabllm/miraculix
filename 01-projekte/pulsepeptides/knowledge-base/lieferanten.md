@@ -4,7 +4,7 @@ projekt: "[[pulsepeptides]]"
 thema: lieferanten
 status: in_arbeit
 erstellt: 2026-04-17
-zuletzt_aktualisiert: 2026-04-28
+zuletzt_aktualisiert: 2026-05-02
 vertrauen: extrahiert
 quelle: voice_dump + pdf_pricelist + whatsapp_screenshot
 ---
@@ -37,8 +37,8 @@ quelle: voice_dump + pdf_pricelist + whatsapp_screenshot
 
 ## XiAN Sheerherb
 
-- Kommunikation: WhatsApp-Gruppe Pulse x XianHerb (Deniz mit eSIM in der Gruppe)
-- Kontakt: Pax (von Kalani 2026-04-27 in Gruppe hinzugefügt)
+- Kommunikation: WhatsApp-Gruppe Pulse x XianHerb (Deniz mit eSIM in der Gruppe, Alias Pax bei Suppliern)
+- Hauptkontakt XiAN-Seite: Vivian (seit 2026-05-02 als Hauptkontakt bestätigt im Kalani-Call, vorher unklar zwischen Pax-Erwähnung und Vivian-Aktivität)
 - Produkte für Pulse: BPC-157 Caps, 5-Amino-1MQ Caps, KPV (neu seit 2026-04-28), PT-141, DSIP, Tesamorelin, BPC-157 Arg
 - Spezialisierung: Kapsel-Produkte
 - Supplier-Code für Batch-IDs: XS
@@ -48,13 +48,13 @@ quelle: voice_dump + pdf_pricelist + whatsapp_screenshot
 ## Offene Bestellungen
 
 - Tirzepatide: bestellen (Kalani-Task seit 17.04.)
-- PT-141 nachbestellen (leer)
-- Tesamorelin nachbestellen (3/4 Rolle als Reserve)
-- Cmax nachbestellen
-- Semang nachbestellen
+- PT-141 Labels nachbestellen (leer)
+- Tesamorelin (Vials bei XiAN) nachbestellen, 3/4 Rolle Etiketten als Reserve
+- Semax Labels nachbestellen
+- Selank Labels nachbestellen
 - Kapseln plus Kapsel-Labels nachbestellen
 - Hyaluronic-Acid-Label korrigiert von Lieferantin einholen (100 Stück mit altem Text)
-- BPC-157 Caps, 5-Amino-1MQ Caps, KPV bei XiAN Sheerherb (neue Inquiry 2026-04-28, Pax in Klaerung)
+- BPC-157 Caps, 5-Amino-1MQ Caps, KPV bei XiAN Sheerherb (neue Inquiry 2026-04-28, 2026-05-01 Pricing-Anfrage durch Deniz/Pax an Vivian für 300 Bottles je Produkt, Antwort steht aus)
 
 ## Offene Klärungspunkte
 
