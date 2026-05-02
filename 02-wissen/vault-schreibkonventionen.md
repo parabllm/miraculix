@@ -20,7 +20,7 @@ Verbindliche Regeln für Schreibweise, Encoding und Datei-Handling im Miraculix-
 | YAML-Enum-Werte (unquoted) | Echte Umlaute wenn deutsches Wort | `vertrauen: bestätigt` |
 | Code-Blöcke und Inline-Code | ASCII-only, keine Modifikation durch Cleanup | `` `git commit -m "feat: ..."` `` |
 | URLs, Pfade, IDs | ASCII-only, unverändert | `https://example.com/page` |
-| Wikilinks `[[...]]` | Match exakt mit Dateiname (siehe Dateinamen-Regel) | `[[christian-pulse]]` |
+| Wikilinks `[[...]]` | Match exakt mit Dateiname (siehe Dateinamen-Regel) | `[[christian-darmahkasih]]` |
 | Dateinamen | ASCII, kebab-case, keine Umlaute, keine Leerzeichen | `kontakt-mueller.md` (nicht `Müller.md`) |
 | Git-Commit-Messages | ASCII-only (Windows-Terminal-Kompatibilität) | `cleanup-phase1: batch 1` |
 

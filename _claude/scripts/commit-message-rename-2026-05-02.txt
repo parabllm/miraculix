@@ -1,0 +1,25 @@
+Rename christian-pulse->christian-darmahkasih, albin-pulse->albin-shkreli; Wikilinks updated; Marlon = Pricing & Finanzen
+
+Kontakt-Files umbenannt auf Vorname-Nachname-Pattern (passend zu kalani-ginepri etc.):
+- 03-kontakte/christian-pulse.md -> 03-kontakte/christian-darmahkasih.md
+- 03-kontakte/albin-pulse.md -> 03-kontakte/albin-shkreli.md
+
+Wikilinks vault-weit angepasst (24 Files):
+- 11 Slack-Referenz-Files in 01-projekte/persönlich/kommunikation-referenzen/slack/
+- 01-projekte/pulsepeptides/coo-automations.md
+- 01-projekte/pulsepeptides/custom-orders/prostamax.md
+- 01-projekte/pulsepeptides/firmenstruktur.md
+- 01-projekte/pulsepeptides/knowledge-base/bulk-pricing.md
+- 01-projekte/pulsepeptides/knowledge-base/team-koordination.md
+- 01-projekte/pulsepeptides/logs/2026-04-17-coo-rolle-transition-start.md
+- 01-projekte/pulsepeptides/logs/2026-04-28-lager-besuch-kalani.md
+- 01-projekte/pulsepeptides/logs/2026-04-29-slack-invoice-verification-7347.md
+- 01-projekte/pulsepeptides/pulsepeptides.md (Kontakte plus frontmatter array)
+- 02-wissen/vault-schreibkonventionen.md (Beispiel-Wikilink)
+- 02-wissen/vault-schreibregeln.md (Beispiel-Wikilink)
+- 04-tagebuch/2026/05/2026-05-02.md
+- _cleanup-phase-3-report.md
+
+Marlon Paul Wettstein: Rolle bestätigt als Pricing & Finanzen (Kalani-Call 2026-05-02). marlon-wettstein.md frontmatter rolle: pricing_finanzen. firmenstruktur.md Team-Tabelle und pulsepeptides.md Kontakte-Sektion entsprechend.
+
+Helper-Scripts in _claude/scripts/ (rename-wikilinks-2026-05-02.ps1, stage-rename-changes.ps1, stage-slack-files.ps1, commit-message-2026-05-02.txt) für Reproduzierbarkeit hinterlegt.

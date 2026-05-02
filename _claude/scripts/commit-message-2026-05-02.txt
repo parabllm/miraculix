@@ -1,0 +1,21 @@
+Pax-Alias-Cleanup, Vollnamen Pulse-Team, Slack-Schreibstil EK-Embargo
+
+Pax = Deniz' Supplier-Alias auf WhatsApp Business und Telegram (war faelschlich als externer XiAN-Kontakt dokumentiert).
+
+Aliase-Sektion in firmenstruktur.md als persistenter Anker. Korrektur in: xian-sheerherb, lieferanten, beide 04-28-Notes, 05-01-Call, 05-01-WhatsApp-Inquiry, 05-02-Call, pulsepeptides, pulse-clickup-Skill.
+
+Vivian als XiAN-Hauptkontakt bestaetigt im Kalani-Call 2026-05-02.
+
+Vollnamen Pulse-Team aus Slack-Profilen extrahiert:
+- Christian Nathaniel Darmahkasih
+- Albin Shkreli (Slack-Tag BAC)
+- Tobias Lund Rasmussen (vorher falsch als Rasmus Madsen gefuehrt, Rufname Rasmus)
+- Marlon Paul Wettstein
+
+firmenstruktur Team-Tabelle erweitert um Vollnamen-Spalte plus neue Eintraege Albin, Tobias, Marlon. Slack-Channel-Tabelle korrigiert.
+
+Slack-Schreibstil-Skill um Sektion "Verbotene Inhalte (HARTE Regel)" erweitert: keine EK-Preise an Christian, keine internen Margen, keine Cost-Floors. Christian darf nur B2C-Verkaufspreise und final freigegebene B2B-Bulk-Pricing-Liste.
+
+Daily Note 2026-05-02 plus 05-02-Kalani-Call mit Voice-Dump und Action Items.
+
+Revolut Business IBAN bewusst NICHT im Vault hinterlegt (Sicherheits-Entscheidung Deniz).

@@ -20,7 +20,7 @@ Zweck: COO-Verlängerung über die Transition hinaus absichern.
 ## Slack-Notification-Automation
 
 - **Status:** Konzept
-- **Problem:** Deniz checkt Slack regelmäßig, aber Nachrichten von [[christian-pulse]] fallen nicht sofort auf.
+- **Problem:** Deniz checkt Slack regelmäßig, aber Nachrichten von [[christian-darmahkasih]] fallen nicht sofort auf.
 - **Ziel:** Trigger auf relevante Pulse-Slack-Nachrichten (insbesondere von Christian). Separate Push per Telegram oder WhatsApp an Deniz.
 - **Bonus:** Antwort-Vorschlag mitschicken, den Deniz direkt weiterleiten kann.
 - **Stack-Optionen:**

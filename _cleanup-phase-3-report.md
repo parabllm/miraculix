@@ -11,7 +11,7 @@ phase: 3
 | Commit | Aktion |
 |---|---|
 | `c3dbbe3` | Kalani-Lager-Besuch umbenannt + Archiv-Regel in vault-system.md |
-| `2de4802` | Tote Wikilinks gefixt: [[christian]]→[[christian-pulse]], [[pulse-slack-schreibstil]] entfernt, [[zukunftsausblick]] entfernt |
+| `2de4802` | Tote Wikilinks gefixt: [[christian]]→[[christian-darmahkasih]], [[pulse-slack-schreibstil]] entfernt, [[zukunftsausblick]] entfernt |
 | `f7bbc32` | architektur.md → cora-ai-architektur.md, [[architektur]] in Coralate-Files aktualisiert |
 | (dieser Commit) | Schreibkonventionen-Doku, Phase-3-Report |
 

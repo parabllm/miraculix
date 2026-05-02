@@ -20,12 +20,12 @@ Kalani hat Deniz die COO-Funktion bei PulsePeptides angeboten. Transition- und T
 - Team koordinieren, Aufgaben verteilen
 - Rechnungen und Abrechnung Lieferanten
 - Qualität und Lab-Ergebnisse mit Janoshik
-- Eskalations-Endpunkt für [[christian-pulse]] (Support Bali)
+- Eskalations-Endpunkt für [[christian-darmahkasih]] (Support Bali)
 
 ## Team-Struktur erfasst
 
 - [[kalani-ginepri]] CEO, Einarbeitung
-- [[christian-pulse]] Support Teilzeit Bali, eskaliert an Deniz
+- [[christian-darmahkasih]] Support Teilzeit Bali, eskaliert an Deniz
 - [[kai-pulse]] Lager Deutschland
 - Deniz COO informell
 
@@ -36,7 +36,7 @@ Slack Team, WhatsApp mit Kalani, Discord für Calls ad-hoc.
 ## Angelegt
 
 - Projekt-File erweitert um COO-Section
-- Kontakt-Files [[christian-pulse]] und [[kai-pulse]] neu
+- Kontakt-Files [[christian-darmahkasih]] und [[kai-pulse]] neu
 - [[kalani-ginepri]] aktualisiert (Verbindung eng, Rolle CEO, Gruppe pulsepeptides ergänzt)
 - Knowledge-Base-Ordner `knowledge-base/` mit 5 Platzhaltern:
   - bestellprozess.md

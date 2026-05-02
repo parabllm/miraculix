@@ -2,7 +2,7 @@
 typ: meeting-note
 datum: 2026-04-28
 projekt: "[[pulsepeptides]]"
-teilnehmer: ["[[kalani-ginepri]]", "[[kai-pulse]]", "[[albin-pulse]]", "Deniz"]
+teilnehmer: ["[[kalani-ginepri]]", "[[kai-pulse]]", "[[albin-shkreli]]", "Deniz"]
 ort: "Eppelheim, Lager"
 thema: "Lager-Besuch Eppelheim, Lager-Tschechien Review, US Shipments, KPV Supplier, weitere offene Punkte"
 status: abgeschlossen

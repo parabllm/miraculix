@@ -5,7 +5,7 @@ peptid: "Prostamax"
 status: sourcing-bekannt
 kundenanfrage_datum: 2026-04-20
 kanal: "#custom-order-requests"
-gemeldet_von: "[[christian-pulse]]"
+gemeldet_von: "[[christian-darmahkasih]]"
 supplier: "[[lab-peptides]]"
 erstellt: 2026-04-23
 zuletzt_aktualisiert: 2026-04-23

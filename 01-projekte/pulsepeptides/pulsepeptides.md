@@ -10,7 +10,7 @@ rolle_deniz: COO
 transition_start: 2026-04-17
 transition_ende_geplant: 2026-05-08
 hauptkontakt: "[[kalani-ginepri]]"
-kontakte: ["[[kalani-ginepri]]", "[[christian-pulse]]", "[[kai-pulse]]", "[[albin-pulse]]", "[[patrick-pulse]]", "[[german-pulse]]", "[[lizzi-pulse]]", "[[tobias-rasmussen]]", "[[marlon-wettstein]]"]
+kontakte: ["[[kalani-ginepri]]", "[[christian-darmahkasih]]", "[[kai-pulse]]", "[[albin-shkreli]]", "[[patrick-pulse]]", "[[german-pulse]]", "[[lizzi-pulse]]", "[[tobias-rasmussen]]", "[[marlon-wettstein]]"]
 tech_stack: ["wordpress", "woocommerce", "elementor", "n8n", "slack", "google-sheets", "gmail", "browserless", "openai", "freshdesk", "metorik", "vercel", "telegram"]
 notion_url: ""
 erstellt: 2026-04-16
@@ -40,7 +40,7 @@ Seit 2026-04-17 intern offiziell COO. Transitionsphase ca. 3 Wochen. Umfang 5-10
 - Team koordinieren und Aufgaben verteilen
 - Rechnungen und Abrechnung mit Lieferanten
 - Qualitaet und Lab-Ergebnisse mit Janoshik
-- Eskalations-Endpunkt für [[christian-pulse]]
+- Eskalations-Endpunkt für [[christian-darmahkasih]]
 - Workaround für Revolut-Banking finden
 
 **Kommunikation:**
@@ -145,12 +145,12 @@ Stand 2026-04-28: Lager-Besuch Eppelheim durchgeführt mit Kalani, Kai und Albin
 ## Kontakte
 
 - [[kalani-ginepri]] CEO
-- [[christian-pulse]] Support Bali (Vollname Christian Nathaniel Darmahkasih)
+- [[christian-darmahkasih]] Support Bali (Vollname Christian Nathaniel Darmahkasih)
 - [[kai-pulse]] Lager Eppelheim
-- [[albin-pulse]] operativ / Bacwater (Vollname Albin Shkreli)
+- [[albin-shkreli]] operativ / Bacwater (Vollname Albin Shkreli)
 - [[patrick-pulse]] Developer/Backend
 - [[german-pulse]] Website/WordPress
 - [[lizzi-pulse]] Design/Labels
 - [[tobias-rasmussen]] Virtual Assistant (Rufname Rasmus, vorher falsch als Madsen geführt)
-- [[marlon-wettstein]] Rolle TBD
+- [[marlon-wettstein]] Pricing & Finanzen
 - Vivian (XiAN Sheerherb, Hauptkontakt seit 2026-05-02 bestätigt, Kontakt-File offen)

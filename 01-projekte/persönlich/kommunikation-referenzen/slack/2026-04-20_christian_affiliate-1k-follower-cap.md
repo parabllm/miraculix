@@ -2,7 +2,7 @@
 typ: kommunikation-thread
 kanal: slack
 projekt: pulsepeptides
-kontakte: ["[[christian-pulse]]", "[[kalani-ginepri]]"]
+kontakte: ["[[christian-darmahkasih]]", "[[kalani-ginepri]]"]
 herkunft: slack_search
 richtung: beidseitig
 status: abgeschlossen

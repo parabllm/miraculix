@@ -4,7 +4,7 @@ projekt: "[[pulsepeptides]]"
 datum: 2026-04-29
 kanal: "#general"
 thema: invoice-verification
-beteiligte: ["[[christian-pulse]]", "Deniz"]
+beteiligte: ["[[christian-darmahkasih]]", "Deniz"]
 vertrauen: extrahiert
 quelle: slack_thread_general_2026-04-29
 ---

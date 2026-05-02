@@ -11,7 +11,7 @@ quelle: christian_pulse_pdf
 
 # Bulk-Pricing B2B
 
-> **STATUS:** Aktuelle Bulk-Pricing-Liste, erstellt von [[christian-pulse]] (PDF v2 vom 2026-04-27).
+> **STATUS:** Aktuelle Bulk-Pricing-Liste, erstellt von [[christian-darmahkasih]] (PDF v2 vom 2026-04-27).
 > **DAS IST DIE OFFIZIELLE LISTE STAND HEUTE**, aber sie wird von Deniz als COO ueberarbeitet, bevor sie an B2B-Partner rausgeht.
 > **NICHT** an Pepspan oder andere B2B-Anfragen rausschicken bevor Review abgeschlossen ist. Siehe [[#Was Deniz ueberarbeiten muss]] unten.
 

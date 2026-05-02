@@ -15,7 +15,7 @@ Platzhalter.
 ## Wer macht was
 
 - [[kalani-ginepri]] CEO, Strategie, Entscheidungen
-- [[christian-pulse]] Support Teilzeit Bali
+- [[christian-darmahkasih]] Support Teilzeit Bali
 - [[kai-pulse]] Lager Deutschland
 - Deniz COO (informell), operative Steuerung
 
@@ -34,6 +34,19 @@ Platzhalter.
 - Slack: Team-Kommunikation
 - WhatsApp: Kalani und Deniz direkt
 - Discord: Ad-hoc Calls
+
+## Sprache pro Empfaenger
+
+Wichtig fuer Slack-Nachrichten und alle Team-Kommunikation.
+
+| Person | Channel | DM | Notiz |
+|---|---|---|---|
+| [[kalani-ginepri]] | Englisch | Deutsch (Sparring) | Strategisches Sparring auf Deutsch privat |
+| [[christian-darmahkasih]] | Englisch | Englisch | Auch DM Englisch |
+| [[kai-pulse]] | Deutsch | Deutsch | Immer Deutsch, locker |
+| Patrick | offen | offen | noch nicht etabliert |
+
+Deutsche Nachrichten haben anderen Stil als englische (Closing, Tonalitaet, Emojis). Detailregeln im Skill `pulse-slack-schreibstil`.
 
 ## COO E-Mail Qualitätskontrolle
 

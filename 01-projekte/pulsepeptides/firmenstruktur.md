@@ -95,7 +95,7 @@ Pulse Peptides Limited (Zypern) — operative Bestellungen
 
 - **Hosting:** Vercel
 - **Entwicklung:** externe Firma (beauftragt)
-- **Funktion:** Freshdesk-Tickets plus TypeMail, Arbeitsfläche für [[christian-pulse]]
+- **Funktion:** Freshdesk-Tickets plus TypeMail, Arbeitsfläche für [[christian-darmahkasih]]
 - **Custom Orders:** Christian pusht in Slack-Channel #custom-orders
 
 ## Inventory Management
@@ -170,14 +170,14 @@ Am 2026-05-02 dokumentiert. Vor dieser Klärung wurden Aliase teils als externe 
 |---|---|---|---|---|
 | [[kalani-ginepri]] | CEO | variabel | Gründer | Kalani Ginepri |
 | Deniz | COO | Mannheim | Transition ab 2026-04-17 | Deniz Özbek (alias Pax bei Suppliern) |
-| [[christian-pulse]] | Support | Bali | Teilzeit | Christian Nathaniel Darmahkasih |
+| [[christian-darmahkasih]] | Support | Bali | Teilzeit | Christian Nathaniel Darmahkasih |
 | [[kai-pulse]] | Lager | Eppelheim | Teilzeit | Kai (Vollname offen) |
-| [[albin-pulse]] | operativ / Bacwater | offen | bei Lager-Besuch 28.04. | Albin Shkreli |
+| [[albin-shkreli]] | operativ / Bacwater | offen | bei Lager-Besuch 28.04. | Albin Shkreli |
 | [[patrick-pulse]] | Developer/Backend | variabel | Freelancer | Patrick (Vollname offen) |
 | [[german-pulse]] | Website/WordPress | variabel | Freelancer, 30 EUR/h | German (Vollname offen) |
 | [[lizzi-pulse]] | Design/Labels | variabel | Freelancer, 30 EUR/h | Lizzi (Vollname offen) |
 | [[tobias-rasmussen]] | Virtual Assistant | offen | Freelancer Monkey-Tasks | Tobias Lund Rasmussen (Rufname Rasmus) |
-| [[marlon-wettstein]] | offen | offen | im Workspace, Rolle TBD | Marlon Paul Wettstein |
+| [[marlon-wettstein]] | Pricing & Finanzen | offen | im Workspace | Marlon Paul Wettstein |
 
 ## Offen
 

@@ -213,7 +213,7 @@ teilnehmer: ["[[deniz]]", "[[kalani]]", "Externe Person"]
 
 ### 5.4 Naming-Bezug
 
-Wikilink-Target = Dateiname ohne `.md`. Match strikt mit Dateiname (siehe [[vault-schreibkonventionen]] Sektion "Dateinamen"). Daher: `[[christian-pulse]]` nicht `[[Christian Pulse]]`.
+Wikilink-Target = Dateiname ohne `.md`. Match strikt mit Dateiname (siehe [[vault-schreibkonventionen]] Sektion "Dateinamen"). Daher: `[[christian-darmahkasih]]` nicht `[[Christian Pulse]]`.
 
 ## Sektion 6: Rollback-Verfahren
 
